@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Milwaukee &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/milwaukee/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 25 May 2019 11:48:55 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Pilvi-UFO Milwaukeessa</title>
+		<link>/ufot/pilvi-ufo-milwaukeessa/</link>
+					<comments>/ufot/pilvi-ufo-milwaukeessa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 19 Jul 2019 11:11:53 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Milwaukee]]></category>
+		<category><![CDATA[UFO]]></category>
+		<category><![CDATA[Wisconsin]]></category>
+		<guid isPermaLink="false">/?p=6473</guid>
+
+					<description><![CDATA[Kiinnostava valokuva verhoutuneesta UFOsta Milwaukeen taivaalla Wisconsinissa. Valokuvaaja, joka lähetti kuvat MUFONille, kertoo: Parkkeerasin Lenan parkkipaikalle, joka on ruokakauppa. Katsoin taivaalle ennen kuin astuin ulos autosta ja näin UFOlta näyttävän pivlen taivaalla. Huusin innoissani pojalleni &#8221;Katso UFO&#8221; ja me tohkeissamme tulimme ulos autosta ottamaan valokuvia. Olin niin innoissani valokuvia ottaessani että en edes miettinyt ottaa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/pilvi-ufo-milwaukeessa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mystisiä valoja Milwaukeen taivaalla</title>
+		<link>/ufot/mystisia-valoja-milwaukeen-taivaalla/</link>
+					<comments>/ufot/mystisia-valoja-milwaukeen-taivaalla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 07 Apr 2018 11:11:26 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Milwaukee]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=5056</guid>
+
+					<description><![CDATA[Tiistaiaamuna helmikuun 27. 2018 ilmestyi omituisia liikkuvia valoja Milwaukeen taivaalle. Nämä näkyivät TV-kuvassa FOX6-kanavalla. Ne nopeasti selitettiin lokkiparvena, mutta kaikki eivät ole vakuuttuneita, koska muutama päivä aiemmin toiset mystiset valot putosivat taivaalta Milwaukeen yllä. Näiden tapausten uskotaan olevan toisiinsa liittyviä. Elisabeth Zillinskas, joka kuvasi valot Milwaukeen yllä helmikuun 24. päivänä 2018, sanoo että hänellä ei [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/mystisia-valoja-milwaukeen-taivaalla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

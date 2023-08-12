@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fake news &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/fake-news/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 16 Dec 2018 13:25:48 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Fake Newsin seuraava ulottuvuus: Keinoäly-uutisankkuri</title>
+		<link>/uutiset/fake-newsin-seuraava-ulottuvuus-keinoaly-uutisankkuri/</link>
+					<comments>/uutiset/fake-newsin-seuraava-ulottuvuus-keinoaly-uutisankkuri/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 09 Jan 2019 11:11:01 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[fake news]]></category>
+		<category><![CDATA[tekoäly]]></category>
+		<guid isPermaLink="false">/?p=5731</guid>
+
+					<description><![CDATA[Idea superälykkäistä koneista voi kuulostaa juonenpätkältä Terminator tai The Matrix -elokuvista, mutta monet asiantuntijat sanovat ettei idea ole niin kaukaa haettu. Jotkut pitävät tätä singulariteettina &#8212; pisteenä jolloin keinoäly voi mätsätä, ja sitten ottaa haltuunsa ihmisen älyn &#8212; ja tämä saattaa tapahtua vain 16 vuodessa. Kysymys kuuluukin, voimmeko me kehittää itsemme ulos olemassaolosta, niin että koneet [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/fake-newsin-seuraava-ulottuvuus-keinoaly-uutisankkuri/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PfizerGate &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/pfizergate/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 09 Nov 2021 13:57:46 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Törkeä #PfizerGate-skandaali paljastuu</title>
+		<link>/tiede/torkea-pfizergate-skandaali-paljastuu/</link>
+					<comments>/tiede/torkea-pfizergate-skandaali-paljastuu/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 09 Nov 2021 13:55:13 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[Pfizer]]></category>
+		<category><![CDATA[PfizerGate]]></category>
+		<category><![CDATA[rokote]]></category>
+		<category><![CDATA[rokottaminen]]></category>
+		<category><![CDATA[rokotteet]]></category>
+		<category><![CDATA[rokotus]]></category>
+		<guid isPermaLink="false">/?p=11380</guid>
+
+					<description><![CDATA[Järkyttävää informaatiota dataväärennöksistä ja huonosta potilasturvallisuudesta Pfizerin valmistaman rokotteen koejakson aikana on tulossa ulos, joka pommin lailla järisyttää tutkimusmaailmaa. Tutkija, joka on töissä yritykselle, joka on vastuussa kolmesta Pfizerin COVID-19 rokotteen kliinisestä kokeesta, tekee järkyttäviä paljastuksia näissä laitoksissa tehdyistä toimenpiteistä. Paljastukset tehtiin kattavassa artikkelissa, joka julkaistiin tunnetussa lääketieteen julkaisussa British Medical Journal (BMJ) . Tietovuotaja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/torkea-pfizergate-skandaali-paljastuu/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

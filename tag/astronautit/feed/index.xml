@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>astronautit &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/astronautit/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 07 Jan 2022 13:06:15 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Astronautit puhuvat UFOista</title>
+		<link>/ufot/astronautit-puhuvat-ufoista/</link>
+					<comments>/ufot/astronautit-puhuvat-ufoista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 12 Aug 2022 11:11:41 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[astronautit]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[NASA]]></category>
+		<guid isPermaLink="false">/?p=11837</guid>
+
+					<description><![CDATA[Tässä on kooste astronauttien ja kosmonauttien todistuksia UFOista. Joitain näistä klipeistä alkaa olla vaikeaa löytää netistä. Ne on esitetty lyhyinä ja epäselvät tarinat on jätetty pois, joille voisi olla myös maallisempi selitys. &#160; Artikkelin julkaissut Latest UFO Sightings]]></description>
+		
+					<wfw:commentRss>/ufot/astronautit-puhuvat-ufoista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Astronautit myöntävät näkemänsä omituiset asiat</title>
+		<link>/paranormaali/astronautit-myontavat-nakemansa-omituiset-asiat/</link>
+					<comments>/paranormaali/astronautit-myontavat-nakemansa-omituiset-asiat/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 16 Jun 2022 11:11:14 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[astronautit]]></category>
+		<category><![CDATA[avaruusmatkailu]]></category>
+		<guid isPermaLink="false">/?p=11687</guid>
+
+					<description><![CDATA[Jokainen jolla on ollut niin paljon onnea, että on päässyt lentämään avaruudessa, on aina kuvannut kokemustaan vertaamattoman ikimuistoiseksi. Majestinen näkymä kotiplaneetastamme pyörimässä avaruudessa, niin hiljaa ja rauhassa etäällä, jättää lähtemättömän jäljen kaikkiin astronautteihin. Kaikki raportit avaruuteen matkanneiden kokemuksista eivät anna sellaista kuvaa, kuitenkaan. Itse asiassa jotkut astronautit ovat jo raportoineet selittämättömiä, joskus kuumottavia kokemuksia, joita [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/astronautit-myontavat-nakemansa-omituiset-asiat/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

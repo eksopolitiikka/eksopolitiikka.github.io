@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>John DeSouza &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/john-desouza/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 05 Mar 2022 23:39:53 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Ex-agentti varoittaa false flag -hyökkäyksestä</title>
+		<link>/eksopolitiikka/ex-agentti-varoittaa-false-flagista/</link>
+					<comments>/eksopolitiikka/ex-agentti-varoittaa-false-flagista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 08:08:23 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[false flag]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[John DeSouza]]></category>
+		<category><![CDATA[UFO-paljastus]]></category>
+		<guid isPermaLink="false">/?p=12268</guid>
+
+					<description><![CDATA[Exopolitics Todayn haastattelema John DeSouza puhuu mm. Maan ulkopuolisesta elämästä, UFOista, miehistä mustissa, Kuusta keinotekoisena rakenteena, sekä jättiläismäisten emoalusten aktivoinnista ja ilmestymisestä, jotka tunnetaan &#8221;arkkeina&#8221;. Hän ennustaa, että UFOt tulevat käyttäytymään aggressiivisemmin ja että tämä kaikki liittyy avaruusolentojen false flag -hyökkäysskenaarioon, jota nyt ollaan tuomassa esiin maailmaan. John DeSouza on entinen FBI:n agentti, joka toimi [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/ex-agentti-varoittaa-false-flagista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

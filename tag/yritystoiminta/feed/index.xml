@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>yritystoiminta &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/yritystoiminta/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 22 Feb 2021 23:04:24 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Ilmailualan vuosikymmenien kiinnostus UFOihin</title>
+		<link>/eksopolitiikka/ilmailualan-vuosikymmenien-kiinnostus-ufoihin/</link>
+					<comments>/eksopolitiikka/ilmailualan-vuosikymmenien-kiinnostus-ufoihin/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 16 Jul 2021 11:11:16 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[AAWSAP]]></category>
+		<category><![CDATA[ilmailu]]></category>
+		<category><![CDATA[Keith Basterfield]]></category>
+		<category><![CDATA[UAP]]></category>
+		<category><![CDATA[UFO-tutkimus]]></category>
+		<category><![CDATA[yritystoiminta]]></category>
+		<guid isPermaLink="false">/?p=9681</guid>
+
+					<description><![CDATA[Kirjoittanut Keith Basterfield Johdanto Ilmailuyritykset, erityisesti USA:ssa, ovat pitkään olleet kiinnostuneita tunnistamattomista ilmailmiöistä (UAP). Tämä sopii luonnollisesti heille. UAP:lla on useita &#8221;observaabeleita&#8221;, jotka ovat arvokkaita ilmailuyrityksille, kun puhutaan kehittyneen fysiikan ymmärryksestä, kehittyneistä voimanlähteistä ja yleisesti kehittyneestä teknologiasta. Jotkut ovat ehdottaneet, että jos haluaisit takaisinmallintaa kehittynyttä laitetta, miksei piilottaisi sellaista yksityiseen ilmailualan yritykseen? Wilson/Davis -dokumentti, tottakai, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/ilmailualan-vuosikymmenien-kiinnostus-ufoihin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

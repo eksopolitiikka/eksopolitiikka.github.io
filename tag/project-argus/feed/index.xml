@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Project Argus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/project-argus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 20 Feb 2021 18:24:53 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Bigelow-säätiö, NIDS, viljakuviot ja Chad Dietken</title>
+		<link>/eksopolitiikka/bigelow-saatio-nids-viljakuviot-ja-chad-dietken/</link>
+					<comments>/eksopolitiikka/bigelow-saatio-nids-viljakuviot-ja-chad-dietken/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 21 Feb 2021 14:14:54 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Chad Deetken]]></category>
+		<category><![CDATA[Keith Basterfield]]></category>
+		<category><![CDATA[Project Argus]]></category>
+		<category><![CDATA[Robert Bigelow]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<category><![CDATA[viljakuvio]]></category>
+		<category><![CDATA[viljakuviot]]></category>
+		<guid isPermaLink="false">/?p=9678</guid>
+
+					<description><![CDATA[Kirjoittanut Keith Basterfield Olen aiemmin kirjoittanut useita blogipostauksia Bigelow-säätiöstä, muunmuassa: 22. marraskuuta 2018. &#8221;The Bigelow Foundation ja Angela Thompson Smith.&#8221; Viittaus John B. Alexanderin vuoden 2017 kirjaan, &#8221;Reality Denied&#8221;, paljasti että henkilö, Angela Thompson, oli tehnyt työtä Bigelow-säätiölle. ﻿ Kävin läpi Angela Thompson Smithin uraa ja löysin infora Bigelow-säätiöstä. &#8221;Säätiö on toteuttanut useita projekteja, mm. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/bigelow-saatio-nids-viljakuviot-ja-chad-dietken/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

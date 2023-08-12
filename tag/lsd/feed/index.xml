@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>LSD &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/lsd/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 30 Oct 2022 20:20:01 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tässä on Amerikan Tohtori Kuolema</title>
+		<link>/uutiset/tassa-on-amerikan-tohtori-kuolema/</link>
+					<comments>/uutiset/tassa-on-amerikan-tohtori-kuolema/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 30 May 2020 12:12:52 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[CIA]]></category>
+		<category><![CDATA[LSD]]></category>
+		<category><![CDATA[tiedustelupalvelu]]></category>
+		<category><![CDATA[vakoilu]]></category>
+		<guid isPermaLink="false">/?p=8534</guid>
+
+					<description><![CDATA[Stephen Kinzer &#8212; Poisoner In Chief: Sidney Gottlieb and the CIA Search for Mind Control, September 2019, Henry Holt &#38; Co., 368 pages Vuoden 1962 filmisovituksessa Richard Condonin The Manchurian Candidatesta, saatanallinen pohjoiskorealainen tohtori nimeltä Yen Lo sanoo ylikersantti Raymond Shaw&#8217;lle että “viettää hiukan aikaa pasianssin kanssa.” Nämä triggerisanat, joiden mukana näytettiin ruutukuningatar-pelikortti, saavat velton [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/tassa-on-amerikan-tohtori-kuolema/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

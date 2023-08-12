@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>avaruuteen muutto &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/avaruuteen-muutto/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 10 Feb 2022 01:43:19 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Eksopolitiikka ja sen rooli avaruuteen muutossa</title>
+		<link>/eksopolitiikka/eksopolitiikka-ja-sen-rooli-avaruuteen-muutossa/</link>
+					<comments>/eksopolitiikka/eksopolitiikka-ja-sen-rooli-avaruuteen-muutossa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 04 Mar 2022 11:11:37 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[avaruus]]></category>
+		<category><![CDATA[avaruuteen muutto]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[Exopolitics Journal]]></category>
+		<guid isPermaLink="false">/?p=11005</guid>
+
+					<description><![CDATA[Vol 3:2 (July 2009). ISSN 1938-1719 Eksopolitiikka ja sen rooli avaruuteen muutossa David Griffin, M.Sc. Tiivistelmä Tämä teksti pyrkii tarkastelemaan ongelmia, joita liittyy planeetan pinnalla elävän lajin vaihtaessa elintapaansa avaruudessa eläväksi lajiksi. Osana tätä prosessia me alleviivaamme sitä seikkaa, että on saavutettu evoluution erkaantumispiste, ja näin suurena potentiaalisen vapauden hetkenä me tunnemme myös suurinta liikemäärämomenttia [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/eksopolitiikka-ja-sen-rooli-avaruuteen-muutossa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

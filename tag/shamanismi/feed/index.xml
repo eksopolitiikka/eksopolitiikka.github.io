@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>shamanismi &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/shamanismi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 07 Nov 2015 12:15:08 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Dokumentti: Tri Philip Savage ja shamanismi/druidismi</title>
+		<link>/tietoisuus/dokumentti-tri-philip-savage-ja-shamanismidruidismi/</link>
+					<comments>/tietoisuus/dokumentti-tri-philip-savage-ja-shamanismidruidismi/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2015 12:14:40 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[druidismi]]></category>
+		<category><![CDATA[shamanismi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=2431</guid>
+
+					<description><![CDATA[Erityisoikeudella syväluotaava dokumentti tiedemies tohtori Philip Savagesta. Dokumentin on tehnyt tuottaja Michael Mendizza, joka on nauhoittanut Philip Savagen viimeisimmän julkisen ulostulon omista uniikeista kyvyistään ja laajoista tiedoistaan. Philip Savage seuraa matriarkaalista keltti/druidilinjaa joka jatkuu katkeamattomana aina Hyperboreaan asti. Mikään ulkopuolinen taho ei ole koskaan päässyt väliin tämän linjan tietojen ja edistyneen teknologian kanssa, joita Philip [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/dokumentti-tri-philip-savage-ja-shamanismidruidismi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

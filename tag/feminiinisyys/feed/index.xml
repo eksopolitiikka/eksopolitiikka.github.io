@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>feminiinisyys &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/feminiinisyys/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 24 Feb 2019 15:15:01 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Toksinen feminiinisyys</title>
+		<link>/tietoisuus/toksinen-feminiinisyys/</link>
+					<comments>/tietoisuus/toksinen-feminiinisyys/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 13 Apr 2019 11:11:25 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[feminiinisyys]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[toksinen feminiinisyys]]></category>
+		<guid isPermaLink="false">/?p=6158</guid>
+
+					<description><![CDATA[Tämän kohtuullisen pitkän artikkelin on kirjoittanut Laura Matsue Me kaikki olemme tutustuneet toksiseen maskuliinisuuteen, uskoisin. Aika hemmetisti huomiota on kiinnitetty siihen viime aikoina, neljännen aallon feminismin valaistessa seksuaalisen häirinnän ja väkivallan syvyyttä, jota naiset edelleen kokevat, huolimatta siitä miten &#8221;yhteiskunnallista kehitystä&#8221; me väitämme saaneemme aikaan. Koko #metoo -liike parin viime vuoden aikana on auttanut näkemään [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/toksinen-feminiinisyys/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

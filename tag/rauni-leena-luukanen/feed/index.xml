@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rauni-Leena Luukanen &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/rauni-leena-luukanen/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 18 Dec 2021 18:00:36 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Rauni-Leena Luukasen haastattelu NRJ:ssä</title>
+		<link>/eksopolitiikka/rauni-leena-luukasen-haastattelu-nrjssa/</link>
+					<comments>/eksopolitiikka/rauni-leena-luukasen-haastattelu-nrjssa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 18 Dec 2021 17:59:34 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Arcturus]]></category>
+		<category><![CDATA[mars]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Rauni-Leena Luukanen]]></category>
+		<guid isPermaLink="false">/?p=11524</guid>
+
+					<description><![CDATA[(video vuodelta 2012) Aamupoikien avaruusohjelmassa vieraana multilingvisti, entinen Lapin lääninlääkäri ja bestseller-kirjailija. Nykyään Norjassa asuva lääkäri Rauni-Leena Luukanen-Kilde on kuitenkin ennen kaikkea kansainvälisesti tunnettu ufologi. Tänään avaruuden tutkijoinakin kunnostautuneiden Aamupoikien ahkeroinnin ansiosta kaikella kansalla on etuoikeus saada tietoa siitä mitä maan ja taivaan välillä todella tapahtuu. Salassa on pidetty sellaisia asiota kuin että amerikkalaiset ja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/rauni-leena-luukasen-haastattelu-nrjssa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

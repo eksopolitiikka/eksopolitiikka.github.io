@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ross Coulthart &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/ross-coulthart/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 30 Sep 2021 22:48:52 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Haastattelussa Ross Coulthart</title>
+		<link>/eksopolitiikka/haastattelussa-ross-coulthart/</link>
+					<comments>/eksopolitiikka/haastattelussa-ross-coulthart/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 08 Oct 2021 13:13:14 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Ross Coulthart]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<guid isPermaLink="false">/?p=11198</guid>
+
+					<description><![CDATA[That UFO Podcastin 60. episodi haastattelee Ross Coulthartia, toimittaja-kirjailija-dokumentaristia. Käsiteltyjä aiheita ovat mm. hänen uskomaton kirjansa, median stigma, Wikileaks, arkeologiset tutkimukset, Edgar Mitchell, olemmeko me löytäneet UFOja, ja paljon muuta. &#160; Artikkelin julkaissut Latest UFO Sightings]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/haastattelussa-ross-coulthart/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

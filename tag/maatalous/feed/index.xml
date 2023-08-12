@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>maatalous &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/maatalous/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 23 Jun 2022 17:44:15 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Amerikkalaisyrityksillä on Ukrainassa suuret intressit</title>
+		<link>/uutiset/amerikkalaisyrityksilla-on-ukrainassa-suuret-intressit/</link>
+					<comments>/uutiset/amerikkalaisyrityksilla-on-ukrainassa-suuret-intressit/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 23 Jun 2022 17:44:15 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[maatalous]]></category>
+		<category><![CDATA[Ukraina]]></category>
+		<guid isPermaLink="false">/?p=13007</guid>
+
+					<description><![CDATA[Ukrainan konflikti on samaa pitkää amerikkalaisten suurkorporaatioiden liiketoimien sarjaa, joka on alkanut jo vuosikymmeniä sitten. Venäjä vain vastasi jatkuvaan liikevoiton tuottamiseen omalla tavallaan. 12. tammikuuta 2014 50 tuhatta &#8221;länsimielistä&#8221; ukrainalaista saapui Kievin Vapaudenaukiolle protestoimaan presidentti Viktor Janukovitsin hallitusta vastaan. Protestia oli innoittanut oppositiojohtaja Juri Lutsenkon toimet. Protesti oli lopun alkua Janukovitsin nelivuotiselle hallituskaudelle. Samana päivänä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/amerikkalaisyrityksilla-on-ukrainassa-suuret-intressit/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

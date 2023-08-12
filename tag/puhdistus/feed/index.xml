@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>puhdistus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/puhdistus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 18 Jun 2023 06:19:38 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Todistus totuudesta no. 37 &#8212; Viestejä korkeammilta olennoilta, 9.6.2023</title>
+		<link>/tietoisuus/todistus-totuudesta-no-37-viesteja-korkeammilta-olennoilta-9-6-2023/</link>
+					<comments>/tietoisuus/todistus-totuudesta-no-37-viesteja-korkeammilta-olennoilta-9-6-2023/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 29 Jun 2023 09:09:07 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[energia]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[puhdistus]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=15137</guid>
+
+					<description><![CDATA[Kysymykseni: &#8221;Mikä on viesti tälle päivälle auttamaan ymmärtämään sitä mitä nyt tapahtuu, aikalinjaa ja sitä miten me voisimme parhaiten auttaa itseämme ja muita?&#8221; Me pohdimmekin jo sitä milloin kysyisitte meiltä yksityiskohtia! Me emme pilkkaa teitä tästä, mutta me joudumme sanomaan, että teidän niinkutsuttu aikalinjanne ei voi jatkua, siten kuin me näemme tapahtumien kulkevan. Juuri nyt [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/todistus-totuudesta-no-37-viesteja-korkeammilta-olennoilta-9-6-2023/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

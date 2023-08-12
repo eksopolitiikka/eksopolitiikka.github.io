@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lapsuus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/lapsuus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 09 Mar 2020 14:05:24 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Lapsuuden menetettyjen muistojen palauttaminen</title>
+		<link>/tietoisuus/lapsuuden-menetettyjen-muistojen-palauttaminen/</link>
+					<comments>/tietoisuus/lapsuuden-menetettyjen-muistojen-palauttaminen/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 29 Jul 2020 11:11:24 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[Arcturus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[lapsuus]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=7965</guid>
+
+					<description><![CDATA[∞9D Arcturuksen Neuvosto, Kanavoinut Daniel Scranton “Tervehdys. Me olemme Arcturuksen Neuvosto. Me olemme mielissämme saadessamme yhteyden kaikkiin teihin. Me olemme tutkineet niitä eri tapoja, joita teillä on muistaa menetetyt muistot, ja me olemme huomanneet miten menestyksekkäästi ne teistä, jotka ovat hereillä, ovat päässeet käsiksi siihen mikä on ollut piilotettuna tietoisuudeltanne jo jonkin aikaa. Tottakai, kaikkien [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/lapsuuden-menetettyjen-muistojen-palauttaminen/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lapsuuden tietoisuus itsestä</title>
+		<link>/tietoisuus/lapsuuden-tietoisuus-itsesta/</link>
+					<comments>/tietoisuus/lapsuuden-tietoisuus-itsesta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 24 Dec 2019 11:11:40 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[äänet]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[lapsuus]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[uskomukset]]></category>
+		<guid isPermaLink="false">/?p=7039</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Kanavoinnissa käsitellään lapsuuden vaikeuksia, uskomuksia, yksinäisyyttä sekä värähtelyä ja ääntä. Q on kysyjä, A on tietoisuus joka puhuu. Q: Voisitko puhua lapsista? Lapsista, jotka valitsevat joutua vaikeisiin tilanteisiin ja kasvaa, ja uskoa niihin asioihin joista puhut, ja myös kokea paljon tuskaa. A: Selvä. Ensinnäkin, tunnustakaa että monet lapsista, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/lapsuuden-tietoisuus-itsesta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

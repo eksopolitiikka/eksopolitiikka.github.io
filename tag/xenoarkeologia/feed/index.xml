@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>xenoarkeologia &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/xenoarkeologia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 16 Jun 2020 17:33:47 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Viinikarahvi Marsissa</title>
+		<link>/tiede/viinikarahvi-marsissa/</link>
+					<comments>/tiede/viinikarahvi-marsissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 14 Jan 2021 11:11:17 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[mars]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[xenoarkeologia]]></category>
+		<guid isPermaLink="false">/?p=8730</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: kesäkuun 7. 2020 Havaintopaikka: Mars Lähdevalokuva: https://mars.nasa.gov/msl-raw-images/msss/00955/mcam/0955MR0042260060502214E01_DXXX.jpg Löysin muinaisen karahvin Marsista, joka näyttää siltä kuin siinä olisi joskus ollut viiniä tai öljyä. Voin nähdä korkin sen päällä. Esine näyttää käsintehdyltä ja sen pohja on leveämpi kuin kaula. Se näyttää saven kaltaiselta materiaalilta, keraamiselta, ja sillä on neoliittinen ulkomuoto. Täällä Maapallolla muinaiskeramiikkaa löytyy kaikilta ajoilta ja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/viinikarahvi-marsissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Muinainen kupoli Apollo 15:n valokuvassa</title>
+		<link>/tiede/muinainen-kupoli-apollo-15n-valokuvassa/</link>
+					<comments>/tiede/muinainen-kupoli-apollo-15n-valokuvassa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 11:11:06 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[xenoarkeologia]]></category>
+		<guid isPermaLink="false">/?p=8670</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: kesäkuun 1. 2020 Havaintopaikka: Maan Kuu Lähdevalokuva: http://wms.lroc.asu.edu/apollo/view?image_id=AS15-M-1398 Löysin tänään mustan kupolimasen rakenteen Kuusta. Videolla vertailen kupolin ulkonäköä joihinkin kivisiin kraatereihin lähistöllä, joten voit nähdä eron yksityiskohdissa. Lisäsin hieman kontrastia niin, että se erottuu, ja tosiaankin se erottuu. Minulle tuntuu itsestäänselvältä, että NASA tekee temppunsa pitääkseen tiedot tällaisista poissa kansalta. Se on oikeasti harmi. Tämänlaiset [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/muinainen-kupoli-apollo-15n-valokuvassa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

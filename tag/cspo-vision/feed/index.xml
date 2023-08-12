@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CSpO Vision &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/cspo-vision/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 22 Jan 2023 12:08:19 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Seitsemän valtiota kokoontuu keskustelemaan avaruusturvallisuudesta</title>
+		<link>/uutiset/seitseman-valtiota-kokoontuu-keskustelemaan-avaruusturvallisuudesta/</link>
+					<comments>/uutiset/seitseman-valtiota-kokoontuu-keskustelemaan-avaruusturvallisuudesta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 24 Jan 2023 09:09:55 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[avaruus]]></category>
+		<category><![CDATA[CSpO Vision]]></category>
+		<category><![CDATA[turvallisuus]]></category>
+		<guid isPermaLink="false">/?p=14275</guid>
+
+					<description><![CDATA[Puolustusministeriö osallistui Uuden-Seelannin puolustusvoimien ja Uuden-Seelannin puolustusministeriön isännöimään vuotuiseen Combined Space Operations (CSpO) Initiative Principals Board -kokoukseen 6.-8. joulukuuta. Vuosittainen tapahtuma kokosi yhteen Australian, Kanadan, Ranskan, Saksan, Uuden-Seelannin, Yhdistyneen kuningaskunnan ja Yhdysvaltojen edustajat, ja siinä keskityttiin edistämään yhteistyötä ja tiedonvaihtoa avaruusturvallisuusasioissa. CSpO on aloite, jolla pyritään luomaan ja parantamaan yhteistyötä, koordinointia ja yhteentoimivuusmahdollisuuksia toimintavapauden ylläpitämiseksi [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/seitseman-valtiota-kokoontuu-keskustelemaan-avaruusturvallisuudesta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

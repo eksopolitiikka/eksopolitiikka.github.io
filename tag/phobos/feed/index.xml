@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Phobos &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/phobos/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 02 Mar 2017 23:55:47 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Phobos 2:n tapaus: Lähikontakti UFOjen kanssa?</title>
+		<link>/tiede/phobos-2n-tapaus-lahikontakti-ufojen-kanssa/</link>
+					<comments>/tiede/phobos-2n-tapaus-lahikontakti-ufojen-kanssa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 02 Mar 2017 23:55:47 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[mars]]></category>
+		<category><![CDATA[Phobos]]></category>
+		<guid isPermaLink="false">/?p=3764</guid>
+
+					<description><![CDATA[Maaliskuun 28. päivänä vuonna 1989 Neuvostoliiton virallinen uutistoimisto Tass raportoi, että neuvostoliittolainen avaruustehtävien valvomokeskus on menettänyt yhteyden sen satelliittiin Phobos 2:n, joka saapui Marsista tammikuussa. Satelliitti kerkesi kuitenkin ennen yhteyksien katkeamista lähettää kaksi valokuvaa. Heinäkuussa 1988 venäläiset laukaisivat kaksi miehittämätöntä satelliittia Phobos 1 ja Phobos 2 Marsin suuntaan. Heidän päätavoitteenaan oli tutkia planeetan mystistä Phobos-kuuta. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/phobos-2n-tapaus-lahikontakti-ufojen-kanssa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bakteerit &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/bakteerit/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 01 Apr 2021 16:10:54 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Pentagonin globaali bioaseteollisuus</title>
+		<link>/tiede/pentagonin-globaali-bioaseteollisuus/</link>
+					<comments>/tiede/pentagonin-globaali-bioaseteollisuus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 01 Apr 2021 16:02:29 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[bakteerit]]></category>
+		<category><![CDATA[bioaseet]]></category>
+		<category><![CDATA[bioterrorismi]]></category>
+		<category><![CDATA[Georgia]]></category>
+		<category><![CDATA[Pentagon]]></category>
+		<category><![CDATA[terrorismi]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[Ukraina]]></category>
+		<category><![CDATA[USA]]></category>
+		<category><![CDATA[venäjä]]></category>
+		<category><![CDATA[virukset]]></category>
+		<guid isPermaLink="false">/?p=9996</guid>
+
+					<description><![CDATA[Yhdysvaltain armeija tuottaa tasaisesti kuolettavia viruksia, bakteereja ja toksiineja, jotka rikkovat suoraan YK:n biologiset aseet kieltävää sopimusta. Tämän johdosta monet sadat tuhannet ihmiset ovat tahtomattaan systeemisesti altistettu vaarallisille patogeeneille ja muille mahdollisesti parantumattomille taudeille. Tähän erittäin salaiseen tutkimus &#38; kehitystyöhön ja tuotantolaitoksiin kuuluu liuta Yhdysvaltain yksityisia sopimuksia, mitkä herättävät lisäkysymyksiä yksityisistä komentoketjuista ja julkisesta tilivelvollisuudesta. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/pentagonin-globaali-bioaseteollisuus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

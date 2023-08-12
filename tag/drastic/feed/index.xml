@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DRASTIC &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/drastic/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 23 Nov 2021 09:46:45 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>DARPAn dokumentti paljastaa: ihmisiä myrkytetään aerosolinanopartikkeleilla</title>
+		<link>/uutiset/darpan-dokumentti-paljastaa-ihmisia-myrkytetaan-aerosolinanopartikkeleilla/</link>
+					<comments>/uutiset/darpan-dokumentti-paljastaa-ihmisia-myrkytetaan-aerosolinanopartikkeleilla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 23 Nov 2021 09:46:07 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[COVID]]></category>
+		<category><![CDATA[DARPA]]></category>
+		<category><![CDATA[DRASTIC]]></category>
+		<category><![CDATA[Kiina]]></category>
+		<category><![CDATA[korona]]></category>
+		<category><![CDATA[USA]]></category>
+		<category><![CDATA[valtionterrorismi]]></category>
+		<guid isPermaLink="false">/?p=11413</guid>
+
+					<description><![CDATA[Health Ranger Mike Adams on saanut käsiinsä varsin hälyttäviä tietoja. DRASTICille on vuodettu DARPAn dokumentti, josta käy ilmi miten EcoHealth Alliance ja Fauci ovat vehkeilleet salaa ruiskuttaakseen aerosolia, jossa on ihon läpäiseviä piikkiproteiininanopartikkeleja, lepakkopopulaatioihin Kiinassa (joista se hyppäisi ihmisiin). DRASTIC on vahvistanut, että Daszak &#38; Fauci, Wuhan Institute of Virologyn kautta (WIV) kykenivät luomaan 180 [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/darpan-dokumentti-paljastaa-ihmisia-myrkytetaan-aerosolinanopartikkeleilla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

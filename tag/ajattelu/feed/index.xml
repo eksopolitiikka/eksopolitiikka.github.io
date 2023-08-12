@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ajattelu &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/ajattelu/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 10 Jun 2014 14:52:16 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Miksi liian looginen ajattelu voi olla haitallista</title>
+		<link>/tietoisuus/miksi-liika-rationalisointi-voi-olla-haitallista/</link>
+					<comments>/tietoisuus/miksi-liika-rationalisointi-voi-olla-haitallista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 10 Jun 2014 12:15:47 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[ajattelu]]></category>
+		<category><![CDATA[kesäkuu2014]]></category>
+		<category><![CDATA[rationaalisuus]]></category>
+		<guid isPermaLink="false">/?p=104</guid>
+
+					<description><![CDATA[Usein jokapäiväisessä elämässämme meitä vastaan tulee ilmaisuja kuten &#8221;tilastojen mukaan&#8221;, &#8221;todennäköisyys sille, että&#8221; tai lääketieteen lempilausahdus &#8221;tutkimukset ovat osoittaneet&#8221;. Monta kertaa nämä fraasit toimivat avauksena väitteelle, jolla halutaan vihjata, että koska jotakin on tapahtunut suurimmalle osalle ihmisistä, se tulee tapahtumaan myös sinulle tarkalleen tietyllä tavalla. Tehdessämme meille tapahtuvista asioista olettamuksia tilastojen, galluppien tai vertailujen pohjalta, on [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/miksi-liika-rationalisointi-voi-olla-haitallista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

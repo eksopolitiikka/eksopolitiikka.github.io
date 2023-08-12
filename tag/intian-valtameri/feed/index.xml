@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Intian valtameri &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/intian-valtameri/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 01 Nov 2019 18:01:49 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>UFO leijailee Saint Pierren rannikolla, Réunionissa</title>
+		<link>/ufot/ufo-leijailee-saint-pierren-rannikolla-reunionissa/</link>
+					<comments>/ufot/ufo-leijailee-saint-pierren-rannikolla-reunionissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 13 Jan 2020 11:11:48 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Intian valtameri]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=7122</guid>
+
+					<description><![CDATA[Kuvamateriaali on kuvattu lokakuun 11. päivänä 2019, noin kello 18-19 aikaan. Siinä näkyy jättiläismäinen UFO, joka leijailee juuri vedenpinnan yllä lähellä Réunion-saarta, kunnes se hitaasti liikkuu taivaalle ja katoaa. Silminnäkijä sanoo, että hän havaitsi jotain tummaa meressä, joka nousi hitaasti veden ylle, ja kun hän katsoi teleskoopilla, hän näki tämän omituisen muodon, jota hän alkoi [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/ufo-leijailee-saint-pierren-rannikolla-reunionissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

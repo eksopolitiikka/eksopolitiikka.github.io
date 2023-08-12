@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hesekiel &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/hesekiel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 02 Aug 2019 10:55:42 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Todisteita muinaisista avaruusolennoista</title>
+		<link>/tiede/todisteita-muinaisista-avaruusolennoista/</link>
+					<comments>/tiede/todisteita-muinaisista-avaruusolennoista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 17 Oct 2019 11:11:07 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[Hesekiel]]></category>
+		<category><![CDATA[historia]]></category>
+		<category><![CDATA[nibiru]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<guid isPermaLink="false">/?p=6754</guid>
+
+					<description><![CDATA[Nämä sanat itsessään nostavat jo ihokarvat pystyyn: muinaiset avaruusolennot. 1970-luvun alussa, kun Erich von Däniken oli juuri julkaissut teoksensa Chariots of the Gods, hän kutsui niitä “muinaisiksi astronauteiksi” &#8212; termi joka on yhtä puistattava. Apollo-tehtävät olivat edelleen käynnissä, ja kuva astronauteista oli tuoreena kaikkien mielessä. Olisivatko muinaiset avaruusolennot voineet saapua Maapallolle kaukaisessa menneisyydessä? Olisivatko he [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/todisteita-muinaisista-avaruusolennoista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

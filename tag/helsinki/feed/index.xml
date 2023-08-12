@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Helsinki &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/helsinki/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 07 Dec 2019 14:01:27 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Lukijan video: Vilkkuva drone itsenäisyyspäivänä Helsingissä</title>
+		<link>/ufot/lukijan-video-vilkkuva-drone-itsenaisyyspaivana-helsingissa/</link>
+					<comments>/ufot/lukijan-video-vilkkuva-drone-itsenaisyyspaivana-helsingissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 08 Dec 2019 10:10:01 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Helsinki]]></category>
+		<category><![CDATA[itsenäisyyspäivä]]></category>
+		<category><![CDATA[Suomi]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=7259</guid>
+
+					<description><![CDATA[Lukija lähetti toimitukseen videot, joissa näkyy vilkkuva ja lentävä laite Helsingin keskustassa Narinkkatorilla. Laite on hyvin suurella todennäköisyydellä drone, mutta voi se olla jotain muutakin! Lukija kertoo: Olin itsenäisyyspäivänä Helsingin keskustassa, jolloin oli kaikenlaisia mielenosoituksia ja muitakin tapahtumia, joissa oli paljon ihmisiä paikalla. Vähän sen jälkeen kun kansalaistorilta oli lähtenyt liikkeelle kansallismielinen marssi kohti Töölöä, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/lukijan-video-vilkkuva-drone-itsenaisyyspaivana-helsingissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UFO-havainto Helsingistä</title>
+		<link>/ufot/ufo-havainto-helsingista/</link>
+					<comments>/ufot/ufo-havainto-helsingista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 16 Jun 2017 13:33:19 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Helsinki]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=4151</guid>
+
+					<description><![CDATA[MTV:n uutiset on myös uutisoinut, tosin loppukevennyksenä, UFO-havainnosta Helsingissä vuonna 2008. Silminnäkijää haastatellaan ja hän kertoo nähneensä oranssinvärisen valon taivaalla. &#160;]]></description>
+		
+					<wfw:commentRss>/ufot/ufo-havainto-helsingista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

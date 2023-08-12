@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Project Camelot &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/project-camelot/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 10 Apr 2022 15:52:58 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Project Camelot haastattelee Dan Shermania</title>
+		<link>/eksopolitiikka/project-camelot-haastattelee-dan-shermania/</link>
+					<comments>/eksopolitiikka/project-camelot-haastattelee-dan-shermania/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 15 Apr 2022 09:09:31 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Dan Sherman]]></category>
+		<category><![CDATA[ELINT]]></category>
+		<category><![CDATA[NSA]]></category>
+		<category><![CDATA[Project Camelot]]></category>
+		<guid isPermaLink="false">/?p=12558</guid>
+
+					<description><![CDATA[Dan Sherman sai ilmavoimilta &#8221;Intuitiivisen viestijän&#8221;  &#8212; korkeaa teknologiaa käyttävä telepaatti &#8212; koulutuksen ja hän päätyi kommunikoimaan kahden avaruusolennon kanssa osana hänen valmistelujaan &#8221;tulevaa aikaa varten, jolloin kaikista sähkölaitteista tulee turhia&#8221;. Tässä haastattelussa Dan sanoo: &#8221;Jos olisin keksinyt tarinan, se olisi paljon yksityiskohtaisempi kuin tämä on. Haluan pysyä siinä mitä minulle tapahtui, ja haluan antaa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/project-camelot-haastattelee-dan-shermania/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Venäläinen indigo-lapsi muistaa edellisen elämänsä Marsissa</title>
+		<link>/paranormaali/venalainen-indigo-lapsi-muistaa-edellisen-elamansa-marsissa/</link>
+					<comments>/paranormaali/venalainen-indigo-lapsi-muistaa-edellisen-elamansa-marsissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2016 23:18:54 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[mars]]></category>
+		<category><![CDATA[paranormaali]]></category>
+		<category><![CDATA[Project Camelot]]></category>
+		<guid isPermaLink="false">/?p=2973</guid>
+
+					<description><![CDATA[Boris Kiprijanovits on indigo-lapsi, mahdollisesti Venäjän tunnetuin laatuaan. Boriska, tai &#8221;pikku-Boris&#8221;, oli Pravdan haastattelussa Gennadi Belimovin, Volgogradin alueen yliopistoprofessorin, todistaessa kuinka Boriska kertoi menneestä elämästään Marsissa ja Lemuriassa. Lyhyen ajan päästä huhu kiiri Venäjällä kuinka tämä pienikokoinen profeetta haasteli asioista, ja Moskovan eräs sanomalehti teki hänestä jutun. Joten Project Camelot päätti matkata Venäjälle löytääkseen hänet. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/venalainen-indigo-lapsi-muistaa-edellisen-elamansa-marsissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

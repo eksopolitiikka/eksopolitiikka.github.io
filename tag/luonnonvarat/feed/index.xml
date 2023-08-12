@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>luonnonvarat &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/luonnonvarat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 25 Feb 2020 10:46:28 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Avaruusolentojen resurssikartellista</title>
+		<link>/eksopolitiikka/avaruusolentojen-resurssikartellista/</link>
+					<comments>/eksopolitiikka/avaruusolentojen-resurssikartellista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2020 11:11:02 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Ed Komarek]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[kartelli]]></category>
+		<category><![CDATA[luonnonvarat]]></category>
+		<category><![CDATA[UFO-paljastus]]></category>
+		<guid isPermaLink="false">/?p=7850</guid>
+
+					<description><![CDATA[Kirjoittanut Ed Komarek helmikuu 18, 2009 Artikkelin julkaissut Biblioteca Pleyades UFODigest-sivulta Eksopolitiikan tutkijat, joilla on jotain ymmärrystä siitä miten avaruusolentojen korporaatioresurssikartelli voisi toimia, ja monikansalliset yritykset, jotka saattavat olla sellaisessa mukana, ovat vastahakoisia nimeämään mitään tahoa. Ehkä on aika alkaa miettiä sitä mitkä korporaatiot ovat mukana, jotta voidaan antaa kasvot sille mikä on nyt ollut [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/avaruusolentojen-resurssikartellista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

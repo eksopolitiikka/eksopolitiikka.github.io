@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lake Erie &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/lake-erie/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 15 Sep 2018 10:27:03 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>UFO-havainto Lake Erieltä</title>
+		<link>/ufot/ufo-havainto-lake-erielta/</link>
+					<comments>/ufot/ufo-havainto-lake-erielta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 19 Oct 2018 11:11:01 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Lake Erie]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=5563</guid>
+
+					<description><![CDATA[Heinäkuun 11 päivänä 2018 Ohiossa sijaitsevan Huronin asukas kuvasi omituisen, suuren kartion muotoisen metalliesineen kahden kirkkaan kolmiomuotoisen valon kanssa, jotka tulivat sen kyljistä, Erie-järven yllä ennen sen katoamista. Silminnäkijä kertoo: Asun golf-kentän laidalla Erie-järvellä noin neljännesmailin päässä järvestä. Olin kuistilla aikaisin aamulla ja katselin taivasta ja huomasin että ei ole mitään pilviä taivaalla. Näin tämän [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/ufo-havainto-lake-erielta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

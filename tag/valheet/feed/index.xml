@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>valheet &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/valheet/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 09 Aug 2019 20:48:33 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Fiktio on ainoa tapa kertoa totuus</title>
+		<link>/eksopolitiikka/fiktio-on-ainoa-tapa-kertoa-totuus/</link>
+					<comments>/eksopolitiikka/fiktio-on-ainoa-tapa-kertoa-totuus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 30 Oct 2019 11:11:06 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[salaliitot]]></category>
+		<category><![CDATA[totuus]]></category>
+		<category><![CDATA[valheet]]></category>
+		<guid isPermaLink="false">/?p=6846</guid>
+
+					<description><![CDATA[Tämä on Richard Thiemen esitelmä DEF CONissa otsikolla Fiktio on ainoa tapa kertoa totuus: Elämän dynamiikka kansallisessa turvallisuudessa Yli vuosikymmen sitten ystävä NSA:ssa kertoi Richard Thiemelle, että hän voisi ottaa kantaa keskeisiin ongelmiin, jotka olivat tulleet esiin kontekstissa &#8221;eettiset pohdinnat tiedustelualan tai turvallisuusalan ammattilaisille&#8221;, mutta ainoastaan kirjoittamalla fiktiota. &#8221;Se on ainoa tapa jolla voit kertoa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/fiktio-on-ainoa-tapa-kertoa-totuus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>CIA:n sisäpiiriläinen paljastaa varjohallituksen uhan</title>
+		<link>/eksopolitiikka/cian-sisapiirilainen-paljastaa-varjohallituksen-uhan/</link>
+					<comments>/eksopolitiikka/cian-sisapiirilainen-paljastaa-varjohallituksen-uhan/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 06 Jan 2018 11:11:01 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[CIA]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[valheet]]></category>
+		<category><![CDATA[varjohallitus]]></category>
+		<guid isPermaLink="false">/?p=4766</guid>
+
+					<description><![CDATA[Kevin Shipp oli korea CIA-viranomainen joka kieltäytyi pyörtämästä päätään hallituksen rikollisuuden ja sen peittelyn suhteen. GeoengineerWatch.org piti tärkeän julkisen tiedotustilaisuuden Pohjois-Kaliforniassa heinäkuun 28. päivänä 2017. Tuossa tilaisuudessa Shipp piti shokeeraavan ja vakuuttavan esityksen useista törkeistä ja edelleen käynnissä olevista hallituksen rikoksista. Hallituksen tyranniasta totuuden paljastavien ihmisten täydellinen vainoaminen käytiin myös läpi. Meidän kaikkien tuntema paradigma [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/cian-sisapiirilainen-paljastaa-varjohallituksen-uhan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

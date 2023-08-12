@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>simulaatioteoria &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/simulaatioteoria/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 09 Jun 2022 12:31:44 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mitä jos me elämmekin tietokonesimulaatiossa?</title>
+		<link>/tietoisuus/mita-jos-me-elammekin-tietokonesimulaatiossa/</link>
+					<comments>/tietoisuus/mita-jos-me-elammekin-tietokonesimulaatiossa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 08 Feb 2023 11:11:54 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[simulaatioteoria]]></category>
+		<guid isPermaLink="false">/?p=12880</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: huhtikuun 6, 2022 Havaintopaikka: Kalifornia, USA Koordinaatit: 37.2533919,-119.1773313 Mitä jos tajuaisitkin, että todellisuus ei ole muuta kuin monimutkainen tietokonesimulaatio? Mistä tämän tietää? Ja miten tällaisesta matrixista pääsee pois? No, ensin pitää etsiä ohjelmassa olevia häikkiä. Jos kaikki on simulaatiota, silloin häikät paljastavat meille informaatiota pikkuhiljaa. Kunnes me tiedämme kuka on suunnitellut simulaation jossa elämme. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/mita-jos-me-elammekin-tietokonesimulaatiossa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

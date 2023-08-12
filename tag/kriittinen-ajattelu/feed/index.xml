@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kriittinen ajattelu &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/kriittinen-ajattelu/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 03 Aug 2023 08:06:55 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kuinka ajatella &#8217;kriittisesti&#8217; uusista avaruusolentoja ja UFOja koskettavista uutisista</title>
+		<link>/tiede/kuinka-ajatella-kriittisesti-uusista-avaruusolentoja-ja-ufoja-koskettavista-uutisista/</link>
+					<comments>/tiede/kuinka-ajatella-kriittisesti-uusista-avaruusolentoja-ja-ufoja-koskettavista-uutisista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 08 Aug 2023 08:08:46 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[avaruusolennot]]></category>
+		<category><![CDATA[kriittinen ajattelu]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=15321</guid>
+
+					<description><![CDATA[Viime viikolla entinen tiedustelupalvelun ja ilmavoimien viranomainen David Grusch todisti Yhdysvaltain edustajainhuoneen kansallista turvallisuutta, rajavalvontaa ja ulkoasioita käsittelevälle alivaliokunnalle, että Yhdysvaltain hallituksella on hallussaan tunnistamattomiin ilmailmiöihin tai ufoihin liittyvää materiaalia, mukaan lukien &#8221;ei-ihmisen&#8221; biologista materiaalia. On tärkeää arvioida kriittisesti tällaisia poikkeuksellisia väitteitä, kun niitä esitetään, kirjoittaa David Kyle Johnson, joka soveltaa sekä filosofi Ted Schickin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/kuinka-ajatella-kriittisesti-uusista-avaruusolentoja-ja-ufoja-koskettavista-uutisista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

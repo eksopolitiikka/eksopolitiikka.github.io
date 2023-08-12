@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>chakrat &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/chakrat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 21 May 2020 14:41:57 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Ylösnousemuksen Avaimet</title>
+		<link>/tietoisuus/ylosnousemuksen-avaimet/</link>
+					<comments>/tietoisuus/ylosnousemuksen-avaimet/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2020 11:11:37 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[chakrat]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[värähtely]]></category>
+		<guid isPermaLink="false">/?p=8440</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Kanavointi tällä kertaa käsiteli ilmentämistä ja värähtelyn kohottamista. &#8221;Ylösnousemuksen Avaimet&#8221; ovat niitä mitä me kutsumme kollektiivisiksi työkaluiksi, joilla nostaa värähtelyänne, niin että voitte käyttää kaikkia muita työkaluja paljon voimakkaammin &#8212; &#8221;Ylösnousemuksen Avaimia&#8221;. Selvä, noniin, tämä antaa teille yleisen ymmärryksen eri avaimien tasoista tässä prosessissa. Sinun ei tarvitse muistaa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/ylosnousemuksen-avaimet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

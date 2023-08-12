@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>katastrofit &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/katastrofit/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 26 May 2018 22:57:07 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Ekstaattinen transformaatio</title>
+		<link>/tietoisuus/ekstaattinen-transformaatio/</link>
+					<comments>/tietoisuus/ekstaattinen-transformaatio/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 07 Jul 2018 11:11:56 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[katastrofit]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=5294</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Kanavointi tällä kertaa käsitteli muualta kanavoitua informaatiota koskien planetaarisia katastrofeja. &#160; Selvä, miten voitte kaikki tänä iltana aikaanne, niinkuin luotte ajan olevaksi? Me aloitamme tämän interaktion tänä iltana aikaanne idealla, jälleen kerran, jonka monet ovat jakaneet kanssamme, koskien kommunikaatioiden vastaanottamista monilta eri tietoisuuden tasoilta &#8212; niin kuin havaitsette [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/ekstaattinen-transformaatio/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

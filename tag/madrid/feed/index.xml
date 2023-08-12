@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Madrid &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/madrid/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 06 May 2020 20:39:58 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Sinistä valoa Madridin taivaalla</title>
+		<link>/ufot/sinista-valoa-madridin-taivaalla/</link>
+					<comments>/ufot/sinista-valoa-madridin-taivaalla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2020 11:11:43 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Madrid]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=8409</guid>
+
+					<description><![CDATA[Sosiaalisessa mediassa ollaan kohisten väitelty siitä mitä nämä mystiset siniset valot ovat, jotka haivattiin ympäri maailmaa mm. Espanjassa, Australiassa ja USA:ssa. Sott.netissa käyttäjät ovat väitelleet valoista. Jotkut ovat väittäneet, että ne ilmaantuvat luonnostaan pietsosähköisen vaikutuksen johdosta. Eräs käyttäjä kirjoitti: &#8221;Jos suuria kvartsikidepalasia maankuoressa puristetaan tietyssä kulmassa, se aiheuttaa pietsosähköisen kentän, joka näyttää revontulelta taivaalla.&#8221; Toiset [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/sinista-valoa-madridin-taivaalla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

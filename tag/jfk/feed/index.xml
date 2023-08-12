@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>JFK &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/jfk/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 01 Aug 2017 02:43:12 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kennedy pyysi UFO-tietoja 10 päivää ennen kuolemaansa</title>
+		<link>/eksopolitiikka/kennedy-pyysi-ufo-tietoja-10-paivaa-ennen-kuolemaansa/</link>
+					<comments>/eksopolitiikka/kennedy-pyysi-ufo-tietoja-10-paivaa-ennen-kuolemaansa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 26 Aug 2017 11:11:59 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[JFK]]></category>
+		<guid isPermaLink="false">/?p=4408</guid>
+
+					<description><![CDATA[John F. Kennedyn murhan salaliittoteoriat ovat saaneet uutta potkua viime aikoina, kiitos mm. yllättävän CNN:n artikkelin jonka mukaan CIA olisi ollut tässä mukana. Ehkä se johtuu siitä, että 10 päivää ennen presidentti patisteli CIA:ta antamaan hänelle pääsyn NASAn UFO-tietoihin. Vuosia sitten reportteri Jim Marrs löysi kasan salattuja dokumentteja jotka kertovat tarinan erittäin salaisesta ryhmästä tiedemiehiä, bisnesmiehiä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/kennedy-pyysi-ufo-tietoja-10-paivaa-ennen-kuolemaansa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>feminiini &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/feminiini/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 21 Feb 2022 22:54:49 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Sukupuoli</title>
+		<link>/tietoisuus/sukupuoli/</link>
+					<comments>/tietoisuus/sukupuoli/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 10 Apr 2022 09:09:25 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[feminiini]]></category>
+		<category><![CDATA[hermetiikka]]></category>
+		<category><![CDATA[Kybalion]]></category>
+		<category><![CDATA[maskuliini]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=12233</guid>
+
+					<description><![CDATA[&#8221;Sukupuoli löytyy kaikesta; kaikessa on Maskuliininen ja Feminiininen Periaate; Sukupuoli ilmenee kaikilla tasoilla.&#8221; &#8212; Kybalion. Seitsemäs Suuri Hermeettinen Periaate &#8212; Sukupuolen Periaate &#8212; pitää sisällään totuuden siitä, että Sukupuoli ilmenee kaikessa &#8212; että Maskuliininen ja Feminiininen periaate ovat aina läsnä ja aktiivisina kaikissa ilmiöiden vaiheissa, jokaisella elämän tasolla. Tässä kohtaa mielesämme on hyvä siirtää huomionne [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/sukupuoli/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

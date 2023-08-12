@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Juno &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/juno/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 22 Dec 2022 14:11:47 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Jupiterin kuu Io on alkanut lähettää NASAn Juno-luotaimelle viestejä</title>
+		<link>/tiede/jupiterin-kuu-io-on-alkanut-lahettaa-nasan-juno-luotaimelle-viesteja/</link>
+					<comments>/tiede/jupiterin-kuu-io-on-alkanut-lahettaa-nasan-juno-luotaimelle-viesteja/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 22 Dec 2022 14:11:47 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[Io]]></category>
+		<category><![CDATA[Juno]]></category>
+		<category><![CDATA[Jupiter]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=14055</guid>
+
+					<description><![CDATA[Jupiter 715 miljoonan kilometrin päässä Maapallosta. Eräs sen kuu aiheuttaa unettomia öitä tieteentekijöille Maapallolla! Tämä kuu on lähettänyt omituisia viestejä NASAn Juno-luotaimelle! Yrittävätkö avaruusolennot kommunikoida meille? Mitä niiden viestissä sanotaan? Jupiter erottuu muista planeetoista aurinkokunnassamme. Se on suurin, niin suuri, että sen läpimitta on tuplasti kaikkien muiden planeettojen läpimitat yhteenlaskettuna! Jupiterin säde on 69 911 [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/jupiterin-kuu-io-on-alkanut-lahettaa-nasan-juno-luotaimelle-viesteja/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NASA havaitsee FM-radiosignaalin tulevan Jupiterin kuusta</title>
+		<link>/tiede/nasa-havaitsee-fm-radiosignaalin-tulevan-jupiterin-kuusta/</link>
+					<comments>/tiede/nasa-havaitsee-fm-radiosignaalin-tulevan-jupiterin-kuusta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 23 Feb 2021 14:14:38 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[Juno]]></category>
+		<category><![CDATA[Jupiter]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=9680</guid>
+
+					<description><![CDATA[Vain alle viikkoa myöhemmin Juno-tehtävää virallisesti jatkettiin uudestaan 5 vuodella. Jälleen kerran se on päässyt otsikoihin aikamoisesta löydöstä. Tällä kertaa kyse ei kuitenkaan ole Jupiterista. Viimeisimmät uutiset liittyvät kaasujättiläisen suurimpaan kuuhun &#8212; Ganymedeen. Raportin mukaan Juno on siepannut FM-radiosignaalin, joka tulee kuusta. Avaruuden radiosignaaleista raportteja nähneenä emmekö me voisi kerrankin kuulla varmistusta siitä että se on [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/nasa-havaitsee-fm-radiosignaalin-tulevan-jupiterin-kuusta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

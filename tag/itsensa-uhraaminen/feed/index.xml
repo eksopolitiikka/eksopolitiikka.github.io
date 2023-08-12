@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>itsensä uhraaminen &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/itsensa-uhraaminen/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 02 Feb 2022 20:21:28 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kortti helmikuulle 2022: Itsensä uhraaminen</title>
+		<link>/tietoisuus/kortti-helmikuulle-2022-itsensa-uhraaminen/</link>
+					<comments>/tietoisuus/kortti-helmikuulle-2022-itsensa-uhraaminen/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2022 08:08:20 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[itsensä uhraaminen]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=12047</guid>
+
+					<description><![CDATA[Kuukauden kortti &#8212; helmikuu 2022 Kortti #21 &#124; Vega (mennyt, 1. aikakausi) &#124; Itsensä uhraaminen Viime kuun kortissa, Lemurian aikakausi (numero 47), me puhuimme omalle itselle anteeksi antamisen ideasta &#8212; erityisesti mitä tulee syyllisyyteen siitä mitä on ja ei ole tehnyt muinaisessa menneisyydessä Maapallon auttamiseksi sen alkaessa vajota globaaliin unisykliin 13 tuhatta vuotta sitten. Tämä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/kortti-helmikuulle-2022-itsensa-uhraaminen/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

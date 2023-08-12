@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>super &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/super/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 01 Sep 2018 11:27:09 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Lehti: Pentagon on salaa tutkinut kehittynyttä UFO-teknologiaa</title>
+		<link>/eksopolitiikka/lehti-pentagon-on-salaa-tutkinut-kehittynytta-ufo-teknologiaa/</link>
+					<comments>/eksopolitiikka/lehti-pentagon-on-salaa-tutkinut-kehittynytta-ufo-teknologiaa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 04 Oct 2018 11:11:05 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[AATIP]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[super]]></category>
+		<guid isPermaLink="false">/?p=5528</guid>
+
+					<description><![CDATA[• Viime joulukuussa maailma sai ensi kertaa kuulla Pentagonin UFO-tutkimusohjelmasta nimeltään Advanced Aerospace Threat Identification Program (AATIP), jonka tarkoitus on tutkia &#8221;selittämättömiä ilmailmiöitä&#8221; sekä futuristisia teknologioita. Entinen ohjelman johtaja, Luis Elizondo, sanoi uskovansa, että &#8221;on olemassa erittäin vakuuttavaa näyttöä siitä, että me emme ole yksin&#8221;, ja hän vihjailee mystisiin &#8221;metamateriaaleihin&#8221; törmänneestä avaruusaluksesta, joka on säilötty [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/lehti-pentagon-on-salaa-tutkinut-kehittynytta-ufo-teknologiaa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sentry Raven &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/sentry-raven/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 24 Dec 2022 10:08:30 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>NSA:n asiakirja tukee ideaa viestintäohjelmasta avaruusolennoille</title>
+		<link>/eksopolitiikka/nsan-dokumentti-tukee-ideaa-viestintaohjelmasta-avaruusolennoille/</link>
+					<comments>/eksopolitiikka/nsan-dokumentti-tukee-ideaa-viestintaohjelmasta-avaruusolennoille/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 11 Apr 2022 10:10:05 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Dan Sherman]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[kommunikaatio]]></category>
+		<category><![CDATA[NSA]]></category>
+		<category><![CDATA[Sentry Condor]]></category>
+		<category><![CDATA[Sentry Eagle]]></category>
+		<category><![CDATA[Sentry Falcon]]></category>
+		<category><![CDATA[Sentry Hawk]]></category>
+		<category><![CDATA[Sentry Osprey]]></category>
+		<category><![CDATA[Sentry Owl]]></category>
+		<category><![CDATA[Sentry Raven]]></category>
+		<category><![CDATA[tiedustelupalvelu]]></category>
+		<category><![CDATA[viesti avaruuteen]]></category>
+		<category><![CDATA[viestintä]]></category>
+		<guid isPermaLink="false">/?p=12485</guid>
+
+					<description><![CDATA[Kirjoittanut Michael Salla Lokakuun 10. päivänä 2014, Peter Maass ja Laura Poitras kirjoittivat The Interceptiin ja julkaisivat lisää powerpoint-kalvoja vuodetusta NSA-asiakirjasta, joka kertoi kansan silmiltä poissa pidetyistä erittäin salaisista ohjelmista. Paperit on alunperin vuotanut Edward Snowden. Niissä paljastettiin “Sentry Eagle”, jota käytetään sateenvarjoterminä jonka alle on piilotettu eräitä NSA:n kaikkein arkaluontoisimpia ohjelmia, jotka on luokiteltu [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/nsan-dokumentti-tukee-ideaa-viestintaohjelmasta-avaruusolennoille/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

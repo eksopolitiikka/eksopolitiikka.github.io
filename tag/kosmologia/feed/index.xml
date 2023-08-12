@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kosmologia &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/kosmologia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 30 Jun 2015 14:56:36 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kosmologi puhuu ajan luonteesta</title>
+		<link>/tiede/kosmologi-puhuu-ajan-luonteesta/</link>
+					<comments>/tiede/kosmologi-puhuu-ajan-luonteesta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2015 14:56:36 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[kosmologia]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=2104</guid>
+
+					<description><![CDATA[Kosmologi Sean Carroll vie viihdyttävään ja ajatuksiaherättävään tapaan kuulijat matkalle ajan ja avaruuden luonteeseen universumissa. Hän kysyy yksinkertaisen kysymyksen: Miksi aika on olemassa ylipäätään? Potentiaaliset vastaukset osoittavat yllättävään piirteeseen universumin luonteessa, ja paikkaamme siinä. &#160; Artikkelin julkaissut Educating Humanity.]]></description>
+		
+					<wfw:commentRss>/tiede/kosmologi-puhuu-ajan-luonteesta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

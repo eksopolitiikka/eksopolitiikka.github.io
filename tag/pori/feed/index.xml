@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pori &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/pori/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 29 May 2016 20:00:59 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Porin seitsemän ilmapalloa 12.4.1969</title>
+		<link>/ufot/porin-seitseman-ilmapalloa-12-4-1969/</link>
+					<comments>/ufot/porin-seitseman-ilmapalloa-12-4-1969/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 29 May 2016 20:00:59 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Pori]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=2950</guid>
+
+					<description><![CDATA[&#8221;Ammattilentäjät eivät koskaan ole nähneet ufoja.&#8221; Tämä aikoinaan hyvin suosittu päivälehtiväittämä on onneksi jo lähes tyystin hävinnyt pois käytöstä. Seuraava kymmenien suomalaisten lentäjien havainto on saattanut olla omalta osaltaan vaikuttamassa asiaan. Huhtikuun 12. päivänä vuonna 1969 oli Ilmavoimissa palveleva Jouko Kuronen lähdössä Porin lentokentältä suorittamaan lentäjätoverinsa kanssa Kuopioon aiottua suunnistuslentoa joskus puolen päivän paikkeilla. Sää [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/porin-seitseman-ilmapalloa-12-4-1969/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

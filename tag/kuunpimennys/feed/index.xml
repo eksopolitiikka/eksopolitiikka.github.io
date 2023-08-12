@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kuunpimennys &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/kuunpimennys/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 02 Jun 2018 09:44:53 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Vuosisadan pisin kuunpimennys heinäkuussa</title>
+		<link>/tiede/vuosisadan-pisin-kuunpimennys-heinakuussa/</link>
+					<comments>/tiede/vuosisadan-pisin-kuunpimennys-heinakuussa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 11 Jul 2018 11:11:52 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[kuunpimennys]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=5309</guid>
+
+					<description><![CDATA[Heinäkuun 27.-28. päivän kuunpimennys on suurin astronominen tapaus tänä vuonna ja tämä on toinen ja samalla viimeinen kuunpimennys vuonna 2018. Heinäkuun 2018 kuunpimennys on pisin laatuaan 21. vuosisadalla, ja se kestää 1 tunti 43 minuuttia. Tämä kuunpimennys pääosin näkyy itäisellä pallonpuoliskolla (Eurooppa, Afrikka, Aasia, Australia ja Uusi Seelanti). Kuunpimennykset voivat olla näkyvillä kaikkialla planeetan yöaikaan, jos [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/vuosisadan-pisin-kuunpimennys-heinakuussa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

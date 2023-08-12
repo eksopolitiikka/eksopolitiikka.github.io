@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>George Van Tassel &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/george-van-tassel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 07 Jan 2022 09:49:05 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>George Van Tasselin haastattelu vuodelta 1964</title>
+		<link>/eksopolitiikka/george-van-tasselin-haastattelu-vuodelta-1964/</link>
+					<comments>/eksopolitiikka/george-van-tasselin-haastattelu-vuodelta-1964/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 15 Jul 2022 11:11:42 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[George Van Tassel]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<guid isPermaLink="false">/?p=11757</guid>
+
+					<description><![CDATA[George Van Tassel käy läpi sitä mitä me tiedämme UFO-teknologiasta ja Kuussa olevista tukikohdista. Se seikka, että hän puhuu tästä vuonna 1964 kertoo vain siitä miten pitkä historia salailulla on USA:ssa&#8230; &#160; Artikkelin julkaissut Latest UFO Sightings]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/george-van-tasselin-haastattelu-vuodelta-1964/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

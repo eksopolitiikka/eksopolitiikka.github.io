@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kyberkidutus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/kyberkidutus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 31 Oct 2022 23:47:46 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Magnus Olsson: Neuraalivalvontaa, kyberkidutusta ja transhumanistista agendaa vastustavan koalitiomme historiikki</title>
+		<link>/uutiset/magnus-olsson-neuraalivalvontaa-kyberkidutusta-ja-transhumanistista-agendaa-vastustavan-koalitiomme-historiikki/</link>
+					<comments>/uutiset/magnus-olsson-neuraalivalvontaa-kyberkidutusta-ja-transhumanistista-agendaa-vastustavan-koalitiomme-historiikki/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 17 May 2023 10:10:04 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[joukkovaino]]></category>
+		<category><![CDATA[kyberkidutus]]></category>
+		<category><![CDATA[neuraalivalvonta]]></category>
+		<category><![CDATA[transhumanismi]]></category>
+		<guid isPermaLink="false">/?p=13686</guid>
+
+					<description><![CDATA[Kampanjan verkkosivu: https://cyber-torture.com/ Sähköpostiyhteys: EU11CACH@gmail.com Kuuntele Magnus Olssonin haastattelu: https://odysee.com/@TrueTube:9d/Cyber-Torture:3 Video myös artikkelin lopussa. Haastattelun kysymyksiä: Tervehdys Magnus. Haluaisitko esitellä itsesi lyhyesti niille, jotka eivät tiedä kuka olet? Milloin EUCACH perustettiin ja kenen kanssa? Miten olit mukana järjestämässä ensimmäistä konferenssia aiheesta Neural Monitoring Euroopassa Brysselissä. Miten Ruotsin tiedeneuvosto vastasi neuraalista monitorointia koskevaan valitukseenne? Kerro meille [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/magnus-olsson-neuraalivalvontaa-kyberkidutusta-ja-transhumanistista-agendaa-vastustavan-koalitiomme-historiikki/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jätehuolto &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/jatehuolto/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 19 Sep 2022 23:40:58 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>NASA dumppaa paskaa avaruusasemalta</title>
+		<link>/tiede/nasa-dumppaa-paskaa-avaruusasemalta/</link>
+					<comments>/tiede/nasa-dumppaa-paskaa-avaruusasemalta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 20 Sep 2022 06:06:48 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[jätehuolto]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[roskat]]></category>
+		<guid isPermaLink="false">/?p=13455</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: 14. heinäkuuta 2022 Havaintopäivämäärä: ISS:n kierorata Lähde: NASAn livestriimit Leukani loksahti täysin kun nauhoitin tämän avaruusaseman livestriimistä. Kamera meni siniseen ruutuun kahdesti, sitten kuva tuli takaisin ja näytti tämän ohjattavan kouran&#8230; mutta sitten he unohtivat laittaa sinisen ruudun taas päälle ja vahingossa&#8230; ensimmäistä kertaa historiassa paljastivat, että he dumppaavat roskansa asemalta ihmiskunnan niskaan! He [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/nasa-dumppaa-paskaa-avaruusasemalta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

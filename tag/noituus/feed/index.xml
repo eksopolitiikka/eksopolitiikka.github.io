@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>noituus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/noituus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 25 May 2022 16:18:08 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mormonit ja noituus</title>
+		<link>/uncategorized/mormonit-ja-noituus/</link>
+					<comments>/uncategorized/mormonit-ja-noituus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 07 Jun 2022 13:13:53 +0000</pubDate>
+				<category><![CDATA[Muut]]></category>
+		<category><![CDATA[mormonismi]]></category>
+		<category><![CDATA[noituus]]></category>
+		<guid isPermaLink="false">/?p=12778</guid>
+
+					<description><![CDATA[Noitien kaikkein pyhimmän juhlan, pyhäinpäivän, saapuessa ajattelin kirjoittaa hieman siitä mitä tiedän mormonismin ja noituuden välisestä yhteydestä. Ensinnäkin sanon, että mormonit eivät ole noitia, ja useimmat mormonit eivät todennäköisesti paljoa piittaa noituudesta. Itse asiassa useimmat mormonit olisivat varmaankin kauhistuneita kun vertaan mormonismia ja noituutta. Mormonismin tapaan noituus on paljon parjattu uskonto, mutta sellainen jota suuresti [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uncategorized/mormonit-ja-noituus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

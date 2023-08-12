@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bashar &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/bashar/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 24 Feb 2017 11:26:05 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Yltäkylläisyydestä ja vauraudesta</title>
+		<link>/tietoisuus/kanavointi-kaikki-mita-on/</link>
+					<comments>/tietoisuus/kanavointi-kaikki-mita-on/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2017 18:19:44 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[bashar]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[raha]]></category>
+		<category><![CDATA[yltäkylläisyys]]></category>
+		<guid isPermaLink="false">/?p=831</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Aihe tällä kertaa käsitteli yltäkylläisyyttä. Noniin, kuinka voitte tänä iltana teidän aikaanne, niinkuin luotte ajan olevaksi? Sallikaa meidän aloittaa tämä kanssakäyminen yltäkylläisyyden idealla. Kutsumme tätä nauhoitusta nimellä &#8221;Kaikki mitä on&#8221;. Tiedostakaa, että olemme keskustelleet monista erilaisista ideoista ja aspekteista ja katsantokannoista ja lähestymistavoista yltäkylläisyyden toteuttamiseksi elämässänne, joka on [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/kanavointi-kaikki-mita-on/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

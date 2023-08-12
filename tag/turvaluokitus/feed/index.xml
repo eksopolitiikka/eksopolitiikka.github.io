@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>turvaluokitus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/turvaluokitus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 23 Mar 2022 20:40:30 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Minkä turvaluokituksen puolustusministeriö antaa UAP:lle?</title>
+		<link>/eksopolitiikka/minka-turvaluokituksen-puolustusministerio-antaa-uaplle/</link>
+					<comments>/eksopolitiikka/minka-turvaluokituksen-puolustusministerio-antaa-uaplle/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 28 Mar 2022 09:09:18 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[kansallinen turvallisuus]]></category>
+		<category><![CDATA[turvaluokitus]]></category>
+		<guid isPermaLink="false">/?p=12388</guid>
+
+					<description><![CDATA[kirjoittanut Keith Basterfield Christian Lambright Blogin lukijat saattavat muistaa, että vuonna 2019 amerikkalaistutkija Christian Lambright lähetti FOIA-tietopyynnön laivaston tiedustelupalvelulle (Office of Naval Intelligence, ONI) pyytäen dokumentteja liittyen vuoden 2004 Nimitzin tapaukseen. Myöhemmin samana vuonna Christian sai vastauksen ONIlta, jossa luki &#8221;Me olemme löytäneet tiettyjä briiffausluentokalvoja, jotka on luokiteltu HUIPPUSALAISEKSI&#8230; Me olemme myös selvittäneet, että ONIlla [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/minka-turvaluokituksen-puolustusministerio-antaa-uaplle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

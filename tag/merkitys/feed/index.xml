@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>merkitys &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/merkitys/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 25 May 2019 12:58:57 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Merkityksen antaminen elämälle</title>
+		<link>/tietoisuus/merkityksen-antaminen-elamalle/</link>
+					<comments>/tietoisuus/merkityksen-antaminen-elamalle/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 17 Jul 2019 11:11:21 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[merkitys]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=6478</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Kanavointi tällä kertaa käsitteli merkityksen antamista elämäntilanteille. Q on kysyjä, A on tietoisuus joka puhuu. Q: Okei. No, tämä seuraava kysymys tuli mieleeni kun kuuntelin satoja tunteja sinun kanssakäymisiä ihmisten kanssa ja se koskettaa kahta suurta teemaa jotka kulkevat läpi teidän filosofisen labyrintin. Tiedän molempien ideoiden olevan peräisin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/merkityksen-antaminen-elamalle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hengähdystauko</title>
+		<link>/tietoisuus/hengahdystauko/</link>
+					<comments>/tietoisuus/hengahdystauko/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 09 Apr 2019 11:11:34 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[merkitys]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=6135</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Aihe tällä kertaa käsitteli merkityksen antamista todellisuudelle. Q on kysyjä, A on tietoisuus joka puhuu. A: Idea, jälleen kerran, on että tyhjiössä, siinä hetkessä, siinä infinitesimaalisen pienessä tilassa, sen hengähdystauon aikana, ovat kaikki asiat. Siinä hetkessä siirryt suosimaasi värähtelyyn, sitten laajenet toiselle puolelle, pitäen mukana tuon tietoisuuden ja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/hengahdystauko/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

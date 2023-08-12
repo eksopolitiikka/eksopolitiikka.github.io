@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>antropologia &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/antropologia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 05 Jan 2020 18:43:32 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Miksei muinaisista ihmisistä ole mitään tallenteita?</title>
+		<link>/tiede/miksei-muinaisista-ihmisista-ole-mitaan-tallenteita/</link>
+					<comments>/tiede/miksei-muinaisista-ihmisista-ole-mitaan-tallenteita/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2020 11:11:01 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[antropologia]]></category>
+		<category><![CDATA[arkeologia]]></category>
+		<category><![CDATA[historia]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=7392</guid>
+
+					<description><![CDATA[Randall Carlson on geologi, suunnittelija, antropologi ja historioitsija. Hän on erikoistunut pyhään geometriaan, muinaisiin sivilisaatioihin, ilmastoon ja ympäristön muutokseen, myytteihin, legendoihin, kosmisiin sykleihin ja katastrofeihin. Hän on Nuoremman dryaskauden hypoteesin kannattaja, ja hän on teoretisoinut muinaisten kehittyneiden ihmissivilisaatioiden sukupuutosta. Dailygrail selittää että allaoleva video ottaa ääniraidan (ja jotain videopätkiä) eräästä Randallin luennosta, ja yhdistää sen [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/miksei-muinaisista-ihmisista-ole-mitaan-tallenteita/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

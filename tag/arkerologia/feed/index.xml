@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>arkerologia &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/arkerologia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 23 Oct 2015 15:07:14 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Viisi todennäköisintä Atlantiksen sijaintipaikkaa</title>
+		<link>/tiede/viisi-todennakoisinta-atlantiksen-sijaintipaikkaa/</link>
+					<comments>/tiede/viisi-todennakoisinta-atlantiksen-sijaintipaikkaa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2015 15:07:14 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[arkerologia]]></category>
+		<category><![CDATA[Atlantis]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=2398</guid>
+
+					<description><![CDATA[Atlantiksen legenda alkaa kahdella dialogilla: Timaeus ja Critias, jotka on kirjoittanut klassinen kreikkalainen filosofi Platon. Hän kuvaa Atlantiksen asukkeja ylvääksi ja voimakkaaksi kansaksi joka asui keskellä Atlantin valtamerta sijaitsevalla saarella. Oliko Platon oikeassa ja Atlantis on kadonnut ikuisiksi ajoiksi meren alle? Tämä kartta Atlantiksesta, joka on suunnattu niin päin että etelä on yläreunassa, on 1600-luvun [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/viisi-todennakoisinta-atlantiksen-sijaintipaikkaa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

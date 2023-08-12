@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Portugali &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/portugali/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 29 Dec 2018 14:18:35 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kirkkaan punaoranssi UFO Portugalin yössä</title>
+		<link>/ufot/kirkkaan-punaoranssi-ufo-portugalin-yossa/</link>
+					<comments>/ufot/kirkkaan-punaoranssi-ufo-portugalin-yossa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 31 Jan 2019 11:11:29 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Portugali]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=5902</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: joulukuun 20, 2018 Havaintopaikka: Povoa de Varzim, Portugal Lähde: MUFON Halusin aluksi nähdä mitä tummalla taustalla oli videolla, joten otin muutamia kuvakaappauksia ja lisäsin hieman valoa. Havaitsin, että kuvassa oli vain rakennusten kattoja ja hehkuva UFO yllä. Video on yli 8 minuuttia pitkä, mikä tarkoittaa että jos tällaista haluttaisiin feikata, kestäisi viden tekeminen monta viikkoa. Suurin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/kirkkaan-punaoranssi-ufo-portugalin-yossa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

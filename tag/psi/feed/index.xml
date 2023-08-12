@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>psi &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/psi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 11 Mar 2019 19:42:32 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tämä esitys psi-ilmiöistä sensuroitiin TEDTalkeista</title>
+		<link>/paranormaali/tama-esitys-psi-ilmioista-sensuroitiin-tedtalkeista/</link>
+					<comments>/paranormaali/tama-esitys-psi-ilmioista-sensuroitiin-tedtalkeista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 07 May 2019 11:11:03 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[paranormaali]]></category>
+		<category><![CDATA[psi]]></category>
+		<guid isPermaLink="false">/?p=6242</guid>
+
+					<description><![CDATA[Tämä esitys oli osa TEDx-tapahtumaa vuonna 2013, mutta TED veti sen pois kun he saivat kuulla aiheesta enemmän. Lisää videoita aiheesta voit löytää täältä: https://suespeaks.org/ex-tedx-west-hollywood/ Russell Targ on fyysikko joka käytti useamman vuosikymmenen työskentelyyn USA:n valtion ohjelmassa, joka tutki &#8221;kaukokatselua&#8221; &#8212; paranormaalina pidettyä mielen kykyä. Targ on vakuuttunut, että tämä on oikea ilmiö. Hänen kirjansa &#8221;The [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/tama-esitys-psi-ilmioista-sensuroitiin-tedtalkeista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UFO-poika kommunikoi UFOjen kanssa telepatialla</title>
+		<link>/ufot/ufo-poika-kommunikoi-ufojen-kanssa-telepatialla/</link>
+					<comments>/ufot/ufo-poika-kommunikoi-ufojen-kanssa-telepatialla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 12 Jul 2018 11:11:05 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Japani]]></category>
+		<category><![CDATA[parapsykologia]]></category>
+		<category><![CDATA[psi]]></category>
+		<category><![CDATA[telepatia]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=5311</guid>
+
+					<description><![CDATA[Haruya Ido, joka on saanut lempinimen &#8217;UFO-poika&#8217;, on japanilainen teini, jolla tuntuu olevan uskomattomia psyykkisiä kykyjä. UFO-tutkija Toshitaro Yamaguchi, joka löysi Idon, kertoi Japanin medialle että nuorella miehellä on kyky kommunikoida UFOille telepatialla, missä UFO tulee olemaan ja valokuvata esine. UFO-tutkijan väitettä tukemassa on neljä valokuvaa tunnistamattomista lentävistä esineistä, jotka Ido on ottanut eri sijainneissa Japanissa viime [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/ufo-poika-kommunikoi-ufojen-kanssa-telepatialla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

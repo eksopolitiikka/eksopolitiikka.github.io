@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Soyuz 1 &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/soyuz-1/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 08 Nov 2021 23:50:45 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mitä tapahtui astronauteille, jotka olivat kadonneina avaruudessa 311 päivää?</title>
+		<link>/tiede/mita-tapahtui-astronauteille-jotka-olivat-kadonneina-avaruudessa-311-paivaa/</link>
+					<comments>/tiede/mita-tapahtui-astronauteille-jotka-olivat-kadonneina-avaruudessa-311-paivaa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 22 Apr 2022 11:11:09 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[avaruustiede]]></category>
+		<category><![CDATA[neuvostoliitto]]></category>
+		<category><![CDATA[Soyuz 1]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[venäjä]]></category>
+		<guid isPermaLink="false">/?p=11377</guid>
+
+					<description><![CDATA[Ihmiskunta on jo saavuttanut useita merkkipaaluja modernin avaruusmatkailun saralla. Me olemme vieneet useita ihmisiä avaruuteen, Kuun pinnalle, lähettäneet miehittämättömiä luotaimia tuntemattomille planeetoille, ja tällä hetkellä suunnittelemme jopa pysyvästi joidenkin taivaankappaleiden kolonisointia. Näiden saavutusten valossa ei kuitenkaan tulisi unohtaa, että miehitetyt avaruuslennot eivät aina ole olleet puhtaan tieteellisten tavoitteiden pohjalta tehty, vaan enemmänkin niissä aikansa poliittiset [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/mita-tapahtui-astronauteille-jotka-olivat-kadonneina-avaruudessa-311-paivaa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

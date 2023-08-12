@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rauhanturvaajat &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/rauhanturvaajat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 01 Jan 2023 14:21:21 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Avaruusolentorauhanturvaajat ja heidän geenimanipulaatioprojektinsa</title>
+		<link>/tietoisuus/avaruusolentorauhanturvaajat-ja-heidan-geenimanipulaatioprojektinsa/</link>
+					<comments>/tietoisuus/avaruusolentorauhanturvaajat-ja-heidan-geenimanipulaatioprojektinsa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 05 Aug 2023 11:11:31 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[Rauhanturvaajat]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=14121</guid>
+
+					<description><![CDATA[Tämä on toinen osa kanavointien sarjasta koskien harmaita avaruusolentoja. Sarjassa aiemmin ilmestynt osa löytyy täältä. Djwhal Khulia kanavoinut George 24. lokakuuta 1996 Täällä Djwhal Khul&#8230;&#8230;&#8230;.. Aiemmin me raapaisimme aihetta, josta emme ole koskaan puhuneet. Ja se liittyy avaruusolentojen sivilisaatioihin ja heidän aikeeseen puuttua ihmisten asioihin ja levittäytyä ihmisten joukkoon. Me olemme jo esittäneet, erään kollegamme [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/avaruusolentorauhanturvaajat-ja-heidan-geenimanipulaatioprojektinsa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

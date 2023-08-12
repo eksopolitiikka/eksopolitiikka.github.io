@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vapaamuurarit &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/vapaamuurarit/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 28 Sep 2014 13:39:00 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mystiset Georgian kivipaadet saaneet 2014-päivityksen</title>
+		<link>/uutiset/mystiset-georgian-kivipaadet-saaneet-2014-paivityksen/</link>
+					<comments>/uutiset/mystiset-georgian-kivipaadet-saaneet-2014-paivityksen/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 26 Sep 2014 20:47:20 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[syyskuu2014]]></category>
+		<category><![CDATA[thomas paine]]></category>
+		<category><![CDATA[vapaamuurarit]]></category>
+		<category><![CDATA[vapaamuurarius]]></category>
+		<guid isPermaLink="false">/?p=833</guid>
+
+					<description><![CDATA[Georgia Guidestones on vuonna 1980 paljastettu, tuntemattomien tekijöiden ja rahoittajien pystyttämä iso graniittimonumentti Yhdysvalloissa Georgian osavaltion Elbertin piirikunnassa. Monumenttiin on kirjoitettu opastava viesti kahdeksalla nykykielellä. Lyhyempi viesti on kirjoitettu rakennelman yläosaan neljällä muinaisella kielellä. Nämä kielet ovat babylonia, klassinen kreikka, sanskriitti ja egyptiläiset hieroglyfit. Kivien tarkoitus on olla &#8221;Järjen Ajan ohjeistus&#8221; mutta monet uskovat sen [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/mystiset-georgian-kivipaadet-saaneet-2014-paivityksen/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

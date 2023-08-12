@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>avaruusromu &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/avaruusromu/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 09 Oct 2022 21:23:38 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Maanviljelijät löysivät kiinalaista avaruusromua</title>
+		<link>/tiede/maanviljelijat-loysivat-kiinalaista-avaruusromua/</link>
+					<comments>/tiede/maanviljelijat-loysivat-kiinalaista-avaruusromua/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 06 Jun 2023 11:11:40 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[avaruusromu]]></category>
+		<category><![CDATA[avaruustiede]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=13559</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: 29.7.2022 Havaintopaikka: Australia Lähde: https://www.bbc.com/news/science-environment-62333546 Tässä on harvinainen raportti tuntemattomista kappaleista, jotka ovat pudonneet Austalian vuorille. Samalla viikolla tämän putoamisen aikaan raportoitiin kiinalaisesta taivaalta pudonneesta avaruusromusta. Uskon, että tämä ei ole SpaceX:n romua vaan kiinalaista avaruusromua. SpaceX:n romusta ei ole raportteja. Tämä on 100-prosenttista näyttöä siitä, että Kiina yrittää ohittaa USA:n avaruusohjelmallaan, ja voi [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/maanviljelijat-loysivat-kiinalaista-avaruusromua/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

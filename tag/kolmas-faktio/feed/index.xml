@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kolmas faktio &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/kolmas-faktio/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 02 Feb 2022 20:34:31 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kolmas faktio ja avaruusolentojen agenda</title>
+		<link>/eksopolitiikka/kolmas-faktio-ja-avaruusolentojen-agenda/</link>
+					<comments>/eksopolitiikka/kolmas-faktio-ja-avaruusolentojen-agenda/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 04 Feb 2022 08:08:15 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[agenda]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[kolmas faktio]]></category>
+		<guid isPermaLink="false">/?p=12058</guid>
+
+					<description><![CDATA[kirjoittanut Sherry Shriner Kun presidentti Bush käytti Persianlahden sotaa vuonna 1991 Uuden Maailmanjärjestyksen esittelyyn, useimmilla ihmisillä ei ollut käsitystä siitä mistä hän puhui. Ykseydestä? Rauhasta? Ei huono. Mutta &#8217;hyvä tahto muita kohtaan&#8217; ei ollut se mistä hän puhui. Hänen viekas hymynsä, puhetyylinsä ja yleinen poliittinen jargoninsa ja kansan kustannuksella pelaamansa pelit eivät olisi muuta kuin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/kolmas-faktio-ja-avaruusolentojen-agenda/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

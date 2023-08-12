@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Proxima Centauri &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/proxima-centauri/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 25 Oct 2020 16:41:22 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Nainen Maapallolta väittää käyneensä Proxima Centaurissa</title>
+		<link>/eksopolitiikka/nainen-maapallolta-vaittaa-kayneensa-proxima-centaurissa/</link>
+					<comments>/eksopolitiikka/nainen-maapallolta-vaittaa-kayneensa-proxima-centaurissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 12 May 2021 11:11:40 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[Proxima Centauri]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<guid isPermaLink="false">/?p=9333</guid>
+
+					<description><![CDATA[Tieteen ja astronomian maailmat ovat keskittyneet Proxima Centauri B:hen, tuoreeltaan löydettyyn eksoplaneettaan, joka kiertää Alpha Centaurin tähtijärjestelmää vain 4.22 valovuoden päässä aurinkokunnastamme, ja joka näyttää olevan hyvä ehdokas asuinkelpoiseksi tähtijärjestelmäksi. 1970-luvulla julkaistu kirja Hands: A True Case Study Of A Phenomenal Hypnotic Subject väittää, että avaruusolennot tuolta planeetalta ovat jo vierailleet Maapallolla. Nyt toinen kirja 1980-luvulta on [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/nainen-maapallolta-vaittaa-kayneensa-proxima-centaurissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

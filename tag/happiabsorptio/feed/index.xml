@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>happiabsorptio &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/happiabsorptio/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 01 Apr 2021 23:06:20 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mikrobiologin viesti: COVID-19:n salaisuus paljastettu</title>
+		<link>/tiede/mikrobiologin-viesti-covid-19n-salaisuus-paljastettu/</link>
+					<comments>/tiede/mikrobiologin-viesti-covid-19n-salaisuus-paljastettu/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2020 15:52:20 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[corona-virus]]></category>
+		<category><![CDATA[happiabsorptio]]></category>
+		<category><![CDATA[koronavirus]]></category>
+		<category><![CDATA[lääketiede]]></category>
+		<category><![CDATA[mikrobiologia]]></category>
+		<category><![CDATA[tartuntataudit]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[virologia]]></category>
+		<guid isPermaLink="false">/?p=8254</guid>
+
+					<description><![CDATA[Hei! Kiitos kun luet artikkelin ja olet kiinnostunut koronaviruksen hoidosta. Luethan myös tämän rokotteiden ongelmia käsittelevän tekstin: /tiede/eurolaakarit-varoittavat-covid-rokotteen-ongelmista/ Viimeisen 3-5 päivän aikana on tullut esiin suuri määrä anekdoottitodisteita New Yorkista, Italiasta, Espanjasta jne. COVID-19:sta ja potilaiden ominaisuuksista, jotka sairastuvat vakavasti. Todisteita ei ainoastaan kasaannu huomattava määrä, vaan ne myös johtavat yleisen tason konsensukseen, jota tukee [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/mikrobiologin-viesti-covid-19n-salaisuus-paljastettu/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>60 GHz:n langattomien laitteiden happiabsorptiosta</title>
+		<link>/tiede/60-ghzn-langattomien-laitteiden-happiabsorptiosta/</link>
+					<comments>/tiede/60-ghzn-langattomien-laitteiden-happiabsorptiosta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2020 20:54:32 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[5G]]></category>
+		<category><![CDATA[happiabsorptio]]></category>
+		<category><![CDATA[langaton teknologia]]></category>
+		<category><![CDATA[radiotekniikka]]></category>
+		<category><![CDATA[stop5g]]></category>
+		<guid isPermaLink="false">/?p=8243</guid>
+
+					<description><![CDATA[Tämä on langatonta WiFi-teknologiaa käsittelevän teknologiasivuston artikkeli vuodelta 2001. Artikkeli kertoo aika selväsanaisesti miten 5G-teknologia tulee aiheuttamaan HAPENPUUTETTA ihmisillä. Vähän niinkuin koronaviruskin&#8230; Kysyntä kaistalle kasvaa tasaiseen tahtiin. International Data Corporation ennustaa, että USA:ssa internet-kauppa tulee kasvamaan vuoden 1999 $74 miljardista vuoden 2003 $708 miljardiin, ja tietokoneiden käyttäjien määrä tulee tuplaantumaan 81 miljoonasta 177 miljoonaan pelkästään [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/60-ghzn-langattomien-laitteiden-happiabsorptiosta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

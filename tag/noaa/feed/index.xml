@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NOAA &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/noaa/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 21 Jul 2018 11:08:55 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>NOAA tutkii mystistä ääntä merellä Pohjois-Carolinassa</title>
+		<link>/tiede/noaa-tutkii-mystista-aanta-merella-pohjois-carolinassa/</link>
+					<comments>/tiede/noaa-tutkii-mystista-aanta-merella-pohjois-carolinassa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 21 Aug 2018 11:11:14 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[NOAA]]></category>
+		<category><![CDATA[Pohjois-Carolina]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=5412</guid>
+
+					<description><![CDATA[Mystinen &#8221;äänianomalia&#8221; sai NOAA:n sukeltajat syöksymään Pohjois-Carolinan rannikolle etsimään selitystä. NOAA on ottanut alueen haltuun pitäen sitä &#8221;arkeologisena tai geologisen muodostelman tai muun samankaltaisen paikkana&#8221;. Kaikki voivat vain arvailla mitä &#8221;muu sensellainen&#8221; tarkoittaa, mutta UFO-hehkuttelijat pursuavat ideoita. Tätä paikkaa on kutsuttu &#8221;Otavan Anomaliaksi&#8221; NOAA:n Okeanos-tutkimusaluksen miehistön suulla, joka laukaisi etäohjattavan aluksen alueelle. Asiantuntijat uskovat anomalian [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/noaa-tutkii-mystista-aanta-merella-pohjois-carolinassa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

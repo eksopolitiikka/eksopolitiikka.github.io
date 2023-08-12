@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>paradoksi &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/paradoksi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 24 Jan 2022 17:29:14 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Jumalallinen Paradoksi</title>
+		<link>/tietoisuus/jumalallinen-paradoksi/</link>
+					<comments>/tietoisuus/jumalallinen-paradoksi/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 20 Feb 2022 09:09:39 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[hermetiikka]]></category>
+		<category><![CDATA[paradoksi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=11930</guid>
+
+					<description><![CDATA[&#8221;Puoliviisaat, heidän tunnustaessaan Universumin verrannollisen epätodellisuuden, kuvittelevat että he voivat uhmata sen Lakeja &#8212; sellaisia ovat nämä turhamaiset ja ylimieliset hölmöt, ja he menevät rikki heidän osuessaan kiviin ja heidän oman hölmöytensä järkeily repii heidän alkuaineistaan kappaleiksi. Todella viisaat, jotka tuntevat Universumin luonteen, käyttävät Lakia lakeja vastaan; korkeampaa matalampaa vastaan; ja Alkemian Taidolla transmutoivat kaiken [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/jumalallinen-paradoksi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

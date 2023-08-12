@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>intiaanit &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/intiaanit/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 27 Oct 2017 14:48:47 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mystisiä kuvia avaruusolennoista meksikolaisessa luolassa</title>
+		<link>/tiede/mystisia-kuvia-avaruusolennoista-meksikolaisessa-luolassa/</link>
+					<comments>/tiede/mystisia-kuvia-avaruusolennoista-meksikolaisessa-luolassa/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 01 Dec 2017 11:11:17 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[arkeologia]]></category>
+		<category><![CDATA[historia]]></category>
+		<category><![CDATA[intiaanit]]></category>
+		<category><![CDATA[Mayat]]></category>
+		<category><![CDATA[Meksiko]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=4775</guid>
+
+					<description><![CDATA[Paikalliset legendat puhuvat mystisestä &#8221;avaruusaluksesta&#8221; joka on pysynyt muinaisista ajoista asti lähellä kolmen luolan järjestelmää, joka sijaitsee Veracruzin ja Pueblan kaupunkien välillä Meksikossa. Ryhm tutkijoita päätti matkata alueelle pari kuukautta sitten etsimään lisätietoja mystisestä &#8221;avaruusaluksesta&#8221;. Kuva: Peräisin täältä. &#160; Tähän mennessä he eivät ole löytäneet väitettyä &#8221;avaruusalusta&#8221;, mutta heidän tutkimustensa aikana eräs heidän löytämistään luolista [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/mystisia-kuvia-avaruusolennoista-meksikolaisessa-luolassa/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

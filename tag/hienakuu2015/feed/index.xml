@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hienäkuu2015 &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/hienakuu2015/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 13 Jul 2015 17:44:23 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Uskomattomat sukellusveneestä otetut UFO-valokuvat</title>
+		<link>/ufot/uskomattomat-sukellusveneesta-otetut-ufo-valokuvat/</link>
+					<comments>/ufot/uskomattomat-sukellusveneesta-otetut-ufo-valokuvat/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2015 17:44:23 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[hienäkuu2015]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=2128</guid>
+
+					<description><![CDATA[Nämä mustavalkokuvat uskotaan otetun USS Trepang SSN 674 -sukellusveneeltä kun se matkasi Islannin ja Norjan Jan Mayenin saarten välillä vuonna 1971. Onko tässä todistusaineistoa salaisesta USA:n hallituksen tai avaruusolentojen aluksesta? Alex Mistretta, paranormaalien ilmiöiden tutkija sekä kirjailija, tutki kuvia kun ne ensimmäisenä julkaistiin ranskalaisessa paranormaaleihin ilmiöihin keskittyneessä Top Secret -lehdessä, kertoo Black Vault. Anonyymit lähteet [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/uskomattomat-sukellusveneesta-otetut-ufo-valokuvat/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

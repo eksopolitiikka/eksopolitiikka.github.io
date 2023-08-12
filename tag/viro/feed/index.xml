@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Viro &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/viro/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 30 May 2021 23:15:49 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Salakuljettiko autolautta Estonia venäläistä avaruusaseteknologiaa?</title>
+		<link>/uutiset/salakuljettiko-autolautta-estonia-venalaista-avaruusaseteknologiaa/</link>
+					<comments>/uutiset/salakuljettiko-autolautta-estonia-venalaista-avaruusaseteknologiaa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 30 May 2021 16:54:54 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[Estonia]]></category>
+		<category><![CDATA[Ruotsi]]></category>
+		<category><![CDATA[salaliitot]]></category>
+		<category><![CDATA[salaliitto]]></category>
+		<category><![CDATA[Viro]]></category>
+		<guid isPermaLink="false">/?p=10504</guid>
+
+					<description><![CDATA[Kirjoittanut Christopher Bollyn Päivä autolautta Estonian uppoamisen jälkeen syyskuun 28. päivänä 1994 ruotsalaiset sanomalehdet raportoivat, että &#8221;hirviöaalto&#8221; oli lautan uppoamisen todennäköisin syy. Siitä lähtien viranomaisten selitykset Euroopan pahimmalle meriturmalle toisen maailmansodan jälkeen ovat muuttuneet vain &#8221;oudommaksi ja oudommaksi&#8221;. Autolautta Estonia, matkalla Tallinnasta Tukholmaan kyydissään noin tuhannen matkustajaa sekä miehistö, upposi syyskuun 28. päivä 1994. Pian [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/salakuljettiko-autolautta-estonia-venalaista-avaruusaseteknologiaa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

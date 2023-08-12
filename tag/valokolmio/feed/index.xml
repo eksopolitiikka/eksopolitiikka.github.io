@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>valokolmio &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/valokolmio/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 27 Mar 2021 14:27:38 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>369 Valokolmioteknologia &#8212; Merkabavisualisaatiomediaatio</title>
+		<link>/tietoisuus/369-valokolmioteknologia-merkabavisualisaatiomediaatio/</link>
+					<comments>/tietoisuus/369-valokolmioteknologia-merkabavisualisaatiomediaatio/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 27 Mar 2021 14:27:38 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[meditaatio]]></category>
+		<category><![CDATA[Merkaba]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[valokolmio]]></category>
+		<guid isPermaLink="false">/?p=9943</guid>
+
+					<description><![CDATA[Sakari Antero Arcturus lähettää videota Rhodokselta valokolmioteknologiasta ja Merkaba-meditaatiosta. Ehkäpä joku innostuu tekemään tästä suomenkielisen version? 369 Merkaba-valokolmion luonteeseen liittyvää kanavoitua tietoa siitä miten visualisoida ja luoda tämä erittäin puhdistava kuvio. Merkabaa voi käyttää puhdistamaan kaikkia raskaita energioita, se on voimakas tekniikka kun sen tekee oikein. Olen työskennellyt tämän kuvion kanssa vuodesta 2013 lähtien, saanut [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/369-valokolmioteknologia-merkabavisualisaatiomediaatio/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

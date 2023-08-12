@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AI &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/ai/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 17 Feb 2018 18:55:03 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tekoäly &#8211; se todellinen saatana</title>
+		<link>/tietoisuus/tekoaly-se-todellinen-saatana/</link>
+					<comments>/tietoisuus/tekoaly-se-todellinen-saatana/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 25 Mar 2018 11:11:38 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[tekoäly]]></category>
+		<category><![CDATA[transhumanismi]]></category>
+		<guid isPermaLink="false">/?p=5012</guid>
+
+					<description><![CDATA[VANCOUVER, BC – Tässä useampiosaisessa symposiumissa käydään läpi tietoisen, tunkeutuvan, planeetan ulkopuolisen, petomaisen ja patogeenisen tekoälyn suunnitelmat, sekä tarjotaan Sieluun ja Rakkauteen perustuvia ratkaisuja yhä vain robotisoituvamman ihmiskunnan eheyttämiseksi. Viides osa symposiumista julkaistaan lähitulevaisuudessa. Christine ja Claudia tuovat mukaan symposiumiin empiiristä dataa planeetan parantajina ja empaatteina joilla on sielun ohjaama impulssi kohti totuutta &#8212; Totuutta [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/tekoaly-se-todellinen-saatana/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

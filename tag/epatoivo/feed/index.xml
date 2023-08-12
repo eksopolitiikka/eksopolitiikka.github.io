@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>epätoivo &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/epatoivo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 08 Oct 2022 15:58:32 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kortti lokakuulle 2022: Epätoivo</title>
+		<link>/tietoisuus/kortti-lokakuulle-2022-epatoivo/</link>
+					<comments>/tietoisuus/kortti-lokakuulle-2022-epatoivo/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 08 Oct 2022 15:57:09 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[epätoivo]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[Lyssa Royal]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=13524</guid>
+
+					<description><![CDATA[Kortti #33 &#124; Zeta Reticuli (Mennyt, ensimmäinen aikakausi) &#124; Epätoivo Tämä kortti viittaa siihen mitä vaaditaan muutoksen aikaansaamiseen. Jos otamme Zeta Reticulin lajin esimerkiksi, he kieltäytyivät tunnustamasta tunnekehoaan siihen pisteeseen asti, että he saivat aikaan lajikriisin. Vasta sitten, kun he olivat kasvokkain omaa lajia odottavan kuoleman kanssa, he ravistivat itsensä pois harhaluulosta, että heidän mentaalinen [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/kortti-lokakuulle-2022-epatoivo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

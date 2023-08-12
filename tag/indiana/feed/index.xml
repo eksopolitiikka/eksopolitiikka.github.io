@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Indiana &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/indiana/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 01 Dec 2022 23:10:30 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Orbeja maatilan yllä Indianassa</title>
+		<link>/ufot/orbeja-maatilan-ylla-indianassa/</link>
+					<comments>/ufot/orbeja-maatilan-ylla-indianassa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 06 Jul 2023 11:11:32 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Indiana]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=13805</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: Nov 9, 2022 Havaintopaikka: West College Corner, Indiana, USA UFOja nähdään usein maatiloilla, lähinnä siksi koska ne tekevät kokeita eläimillä ja satokasveilla, ja haluavat ennustaa niiden vaikutuksia ihmiskuntaan. Tämä itse asiassa ei näytä usealta eri alukselta, vaan yksittäiseltä suurelta lautasalukselta, jolla valo paistaa ikkunoista aluksen pyöriessä ympäri. Maatilan eläimiä löydetään usein niin, että niiltä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/orbeja-maatilan-ylla-indianassa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

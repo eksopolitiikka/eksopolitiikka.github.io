@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rakettireppu &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/rakettireppu/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 01 Feb 2021 12:51:44 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Rakettireppulentäjän mysteeri</title>
+		<link>/ufot/rakettireppulentajan-mysteeri/</link>
+					<comments>/ufot/rakettireppulentajan-mysteeri/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 25 May 2021 11:11:03 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Kalifornia]]></category>
+		<category><![CDATA[rakettireppu]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=9528</guid>
+
+					<description><![CDATA[Aiemmin The War Zone raportoi epätavallisesta tapauksesta Los Angelesin kansainvälisen lentokentän lähellä, jossa usean lentoyhtiön pilotit raportoivat nähneensä &#8221;rakettireppulentäjän&#8221; laskeutuessaan maahan. Lokakuun 14. päivänä LAX:n lähellä lentäneen koneen henkilökunta jälleen kerran spottasi jonkun lentämässä rakettirepulla arviolta parin kilometrin korkeudessa. China Airlines 006: “Me näimme juuri kirkkaan kappaleen 2 kilometrissä&#8221;. LAX-lennonjohtotorni: “006 ei kuulu voitteko toistaa?” [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/rakettireppulentajan-mysteeri/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

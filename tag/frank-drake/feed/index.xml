@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Frank Drake &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/frank-drake/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 22 Dec 2022 12:59:17 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Lähetimme viestin avaruuteen 1974, vastaus saatiin 27v myöhemmin</title>
+		<link>/tiede/lahetimme-viestin-avaruuteen-1974-vastaus-saatiin-27v-myohemmin/</link>
+					<comments>/tiede/lahetimme-viestin-avaruuteen-1974-vastaus-saatiin-27v-myohemmin/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 11:11:36 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[Arecibo]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[avaruustiede]]></category>
+		<category><![CDATA[Carl Sagan]]></category>
+		<category><![CDATA[eksobiologia]]></category>
+		<category><![CDATA[Frank Drake]]></category>
+		<category><![CDATA[SETI]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=14053</guid>
+
+					<description><![CDATA[Marraskuun 16. 1974 SETIn tutkijat Arecibon radioteleskoopilla Puerto Ricossa lähettivät avaruuteen viestin. He suuntasivat viestin kohti Messier 13:a, Herkuleksen tähdistön klusteria, joka on 25 tuhannen valovuoden päässä. Viestin oli koostanut tohtori Frank Drake, Carl Sagan ja muut tiedemiehet. Se lähetettiin käyttäen taajuusmoduloituja radioaaltoja (FM), ja viestistä muodoistui kolmen minuutin binäärikoodilähetys, jonka koko oli arviolta 210 [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/lahetimme-viestin-avaruuteen-1974-vastaus-saatiin-27v-myohemmin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

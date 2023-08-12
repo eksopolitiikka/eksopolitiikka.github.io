@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kausaliteetti &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/kausaliteetti/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 21 Feb 2022 22:52:09 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Syy ja Seuraus</title>
+		<link>/tietoisuus/syy-ja-seuraus/</link>
+					<comments>/tietoisuus/syy-ja-seuraus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 03 Apr 2022 09:09:06 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[hermetiikka]]></category>
+		<category><![CDATA[kausaliteetti]]></category>
+		<category><![CDATA[Kybalion]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=12230</guid>
+
+					<description><![CDATA[&#8221;Jokaisella Syyllä on Seurauksensa; jokaisella Seurauksella on Syynsä; kaikki tapahtuu Lain mukaisesti; Sattuma on vain nimitys Laille jota ei tunneta; on monia kausaation tasoja, mutta mikään niistä ei pääse karkuun Lakia.&#8221; &#8212; Kybalion. Suuri Kuudes Hermeettinen Periaate, Syyn ja Seurauksen Periaate, pitää sisällään totuuden siitä, että tämä Laki on voimassa kaikkialla Universumissa; että mikään ei [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/syy-ja-seuraus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

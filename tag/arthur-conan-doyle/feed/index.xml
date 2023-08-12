@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arthur Conan Doyle &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/arthur-conan-doyle/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 30 Dec 2022 21:06:16 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Hitlerin ja natsien salainen liitto harmaiden avaruusolentojen kanssa</title>
+		<link>/tietoisuus/hitlerin-ja-natsien-salainen-liitto-harmaiden-avaruusolentojen-kanssa/</link>
+					<comments>/tietoisuus/hitlerin-ja-natsien-salainen-liitto-harmaiden-avaruusolentojen-kanssa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 23 Jul 2023 10:10:14 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[Arthur Conan Doyle]]></category>
+		<category><![CDATA[Harmaat]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=14118</guid>
+
+					<description><![CDATA[Sir Arthur Conan Doylea kanavoinut George 22. lokakuuta 1996 Toivotan teille hyvää iltaa. Täällä on Doyle. Ilta on hiukan väsynyt, sillä osallistujia on vähän. Kuitenkin me yritämme välittää tarpeellista informaatiota. Me ainakin yritämme saattaa prosessin käyntiin. Olen valinnut puhua ensin siitä yksinkertaisesta syystä, että viitaten geenimanipuloinnin historialliseen perustaan viime vuosina, keskeinen vuosi on minun poistumisvuoteni [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/hitlerin-ja-natsien-salainen-liitto-harmaiden-avaruusolentojen-kanssa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

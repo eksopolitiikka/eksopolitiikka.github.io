@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mykoplasma &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/mykoplasma/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 23 Sep 2021 22:52:13 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Detox-kuuri mykoplasman varalle</title>
+		<link>/tiede/detox-kuuri-mykoplasman-varalle/</link>
+					<comments>/tiede/detox-kuuri-mykoplasman-varalle/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 29 Sep 2021 09:09:05 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[mykoplasma]]></category>
+		<guid isPermaLink="false">/?p=11126</guid>
+
+					<description><![CDATA[Mykoplasmat ovat pieni bakteerityyppi, joka aiheuttaa monenmoista terveysongelmaa. Luonnollisiin hoitoihin mykoplasman varalta kuuluu booraksi, vetyperoksidi, serrapeptaasi, yrtit ja vitamiinilisät. Mykoplasmainfektiot tuovat mukanaan monen sorttista muuta infektiota, kuten borrelioosia. Mikä on mykoplasmainfektio? Mykoplasma on uniikki bakteerimuoto, jolla ei ole soluseinämää. Se tekee mahdolliseksi niille ottaa monenlaisia muotoja ja &#8221;piiloutua&#8221;. Niitä on vaikeaa havaita testeillä, ja niitä voi [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/detox-kuuri-mykoplasman-varalle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Yleisimmät mykoplasmat ovat nykyään käytössä bakteerisodankäynnissä</title>
+		<link>/tiede/yleisimmat-mykoplasmat-ovat-nykyaan-kaytossa-bakteerisodankaynnissa/</link>
+					<comments>/tiede/yleisimmat-mykoplasmat-ovat-nykyaan-kaytossa-bakteerisodankaynnissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 22 Aug 2021 18:01:09 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[biologinen sodankäynti]]></category>
+		<category><![CDATA[kemiallinen sodankäynti]]></category>
+		<category><![CDATA[lääketiede]]></category>
+		<category><![CDATA[mykoplasma]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=10968</guid>
+
+					<description><![CDATA[kirjoittanut Donald W. Scott, MA, MSc © 2001, julkaistu 30.12.2001 Mykoplasma: yhdistävä patogeenitekijä neurotaudeissa Useita mykoplasmalajeja on &#8221;suunniteltu&#8221; laboratoriossa ja pyritty tekemään vaarallisemmiksi. Nyt niitä syytetään AIDSista, syövästä, CFS:stä, MS-taudista, hullun lehmän taudista ja muista neurosysteemisistä taudeista. Artikkeli julkaistu Nexus Magazinen 8. vuosikerran numerossa 5 (elokuu-syyskuu 2001), www.nexusmagazine.com I Patogeeninen mykoplasma Yleinen asekäytössä oleva taudinaiheuttaja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/yleisimmat-mykoplasmat-ovat-nykyaan-kaytossa-bakteerisodankaynnissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

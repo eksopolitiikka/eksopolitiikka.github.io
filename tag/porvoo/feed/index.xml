@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Porvoo &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/porvoo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 31 Aug 2017 01:00:58 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>UFO Porvoon yllä heinäkuussa 2017</title>
+		<link>/ufot/ufo-porvoon-ylla-heinakuussa-2017/</link>
+					<comments>/ufot/ufo-porvoon-ylla-heinakuussa-2017/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 23 Dec 2017 11:11:59 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Porvoo]]></category>
+		<category><![CDATA[Suomi]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=4677</guid>
+
+					<description><![CDATA[Seuraavassa aivan käsittämättömän hieno video kesältä 2017. Video on julkaistu 23.7.2017. Videon kuvaustekstissä lukee vain &#8221;Kuvattu eilen juuri ennen kaatosadetta.&#8221; Eli havainto olisi tehty 22.7.2017. Videolla näkyy läpinäkyvä sinisenvärinen valopallo. Kuvaaja zoomaa kohti UFOa. Valopallon liikkeet näyttävät kuin lumisadepallosta. Pallon sisällä olevat hiukkaset tulevat alaspäin, ne näyttävät lumisateelta. &#160;]]></description>
+		
+					<wfw:commentRss>/ufot/ufo-porvoon-ylla-heinakuussa-2017/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

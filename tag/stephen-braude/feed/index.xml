@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Stephen Braude &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/stephen-braude/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 10 Sep 2022 22:27:42 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>PK-miehen tapaus &#8212; Stephen Braude haastattelee Jeffrey Mishlovea</title>
+		<link>/tietoisuus/pk-miehen-tapaus/</link>
+					<comments>/tietoisuus/pk-miehen-tapaus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 11 Sep 2022 07:07:58 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[Jeffrey Mishlove]]></category>
+		<category><![CDATA[psykokinesia]]></category>
+		<category><![CDATA[Stephen Braude]]></category>
+		<guid isPermaLink="false">/?p=13391</guid>
+
+					<description><![CDATA[Tohtori Stephen Braude on emeritus-professori ja Marylandin yliopiston filosofian laitoksen johtaja Baltimoressa. Hän on toiminut myös parapsykologisen seuran puheenjohtajan. Hän on kirjoittanut kirjat  The Limits of Influence: Psychokinesis and the Philosophy of Science, First Person Plural: Multiple Personality and the Philosophy of Mind, Crimes of Reason, The Gold Leaf Lady, Immortal Remains, sekä ESP and [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/pk-miehen-tapaus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

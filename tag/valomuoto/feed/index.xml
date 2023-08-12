@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>valomuoto &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/valomuoto/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 28 Dec 2020 22:18:03 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>11 energiaolentoa Minnesotassa</title>
+		<link>/paranormaali/11-energiaolentoa-minnesotassa/</link>
+					<comments>/paranormaali/11-energiaolentoa-minnesotassa/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 18 May 2021 11:11:30 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[energiaolento]]></category>
+		<category><![CDATA[Minnesota]]></category>
+		<category><![CDATA[paranormaali]]></category>
+		<category><![CDATA[valomuoto]]></category>
+		<guid isPermaLink="false">/?p=9434</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: elokuun 14. 2020 Havaintopaikka: Lakeville, Minnesota, USA Lähde: MUFON #111041 Energiaolentoja on vaikea tarkkailla videolta. Energiaolennoilla ei ole kiinteää alusta, vaan sen sijaan ne matkaavat ryhmissä. Tämä näyttää levymuodolta, mutta se ei ole sitä. Näen kymmenen energiaolentoa ovaalimuodossa, ja yhden niiden yläpuolella oikealla. Miksei ole videota? Mahdollisesti siksi koska video ei auttaisi paljoakaan. Energiaolentoja ei [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/11-energiaolentoa-minnesotassa/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>halo &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/halo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 03 Feb 2018 14:07:14 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mystinen valonsäde Tshuvassian taivaalla</title>
+		<link>/paranormaali/mystinen-valonsade-tshuvassian-taivaalla/</link>
+					<comments>/paranormaali/mystinen-valonsade-tshuvassian-taivaalla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 03 Mar 2018 11:11:33 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[halo]]></category>
+		<category><![CDATA[paranormaali]]></category>
+		<guid isPermaLink="false">/?p=4944</guid>
+
+					<description><![CDATA[Mystinen kirkas maahan ulottuva valonsäde on nähty Tshuvassian taivaalla Venäjällä. Valokuvaaja, joka otti kuvat ilmiöstä, ei ole vakuuttunut siitä että kyseessä on luonnonilmiö. Kuvat: Eduard Vazhorov VK. &#160; Helmikuun ensimmäisenä päivänä 2018 Tshuvassiassa Eduard Vazhorov huomasi jättiläismäisen valopilarin sinkoutuvan auringon yläreunasta. Valonsäde ilmaantui auringonlaskun aikaan ja se oli näkyvillä noin 15 minuuttia ennen kuin se [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/mystinen-valonsade-tshuvassian-taivaalla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

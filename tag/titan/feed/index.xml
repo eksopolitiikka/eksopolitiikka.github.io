@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Titan &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/titan/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 24 Jan 2022 11:55:08 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Labyrinttirakenne Saturnuksen Titan-kuussa</title>
+		<link>/tiede/labyrinttirakenne-saturnuksen-titan-kuussa/</link>
+					<comments>/tiede/labyrinttirakenne-saturnuksen-titan-kuussa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 11 Sep 2022 11:11:09 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[Saturnus]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[Titan]]></category>
+		<guid isPermaLink="false">/?p=11981</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: tammikuun 14, 2022 Havaintopaikka: Saturnuksen Titan-kuu Lähdekartta: https://astrogeology.usgs.gov/search/map/Titan/Nomenclature/titan_VIMS_comp &#160; Tämä on omituista, mutta kuunnelkaa mitä minulla on sanottavanani jotta ymmärrätte todisteiden merkityksen. Aluksi kävin läpi Titan-kuun karttaa, sitä oli vaikeaa nähdä, joten lisäsin sen terävyyttä ja että siitä erottuisi piirteet paremmin. Pian niitä alkoi näkyä. Tuijotin tätä labyrintin yksityiskohtaa Titanilta ja kysyin itseltäni &#8221;miten [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/labyrinttirakenne-saturnuksen-titan-kuussa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UFOja NASAn Cassini-kuvissa</title>
+		<link>/ufot/ufoja-nasan-cassini-kuvissa/</link>
+					<comments>/ufot/ufoja-nasan-cassini-kuvissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 26 Apr 2017 10:58:28 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Saturnus]]></category>
+		<category><![CDATA[Titan]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=3968</guid>
+
+					<description><![CDATA[NASAn Cassini-avaruusalus on ohittanut Saturnuksen kuun Titanin viimeisimmän kerran ja lähettänyt kuvia omituisen näköisistä esineistä Titanin utuisella pinnalla ennen sen viimeistä 22 kierrosta Saturnuksen ympäri. Avaruusalus teki sen 127:nnen ja viimeisen lähestymisen kohti Titania huhtikuun 21. päivänä kello 11.08 länsirannikon aikaa, ohittaessaan sen 979 kilometrin etäisyydellä kuun pinnasta. Ohilento pani Cassinin kurssille kohti sen viimeistä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/ufoja-nasan-cassini-kuvissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

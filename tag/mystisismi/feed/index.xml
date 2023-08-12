@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mystisismi &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/mystisismi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 29 Jan 2022 00:59:43 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Värähtely</title>
+		<link>/tietoisuus/varahtely/</link>
+					<comments>/tietoisuus/varahtely/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 13 Mar 2022 09:09:19 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[hermetiikka]]></category>
+		<category><![CDATA[mystisismi]]></category>
+		<category><![CDATA[värähtely]]></category>
+		<guid isPermaLink="false">/?p=12003</guid>
+
+					<description><![CDATA[&#8221;Mikään ei pysy paikallaan; kaikki liikkuu; kaikki värähtelee.&#8221; &#8212; Kybalion Kolmas Suuri Hermeettinen Periaate &#8212; Värähtelyn Periaate &#8212; pitää sisällään totuuden siitä, että Liike ilmenee kaikessa Universumissa &#8212; mikään ei pysy paikallaan &#8212; kaikki liikkuu, värähtelee, kiertää. Varhaiset kreikkalaiset filosofit tunnistivat tämän Hermeettisen Periaatteen, jotka käyttivät sitä järjestelmissään. Mutta sitten vuosisatojen ajan se oli kadoksissa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/varahtely/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seitsemän Hermeettistä Periaatetta</title>
+		<link>/tietoisuus/seitseman-hermeettista-periaatetta/</link>
+					<comments>/tietoisuus/seitseman-hermeettista-periaatetta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 09:09:20 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[alkemia]]></category>
+		<category><![CDATA[hermetiikka]]></category>
+		<category><![CDATA[mystisismi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=11922</guid>
+
+					<description><![CDATA[&#8221;Totuuden periaatteita on seitsemän; ken nämä tuntee, ymmärtää, ja hänellä on Maaginen Avain jonka kosketuksesta kaikki Temppelin Ovet avautuvat sepposen selälleen.&#8221; &#8212; Kybalion. Seitsemän Hermeettistä Periaatetta, joille koko Hermeettinen Filosofia rakentuu, ovat seuraavat: I. MENTALISMIN PERIAATE. II. VASTAAVUUDEN PERIAATE. III. VÄRÄHTELYN PERIAATE. IV. POLARITEETIN PERIAATE. V. RYTMIN PERIAATE. VI. SYYN JA SEURAUKSEN PERIAATE. VII. SUKUPUOLEN [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/seitseman-hermeettista-periaatetta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

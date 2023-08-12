@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Delaware &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/delaware/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 29 Sep 2021 18:40:17 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kirkas UFO-pallo Delawaressa</title>
+		<link>/ufot/kirkas-ufo-pallo-delawaressa/</link>
+					<comments>/ufot/kirkas-ufo-pallo-delawaressa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 14 Mar 2022 11:11:46 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Delaware]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=11165</guid>
+
+					<description><![CDATA[Tämä omituinen UFO-ilmiö kuvattiin Doverissa, Delawaren pääkaupungissa 10. syyskuuta 2021. Silminnäkijän raportti: Kirkas pallon muotoinen savuvana muuttuu kahdeksi vanaksi. Se oli 19.15 aikaan kun vaimoni ja minä lähdimme kävelylle naapurustoomme. Aurinko oli laskemassa länteen ja pinkit pilvet näkyivät etäällä. Sinistä taivasta oli edelleen näkyvillä. Silloin huomasin tumman pinkin pilven, näytti irralliselta. Pysähdyin katselemaan sitä ja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/kirkas-ufo-pallo-delawaressa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UFO-havainto Delawaressa</title>
+		<link>/ufot/ufo-havainto-delawaressa/</link>
+					<comments>/ufot/ufo-havainto-delawaressa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 20 Dec 2015 22:13:27 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Delaware]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=2531</guid>
+
+					<description><![CDATA[Sean Sinclair oli hämmästynyt UFOn kirkkaasta valosta Doverin yllä marraskuun 9. päivän sunnuntaina 2015. Hän sanoo ettei nähnyt &#8221;vihreitä miehiä&#8221;, mutta sanoo ettei ilmiölle ollut mitään loogista selitystä.   Artikkelin julkaissut Educating Humanity]]></description>
+		
+					<wfw:commentRss>/ufot/ufo-havainto-delawaressa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

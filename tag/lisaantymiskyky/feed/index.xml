@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lisääntymiskyky &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/lisaantymiskyky/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 25 Mar 2020 17:35:33 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kiinan uutiset: Koronavirus sterilisoi miehet!</title>
+		<link>/uutiset/kiinan-uutiset-koronavirus-sterilisoi-miehet/</link>
+					<comments>/uutiset/kiinan-uutiset-koronavirus-sterilisoi-miehet/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2020 13:13:48 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[5G]]></category>
+		<category><![CDATA[corona-virus]]></category>
+		<category><![CDATA[koronavirus]]></category>
+		<category><![CDATA[lisääntymiskyky]]></category>
+		<category><![CDATA[stop5g]]></category>
+		<guid isPermaLink="false">/?p=8142</guid>
+
+					<description><![CDATA[Uutislähde: https://tw.news.yahoo.com/快訊-男性染新冠肺炎-應做生育力檢查-062856149.html Noniin, tämä kerrottiin juuri uutisissa koronaviruksesta. Manner-Kiinan viranomaiset varoittavat, että virus voi aiheuttaa peruuttamatonta vahinkoa keuhkoihin ja immuunijärjestelmään, muta se voi myöskin tehdä miehistä steriilejä. Luitte oikein. Lisäkokeita tulee tehdä henkilöillä, jotka ovat saaneet viruksen, mutta jos kaikki miehet, jotka saavat viruksen, eivät voi saada lapsia&#8230;. ja jos tämä virus leviää ihmisiin ympäri Maapalloa, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/kiinan-uutiset-koronavirus-sterilisoi-miehet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>biosentrismi &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/biosentrismi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 16 Dec 2018 19:47:49 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tunnettu tiedemies: Tietoisuus on avain kaiken selittävään teoriaan</title>
+		<link>/tiede/tunnettu-tiedemies-tietoisuus-on-avain-kaiken-selittavaan-teoriaan/</link>
+					<comments>/tiede/tunnettu-tiedemies-tietoisuus-on-avain-kaiken-selittavaan-teoriaan/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 19 Jan 2019 11:11:53 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[biosentrismi]]></category>
+		<category><![CDATA[eksobiologia]]></category>
+		<category><![CDATA[fysiikka]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=2236</guid>
+
+					<description><![CDATA[Kantasolututkimuksesta tunnettu Robert Lanza uskoo biologian olevan tärkeämpi kuin fysiikka kun halutaan ymmärtää universumia. Tri. Robert Lanza, joka valittiin Time-lehden yhdeksi maailman sadasta vaikutusvaltaisimmasta ihmisestä vuonna 2014, uskoo tieteen kykenevän tunnistamaan ihmistietoisuuden tärkeyden. Kvanttifysiikka on osoittautunut ristiriitaiseksi klassiseen, newtonilaiseen fysiikkaan verrattuna, ja se saa tieteentekijät etsimään &#8221;Kaiken Teoriaa&#8221; kuilun umpeenkuromiseksi joka uhkaa niellä kaiken luottamuksen [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/tunnettu-tiedemies-tietoisuus-on-avain-kaiken-selittavaan-teoriaan/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

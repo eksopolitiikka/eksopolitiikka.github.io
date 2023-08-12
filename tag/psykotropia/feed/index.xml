@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>psykotropia &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/psykotropia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 04 Jan 2023 11:08:37 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Solaris Blueraven: Synteettinen telepatia ja massavalvonta</title>
+		<link>/tietoisuus/solaris-blueraven-synteettinen-telepatia/</link>
+					<comments>/tietoisuus/solaris-blueraven-synteettinen-telepatia/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 27 Jan 2019 11:11:29 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[mielenhallinta]]></category>
+		<category><![CDATA[MK Ultra]]></category>
+		<category><![CDATA[psykotropia]]></category>
+		<category><![CDATA[synteettinen telepatia]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=5788</guid>
+
+					<description><![CDATA[Telepatiaa on monenlaista. Mieli on holografinen yksikkö ja moniulotteinen, ja se kykenee äärettömiin yhtäaikaisiin datavirtoihin. Yhteiskunta ei ole ohjelmoitu käyttämään mieltään moniulotteisella tasolla. Ihmiset on tyhmennetty epäterveellisellä informaatiolla ja elämäntyyleillä. Muinainen kirjanpito antaa viitteitä siitä, että on ollut henkilöitä Kehittyneillä kyvyillä, jotka todellakin aistivat kommunikaatiota ja lähetyksiä. Se saa monia muotoja. Joskus taiteen, kirjoittamisen, inspiraation, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/solaris-blueraven-synteettinen-telepatia/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

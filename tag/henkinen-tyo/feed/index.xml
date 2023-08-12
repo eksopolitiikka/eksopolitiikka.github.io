@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>henkinen työ &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/henkinen-tyo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 28 Dec 2020 21:34:02 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Viesti valonkantajille</title>
+		<link>/tietoisuus/viesti-valonkantajille-3/</link>
+					<comments>/tietoisuus/viesti-valonkantajille-3/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 06 Jan 2021 12:12:09 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[henkinen työ]]></category>
+		<category><![CDATA[henkisyys]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[valotyö]]></category>
+		<category><![CDATA[valotyöntekijät]]></category>
+		<category><![CDATA[ykseystietoisuus]]></category>
+		<guid isPermaLink="false">/?p=9426</guid>
+
+					<description><![CDATA[Rakkaat lukijat, näinä niin suuren hävityksen ja hämmennyksen aikoina toivomme on, että nämä viestit tuovat teille informaatiota ja rohkaisua. Älkää lannistuko, sillä nykyajat ovat juuri se syy miksi valitsitte olla Maapallolla tänä aikana. Siirtymä, jota niin monet ovat toivoneet ja rukoilleet, on alkanut mutta se ei näytä siltä miltä niin monet odottavat sen näyttävän. Tämä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/viesti-valonkantajille-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Itsensä valmisteleminen Siirtymää varten</title>
+		<link>/tietoisuus/itsensa-valmisteleminen-siirtymaa-varten/</link>
+					<comments>/tietoisuus/itsensa-valmisteleminen-siirtymaa-varten/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 07 Apr 2019 11:11:53 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[henkinen työ]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=6132</guid>
+
+					<description><![CDATA[Jos sinusta tällä hetkellä tuntuu siltä kuin vaeltaisit päämäärättömästi tai ehkä kamppailet aaltojen virtausta vastaan, sinulla saattaa olla edelleen “työtä” tehtävänä itsesi kanssa energiakenttäsi selventämiseksi. Ne jotka ovat tehneet tämän työn itsensä kanssa ovat viimeinkin irti matrixista (suom. huom. tässä artikkelissa käytetään termiä &#8217;matrix&#8217; kuvaamaan metafyysistä elinympäristöämme, jotta sitä ei sekoitettaisi matemaattiseen matriisin käsitteeseen) ja he [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/itsensa-valmisteleminen-siirtymaa-varten/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

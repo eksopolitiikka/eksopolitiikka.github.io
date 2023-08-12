@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>homous &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/homous/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 29 Jul 2019 17:08:55 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Homoseksuaalisuudesta</title>
+		<link>/tietoisuus/homoseksuaalisuudesta/</link>
+					<comments>/tietoisuus/homoseksuaalisuudesta/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 14 Oct 2019 11:11:09 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[homoseksuaalisuus]]></category>
+		<category><![CDATA[homous]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=6772</guid>
+
+					<description><![CDATA[Tämä on erään ulkoavaruuden kansan tietoisuuden kanavointi. Tällä kertaa kanavointi käsitteli uravalintoja sekä homoseksuaalisuutta. Q on kysyjä, A on tietoisuus joka puhuu. Q: Huumorisi on loistavaa. A: Kuten myös. Q: Kiitos. Minulla on kaksi kysymystä. Ensimmäinen on, että olen kokenut huomattavia vaikeuksia urani selkiyttämisessä. Haluaisin saada jotain opastusta tässä asiassa. A: Mikä innostaa sinua kaikkein [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/homoseksuaalisuudesta/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

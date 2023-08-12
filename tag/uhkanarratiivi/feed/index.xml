@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uhkanarratiivi &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/uhkanarratiivi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 10 Jul 2021 20:06:34 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Avaruusolentojen false flag -hyökkäys</title>
+		<link>/eksopolitiikka/avaruusolentojen-false-flag-hyokkays/</link>
+					<comments>/eksopolitiikka/avaruusolentojen-false-flag-hyokkays/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 10 Aug 2021 12:12:05 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[avaruusolennot]]></category>
+		<category><![CDATA[false flag]]></category>
+		<category><![CDATA[MILAB]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<category><![CDATA[uhkanarratiivi]]></category>
+		<guid isPermaLink="false">/?p=10800</guid>
+
+					<description><![CDATA[Ufologian suuri hajaannus on jälleen täällä. Tom Delongen tuoreet lausunnot koskien Unidentifiedin kuudetta episodia saivat aikaan hässäkkää. Väitteet siitä, että UFO olisi ampunut alas helikopterin ovat saaneet aikaan hämmennystä ja tyrmistystä, huolimatta siitä että asiaa ei ole tutkittu tai vahvistettu vielä mitenkään. Vanha &#8217;uhka&#8217;-argumentti on nostanut jälleen päätään, ja jotkut haluavat lopettaa asiasta keskustelun tykkänään [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/avaruusolentojen-false-flag-hyokkays/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

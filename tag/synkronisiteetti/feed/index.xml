@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>synkronisiteetti &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/synkronisiteetti/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 14 Jun 2014 09:07:11 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Onko maapallolla oma tietoisuutensa?</title>
+		<link>/tietoisuus/onko-maapallolla-oma-tietoisuutensa/</link>
+					<comments>/tietoisuus/onko-maapallolla-oma-tietoisuutensa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 14 Jun 2014 09:04:48 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[kesäkuu2014]]></category>
+		<category><![CDATA[synkronisiteetti]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=146</guid>
+
+					<description><![CDATA[Olet varmaankin jo huomannut, että tietoisuudella on eri tasoja ja että tietoisuus kehittyy matalammalta tasolta korkeammalle tasolle. Saatat olla tutustunut meidät kaikki yhdistävään &#8221;universaalin tietoisuuden&#8221; käsitteeseen. Tiesitkö myös, että planeetoilla on myös oma tietoisuutensa? Muinainen perimätieto ympäri maailman on jo pitkään puhunut tästä. Tämä näkyy myös astrologiassa, joka on yhdistänyt planeettoihin arkketyyppisiä persoonallisuuksia. Seuraavassa hieman [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/onko-maapallolla-oma-tietoisuutensa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

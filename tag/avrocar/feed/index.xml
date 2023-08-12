@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Avrocar &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/avrocar/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 05 Aug 2017 19:54:12 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Aidoksi todennettu video lentävästä lautasesta</title>
+		<link>/ufot/aidoksi-todennettu-video-lentavasta-lautasesta/</link>
+					<comments>/ufot/aidoksi-todennettu-video-lentavasta-lautasesta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 09 Sep 2017 11:11:57 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Avrocar]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=4442</guid>
+
+					<description><![CDATA[Video, jolla näkyy lentävä lautanen nousevan maasta, sanotaan olevan todennettu aihoksi. Sen on raportoitu olevan kylmän sodan aikainen huippusalainen USA:n armeijan video. Aluksen design on epäilemättä samanlainen kuin tunnetuimmat lentävät lautaset joita näkyy ympäri maailman. Videolla näkyy UFO-tyylinen alus joka leijailee irti maasta. Aluksen väitetään olevan rakennettu huippusalaisessa USA:n armeijan projektissa nimeltään Avrocar. Tiedemiehet, jotka ovat [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/aidoksi-todennettu-video-lentavasta-lautasesta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

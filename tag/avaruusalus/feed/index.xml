@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>avaruusalus &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/avaruusalus/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 28 Feb 2021 00:06:09 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Salamyhkäisen TR-3B:n patentti on nyt julkinen</title>
+		<link>/tiede/salamyhkaisen-tr-3bn-patentti-on-nyt-julkinen/</link>
+					<comments>/tiede/salamyhkaisen-tr-3bn-patentti-on-nyt-julkinen/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 27 Jul 2021 11:11:18 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[avaruusalus]]></category>
+		<category><![CDATA[ilmailu]]></category>
+		<category><![CDATA[patentti]]></category>
+		<category><![CDATA[TR-3B]]></category>
+		<category><![CDATA[TR3B]]></category>
+		<guid isPermaLink="false">/?p=9753</guid>
+
+					<description><![CDATA[Tsekkaa patentti: https://patents.google.com/patent/US20060145019A1/en TR-3B:n koodinimi on Astra. Taktinen tiedustelualus TR-3B lensi ensikerran 90-luvun alussa. Kolmion muotoinen ydinkäyttöinen lentolaite kehitettiin huippusalaisen Aurora-ohjelman alaisuudessa SDI:n ja mustan budjetin rahoilla. Ainakin kolme yli miljardi dollaria maksaneutta TR-3B:a lensi vuoteen 1994 mennessä. Aurora on salaisimpia ilmailualan ohjelmia koskaan. TR-3B on kaikkein eksoottisin Aurora-ohjelman tuottama laite. Sen on rahoittanut ja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/salamyhkaisen-tr-3bn-patentti-on-nyt-julkinen/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

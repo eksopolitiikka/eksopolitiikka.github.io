@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>etiikka &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/etiikka/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 10 Jan 2020 16:27:05 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Uusi ihmiskunta ja ekologinen teknologia, osa 8</title>
+		<link>/tietoisuus/uusi-ihmiskunta-ja-ekologinen-teknologia-osa-8/</link>
+					<comments>/tietoisuus/uusi-ihmiskunta-ja-ekologinen-teknologia-osa-8/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 11:11:01 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[etiikka]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[Mira Korhonen]]></category>
+		<category><![CDATA[moraali]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=7418</guid>
+
+					<description><![CDATA[Tämä on lainaus henkinen auttaja Mira Korhosen teoksesta Uusi ihmiskunta ja ekologinen teknologia. Teos koostuu useista kanavoiduista teksteistä, jotka on suurimmaksi osaksi välitetty 90-luvulla. Tekstit maalaavat kuvan tulevaisuuden ihmiskunnasta. Kanavointien päivämäärät eivät vastaa kaikilta osin nykyisen aikalinjamme menneitä tapahtumia, mutta on paljon viitteitä siitä, että monet tekstin kertomista asioista liittyen yhteiskuntaamme voivat vielä käydä toteen, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/uusi-ihmiskunta-ja-ekologinen-teknologia-osa-8/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

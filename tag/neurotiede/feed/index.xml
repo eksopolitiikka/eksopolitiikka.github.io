@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>neurotiede &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/neurotiede/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 02 Jan 2022 18:13:25 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Katsaus UFOja kokeneiden aivoihin</title>
+		<link>/tiede/katsaus-ufoja-kokeneiden-aivoihin/</link>
+					<comments>/tiede/katsaus-ufoja-kokeneiden-aivoihin/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 27 Jun 2022 11:11:03 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[neurotiede]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=11707</guid>
+
+					<description><![CDATA[Stanfordin professori Garry Nolanhas on tehnyt kokeita UFO-kokemuksen läpikäyneiden aivoilla. Hän on myös analysoinut UFO-törmäyksistä jäljelle jäänyttä anomaalista materiaalia. Oliko piloteilla, jotka sanovat kohdanneensa UFOn, mitään havaittavaa heikentymistä neurologisissa kyvyissä? Yli sadasta tarkastellusta potilaasta arviolta neljännes kuoli vammoihinsa. Suurin osa näistä potilaista kärsi oireista, jotka periaatteessa ovat identtisiä niinkutsutun Havanna-syndrooman kanssa. Mutta tri. Nolan on [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/katsaus-ufoja-kokeneiden-aivoihin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tri Gary Schwartz: &#8221;Onko tietoisuus muutakin kuin aivot?&#8221;</title>
+		<link>/tiede/tri-gary-schwartz-onko-tietoisuus-muutakin-kuin-aivot/</link>
+					<comments>/tiede/tri-gary-schwartz-onko-tietoisuus-muutakin-kuin-aivot/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 05 Oct 2014 14:00:28 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[lokakuu2014]]></category>
+		<category><![CDATA[neurotiede]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=908</guid>
+
+					<description><![CDATA[Thunderbolts Projectin mukaan mikään todella koherentti kosmologia ei voi kuvata täydellisesti ihmistietoisuutta. Kuten Wal Thornhill on kirjoittanut, &#8221;todellisen kosmologian tulee olla laaja ja koherentti luonnonfilosofia. Se voi aina olla epätäydellinen, perustua meidän rajoitteisiimme, mutta ollakseen validi siinä ei voi olla poikkeuksia kokemustemme perusteella. Erityisesti kosmologian tulee käsitellä elämän ja ihmiskunnan tilan kysymyksiä. Siksi sen täytyy [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/tri-gary-schwartz-onko-tietoisuus-muutakin-kuin-aivot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

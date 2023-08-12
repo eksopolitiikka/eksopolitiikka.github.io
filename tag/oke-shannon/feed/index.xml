@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Oke Shannon &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/oke-shannon/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 24 Dec 2022 10:13:02 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Wilson-Davis -muistio vahvistettu aidoksi</title>
+		<link>/eksopolitiikka/wilson-davis-dokumentti-vahvistettu-aidoksi/</link>
+					<comments>/eksopolitiikka/wilson-davis-dokumentti-vahvistettu-aidoksi/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 24 Sep 2022 18:01:46 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[Eric Davis]]></category>
+		<category><![CDATA[Oke Shannon]]></category>
+		<category><![CDATA[Thomas Wilson]]></category>
+		<guid isPermaLink="false">/?p=13474</guid>
+
+					<description><![CDATA[Monet Amiraali Wilsonin ja tiedemies Eric Davisin välisestä tapaamisesta kertovan asiakirjan aitoutta kyseenalaistaneet ovat saaneet lunta tupaan. Dokumentti on vahvistettu aidoksi! Project Unity pyysi haastateltavakseen Oke Shannonin, joka on ollut erikoisprojektien johtaja Los Alamos Labsilla. Keskustelun aihe oli UFOt, hänen mukanaolonsa amiraali Wilsoniin liittyvässä vuodossa sekä miten nämä ilmiöt ovat vaikuttaneet hänen henkisiin uskomuksiinsa. Haastattelussa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/wilson-davis-dokumentti-vahvistettu-aidoksi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

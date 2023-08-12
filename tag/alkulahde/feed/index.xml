@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Alkulähde &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/alkulahde/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 08 Nov 2021 22:43:38 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Alkulähteen energian täyden voiman käyttöönotto</title>
+		<link>/tietoisuus/alkulahteen-energian-tayden-voiman-kayttoonotto/</link>
+					<comments>/tietoisuus/alkulahteen-energian-tayden-voiman-kayttoonotto/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 20 Apr 2022 11:11:30 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[Alkulähde]]></category>
+		<category><![CDATA[Arcturus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<guid isPermaLink="false">/?p=11372</guid>
+
+					<description><![CDATA[∞9D Arcturuksen Neuvosto, Kanavoinut Daniel Scranton “Tervehdys. Me olemme Arcturuksen Neuvosto. Me olemme mielissämme saadessamme yhteyden kaikkiin teihin. Me tarkkailemme teitä suurella odotuksella, sillä me havaitsemme miten te olette muuttuneet ytimessänne ja me tiedämme, että yksilön sisäiset muutokset vaikuttavat ihmiskollektiiviin siellä Maapallolla. Niinpä me olemme innokkaasti odottaneet tapahtuneiden asioiden kerrannaisvaikutusta, ja se tulee vaikuttamaan yhteiskuntaanne [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/alkulahteen-energian-tayden-voiman-kayttoonotto/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

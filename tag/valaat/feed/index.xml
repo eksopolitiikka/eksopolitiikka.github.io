@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>valaat &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/valaat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 07 Oct 2021 11:00:30 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Valaat ja ET-kontakti</title>
+		<link>/eksopolitiikka/valaat-ja-et-kontakti/</link>
+					<comments>/eksopolitiikka/valaat-ja-et-kontakti/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 26 Mar 2022 11:11:33 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[ensikontakti]]></category>
+		<category><![CDATA[kontakti]]></category>
+		<category><![CDATA[UFO-kontakti]]></category>
+		<category><![CDATA[valaat]]></category>
+		<guid isPermaLink="false">/?p=11229</guid>
+
+					<description><![CDATA[Me olemme puhuneet teille jo jonkin aikaa kontaktiin valmistautumisen ideasta &#8212; kontakti tarkoittaa tässä avaruusolentoja. Mtuta me menemme siihen ihan kohta. Yksi askelista, joka kontaktiin valmistautumiseksi oli ehdotettu, liittyi lajien väliseen kommunikaatioon lajien kanssa, joille ette vielä osaa puhua. Sillä teidän työskennellessänne &#8221;vieraslajien&#8221; kanssa täällä maailmassanne omissa merissänne, se valmistelee teitä kontaktiin muiden elämänmuotojen kanssa. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/valaat-ja-et-kontakti/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

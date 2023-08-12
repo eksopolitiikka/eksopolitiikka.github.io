@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Google Sky &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/google-sky/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 29 Jun 2022 09:49:48 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Neljä mystistä kohdetta Google Sky:ssa</title>
+		<link>/ufot/nelja-mystista-kohdetta-google-skyssa/</link>
+					<comments>/ufot/nelja-mystista-kohdetta-google-skyssa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2023 11:11:50 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Google Sky]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=13039</guid>
+
+					<description><![CDATA[Kuutio: -27.725280° -100.816575° Haarukka: -12.777097° 48.448718° Karannut kuu: -12.842369° -102.117233° Vihreät orbit: 25.208859° -176.295993° Tässä on mielenkiintoisia kohteita Google Sky:n kartalla. Nämä neljä kohdetta voivat olla jotain mikä voidaan selittää, mutta en ole tähän mennessä kuullut vielä mitään järkevää selitystä. Nämä kohteet ovat avaruudessa, ne ovat siellä, mutta ovatko ne avaruusolentoja tai merkkejä älykäästä elämästä? [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/nelja-mystista-kohdetta-google-skyssa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

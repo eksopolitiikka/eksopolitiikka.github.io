@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Toronto &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/toronto/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 16 May 2021 15:57:10 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kolme orbia Toronton yllä</title>
+		<link>/ufot/kolme-orbia-toronton-ylla/</link>
+					<comments>/ufot/kolme-orbia-toronton-ylla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 01 Nov 2021 11:11:22 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Kanada]]></category>
+		<category><![CDATA[Toronto]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=10363</guid>
+
+					<description><![CDATA[Ajaessaan kotiin Selmonin moottoritietä puoli kolmen aikaan aamulla, silminnäkijä kuvasi nopeasti liikkuvan lentävän lautasen Tampan yllä Floridassa. Torontossa silminnäkijä näki myös kolme oranssin punaisena hehkuvaa orbia kolmiomuodostelmassa yhdeksän aikaan illalla. Ne leijailivat hiljaa ilmassa. &#160; Artikkelin julkaissut UFO Sightings Hotspot]]></description>
+		
+					<wfw:commentRss>/ufot/kolme-orbia-toronton-ylla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

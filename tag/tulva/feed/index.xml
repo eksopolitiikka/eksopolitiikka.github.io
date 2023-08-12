@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tulva &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/tulva/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 22 Apr 2018 16:06:43 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Vedenpinta nousee äkisti Lake Michiganissa</title>
+		<link>/tiede/vedenpinta-nousee-akisti-lake-michiganissa/</link>
+					<comments>/tiede/vedenpinta-nousee-akisti-lake-michiganissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 18 May 2018 11:11:19 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[tiede]]></category>
+		<category><![CDATA[tulva]]></category>
+		<guid isPermaLink="false">/?p=5166</guid>
+
+					<description><![CDATA[Harvinainen tapaus sattui vedenpinnan noustessa nopeasti seichen johdosta. Great Lakeen osunut meteoriitti aiheutti tsunamin Lake Michiganissa. Veden pinta nousi 13,9 tuumaa 42 minuutissa puoli yhden aikaan päivällä perjantaina huhtikuun 13. päivänä 2018. Vesi oli ollut yhtä korkealla marraskuun 10. päivänä 1975, päivänä jolloin Edmond Fitzgerald -rahtialus upposi Lake Superioriin. Vesi tulvi myös rannalle ja Ludington [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/vedenpinta-nousee-akisti-lake-michiganissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

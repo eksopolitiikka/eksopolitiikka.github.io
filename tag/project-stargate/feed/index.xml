@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Project Stargate &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/project-stargate/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 28 Sep 2022 15:45:07 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>CIA ja kaukokatselu: Project Stargate</title>
+		<link>/paranormaali/cia-ja-kaukokatselu-project-stargate/</link>
+					<comments>/paranormaali/cia-ja-kaukokatselu-project-stargate/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 28 Oct 2022 07:07:36 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[CIA]]></category>
+		<category><![CDATA[kaukokatselu]]></category>
+		<category><![CDATA[Project Stargate]]></category>
+		<guid isPermaLink="false">/?p=13482</guid>
+
+					<description><![CDATA[Kirjoittanut John Greenewald Taustaa Project Stargate oli kattotermikoodinimi useille alaprojekteille, jotka Yhdysvaltain hallitus oli perustanut tutkimaan väitteitä psyykkisistä ilmiöistä, joilla on potentiaalia sotilas- ja kotimaan käytössä, erityisesti “kaukokatselua”: kyky psyykkisesti “nähdä” tapahtumia, paikkoja tai informaatiota suurten etäisyyksien takaa. Nämä projektit olivat toiminnassa 1970-luvulta vuoteen 1995, ja ne olivat pääosin DIA:n ja CIA:n hommia. Projektit pyörivät [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/cia-ja-kaukokatselu-project-stargate/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

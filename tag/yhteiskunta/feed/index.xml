@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>yhteiskunta &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/yhteiskunta/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 27 Jun 2014 08:58:18 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Vapaudu vanhempien ja yhteiskunnan sosiaalisesta ehdollistamisesta</title>
+		<link>/tietoisuus/vapaudu-vanhempien-ja-yhteiskunnan-sosiaalisesta-ehdollistamisesta/</link>
+					<comments>/tietoisuus/vapaudu-vanhempien-ja-yhteiskunnan-sosiaalisesta-ehdollistamisesta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 26 Jun 2014 19:52:27 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[ehdollistaminen]]></category>
+		<category><![CDATA[kesäkuu2014]]></category>
+		<category><![CDATA[paradigmanmuutos]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[yhteiskunta]]></category>
+		<guid isPermaLink="false">/?p=272</guid>
+
+					<description><![CDATA[Vaikka otsikko voi kuulostaa olevan suoraa Cosmopolitanista, poislukien mahdollisesti loppuosa, ongelmat vanhempien kanssa eivät ole vain lasten tai nuorten elämään kuuluvia. Vaikka olisit viisi-, kuusi- tai yhdeksänkymppinen, ne perususkomukset joita sinulla on omasta itsestäsi ja maailmastasi voidaan todennäköisesti johtaa siihen miten sinut opetettiin uskomaan lapsena. Kun tulemme vanhemmiksi, koko maailmankuvamme on lähiympäristömme rajaama, ja näin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/vapaudu-vanhempien-ja-yhteiskunnan-sosiaalisesta-ehdollistamisesta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

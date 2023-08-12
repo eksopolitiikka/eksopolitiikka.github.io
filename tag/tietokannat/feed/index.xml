@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tietokannat &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/tietokannat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Mon, 05 Sep 2022 15:04:56 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Uusi peluri UAP-tutkimuksissa: Enigma Labs</title>
+		<link>/eksopolitiikka/uusi-peluri-uap-tutkimuksissa-enigma-labs/</link>
+					<comments>/eksopolitiikka/uusi-peluri-uap-tutkimuksissa-enigma-labs/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 08 Sep 2022 08:09:21 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[Keith Basterfield]]></category>
+		<category><![CDATA[tietokannat]]></category>
+		<category><![CDATA[UAP]]></category>
+		<guid isPermaLink="false">/?p=13347</guid>
+
+					<description><![CDATA[Kirjoittanut Keith Basterfield Tänä vuonna useat yritykset ovat perustaneet UAP-tietokantoja. Näihin yrityksiin lukeutuu PhenomAInon; UPDB; sekä Enigma Labs. PhenomAInon 7. toukokuuta 2022 OtoAI-yhtiö lanseerasi uuden  PhenomAInon-verkkosivun. Tämän  yrityksen perustamispaperit on jätetty 28. toukokuuta 2021, diaarinumero 2021-001008746, mistä käy ilmi kotipaikka: Sheridan, Wyoming. Sen rekisteröinyt taho on nimeltään Cloud Peak Law LLC. Niiden kotisivut kertovat: &#8221;PhenomAInon [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/uusi-peluri-uap-tutkimuksissa-enigma-labs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

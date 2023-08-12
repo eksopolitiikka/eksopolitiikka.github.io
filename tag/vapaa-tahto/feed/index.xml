@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vapaa tahto &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/vapaa-tahto/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 02 Sep 2021 12:54:51 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Lauantaimeditaatio</title>
+		<link>/tietoisuus/lauantaimeditaatio-3/</link>
+					<comments>/tietoisuus/lauantaimeditaatio-3/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 26 Dec 2020 11:11:10 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[initiaatio]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[vapaa tahto]]></category>
+		<guid isPermaLink="false">/?p=8646</guid>
+
+					<description><![CDATA[TÄMÄN PUHTAAKSIKIRJOITUKSEN SISÄLLÖSTÄ: Tämä telepaattinen kanavointi on kerätty viikottaisista meditaatioista, jotka on pidetty Rock Creek Research &#38; Development Laboratoriesissa sekä L/L Researchilla. Se tarjotaan siinä toivossa, että se on sinulle avuksi. Kuten Liiton olennot aina sanovat, käytäthän omaa harkintaasi tämän materiaalin arvioimiseen. Jos jokin on totta sinulle, hyvä. Jos jokin ei ole totta, jätä se taaksesi, sillä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/lauantaimeditaatio-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kristus Mikaelin vertaus vapaasta valinnasta</title>
+		<link>/tietoisuus/kristus-mikaelin-vertaus-vapaasta-valinnasta/</link>
+					<comments>/tietoisuus/kristus-mikaelin-vertaus-vapaasta-valinnasta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 02 May 2020 11:11:03 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[kanavointi]]></category>
+		<category><![CDATA[Mira Korhonen]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[vapaa tahto]]></category>
+		<guid isPermaLink="false">/?p=7503</guid>
+
+					<description><![CDATA[Tämä on lainaus henkinen auttaja Mira Korhosen teoksesta ”Galaktisen Liiton opetuksia maan ihmisille” (23.3.1997) Teos koostuu useista kanavoiduista teksteistä, jotka on suurimmaksi osaksi välitetty 90-luvulla. Kanavointien ajantasaisempaa sisältöä koskevia päivityksiä löytyy vuodelta 2019. Vaaditaan suurta varovaisuutta eteenpäin kuljettaessa, sillä niin paljon on negatiivisia tahoja edessäsi, että joudut miettimään mitä teet valitaksesi oikein ja välttääksesi kompastumasta [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/kristus-mikaelin-vertaus-vapaasta-valinnasta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

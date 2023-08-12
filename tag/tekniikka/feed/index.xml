@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tekniikka &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/tekniikka/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 12 May 2018 20:48:46 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>UFO-paljastus on jo tapahtunut!</title>
+		<link>/eksopolitiikka/ufo-paljastus-on-jo-tapahtunut/</link>
+					<comments>/eksopolitiikka/ufo-paljastus-on-jo-tapahtunut/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 09 Jun 2018 11:11:07 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[avaruusolennot]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[tekniikka]]></category>
+		<category><![CDATA[teknologia]]></category>
+		<guid isPermaLink="false">/?p=5224</guid>
+
+					<description><![CDATA[Joskus kyseenalaistaa sen miksi teknologia on kehittynyt niin nopeasti viimeisenä 20 vuotena, kuten tietokoneet, älypuhelimet, internet, langaton tiedonsiirto ja muut samanlaiset teknologiat. Tämä dokumentti saattaa vastata kysymykseen. Kuva: Avaruusolentojen artefakti symboleineen &#160; Ihmiset aina kysyvät milloin Amerikan hallitus tekee virallisen lausuntonsa avaruudessa olevasta elämästä ja UFOista, mutta se paljastus on itse asiassa jo tapahtunut. Joka [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/ufo-paljastus-on-jo-tapahtunut/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tämä moottori tuntuu rikkovan fysiikan lakeja</title>
+		<link>/tiede/tama-moottori-tuntuu-rikkovan-fysiikan-lakeja/</link>
+					<comments>/tiede/tama-moottori-tuntuu-rikkovan-fysiikan-lakeja/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2014 09:21:53 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[elokuu2014]]></category>
+		<category><![CDATA[tekniikka]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=467</guid>
+
+					<description><![CDATA[Jokaisella voimalla on samansuuruinen vastakkaissuuntainen voima. Tämä on ehkäpä tunnetuin fysiikan laki, ja Guido Fetta on mielestään löytänyt tavan kiertää tuon lain. Klassisen fysiikan mukaan jotta jokin kappale, esimerkiksi avaruusalus, voisi liikkua, täytyy kappaleen liikemäärän säilymisen takia kohdistaa voima johonkin toiseen. Raketti kiihdyttää ylöspäin puskemalla kovalla vauhdilla palanutta polttoainetta alaspäin. Käytännössä tämä tarkoittaa sitä, että [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/tama-moottori-tuntuu-rikkovan-fysiikan-lakeja/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

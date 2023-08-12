@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>gravitaatio &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/gravitaatio/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 01 Jul 2022 15:37:40 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tohtori Nang Li ja antigravitaatiotutkimus</title>
+		<link>/tiede/tohtori-nang-li-ja-antigravitaatiotutkimus/</link>
+					<comments>/tiede/tohtori-nang-li-ja-antigravitaatiotutkimus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 01 Jul 2022 15:30:56 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[antigravitaatio]]></category>
+		<category><![CDATA[gravitaatio]]></category>
+		<category><![CDATA[MITRE]]></category>
+		<category><![CDATA[suprajohtavuus]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=13062</guid>
+
+					<description><![CDATA[Kirjoittanut Keith Basterfield Kirjoitin artikkelin vuonna 2019 amerikkalaisen tohtorin Ning Li:n antigravitaatiotutkimuksesta, joka tämän jälkeen menehtyi 27. heinäkuuta 2021. Tuon artikkelin jälkeen kiinnostukseni siirtyi muihin aiheisiin. Siksi oli positiivinen yllätys saada sähköposti Kent Byeltä, joka oli tutkinut itse MITRE 2003 Gravitational Wave Conferencea, jossa tri. Ning Li esitteli tutkimuksiaan. https://www.berryhillfh.com/obituary/ning-li?lud=4CF765EE88E7526FCBA619C30101F7E6 &#160; Kent Byen löydökset Kentin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/tohtori-nang-li-ja-antigravitaatiotutkimus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>John Lear: Planeettainväliset diilit</title>
+		<link>/eksopolitiikka/john-lear-planeettainvaliset-diilit/</link>
+					<comments>/eksopolitiikka/john-lear-planeettainvaliset-diilit/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 02 Aug 2020 11:11:13 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[gravitaatio]]></category>
+		<category><![CDATA[John Lear]]></category>
+		<category><![CDATA[ufologia]]></category>
+		<guid isPermaLink="false">/?p=7921</guid>
+
+					<description><![CDATA[Tämä on John Learin postaus Mysteria-nimisessä BBS:ssä vuodelta 1991. Lear vahvistaa sen mikä kävi ilmi Bob Lazarin haastattelussa Joe Roganin kanssa Alkuaineesta 115. To: All Message #: 2196 From: Dali Moyzes Submitted: 20 Nov 91 23:37:00 Subject: Lear Status: Public Received: No Group: UFO (15) MSGID: 1:102/943 4ec98f48 ALIEN EXPLORATION Interplanetary Business Deals by John [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/john-lear-planeettainvaliset-diilit/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

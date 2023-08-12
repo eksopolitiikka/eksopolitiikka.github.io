@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pentyrch &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/pentyrch/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 02 Jan 2022 09:09:14 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Pentyrchin UFO-tapaus</title>
+		<link>/ufot/pentyrchin-ufo-tapaus/</link>
+					<comments>/ufot/pentyrchin-ufo-tapaus/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 10 Mar 2022 11:11:25 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Pentyrch]]></category>
+		<category><![CDATA[UFO]]></category>
+		<category><![CDATA[Wales]]></category>
+		<guid isPermaLink="false">/?p=11156</guid>
+
+					<description><![CDATA[Vuonna 2016, erikoinen pyramidi-UFO nähtiin Pentyrchin kylän yllä Walesissa. Esitettiin seuraava väite: armeijan väliintulon johdosta alus syöksyi maahan Llantrisantin laitamille Walesissa. Tapausta seuranneina vuosina asiassa esiin tullutta informaatiota on pimitetty, mikä on saanut jotkut uskomaan että kyseessä on yksi kaikkien aikojen suurimpia aikamme UFO-mysteerejä. &#160; Artikkelin julkaissut Latest UFO Sightings]]></description>
+		
+					<wfw:commentRss>/ufot/pentyrchin-ufo-tapaus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

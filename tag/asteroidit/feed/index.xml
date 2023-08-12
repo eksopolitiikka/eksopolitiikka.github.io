@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>asteroidit &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/asteroidit/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 09 Feb 2017 08:23:18 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kirkas meteori Keskilännessä</title>
+		<link>/tiede/kirkas-meteori-keskilannessa/</link>
+					<comments>/tiede/kirkas-meteori-keskilannessa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 09 Feb 2017 08:23:18 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[asteroidi]]></category>
+		<category><![CDATA[asteroidit]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=3648</guid>
+
+					<description><![CDATA[Kirkas meteori sytytti Keskilännen taivaan kun massiivinen tulipallo näkyi ainakin neljän osavaltion taivaalla, meteorologit sanoivat. &#8221;Se oli näkyvissä kaukaa&#8221;, sanoi Ricky Castro, USA:n ilmatieteenlaitoksen Chicagon toimistolta. &#8221;Se oli varsin kiinnostava tapas, epätavallinen tuolle alueelle.&#8221; Ilmatieteenlaitoksen Milwaukeen toimisto sai raportteja äänivallin rikkoutumisesta. Poliisipartioauton kojelautakameran videossa, jonka ilmatieteenlaitos sai käyttöönsä, näkyy kirkkaan sinivihreä tulipallo joka kiitää taivaan [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/kirkas-meteori-keskilannessa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tseljabinsk-kokoluokan asteroidi ohittaa maapallon maan ja kuun välistä</title>
+		<link>/tiede/tseljabinsk-kokoluokan-asteroidi-ohittaa-maapallon-maan-ja-kuun-valista/</link>
+					<comments>/tiede/tseljabinsk-kokoluokan-asteroidi-ohittaa-maapallon-maan-ja-kuun-valista/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 02 Feb 2017 23:54:35 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[asteroidit]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=3608</guid>
+
+					<description><![CDATA[Tässä on toinen vastikään löydetty asteroidi joka ohittaa planeettamme todella läheltä. Asteroidin 2017 BS32 ennustetaan ohittavan maapallon maan ja kuun välistä helmikuun 2. päivä. Avaruuskiven ensimmäisenä havaitsi  Catalina Sky Survey tammikuun 30. päivänä 2017. Se ohittaa maapallon 161280 kilometrin etäisyydeltä, joka on noin 0,4 kertaa maapallon etäisyys kuuhun. Sen nopeus on (suhteessa maapalloon) 11,57 km [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/tseljabinsk-kokoluokan-asteroidi-ohittaa-maapallon-maan-ja-kuun-valista/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

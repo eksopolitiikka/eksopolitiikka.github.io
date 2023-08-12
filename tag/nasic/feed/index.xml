@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NASIC &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/nasic/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 29 Aug 2021 11:56:07 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Ilmavoimien NASIC alkaa vastaanottaa UAP-dataa</title>
+		<link>/eksopolitiikka/ilmavoimien-nasic-alkaa-vastaanottaa-uap-dataa/</link>
+					<comments>/eksopolitiikka/ilmavoimien-nasic-alkaa-vastaanottaa-uap-dataa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 30 Aug 2021 13:13:54 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[NASIC]]></category>
+		<category><![CDATA[USA]]></category>
+		<guid isPermaLink="false">/?p=10988</guid>
+
+					<description><![CDATA[Artikkelin kirjoittanut Keith Basterfield Lakialoite S.2610 Kiitos Twitter-käyttäjän UAP36665648 ja Silva Record blogin, saimme tietää että S.2610, Yhdysvaltain kongressin käsiteltävänä oleva lakialoite, mainitsee UAP:t. Huomattavaa on, että tämä on tällä hetkellä &#8221;lakialoite&#8221; eikä &#8221;säädös&#8221;. Näin sanamuoto &#8221;säädöksen&#8221; lopullisessa versiossa voi olla eri. S.2610 on lakialoite joka &#8221;valtuuttaa budjettiosuudet fiskaaliselle vuodelle 2022 Yhdysvaltain hallinnon, tiedusteluyhteisön budjetin [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/ilmavoimien-nasic-alkaa-vastaanottaa-uap-dataa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

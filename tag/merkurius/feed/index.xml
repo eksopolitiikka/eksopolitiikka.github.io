@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Merkurius &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/merkurius/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 26 May 2020 12:38:46 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Havaintoja Merkuriuksen pinnalta</title>
+		<link>/tiede/havaintoja-merkuriuksen-pinnalta/</link>
+					<comments>/tiede/havaintoja-merkuriuksen-pinnalta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 08 Dec 2020 11:11:12 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[Merkurius]]></category>
+		<guid isPermaLink="false">/?p=8568</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: toukokuu 2020 Havaintopaikka: Merkurius NASA-missio: Mariner 10 Kuvan ID: PIA00068 Tarkka sijainti Merkuriuksella: Tolstoj Quadrangle H-8 NASAn kuva: http://photojournal.jpl.nasa.gov/jpeg/PIA00068.jpg Tämä ei ole mustavalkokuva, vaan infrapunakuva. Mariner 10 kuvasi &#8221;8:n otoksen suodatinkuvauksella&#8221;. Jokainen suodatin sallii kameran ottaa erilaisen kuvan. Infrapuna mahdollistaa nähdä jotain mitä ihmissilmä ei näe. Nämä rakenteet ei ole rakennettu eilen, mahdollisesti ne ovat olleet siellä tuhansia vuosia [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/havaintoja-merkuriuksen-pinnalta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Suuri avaruusolentojen tukikohta Merkuriuksessa</title>
+		<link>/uncategorized/suuri-avaruusolentojen-tukikohta-merkuriuksessa/</link>
+					<comments>/uncategorized/suuri-avaruusolentojen-tukikohta-merkuriuksessa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 04 Jun 2020 11:11:24 +0000</pubDate>
+				<category><![CDATA[Muut]]></category>
+		<category><![CDATA[avaruusolennot]]></category>
+		<category><![CDATA[Merkurius]]></category>
+		<guid isPermaLink="false">/?p=7648</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: helmikuu 2020 Havaintopaikka: Merkurius Lähde: https://www.google.com/maps/space/mercury/@77.9733692,-16.1593985,1044941m/data=!3m1!1e3 Hei kaikki, löysin tämän todella pitkän rakenteen kraaterista Merkuriuksella tänään. Mittasuhteiden mukaan kartan oikeassa alalaidassa se on 10km pitkä. Niin suuri rakennus ei voi jäädä astronomeilta huomaamatta pitkään, mutta ehkä he eivät oikeasti käy NASAn kuvia tarkkaan läpi&#8230;. olettaen että kaikki löydettävä on jo löydetty. Huomaa myös, että tieteilijät [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uncategorized/suuri-avaruusolentojen-tukikohta-merkuriuksessa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Toinen 10km torni Merkuriuksessa</title>
+		<link>/tiede/toinen-10km-torni-merkuriuksessa/</link>
+					<comments>/tiede/toinen-10km-torni-merkuriuksessa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 01 Jun 2020 11:11:55 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[Merkurius]]></category>
+		<guid isPermaLink="false">/?p=7660</guid>
+
+					<description><![CDATA[Havaintopäivämäärä: helmikuu 6, 2020 Havaintopaikka: Merkurius Lähde: https://www.google.com/maps/space/mercury/@77.9733692,-16.1593985,1044941m/data=!3m1!1e3 Löysin toisen tornin Merkuriuksesta. Ei se ole niin vaikeaa, mutta kuten sanoin aiemmin, ihmisten mielestä kaikki on jo löydetty ja he eivät koskaan vaivaudu etsimään. Tämä torni on 10km korkea! Se on massiivinen. Maasas ei ole mitään joka on ihmisen tekemä ja näin korkea. Se olisi uskomatonta, että [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/toinen-10km-torni-merkuriuksessa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

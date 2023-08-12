@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Global Walkout &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/global-walkout/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Fri, 30 Sep 2022 13:53:22 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Global Walkout -kampanja haluaa &#8217;Yhtenäisen rintaman globalistista agendaa vastaan&#8217;</title>
+		<link>/uutiset/global-walkout-kampanja-haluaa-yhtenaisen-rintaman-globalistista-agendaa-vastaan/</link>
+					<comments>/uutiset/global-walkout-kampanja-haluaa-yhtenaisen-rintaman-globalistista-agendaa-vastaan/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 30 Sep 2022 13:35:40 +0000</pubDate>
+				<category><![CDATA[Uutiset]]></category>
+		<category><![CDATA[aktivismi]]></category>
+		<category><![CDATA[Global Walkout]]></category>
+		<category><![CDATA[kampanja]]></category>
+		<guid isPermaLink="false">/?p=13499</guid>
+
+					<description><![CDATA[Joka sunnuntai kello 20:00 Lontoon aikaa (22:00 Suomen aikaa), Global Walkout ilmoittaa uudesta “askeleesta” tai toiminnasta, johon ihmiset voivat ryhtyä vapauttaakseen itsensä globalistien agendasta ja haitatakseen agendan edistymistä. On aika ryhtyä tekoihin &#8211;yksilötasolla ja kollektiivisesti &#8212; haitataksemme globalistiagendan edistymistä ja voimaannuttaaksemme itsemme menemään eteenpäin elämässä ja luomaan sellaisen elämän, jota haluamme elää, Reignite Freedom julistaa. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uutiset/global-walkout-kampanja-haluaa-yhtenaisen-rintaman-globalistista-agendaa-vastaan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

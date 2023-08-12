@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DNI &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/dni/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 16 Jun 2021 13:16:29 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tuoreet Pentagonin briiffaukset mainitsevat UAP:t</title>
+		<link>/eksopolitiikka/tuoreet-pentagonin-briiffaukset-mainitsevat-uapt/</link>
+					<comments>/eksopolitiikka/tuoreet-pentagonin-briiffaukset-mainitsevat-uapt/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 19 Jun 2021 13:13:31 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[DNI]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[Pentagon]]></category>
+		<category><![CDATA[UFO-paljastus]]></category>
+		<guid isPermaLink="false">/?p=10594</guid>
+
+					<description><![CDATA[Kirjoittanut Keith Basterfield Pentagonin lehdistötilaisuus Pentagonin tiedottaja John F. Kirby pitää säännöllisesti lehdistötilaisuuksia.  Muutaman viime päivän kysymykset ovat koskeneet UAP:ta. Ajattelin käydä näitä läpi. John F. Kirby, julkisasiain apulaispuolustusministeri 1. kesäkuuta 2021 &#8221;K: Nopea kysymys tulevista UAP-raporteista. On ollut puhetta siitä, että tämä oltaisiin julkaisemassa jo tällä viikolla, voitteko sanoa mitä ajoitusta oikeasti odottaa? Kirby: [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/tuoreet-pentagonin-briiffaukset-mainitsevat-uapt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

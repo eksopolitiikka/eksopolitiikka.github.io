@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MH370 &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/mh370/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 02 Jan 2022 10:26:29 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Insinöörin väite: MH370 löytyy Intian valtamerestä</title>
+		<link>/paranormaali/insinoorin-vaite-mh370-loytyy-intian-valtameresta/</link>
+					<comments>/paranormaali/insinoorin-vaite-mh370-loytyy-intian-valtameresta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 02 Jan 2022 10:26:29 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[MH370]]></category>
+		<guid isPermaLink="false">/?p=11689</guid>
+
+					<description><![CDATA[Uusi jäljitysteknologia on saattanut lopultakin ratkaista MH370-lennon mysteerin. Kone katosi 7 ja puoli vuotta sitten. Brittiläinen ilmailuinsinööri Richard Godfrey on käyttänyt viimeiset 9 kuukautta uuden jäljitysteknologian parissa, &#8217;heikon signaalin propagointi&#8217; yhdistettynä satelliittikommunikaatiojärjestelmän dataan, jolla kadonnutta konetta on jäljitetty. “Kahta järjestelmää voidaan käyttää yhdessä havaitsemaan, identifioimaan ja paikallistamaan MH370 sen lentoradalla Eteläisen Intian Valtameren yllä”, hän [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/insinoorin-vaite-mh370-loytyy-intian-valtameresta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CERN &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/cern/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 07 Jul 2016 20:05:22 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Mitä CERN tekee? Omituisia pilviä hiukkaskiihdyttimen yllä</title>
+		<link>/tiede/mita-cern-tekee-omituisia-pilvia-hiukkaskiihdyttimen-ylla/</link>
+					<comments>/tiede/mita-cern-tekee-omituisia-pilvia-hiukkaskiihdyttimen-ylla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 07 Jul 2016 20:05:22 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[CERN]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=3012</guid>
+
+					<description><![CDATA[Uudet kuvat omituisista pilvimuodostelmista CERNin hiukkaskiihdyttimen yllä voivat olla shokeeraava todiste maailman suurimmasta kokeesta, joka on pian repimässä auki portaalin toiseen ulottuvuuteen. Tämä siis mikäli uskot viimeisimpiä salaliittoteorioita monsterikoneen ympäriltä. Kaksi valokuvaa on videon mukaan otettu LHC:n yllä Genevassa Sveitsin ja Ranskan välisellä rajalla kesäkuun 24. päivänä, samana päivänä kun CERNin tiedemiehet aloittivat uuden Awake-kokeen, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/mita-cern-tekee-omituisia-pilvia-hiukkaskiihdyttimen-ylla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hiukkaskiihdyttimen rakentajien natsiyhteydet</title>
+		<link>/uncategorized/hiukkaskiihdyttimen-rakentajien-natsiyhteydet/</link>
+					<comments>/uncategorized/hiukkaskiihdyttimen-rakentajien-natsiyhteydet/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 07 Feb 2016 11:34:23 +0000</pubDate>
+				<category><![CDATA[Muut]]></category>
+		<category><![CDATA[CERN]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[natsit]]></category>
+		<guid isPermaLink="false">/?p=2663</guid>
+
+					<description><![CDATA[Dark Journalist ja tohtori Joseph P. Farrell tutkailevat paljon kohua aiheuttaneen CERNin hiukkaskiihdyttimen poliittisia kytköksiä ja globaaleja vaaroja. Hadronitörmäytin, joka on Genevaan pystytetty, on massiivinen armeijatyylinen kompleksi jonka budjetti on yli kuusi mijardia dollaria! Tohtori Farrellin tutkimus paljastaa CERNin virallisen tarinan niinkutsutusta &#8221;Atomimurskaimesta&#8221;, hadronitörmäytinprojektista joka on luotu rauhallisin aikein hiukkastieteen tekemiseen, ja paljastaa että kyseessä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/uncategorized/hiukkaskiihdyttimen-rakentajien-natsiyhteydet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

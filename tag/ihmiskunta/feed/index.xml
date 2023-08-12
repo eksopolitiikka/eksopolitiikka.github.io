@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ihmiskunta &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/ihmiskunta/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Wed, 05 Feb 2020 15:33:50 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Tähtilapsihybridit ovat jo täällä!</title>
+		<link>/eksopolitiikka/tahtilapsihybridit-ovat-jo-taalla/</link>
+					<comments>/eksopolitiikka/tahtilapsihybridit-ovat-jo-taalla/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 05 Feb 2020 11:11:54 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[evoluutio]]></category>
+		<category><![CDATA[hybridit]]></category>
+		<category><![CDATA[ihmiskunta]]></category>
+		<guid isPermaLink="false">/?p=7217</guid>
+
+					<description><![CDATA[Auttavatko hybridit kehittymään Homo Sapiensia monimutkaisten ohjelmien avulla uudeksi &#8217;päivitetyksi&#8217; lajiksi? Missä todisteet? Miten kontakti hybridien kanssa liittyy ihmisiin: Tähtilapset, Indigot, Kristallit, &#8217;kirjainporukka&#8217;? Kertovatko nämä nimet geneettisestä muutoksesta vai tietoisesta ilmiöstä, jolla päivittää ihmisrotu? Miksi jotkut tuntevat itsensä enemmän kytkeytyneeksi &#8217;ei-ihmisälyihin&#8217; kuin heidän ihmisperheensä? Jos näin, niin mitä se tarkoittaa lajillemme? Edesmennyt kersantti Robert Dean [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/tahtilapsihybridit-ovat-jo-taalla/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kriittisyys teknologiaa kohtaan tärkeää</title>
+		<link>/tietoisuus/kriittisyys-teknologiaa-kohtaan-tarkeaa/</link>
+					<comments>/tietoisuus/kriittisyys-teknologiaa-kohtaan-tarkeaa/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 24 Jun 2018 11:11:54 +0000</pubDate>
+				<category><![CDATA[Tietoisuus]]></category>
+		<category><![CDATA[ihmiskunta]]></category>
+		<category><![CDATA[kehitys]]></category>
+		<category><![CDATA[tietoisuus]]></category>
+		<category><![CDATA[tulevaisuus]]></category>
+		<guid isPermaLink="false">/?p=5262</guid>
+
+					<description><![CDATA[Ihmiskunta on saavuttamassa pisteen, jossa sen on pian otettava kollektiivisesti kantaa moniin perustavaa laatua oleviin kysymyksiin, joita teknologinen kehitys on tuonut eteen. Yksi tärkeimmistä on ihmiskunnan kehityksen suunta: tehdäänkö ihmisestä täysin riippuvainen teknologian jatke vai tehdäänkö teknologiasta ihmisen tietoisuuden jatke? Tämä kirjoitus ei ole teknologian vastainen. Kirjoitus on laadittu tietokonetta käyttäen ja julkaistu informaatioteknologian alustalla. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tietoisuus/kriittisyys-teknologiaa-kohtaan-tarkeaa/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

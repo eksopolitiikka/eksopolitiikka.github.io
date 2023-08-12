@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>panspermia &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/panspermia/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 10 Feb 2018 17:02:30 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kosminen kohtu, panspermia ja Maapallon elämän synty</title>
+		<link>/tiede/kosminen-kohtu-panspermia-ja-maapallon-elaman-synty/</link>
+					<comments>/tiede/kosminen-kohtu-panspermia-ja-maapallon-elaman-synty/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 14 Mar 2018 11:11:22 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astrobiologia]]></category>
+		<category><![CDATA[panspermia]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=4973</guid>
+
+					<description><![CDATA[Viimeisimpien ihmiskunnan kosmisten alkuperien tutkimuksista kertoo Sir Fred Hoylen teoria panspermiasta: siitä että elämän rakennuspalikat saapuivat Maapallolle komeettojen avulla menneisyydessä. Ne paljastavat myös löydöksiä Gizan pyramidiin liittyen. Uskottavaa evidenssiä siitä, että elämä, äly ja evoluutio Maapallolla on komeettojen ja kosmisen älyn aikaansaamaa. Tutkii sitä miten elämä on saapunut Maahan tähdistä Tutkii mahdollisuutta että universaali tieto [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/kosminen-kohtu-panspermia-ja-maapallon-elaman-synty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

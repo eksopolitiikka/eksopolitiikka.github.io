@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bob White &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/bob-white/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 12 Jan 2019 14:50:14 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Bob Whiten UFO-palasen mysteeri</title>
+		<link>/ufot/bob-whiten-ufo-palasen-mysteeri/</link>
+					<comments>/ufot/bob-whiten-ufo-palasen-mysteeri/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 23 Feb 2019 11:11:41 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[Bob White]]></category>
+		<category><![CDATA[meteoriitti]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=5981</guid>
+
+					<description><![CDATA[Ole Henningsen (SUFOI) ohjasi minut Youtube-videon pariin, joka kertoi Bob Whitesta ja hänen ystävänsä Janen UFO-havainnosta. He löysivät pisaran muotoisen palasen mystisestä lentävästä esineestä heidän ajaessaan Coloradon ja Utahin välistä Grand Junction -autiomaa-aluetta vuonna 1985. Tapaus herättää kiinnostusta koska sillä on jonkinlaista yhtäläisyyttä toisen mystisen pisaran muotoisen palasen kanssa, jonka väitetään olevan peräisin lentävästä lautasesta, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/bob-whiten-ufo-palasen-mysteeri/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

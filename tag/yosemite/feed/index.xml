@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Yosemite &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/yosemite/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 09 Nov 2021 18:03:15 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kadonneet 411: Kolme ihmistä katosi Yosemiten kansallispuiston lähellä</title>
+		<link>/paranormaali/kadonneet-411-kolme-ihmista-katosi-yosemiten-kansallispuiston-lahella/</link>
+					<comments>/paranormaali/kadonneet-411-kolme-ihmista-katosi-yosemiten-kansallispuiston-lahella/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 30 Jul 2021 11:11:04 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[kadonneet 411]]></category>
+		<category><![CDATA[paranormaali]]></category>
+		<category><![CDATA[Yosemite]]></category>
+		<guid isPermaLink="false">/?p=9817</guid>
+
+					<description><![CDATA[Tämä on James Arthurin, Theresa Bierin ja Doug Pearcen tarina, jotka kaikki katosivat epätavallisissa olosuhteissa Yosemiten kansallispuiston eteläpuolella. David Paulides on entinen poliisi, joka nyt tutkii ja kirjoittaa kirjoja paranormaaleista aiheista. Hänen Missing 411 -kirjasarjansa dokumentoi kansallispuistoissa ja muualla kadonneita ihmisiä. Paulides liittää mystisiä, määrittämättömiä syitä näihin katoamisiin. Kuitenkin data-analyysi viittaa siihen, että katoamiset eivät [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/kadonneet-411-kolme-ihmista-katosi-yosemiten-kansallispuiston-lahella/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

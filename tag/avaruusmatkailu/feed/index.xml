@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>avaruusmatkailu &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/avaruusmatkailu/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 02 Jan 2022 10:07:17 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Astronautit myöntävät näkemänsä omituiset asiat</title>
+		<link>/paranormaali/astronautit-myontavat-nakemansa-omituiset-asiat/</link>
+					<comments>/paranormaali/astronautit-myontavat-nakemansa-omituiset-asiat/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Thu, 16 Jun 2022 11:11:14 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[astronautit]]></category>
+		<category><![CDATA[avaruusmatkailu]]></category>
+		<guid isPermaLink="false">/?p=11687</guid>
+
+					<description><![CDATA[Jokainen jolla on ollut niin paljon onnea, että on päässyt lentämään avaruudessa, on aina kuvannut kokemustaan vertaamattoman ikimuistoiseksi. Majestinen näkymä kotiplaneetastamme pyörimässä avaruudessa, niin hiljaa ja rauhassa etäällä, jättää lähtemättömän jäljen kaikkiin astronautteihin. Kaikki raportit avaruuteen matkanneiden kokemuksista eivät anna sellaista kuvaa, kuitenkaan. Itse asiassa jotkut astronautit ovat jo raportoineet selittämättömiä, joskus kuumottavia kokemuksia, joita [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/astronautit-myontavat-nakemansa-omituiset-asiat/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mystinen voimakenttä luo pyramidiportaalin</title>
+		<link>/tiede/mystinen-voimakentta-luo-pyramidiportaalin/</link>
+					<comments>/tiede/mystinen-voimakentta-luo-pyramidiportaalin/#comments</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Fri, 25 Mar 2022 11:11:04 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[avaruusmatkailu]]></category>
+		<category><![CDATA[pyramidi]]></category>
+		<category><![CDATA[pyramidit]]></category>
+		<guid isPermaLink="false">/?p=11196</guid>
+
+					<description><![CDATA[Kokeet suurella pyramidilla ovat paljastaneet energiakentän, joka tekee mahdolliseksi avaruusmatkailun. Tämä pätkä on viidennen kauden jakso sarjasta “Secrets Of The Pyramids. &#160; Artikkelin julkaissut Latest UFO Sightings]]></description>
+		
+					<wfw:commentRss>/tiede/mystinen-voimakentta-luo-pyramidiportaalin/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Matka universumin laidalle</title>
+		<link>/tiede/matka-universumin-laidalle/</link>
+					<comments>/tiede/matka-universumin-laidalle/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 21 Mar 2021 11:11:52 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[avaruusmatkailu]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=9067</guid>
+
+					<description><![CDATA[Voisivatko ihmiset koskaan matkata toisiin galakseihin elämänsä aikana? Universumin valtava laajuus tuntuu estävän sellaiset matkat, onhan lähin galaksi niin kaukana, että valolta itseltään &#8212; joka on nopein tuntemamme asia universumissamme &#8212; kestää 2.5 miljoonaa vuotta päästä sinne. Kun pääsee takaisin kotiin matkoilta, 7 vuotta on kulunut sinulle mutta 12 vuotta kaikilla Maassa olijoilla. Matkaaminen jopa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/matka-universumin-laidalle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

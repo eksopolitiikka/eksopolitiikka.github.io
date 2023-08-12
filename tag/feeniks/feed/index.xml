@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Feeniks &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/feeniks/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 21 Jul 2018 17:23:06 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Myyttinen &#8221;tulilintu&#8221; havaittu Yellowstonessa</title>
+		<link>/paranormaali/myyttinen-tulilintu-havaittu-yellowstonessa/</link>
+					<comments>/paranormaali/myyttinen-tulilintu-havaittu-yellowstonessa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 02 Sep 2018 11:11:36 +0000</pubDate>
+				<category><![CDATA[Paranormaali]]></category>
+		<category><![CDATA[Feeniks]]></category>
+		<category><![CDATA[mytologia]]></category>
+		<category><![CDATA[paranormaali]]></category>
+		<guid isPermaLink="false">/?p=5439</guid>
+
+					<description><![CDATA[Omituinen värikäs lintu on nähty Grand Teton -kansallispuiston webkamerassa vain pari päivää sen jälkeen kun suosittu alue lähellä Jenny-järveä Grand Tetonissa, lähellä Yellowstonen kansallispuistoa, on suljettu kansalta. Viranomaisilla on huoli laajenevista repeämistä suurissa kivimuodostelmissa. Vaikka Yellowstonen kivimassa tuntuu olevan jatkuvassa liikkeessä sen Höyrylaiva-geysirien ollessa purkautunut yhdennentoista kerran maaliskuun jälkeen, ja nyt kun Grand Tetonin rakoilu [&#8230;]]]></description>
+		
+					<wfw:commentRss>/paranormaali/myyttinen-tulilintu-havaittu-yellowstonessa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

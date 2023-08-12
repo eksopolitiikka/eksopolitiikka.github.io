@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ecuador &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/ecuador/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 22 Mar 2015 10:46:40 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kaunis UFO Ecuadorissa</title>
+		<link>/ufot/kaunis-ufo-ecuadorissa/</link>
+					<comments>/ufot/kaunis-ufo-ecuadorissa/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sun, 22 Mar 2015 10:46:40 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[ecuador]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=1767</guid>
+
+					<description><![CDATA[Postaajan kommentit: Helmikuussa tätä vuotta [2015] olin noin puolitoista viikkoa Ecuadorissa. Pysähdyin Rio Bamballe pariksi yöksi, erityisesti mennäkseni käymään Chimborazon tulibuorella. Valokuvasin tuolloin omituisen valoilmiön. En ole ammattivalokuvaaja. Minulla on kuitenkin kokemusta pitkän valotusajan yökuvista, joilla olen kuvannut tähtitaivaan kirkkainta tähteä, Siriusta. En ole nähnyt pitkän valotusajan vaikuttavan yhteenkään kuvaan tällä tavoin. Lue koko tarina. [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/kaunis-ufo-ecuadorissa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ecuadorin &#8221;Jättiläisten Kadonneen Kaupungin&#8221; tilanteesta</title>
+		<link>/tiede/ecuadorin-jattilaisten-kadonneen-kaupungin-tilanteesta/</link>
+					<comments>/tiede/ecuadorin-jattilaisten-kadonneen-kaupungin-tilanteesta/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 10 Jun 2014 08:51:35 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[arkeologia]]></category>
+		<category><![CDATA[ecuador]]></category>
+		<category><![CDATA[kesäkuu2014]]></category>
+		<category><![CDATA[raamattu]]></category>
+		<guid isPermaLink="false">/?p=87</guid>
+
+					<description><![CDATA[Vuonna 2012 tiimi tutkijoita ja tutkimusmatkailijoita löysi muinaisen pyramidikompleksin Ecuadorin Amatsonin viidakon kaukaiselta alueelta, joka kansainvälisesti tai edes kotimaassa on vähän tunnettu. Bruce Fenton, kirjailija ja tutkija, uskoo kompleksin olevan &#8221;Jättiläisten Kadonnut Kaupunki&#8221;, joka on saanut nimensä alueen lähistöltä löydettyjen jättikokoisten työkalujen sekä paikallisten legendojen mukaan, jotka kertovat joskus muinoin alueella asuneista jättiläiskokoisista ihmisistä. Löydetyllä [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/ecuadorin-jattilaisten-kadonneen-kaupungin-tilanteesta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

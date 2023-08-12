@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ESA &#8211; _| eksopolitiikka.github.io |_</title>
+	<atom:link href="/tag/esa/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Tue, 16 Jun 2020 17:31:12 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Kolme UFOa avaruusasemalla</title>
+		<link>/ufot/kolme-ufoa-avaruusasemalla/</link>
+					<comments>/ufot/kolme-ufoa-avaruusasemalla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Mon, 11 Jan 2021 11:11:09 +0000</pubDate>
+				<category><![CDATA[UFOt]]></category>
+		<category><![CDATA[ESA]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[UFO]]></category>
+		<guid isPermaLink="false">/?p=8722</guid>
+
+					<description><![CDATA[Havaintopaikka: Maan kiertorata avaruusasemalla Lähdevalokuva: http://www.esa.int/images/s119e010500,5.jpg Katsokaa tätä uskomatonta valokuvaa ESA:lta (European Space Agency). Valokuva näyttää avaruusaseman ja Maapallon horisontin, joka alkaa juuri valaistua. Kolme hehkuvaa avaruusalusta näkyy avaruusaseman vasemmalla puolella. Yksi aluksista näyttää olevan kultainen levy. Toiset kaksi alusta ovat kultaisia orbeja, jotka ovat kultaisen levyn mukana. Usein avaruusolentojen aluksilla on pieniä orbeja, jotka kiertävät [&#8230;]]]></description>
+		
+					<wfw:commentRss>/ufot/kolme-ufoa-avaruusasemalla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hienot revontulet Saturnuksen pohjoisnavalla</title>
+		<link>/tiede/hienot-revontulet-saturnuksen-pohjoisnavalla/</link>
+					<comments>/tiede/hienot-revontulet-saturnuksen-pohjoisnavalla/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Tue, 23 Oct 2018 11:11:24 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[astronomia]]></category>
+		<category><![CDATA[ESA]]></category>
+		<category><![CDATA[Hubble]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=5569</guid>
+
+					<description><![CDATA[NASA/ESAn astronomien käyttämä Hubble-avaruusteleskooppi on ottanut sarjan kuvia joissa näkyy liehuvia revontulia Saturnuksen pohjoisnavalla. Lue lisää ESAn sivuilta: https://www.spacetelescope.org/news/heic1815/ Havainnot otettiin ultraviolettivalossa ja siitä saatu kuva tarjoaa astronomeille tietoa Saturnuksen revontulista. Hubble tarkkailee Saturnuksen pohjoisnavan energeettistä tilannetta. Vuonna 2017, seitsemän kuukauden ajan, NASA/ESAn Hubble-avaruusteleskooppi otti kuvia Saturnuksen pohjoisnavalta käyttäen teleskoopin spektrografia. Havainnot otettiin Saturnuksen pohjoisen [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/hienot-revontulet-saturnuksen-pohjoisnavalla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ESA suunnittelee 3D-printattua tukikohtaa kuuhun</title>
+		<link>/tiede/esa-suunnittelee-3d-printattua-tukikohtaa-kuuhun/</link>
+					<comments>/tiede/esa-suunnittelee-3d-printattua-tukikohtaa-kuuhun/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Sat, 08 Nov 2014 13:34:53 +0000</pubDate>
+				<category><![CDATA[Tiede]]></category>
+		<category><![CDATA[ESA]]></category>
+		<category><![CDATA[marraskuu2014]]></category>
+		<category><![CDATA[tiede]]></category>
+		<guid isPermaLink="false">/?p=1251</guid>
+
+					<description><![CDATA[Voisivatko astronautit joskus printata tukikohtansa kuuhun? ESA osoitti vuonna 2013 että 3D-printtaus kuumateriaalista olisi mahdollista. Metodin tutkiminen jatkuu edelleen. Säteilyltä suojautuminen 3D-printatuilla regoliittipalasilla mitattiin simulaatioissa. Pian avaruusvirasto aikoo tutkia 3D-printtauksen mahdollisuutta kun auringonvaloa kerätään sulattamaan regoliitti, sen sijaan että käytettäisiin sidosaineita. Lokakuussa 2014 enemmän kuin 350 asiantuntijaa kokoontui kaksipäiväiseen workshoppiin ESAn ESTEC-keskukseen Hollannin Noordwijkiin. Keskusteluja [&#8230;]]]></description>
+		
+					<wfw:commentRss>/tiede/esa-suunnittelee-3d-printattua-tukikohtaa-kuuhun/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
