@@ -1,0 +1,14 @@
+[2023-10-04 15:30:50 : INFO] - 
+ 
+[2023-10-04 15:30:50 : INFO] - Header for logs at time:  Wed, 04 Oct 2023 15:30:50 +0000 on https://eksopolitiikka.github.io 
+[2023-10-04 15:30:50 : INFO] - WP: 6.3.1 
+[2023-10-04 15:30:50 : INFO] - PHP: 7.4.33 (litespeed, Linux berkshire.noc102.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) 
+[2023-10-04 15:30:50 : INFO] - MySQL: 5.5.5 
+[2023-10-04 15:30:50 : INFO] - WPLANG: fi 
+[2023-10-04 15:30:50 : INFO] - Server: LiteSpeed 
+[2023-10-04 15:30:50 : INFO] - Outbound connections: N 
+[2023-10-04 15:30:50 : INFO] - Disabled Functions: show_source, system, shell_exec, symlink, passthru, exec, popen, proc_open, eval 
+[2023-10-04 15:30:50 : INFO] - max_execution_time: 60 
+[2023-10-04 15:30:50 : INFO] - memory_limit: 128M (used: 64.4M | 36.5M) 
+[2023-10-04 15:30:50 : INFO] - multisite: N 
+[2023-10-04 15:30:50 : INFO] - openssl: OpenSSL 1.1.1t  7 Feb 2023 

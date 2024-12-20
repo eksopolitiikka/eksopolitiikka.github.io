@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Artikkelin Tutkivat journalistit kertovat tulevaisuuden löydöistä ja huijauksista kommentit	</title>
+	<atom:link href="/paranormaali/tutkivat-journalistit-kertovat-tulevaisuuden-loydoista-ja-huijauksista/feed/" rel="self" type="application/rss+xml" />
+	<link>/paranormaali/tutkivat-journalistit-kertovat-tulevaisuuden-loydoista-ja-huijauksista/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sun, 24 May 2015 10:10:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+</channel>
+</rss>

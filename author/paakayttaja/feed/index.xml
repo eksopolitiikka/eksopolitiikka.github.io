@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>paakayttaja &#8211; _| Eksopolitiikka.github.io |_</title>
+	<atom:link href="/author/paakayttaja/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 08 Aug 2024 10:55:46 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+	<item>
+		<title>Mitä on Eksopolitiikka?</title>
+		<link>/eksopolitiikka/mita-on-eksopolitiikka/</link>
+					<comments>/eksopolitiikka/mita-on-eksopolitiikka/#respond</comments>
+		
+		<dc:creator><![CDATA[paakayttaja]]></dc:creator>
+		<pubDate>Thu, 05 Jun 2014 12:59:59 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[kesäkuu2014]]></category>
+		<guid isPermaLink="false">/?p=1</guid>
+
+					<description><![CDATA[Eksopolitiikka käsittelee planeettamme ulkopuolisia asioita, ennen kaikkea mahdollisia muita sivilisaatioita. Termin on alunperin lanseerannut amerikkalainen Alfred Webre kuvaamaan ulkoavaruutta koskevaa politiikkaa. Jo Timothy Leary 1970-luvulla on käsitellyt maan ulkopuolisten sivilisaatioiden poliittisia vaikutuksia. Webre kuvaa kirjassaan Towards a Decade of Contact (2000) eksopolitiikan funktionaalista mallia, joka nivoaa yhteen politiikan, hallinnon ja lain älyllistä elämää täynnä olevassa [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/mita-on-eksopolitiikka/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

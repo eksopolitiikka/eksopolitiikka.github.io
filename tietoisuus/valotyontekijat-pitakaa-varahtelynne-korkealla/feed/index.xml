@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Artikkelin Valotyöntekijät! Pitäkää värähtelytasonne korkealla kommentit	</title>
+	<atom:link href="/tietoisuus/valotyontekijat-pitakaa-varahtelynne-korkealla/feed/" rel="self" type="application/rss+xml" />
+	<link>/tietoisuus/valotyontekijat-pitakaa-varahtelynne-korkealla/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Thu, 16 Apr 2020 16:00:37 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+	<item>
+		<title>
+		Kirjoittaja: kapu		</title>
+		<link>/tietoisuus/valotyontekijat-pitakaa-varahtelynne-korkealla/#comment-71218</link>
+
+		<dc:creator><![CDATA[kapu]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2020 16:00:37 +0000</pubDate>
+		<guid isPermaLink="false">/?p=7492#comment-71218</guid>
+
+					<description><![CDATA[Joo kyllä on eksytykset kovasti käytössä esim.nuo naurettavat kanavointijutut.]]></description>
+			<content:encoded><![CDATA[<p>Joo kyllä on eksytykset kovasti käytössä esim.nuo naurettavat kanavointijutut.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Kirjoittaja: Jani isomäki		</title>
+		<link>/tietoisuus/valotyontekijat-pitakaa-varahtelynne-korkealla/#comment-70208</link>
+
+		<dc:creator><![CDATA[Jani isomäki]]></dc:creator>
+		<pubDate>Sun, 12 Apr 2020 15:15:13 +0000</pubDate>
+		<guid isPermaLink="false">/?p=7492#comment-70208</guid>
+
+					<description><![CDATA[Tämä ei ole Jumalasta älkää uskoko tätä sanomaa.]]></description>
+			<content:encoded><![CDATA[<p>Tämä ei ole Jumalasta älkää uskoko tätä sanomaa.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

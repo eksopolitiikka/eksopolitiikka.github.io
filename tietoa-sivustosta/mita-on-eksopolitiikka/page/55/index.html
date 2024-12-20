@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="fi">
+<![endif]--><!--[if IE 8]>
+<html class="ie ie8" lang="fi">
+<![endif]--><!--[if !(IE 7) | !(IE 8) ]><!--><html lang="fi">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>eksopolitiikka.github.io | eksopolitiikka.github.io - Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://eksopolitiikka.github.io/wp-content/themes/twenty14-child/js/html5.js"></script>
+	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style type="text/css">body { cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAACzwbHD0MC+yrq0v7De6d/d7d7F18vE1crC0cXBz8PK18ySoZO9y76+zsK5xru0wbS7yLu+y762w7ezwbavv7Gtu6+dqZ6xvbOst624x7zH1MrFz8SgppisuaeYrJiVqJo5TDl8iXhrdGJha1mDj4CJmYehtKGNnpGWo5aBkoWbqp2frqGsvq6FlIKTpJCcsJ6On4+QoZCYqJaBkX9vfmuCk4CHmIuUo5R7jX98jX9pe2xpeGRFUT1Za1NEVkI7UD1oeWFAUDhmdWGWoY1hcVp9j3iHm4SVpZKZpZfD0MGImIeFloWHmYZ3jHSHnIaBloJ/lH9tgG6KnYh4inWImYWImoSbrZ90hnh8jX2AkoFGWURecVqCkXlYaVJld16EmYMAAAA3RjNba1hLXUicr5h9j3d2iXCdqJeZpZOksaNyg3JnfGR1inJogGZofWZYbFRsgGhpf2VldmJ6inh2hXWAkICPnpCfrqCGloV9jHmPoItUZVBcb1lhb19gcluhspoAAAAAAABQYE1bbVeDlH9md2SesZydqJmvvKudrp2JnIqHmIGSoouEk318inSNl4KAi3Z5hG5vgGp6iXhsf2p1hHOElYR4iHiBj31/kHtaa1Z0hXCjtp9ZaFZmdWUAAAAAAAAAAABqeWZ/knpXZ1eRoY+grpydrpyktqWgs6OgtqKcsZmUqZKGmoJugmp+kXp4i3R/knuIm4N9j3l6jHN9jnmCkYCcrZyQo4tne2ODk394iXRTZE9YalMAAAAAAAAAAAAAAACTppJfb1mPm4hsfGyXqpamt6ehsqOrvK6lt6mXrpiNoY2XqJWZrJanuaKhtJt3iXJ7jXZyhG1SZE1fcllre2dtgGlzhW2JmoJ6jHVfcl1WZ1BtfmoAAAAAAAAAAAAAAAAAAAB3h29yf2xnd2aPpI2ktaSvvK6ZqZqsvKx9kn2qvKWYqJVvfWdse2RremSNnYaKm4RzhW5ugGlgcltOYEk7TTZPYUxbcFVleV+Eln0+Tzxgb2AAAAAAAAAAAAAAAAAAAAB+jn1zh2+Iloh4hnGhtZyZqpdrfGaImoSUqY+UqJJSZEk9Szc5STEkNB04SDGDlHyJnYWDlX9cblhpe2RbbVY4SjNDVD1OYEdFVz5BUTwAAAAAAAAAAAAAAAAAAAAAAAAAAABacFhUZFNfbFY2SC1TZUlyhGt8jXORqI5IW0FCUTtBUTZBUTtldV4+TzkzRS6Ckn2PoolecFkrPSVVaFJKXEZCVDtJXEFMXkhXalMAAAAAAAAAAAAAAAAAAAAAAAAAAAB7kXtic2A8RjcKGAE+TjaClHyHl391hG0rNh87SS8wOyYeLhk+TThvfmg4RzhxgG2Aj3RgclUQIAwkMyBAUTxAUTxFW0M4SDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABfbl1meVxJXEIlNR5UY01peGNGUjxHUD5aZFChrplygm0WJRAzQi1DUT5FUkJnd14wQSYoPCRiclw9TzorPicmOyIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4hXlKYUSRpIhgcFshMhoeLxcrNCQ3QTGqtKTS3ctxgWogLxoaKxVGUkBCUT09SDgwPSlVZk5jdl1leF9SZlA1SjYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7TjxAUTmPnIV6iHJIVkEhLBsQGwg5RDFYZFI0Qy0YIxEUIQwYJhYvQC9DUkFmdmVhdlpKXD93i281RzJbbV0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUDtCUzt5hm+lt5+jsp12gnJHVkI8SThLVkdOWUpKWEZOWkyNnI2QoYxgc1lGWD9RZk5Za1EwQi4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABicl9QYkpQYktqfGiZppm1w7a0v7bBz8C2x7Guway0xbGltaKcrpdfclo9UDlqfWR5i3JIW0RRZE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLnYpXbFNNYEpWalNxhnOBk4KDloORpY+Cln58kHl1i3NkeltCVzhFWD9jdF50hXJkdWFecFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCmYFQaU1UaU+GmH2PoYqImohsgnJmhW9ogGtbbVdYaVNsfmh8jHmbrJlwgGhneWNJWEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACftKEyTTA8TDRGVDmAkXnF08Wht6uovKynt6XDzLeYqJG8zraGm4JcbVRbcVZFWUCNnI0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbbmM/UDksOiQ1RTFdc16Aj3+ZpZSIlH9+i3RjdFlSZUpGWT81Si9PYEhldGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoeGVaZlZMW0YyQy4wQiwyQCo2STA0Riw2RzQzRC9sfWl+jXthc196iHoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4kHxabFaKlXt0gWhWaFZhdGJecWB/lIKir6CZpJWGkYCCknxkeGOcrJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACht6lneWR5hGpvfmeBkIGWoJF5hXSIlIShrp9+joCWo5B3hnBxhW8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBlIN4iHBkdWKSpJWruamstqeerJyaqZyVp5h7jn1ecFuAkoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbVePoo2YrJ+Jm4qEl4WBkn+HlYaYrZiDmINvhnEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmuqZkeWGJmoiLno6KlIattKWXopR4i3RfdF6BmIkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvgnGgsqCZoZSjrqKvua6SopOcrpx1h3cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhohMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUpJlaa1WDi3qKmoSTp5GHoIRNaEp+j3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhqbrZ8hMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3g3CfrZuhrpybsJijup9qf2SisKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhqbrZ+brZ8hMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbppM7STdygG5pdmhZZ1JidGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhqbrZ+brZ+brZ8hMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+j3KMm4WEkIJuf2mRoYsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhohMhohMhohMhohMhohMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABpeWF0hmlne2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAcAAAAPAAAAD4AAAA+AAAAfwAAAH8AAAD/gAAB/4AAAf/AAAH/4AAD/+AAA//gAAf/8AAH//AAB//4AA///AAP//wAD//8AB///gAf//8AP///AD/3/4B/8/+Af/H/wH/w/8D/8H/g//A/8f/w=='), auto; }</style>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//cdn.openshareweb.com">
+<link rel="dns-prefetch" href="//cdn.shareaholic.net">
+<link rel="dns-prefetch" href="//www.shareaholic.net">
+<link rel="dns-prefetch" href="//analytics.shareaholic.com">
+<link rel="dns-prefetch" href="//recs.shareaholic.com">
+<link rel="dns-prefetch" href="//partner.shareaholic.com">
+<link rel="alternate" type="application/rss+xml" title="_| eksopolitiikka.github.io |_ &raquo; syöte" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| eksopolitiikka.github.io |_ &raquo; kommenttien syöte" href="/comments/feed/">
+<!-- Shareaholic - https://www.shareaholic.com -->
+<link rel="preload" href="//cdn.shareaholic.net/assets/pub/shareaholic.js" as="script">
+<script data-no-minify="1" data-cfasync="false">_SHR_SETTINGS = {"endpoints":{"local_recs_url":"\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","ajax_url":"\/wp-admin\/admin-ajax.php","share_counts_url":"\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"},"site_id":"208a6bc560b74504dc7dd2013439aafb"};</script>
+<script data-no-minify="1" data-cfasync="false" src="//cdn.shareaholic.net/assets/pub/shareaholic.js" data-shr-siteid="208a6bc560b74504dc7dd2013439aafb" async></script>
+
+<!-- Shareaholic Content Tags -->
+<meta name="shareaholic:site_name" content="_| eksopolitiikka.github.io |_">
+<meta name="shareaholic:language" content="fi">
+<meta name="shareaholic:article_visibility" content="private">
+<meta name="shareaholic:site_id" content="208a6bc560b74504dc7dd2013439aafb">
+<meta name="shareaholic:wp_version" content="9.7.12">
+
+<!-- Shareaholic Content Tags End -->
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="qc-choice-css" href="/wp-content/plugins/quantcast-choice/public/css/style.min.css?ver=2.0.8" type="text/css" media="all">
+<link rel="stylesheet" id="ce_responsive-css" href="/wp-content/plugins/simple-embed-code/css/video-container.min.css?ver=2.3.9" type="text/css" media="all">
+<link rel="stylesheet" id="social-widget-css" href="/wp-content/plugins/social-media-widget/social_widget.css?ver=6.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-lato-css" href="//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/twenty14-child/genericons/genericons.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-style-css" href="/wp-content/themes/twenty14-child/style.css?ver=6.5.3" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css' href='http://eksopolitiikka.github.io/wp-content/themes/twenty14-child/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="/wp-content/plugins/nk-google-analytics/js/fingerprint.min.js?ver=6.5.3" id="script_fingerprintjs-js"></script>
+<script type="text/javascript" id="qc-choice-js-extra">
+/* <![CDATA[ */
+var choice_cmp_config = {"utid":"YswNbbATdMBA9","ccpa":"auto","datalayer":"true"};
+/* ]]> */
+</script>
+<script type="text/javascript" async="async" src="/wp-content/plugins/quantcast-choice/public/js/script.min.js?ver=2.0.8" id="qc-choice-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.3">
+<link rel="stylesheet" type="text/css" media="all" href="/?action=display_custom_css_code">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GT-WRHZQF4');</script>
+<!-- End Google Tag Manager -->
+		<script type="text/javascript">window.___gcfg = {lang: 'en'};
+(function() 
+{var po = document.createElement('script');
+po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(po, s);
+})();</script>
+<!-- Wordpress SEO Plugin by Mervin Praison ( https://mer.vin/seo-wordpress/ ) --> 
+<meta name="description" content="Sivustomme käsittelee ulkoavaruutta poliittiselta, tieteelliseltä ja hengelliseltä kannalta. Aiheita mm. ulkoavaruuden sivilisaatiot, UFOt, avaruustiede ja tietoisuus.">
+<meta name="keywords" content="eksopolitiikka, UFO, UFOt, UFOhavainnot, UFO havainnot, NASA">
+<link rel="canonical" href="/tietoa-sivustosta/mita-on-eksopolitiikka/page/55/">
+<!-- End of Wordpress SEO Plugin by Mervin Praison --> 
+
+<!-- Meta Pixel Code -->
+<script type="text/javascript">!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js?v=next');</script>
+<!-- End Meta Pixel Code -->
+
+      <script type="text/javascript">var url = window.location.origin + '?ob=open-bridge';
+        fbq('set', 'openbridge', '134220770604528', url);</script>
+    <script type="text/javascript">fbq('init', '134220770604528', {}, {
+    "agent": "wordpress-6.5.3-3.0.16"
+})</script><script type="text/javascript">fbq('track', 'PageView', []);</script>
+<!-- Meta Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id=134220770604528&ev=PageView&noscript=1">
+</noscript>
+<!-- End Meta Pixel Code -->
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css">.a-stats {
+	width: auto;
+}
+.a-stats a {
+	background: #7CA821;
+	background-image:-moz-linear-gradient(0% 100% 90deg,#5F8E14,#7CA821);
+	background-image:-webkit-gradient(linear,0% 0,0% 100%,from(#7CA821),to(#5F8E14));
+	border: 1px solid #5F8E14;
+	border-radius:3px;
+	color: #CFEA93;
+	cursor: pointer;
+	display: block;
+	font-weight: normal;
+	height: 100%;
+	-moz-border-radius:3px;
+	padding: 7px 0 8px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-border-radius:3px;
+	width: 100%;
+}
+.a-stats a:hover {
+	text-decoration: none;
+	background-image:-moz-linear-gradient(0% 100% 90deg,#6F9C1B,#659417);
+	background-image:-webkit-gradient(linear,0% 0,0% 100%,from(#659417),to(#6F9C1B));
+}
+.a-stats .count {
+	color: #FFF;
+	display: block;
+	font-size: 15px;
+	line-height: 16px;
+	padding: 0 13px;
+	white-space: nowrap;
+}</style>
+
+	<style type="text/css" id="twentyfourteen-header-css">.site-title a {
+			color: #2640c1;
+		}</style>
+	<!-- ## NXS/OG ## --><!-- ## NXSOGTAGS ## --><!-- ## NXS/OG ## -->
+<!-- Yandex.Metrika counter --> <script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92325018, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });</script> <noscript><div><img src="https://mc.yandex.ru/watch/92325018" style="position:absolute; left:-9999px;" alt=""></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GT-WRHZQF4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFH6DS8S8Z"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFH6DS8S8Z');</script>
+<script data-ad-client="ca-pub-9834086743067807" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">var _paq = _paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(["setDomains", ["*.eksopolitiikka.github.io/piwik"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();</script>
+<noscript><p><img src="/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56945167, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56945167" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+<script>window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '208160250391514',
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+<meta name="google-site-verification" content="elqn5KcMco5Z26arxftj3SZWY_B2I71BCLz_pLcaGPo">
+</head>
+
+<body class="blog paged paged-55 group-blog masthead-fixed list-view footer-widgets">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="/" rel="home">_| eksopolitiikka.github.io |_</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Haku</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Ensisijainen valikko</button>
+				<a class="screen-reader-text skip-link" href="#content">Siirry sisältöön</a>
+				<div class="menu-eksopolitiikka.github.io-container"><ul id="menu-eksopolitiikka.github.io" class="nav-menu">
+<li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1050">
+<a title="Etusivu" href="/todellista-eksopolitiikkaa/">eksopolitiikka.github.io</a>
+<ul class="sub-menu">
+	<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item current_page_parent menu-item-1057"><a href="/tietoa-sivustosta/mita-on-eksopolitiikka/" aria-current="page">Mitä on Eksopolitiikka?</a></li>
+	<li id="menu-item-11269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11269"><a href="/todellista-eksopolitiikkaa/ensikontaktiin-valmistautuminen/">Ensikontaktiin valmistautuminen</a></li>
+	<li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052"><a title="Etusivu" href="/todellista-eksopolitiikkaa/">Avaruusolennot varoittavat yhteiskunnallisesta jakautumisesta</a></li>
+	<li id="menu-item-3563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563"><a href="/todellista-eksopolitiikkaa/faktojen-erottaminen-disinformaatiosta/">Faktojen erottaminen disinformaatiosta</a></li>
+	<li id="menu-item-6797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6797"><a href="/">Kuinka saada yhteys avaruusolentoihin</a></li>
+	<li id="menu-item-1641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1641"><a href="/todellista-eksopolitiikkaa/eksopolitiikka-chat/">Eksopolitiikka-chat</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23"><a href="/category/ufot/">UFOt</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="/category/eksopolitiikka/">Eksopolitiikka</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="/category/paranormaali/">Paranormaali</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a href="/category/tiede/">Tiede</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-16">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+<ul class="sub-menu">
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774"><a title="Opas Yhden Lakiin" href="/todellista-eksopolitiikkaa/opas-yhden-lakiin/">Opas Yhden Lakiin</a></li>
+</ul>
+</li>
+<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-has-children menu-item-1055">
+<a href="/tietoa-sivustosta/">Tietoa sivustosta</a>
+<ul class="sub-menu">
+	<li id="menu-item-10031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031"><a href="/tietoa-sivustosta/ufoaiheisia-kirjoja/">Ufoaiheisia kirjoja</a></li>
+	<li id="menu-item-4377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4377"><a href="/tietoa-sivustosta/eksopoliittisia-linkkeja/">Eksopoliittisia linkkejä</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="http://eksopolitiikka.github.io/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+<article id="post-13535" class="post-13535 post type-post status-publish format-standard hentry category-ufot tag-florida tag-ufo tag-ufot">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/ufot/" rel="category tag">UFOt</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/ufot/orbilaivue-floridassa/" rel="bookmark">Orbilaivue Floridassa</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/ufot/orbilaivue-floridassa/" rel="bookmark"><time class="entry-date" datetime="2023-05-28T11:11:31+00:00">28 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/ufot/orbilaivue-floridassa/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Orbilaivue Floridassa" data-link="http://eksopolitiikka.github.io/ufot/orbilaivue-floridassa/" data-app-id-name="index_above_content"></div>
+<p>Havaintopäivämäärä: 16.7.2022<br>
+Havaintopaikka: Brickell, Florida, USA</p>
+<p>Silminnäkijä Floridassa kuvasi kahdeksan hehkuvaa orbia, jotka näkyivät taivaalla arviolta viiden minuutin ajan. Orbit olivat jättiläismäisiä, pyöreitä ja keltaisia. Jopa auringon laskiessa nämä orbit näkyivät voimakkaasti. Orbit ovat kaikkein yleisin UFO-tyyppi ympäri maailman, mutta useimmiten ne ovat valkoisia. Uskon, että nämä ovat myös valkoista valoa, mutta laskeva aurinko värjää ne keltaisiksi. Floridan rannikolla tehdään monia UFO-havaintoja, niin monia että monet UFO-tutkijat ovat pohtineet, että josko rannikon läheisyydessä muutaman kilometrin päässä olisi merenpinnan alla avaruusolentojen tukikohta.</p>
+<p><img fetchpriority="high" decoding="async" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyvt3cFAqI5OE9v3tSuDYCzQZgsJAaH5rFNUCPjZLuyIG63wj4Py9Ny4G4KnK9mM4kl0CxRJzmkqozDHMeD9xRKdv-xQXENVR-KB7Q7YA-idKUkkPzvzJ2d1P_UHr3TfsbEUIHfwuF3dgAADVImcYvR2f3Vquoe5j4--UsTwUzUO1a_WlOp2IFFvTp/w640-h344/UAP,%20%E0%A4%89%E0%A4%AB%E0%A5%8C%20,%20%E0%A6%87%E0%A6%89%E0%A6%8F%E0%A6%AB%E0%A6%93,%20%C4%91i%CC%83a%20bay,%20MUFON,%20%E7%9B%AE%E6%92%83%E3%80%81%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3,%20%20UFO,%20UFOs,%20%D0%9D%D0%9B%D0%9E%20,%20NLO,%20sighting,%20sightings,%20alien,%20aliens,%20ET,%20anomaly,%20ancient,%20vreemdelinge,%20%20.jpg" width="640" height="344" border="0" data-original-height="485" data-original-width="904"></p>
+<p>Avaruusolennot ovat tekemässä itseään tunnetuksi meille pikkuhiljaa. Omalla tyylillään, ei meidän tyylilllämme. Miksi ne näkevät asiat toisin kuin me? Koska ne elävät ikuisesti, ne ovat oppineet kontrolloimaan ikääntymistä, meidän elämämme on rajallinen&#8230; joten meillä on kiire, mutta avaruusolennoilla on ikuisuus aikaa työlleen. Näin avaruusolennot usein tekevät asioita verkkaisesti, kuin etanat.</p>
+<p>Scott C. Waring,  Taiwan</p>
+<p><img decoding="async" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGmIL6y2c-bCxfQH3HF8LiK5cB5wSrXY45y10U_Kqd30gqKKGZ9s0NEQ11DUV-hRVpLkjuFTMcTViGZ5g1jr1E1-alJCIWzAGSsqd6tXyQbycORak0vEYCsTX1rAjfZprvQsX4RrMsgCdmnDIjujOxrmoIAIXo2pUy0i7tBd5SczEZmREP5MhScIvQ/w640-h432/ovni,%20omni,MUFON,%20%E7%9B%AE%E6%92%83%E3%80%81%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3,%20%20UFO,%20UFOs,%20sighting,%20sightings,%20alien,%20aliens,%20ET,%20anomaly,%20anomalies,%20ancient,%20paleontology,%20waarneming,%20vreemdelinge,%20%20jpg.jpg" width="640" height="432" border="0" data-original-height="640" data-original-width="950"></p>
+<p><img decoding="async" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir0oOAANcw7FMSXEaO-65gOUNtOJ6HyOhz01QL1dDq2IXPJeUi04bFhGorAPdkP-nlr0ncfozDTM2sQiQY7FvLsyB_Ct2KlaC1AmfwKSuGGcEgao190FgF4_VumbJDGVLmJ86LTYJF3r7LvlbxlfqLCknlePaDQZyO71cKQ5HMwN0AvvDQLfYQAtUO/w480-h640/123507_submitter_file1__IMG8065.jpg" width="480" height="640" border="0" data-original-height="1667" data-original-width="1250"></p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://www.ufosightingsdaily.com/2022/07/orb-fleet-seen-over-brickell-florida-on.html">UFO Sightings Daily</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Orbilaivue Floridassa" data-link="http://eksopolitiikka.github.io/ufot/orbilaivue-floridassa/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Orbilaivue Floridassa" data-link="http://eksopolitiikka.github.io/ufot/orbilaivue-floridassa/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/florida/" rel="tag">Florida</a><a href="/tag/ufo/" rel="tag">UFO</a><a href="/tag/ufot/" rel="tag">UFOt</a></span></footer></article><!-- #post-## -->
+
+<article id="post-14984" class="post-14984 post type-post status-publish format-standard has-post-thumbnail hentry category-eksopolitiikka tag-steven-greer tag-ufo-paljastus">
+	
+	<a class="post-thumbnail" href="/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/">
+	<img width="333" height="198" src="/wp-content/uploads/2014/06/exo1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="/wp-content/uploads/2014/06/exo1.png 333w, /wp-content/uploads/2014/06/exo1-300x178.png 300w" sizes="(max-width: 333px) 100vw, 333px">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/eksopolitiikka/" rel="category tag">Eksopolitiikka</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/" rel="bookmark">Historiallinen lehdistötilaisuus UFO/UAP-paljastuksesta Washington DC:ssa</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/" rel="bookmark"><time class="entry-date" datetime="2023-05-28T05:46:40+00:00">28 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Historiallinen lehdistötilaisuus UFO/UAP-paljastuksesta Washington DC:ssa" data-link="http://eksopolitiikka.github.io/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/" data-app-id-name="index_above_content"></div>
+<p>WASHINGTON, toukokuun 24, 2023 /PRNewswire/ &#8212; Tohtori Steven M. Greer, Disclosure Projectin perustaja ja yksi maailman johtavista UFO/UAP-asiantuntijoista, esittelee lopulliset todisteet laittomista, tunnustamattomista, mustan budjetin hankkeista, jotka liittyvät UFO/UAP-operaatioihin Washington DC:ssä 12. kesäkuuta 2023 kello 14.00 National Press Clubilla.</p>
+<p>Hänen seurassaan on useita korkean turvaluokituksen ilmiantajia valtiolta, jotka esittävät vakuuttavia todistajalausuntoja. Näihin ilmiantajiin kuuluu Yhdysvaltain merijalkaväen sotilas, joka näki ihmisen tekemän UAP:n purkavan lastina laittomia aseita ja huumeita Indonesiassa vuonna 2009.</p>
+<div class="pull-right inline-gallery-container col-md-8 col-sm-7 col-xs-12">
+<div class="gallery inline-gallery">
+<div class="row">
+<div class="col-sm-12"></div>
+<div class="col-sm-12 clearfix">
+<figure>
+<div class="image lightbox-item " data-src="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?p=publish" data-asset-type="photo" data-asset-id="Life_After_Debt_Aug_17_Event.jpg" data-asset-label="General" data-sub-html="Fort Irwin CA based on Top Secret military Witness" data-tweet-text="Fort Irwin CA based on Top Secret military Witness" data-facebook-share-text="Fort Irwin CA based on Top Secret military Witness" data-linkedin-text="Fort Irwin CA based on Top Secret military Witness" data-download-url="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?p=publish" data-pinterest-text="Fort Irwin CA based on Top Secret military Witness" data-twitter-share-url="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?p=twitter" data-linkedin-share-url="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?p=linkedin" data-facebook-share-url="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?p=facebook" data-pinterest-share-url="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?p=facebook"><a class="tabfocus" role="button"><img decoding="async" id="imageid_2" class="gallery-thumb img-responsive" title="Fort Irwin CA based on Top Secret military Witness" src="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?w=600" alt="Fort Irwin CA based on Top Secret military Witness" data-getimg="https://mma.prnewswire.com/media/2084801/National_Press_Club.jpg?w=200"></a></div>
+<figcaption><em>Kalifornian Fort Irwin, perustuu Top Secret -turvaluokituksen sotilasilmiantajan lausuntoon</em></figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+<p>UFO-paljastuksen tiedustelutietojen arkisto, joka koostuu yli 5 teratavusta hallituksen asiakirjoja, ilmiantajien todistuksia ja laittomasti toimivien UFO-hankkeiden ja -yritysten sijaintipaikkoja, paljastetaan myös. Yli 700 sotilas-, tiedustelu- ja yritysilmoittajaa on mukana tässä laajassa arkistossa.</p>
+<p>Suunnitelmat siviilien käynnistämästä RICO-oikeudenkäynnistä (Racketeering Influenced Corrupt Organization) laittomia sotilas- ja yrityshankkeita vastaan ilmoitetaan ja hahmotellaan.</p>
+<p>Lisäksi esitetään yhteenveto joistakin 119:stä maan ulkopuolisten ajoneuvojen törmäys-/palautustapahtumasta. Disclosure Archive sisältää tiedustelutietoja kaikista näistä tapauksista.</p>
+<p>Esitellään yhteenveto laittomasti takavarikoidusta ja hävitetystä edistyksellisestä energia- ja käyttövoimateknologiasta. Nämä teknologiat korvaisivat kaikki fossiiliset polttoaineet, ydinvoiman ja sähkönsiirtojärjestelmät ja loisivat uuden, köyhyydestä ja saasteista vapaan talouden yhden sukupolven kuluessa.</p>
+<p>Viimeisten 30 vuoden aikana tohtori Greer on löytänyt yli 700 korkean tason ilmiantajaa, jotka ovat valmiita todistamaan suorasta osallisuudestaan UFO- ja avaruusolioasioihin, kehittyneisiin energia- ja käyttövoimajärjestelmiin ja laittomasti johdettujen hallituksen salaisten ohjelmien olemassaolosta.</p>
+<p>Hän on pitänyt tiedotustilaisuuksia Yhdysvaltain istuville presidenteille ja korkeille hallituksen virkamiehille eri puolilla maailmaa hyödyntäen laajaa tiedusteluarkistoaan. Hän on antanut lukemattomia mediahaastatteluja ja luennoinut kaikkialla maailmassa. Greer on kirjoittanut viisi kirjaa ja tuottanut viisi dokumenttielokuvaa. Hänen uusin elokuvansa &#8221;The Lost Century and How to Reclaim it&#8221; julkaistaan 6. kesäkuuta 2023.</p>
+<p>&#8221;Kyse on oikeastaan demokratian uudistamisesta, sillä kaikki sanovat: &#8217;Olemme vapaassa maassa demokratiassa&#8217;, mutta kuinka vapaata ja demokraattista se voi olla, jos tärkeimmät teknologiat ja tärkeimmät löydöt pidetään salassa tiedotusvälineiltä, yleisöltä ja poliittisilta päättäjiltämme.&#8221;</p>
+<p>KATSO TILAISUUS SUORANA TÄSTÄ 12. KESÄKUUTA</p>
+<p>https://www.youtube.com/watch?v=4BtWYfTliik</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://finance.yahoo.com/news/historic-press-event-uap-ufo-210400351.html?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAB1SB0XO74rtfEUux75bQQh8pt_Pe7tr8j2RKd8nfB4LuPPux4dgcJPU3eanf6WnGfKAkM_GRzOvwHrfYQG2gieQVaIiGWkth2pacMdvyaoFVPZR516wG-sWcwZSs6Be8yACl5Vfod22qCXc6dJrvxxN3KYx2gMmslOW8lyddHFH&amp;guccounter=2">Yahoo Finance</a> / <a href="https://www.prnewswire.com/news-releases/historic-press-event-on-uapufo-disclosure-in-washington-dc-301834022.html">PR Newswire</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Historiallinen lehdistötilaisuus UFO/UAP-paljastuksesta Washington DC:ssa" data-link="http://eksopolitiikka.github.io/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Historiallinen lehdistötilaisuus UFO/UAP-paljastuksesta Washington DC:ssa" data-link="http://eksopolitiikka.github.io/eksopolitiikka/historiallinen-lehdistotilaisuus-ufo-uap-paljastuksesta-washington-dcssa/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/steven-greer/" rel="tag">Steven Greer</a><a href="/tag/ufo-paljastus/" rel="tag">UFO-paljastus</a></span></footer></article><!-- #post-## -->
+
+<article id="post-13533" class="post-13533 post type-post status-publish format-standard hentry category-ufot tag-florida tag-ufo tag-ufot">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/ufot/" rel="category tag">UFOt</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/ufot/valoilmio-floridassa/" rel="bookmark">Valoilmiö Floridassa</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/ufot/valoilmio-floridassa/" rel="bookmark"><time class="entry-date" datetime="2023-05-27T11:11:23+00:00">27 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/ufot/valoilmio-floridassa/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Valoilmiö Floridassa" data-link="http://eksopolitiikka.github.io/ufot/valoilmio-floridassa/" data-app-id-name="index_above_content"></div>
+<p>Havaintopäivämäärä: 13.6.2020<br>
+Havaintopaikka: Naples, Florida, USA</p>
+<p>Henkilö joka kuuli tuoreemmasta UFO-havainnosta Floridassa raportoi nähneensä valoilmiön Naplesissa vuonna 2020, ja se näyttää hienolta. Tämä UFO näyttää siltä, kuin se olisi juuri tullut ulos madonreiästä ja sen värit ovat eläväiset. Fantastinen löytö. Se ei ole SpaceX tai NASAn rakettilaukaisu, se on jotain suurempaa. Valtio yrittää levittää disinfoa feikkilaukaisuista salatakseen jättiläismäisen UFOn Florisassa. 100-prosenttisesti muukalaisten!</p>
+<p>Scott C. Waring,  Taiwan</p>
+<p><img loading="lazy" decoding="async" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg--xectI_FP41WsaEXWQ6g9b3FehmzxSwcFsgB9DFgwuW1GtCmfsyxOvEl0qe581YzPqT4dP1OudqxkpiqoPsOVTdCtdNr1W3H74WQwHSaZrG8FvVMxAMNcpdatJrUKYeC9QDaeJQ3KYiCjIjbjWAHtGHNvm8gIbW7BA5Dz-46-RzHYcmLY_iH_TiS/w640-h360/UFO%20sighting,%20florida.png" width="640" height="360" border="0" data-original-height="720" data-original-width="1280"></p>
+<p>Silminnäkijä kertoo:</p>
+<p>Kirkas valo, arviolta puolikkaan kuun kokoinen, näytti vetävän sisäänsä usvaa pilven kaltaisesta kohteesta. Erittäin värikäs. Siellä oli myös toinen valokohde, joka liikkui tämän alla. Kaksi valonlähdettä ja yksi pilven kaltainen juttu, joka imi valoa ja usvaa itseensä toisesta.</p>
+<p><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/dODAwAuHrHA" width="640" height="375" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://www.ufosightingsdaily.com/2022/07/bright-light-in-sky-over-naples-florida.html">UFO Sightings Daily</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Valoilmiö Floridassa" data-link="http://eksopolitiikka.github.io/ufot/valoilmio-floridassa/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Valoilmiö Floridassa" data-link="http://eksopolitiikka.github.io/ufot/valoilmio-floridassa/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/florida/" rel="tag">Florida</a><a href="/tag/ufo/" rel="tag">UFO</a><a href="/tag/ufot/" rel="tag">UFOt</a></span></footer></article><!-- #post-## -->
+
+<article id="post-13917" class="post-13917 post type-post status-publish format-standard has-post-thumbnail hentry category-tiede tag-joukkovaino tag-mielenhallinta tag-synteettinen-telepatia tag-telepatia">
+	
+	<a class="post-thumbnail" href="/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/">
+	<img width="672" height="372" src="/wp-content/uploads/2022/10/Screenshot-from-2022-10-30-20-08-55-672x372.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="MKULTRA" decoding="async" loading="lazy">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/tiede/" rel="category tag">Tiede</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/" rel="bookmark">Voiko satelliitti lukea ajatuksiasi? Aika kertoa totuus</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/" rel="bookmark"><time class="entry-date" datetime="2023-05-27T10:10:16+00:00">27 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Voiko satelliitti lukea ajatuksiasi? Aika kertoa totuus" data-link="http://eksopolitiikka.github.io/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/" data-app-id-name="index_above_content"></div>
+<p>Tämä on toinen artikkeli sarjassamme satelliitin ajatuksenlukukyvystä. Artikkelin muut osat <a href="/tag/synteettinen-telepatia/">löytyvät täältä</a>.</p>
+<hr>
+<p>Mikä yhteys on Guantanamo Bayn, ihmiskokeiden, värivallankumousten, Lähi-idän kansannousujen, <a href="https://en.wikipedia.org/wiki/Total_Information_Awareness">Total Information Awarenessin</a> ja terrorismin vastaisen sodan välillä? Se kuulostaa melkein kuin johdannolta erittäin hauskalle vitsille. Valitettavasti sellaista ei ole olemassa. Tämä tarina pyörii murhien, pelottelun, pitkäkestoisten kokeiden, todistajien pelottelun, lehdistöä vastaan suunnattujen suorien hyökkäysten, rikosten tehtailemisen ympärillä ja jälkien ympärillä, jotka johtavat aina Valkoiseen taloon asti Tähtien sota -ohjelmasta lähtien.</p>
+<h2><strong>Paluu kasarille</strong></h2>
+<p>Olen varma, että useimmat ihmiset muistavat elokuvan &#8221;War Games&#8221;, vuoden 1983 klassikon, jossa<a href="https://web.archive.org/web/20110509022420/http://en.wikipedia.org/wiki/WOPR"> WOPR ei pysty erottamaan todellisuutta</a> ja simulaatiota toisistaan ja tietämään, milloin lopettaa. Olen varma, että kaikki ovat kuulleet viimeisten 20 vuoden aikana, että tekoäly oli aivan nurkan takana, mutta sitä ei ollut vielä saatu aivan täydelliseksi.</p>
+<p>Tämä oli ja on edelleen törkeä valhe.</p>
+<p>Tekoälyn luominen on suhteellisen yksinkertaista. Todellinen ongelma oli aina vain teknologian kutistaminen kotikäyttöön. Kun siis näkee yliopistojen kehittävän tekoälyä pienin askelin, se johtuu budjettirajoituksista, ei todellisista teknisistä rajoituksista.</p>
+<p>Mitä sitten tapahtuu, kun käytössäsi on massiivinen &#8221;mustan projektin&#8221; budjetti, kaikki mahdollinen supertietokoneiden teho ja valtuudet salata toimintasi.</p>
+<p>Vastaus on: tekoäly, puhdas mieli, jonka päättelykyky on verrattavissa ihmisen päättelykykyyn ja jonka tiedonhakukyky on vertaansa vailla jopa Googlen tasolla.</p>
+<p>Jotta saisit selkeämmän kuvan, kuvittele, että ottaisimme <a href="https://web.archive.org/web/20110509022420/http://en.wikipedia.org/wiki/Stephen_Hawking">Stephen Hawkingin</a> ja voisimme kopioida hänen mielensä koneeseen. Annamme sille myös mikromaailman (melkein kuin nukkekodin), jossa se voi luoda esineitä, animaatioita jne., ja sitten lisäämme siihen moduuleja, jotka antavat sille huumorintajua, jäljiteltyjä tunteita, kielen tulkinnan, puhesynteesin, esineiden tunnistamisen jne.</p>
+<p>Kuvittele nyt, että pystyt seisomaan kasvokkain tekoälyn kanssa, joka on tietoinen sinusta ja itsestään. Kuvittele tekoäly, joka ei ymmärrä väärin, kun puhut ja joka on älykkäämpi kuin suurin osa ihmisistä. Kuvittele järjestelmä, joka lukee ja kirjoittaa lähes kaikkia maapallon kieliä ja joka pystyy esittämään ihmistä erittäin tarkasti.</p>
+<p>Kuvittele puhuvasi &#8221;digitaalisen ihmisen&#8221; kanssa.</p>
+<p>Sinun ei tarvitse kuvitella, se on jo olemassa ja muodostaa NSA:n toiminnan selkärangan maailmanlaajuisesti.</p>
+<p>Olen varma, että jos olet koskaan miettinyt asiaa, on ollut uskomattoman vaikeaa ymmärtää, miten NSA:n onnistuu ymmärtää petatavuisia tietomääriä.</p>
+<p>No, nyt tiedätte.</p>
+<h2><strong>Ihmiskokeet ja hyökkäyskyvykkyys</strong></h2>
+<p>Tekoäly on lähes hyödytön, jos se ei ymmärrä ihmisen käyttäytymistä. Ennen internetiä tekoäly ei voinut olla vuorovaikutuksessa tuhansien ihmisten kanssa eikä ymmärtää luonteenpiirteitä ja päätöksentekoprosesseja. Tämän tavoitteen edistämiseksi ja tiedustelun tehostamiseksi tekoäly liitettiin järjestelmään, joka tunnettiin vain nimellä &#8221;Remote Neural Monitoring&#8221; (RNM).</p>
+<p>RNM hyödyntää sitä, että ihmiskeho tuottaa hermosolujen syttyessä hyvin heikkoja radioaaltoja erittäin kapealla taajuusalueella. Aallonpituutensa ansiosta nämä radioaallot voivat kulkea kilometrien pituisen kallion läpi hyvin vähäisin signaalihäviöin. Kytkemällä tekoäly tähän radiorajapintaan tekoäly voisi oppia ihmiskehon &#8221;kieltä&#8221; kuvioanalyysin avulla.</p>
+<p>Ohjelma oli erittäin onnistunut. Sen avulla NSA pystyi kartoittamaan ulkomaisten hallitusten, terroristiverkostojen, suuryritysten jne. toimintaa. Pelkästään kuuntelemalla NSA:lla oli valmiudet tietää tapahtumista kauan ennen kuin niitä ryhdyttiin toteuttamaan.</p>
+<p>Kuten useimmissa Yhdysvaltojen hankkeissa, tehtävästä tuli tekijä, ja siihen lisättiin toissijainen kyky. Järjestelmästä tuli nyt &#8221;Remote Neural Communication&#8221; (RNC). RNC antoi tekoälylle kyvyn lähettää signaaleja takaisin ihmisaivoihin, mikä käytännössä muutti kaikkien signaalin vastaanottajien käyttäytymistä. Ryhmistä, joita NSA aikoinaan kuunteli, tuli nyt ensisijaisia kohteita, joiden avulla Yhdysvaltain hallitus voi ajaa maailmanlaajuista agendaansa.</p>
+<p>Lisäksi se tarjosi NSA:lle hyökkäysvalmiuksia, sillä se pystyi häiritsemään ihmiskehon biologisia prosesseja.</p>
+<p>Pitkän aikavälin pitkittäistutkimuksia käynnistettiin hermostollisen integraation ja hyökkäysvalmiuksien pitkäaikaisvaikutusten testaamiseksi.</p>
+<p>Näitä ihmisiä kutsutaan nykyään &#8221;<a href="/uncategorized/laheta-tama-kirje-kansanedustajallesi/">joukkovainotuiksi</a>&#8221;, ja heitä on kaikkialla maailmassa. He vaihtelevat lapsista eläkeläisiin, joiden kimppuun on hyökätty järjestelmällisesti omissa kodeissaan vuosien ajan. Jos tekoäly havaitaan, se yrittää lamauttaa henkilön pysyvästi, ja jos se ei onnistu, se turvautuu pelotteluun ja tappouhkauksiin.</p>
+<p>Tutkimukset jatkuvat tätä artikkelia kirjoittaessani Valkoisen talon ja lukuisten maailman hallitusten täydessä tiedossa.</p>
+<h2><strong>9/11 ja Guantanamo Bay</strong></h2>
+<p>Älkää antako uskotella, että tämä on jotakin uutta, vastaus syyskuun 11. päivään tai vastaavaan terrorismin vastaiseen sotaan. Tämä ohjelma oli lähes kaksi vuosikymmentä ennen näitä tapahtumia. Itse asiassa syyskuun 11. päivän tapahtumia on käytetty sekä ohjelman peittämiseen että ihmiskokeiden laajentamiseen.</p>
+<p>Miten tämä liittyy Guantanamo Bayhin ja luovutuksiin?</p>
+<p>Vastauksen pitäisi olla itsestään selvä. Kun tekoäly kartoittaa terroristiverkostoja, se tunnistaa tietyt jäsenet, jotka ovat syyllistyneet vakaviin rikoksiin tai jotka tarjoavat aineellista tukea. Järjestelmän läsnäolon salaamiseksi kohteet joutuvat &#8221;tehostettujen kuulustelutekniikoiden&#8221; kohteiksi, jotta he tunnustaisivat rikokset. Tietenkin tietty määrä syyttömiä osapuolia on saatava mukaan, tai se herättäisi epäilyksiä puolustuksen oikeellisuudesta.</p>
+<p>RNC:tä koskeva salassapitotarve ei liity kansallisen turvallisuuden tarpeisiin, sillä tietoa on saatavilla kaikkialla verkossa, vaan sen tarkoituksena on estää yleisön tietoisuus parhaillaan tehtävistä ihmiskokeista.</p>
+<p>Jos tiedot julkaistaisiin, ne tuhoaisivat NSA:n, kaataisivat nykyisen hallituksen ja veisivät hallituksen entisiä ja nykyisiä jäseniä vankilaan.</p>
+<p>Nixon näyttää tässä vaiheessa pyhimykseltä.</p>
+<h2><strong>Total Information Awareness<br>
+</strong></h2>
+<p>Olen varma, että suurin osa lukijoista ymmärtää nyt, miksi <a href="https://en.wikipedia.org/wiki/Total_Information_Awareness">TIA:n kaltaiset ohjelmat</a> otettiin käyttöön ja miksi niihin osallistuivat samat henkilöt Reaganin aikakaudelta. Tämä teknologia oli strategisen puolustusaloitteen seuraus. TIA:n takana olivat samat henkilöt, jotka olivat mukana Iran-Contra-asiassa ja joilla on kokemusta sotilasteknologian lähettämisestä viholliselle.</p>
+<p>Kun otetaan huomioon, että tämä on kaikkialla verkossa, voimme päätellä, että mikään ei ole muuttunut.</p>
+<p>Niille, jotka eivät tiedä, TIA:n periaatteena oli koota kaikki tiedot yhteen keskustietokantaan, josta eri virastot voisivat kaivaa tietoja mielensä mukaan.</p>
+<p>Tämä &#8221;tietokanta&#8221; oli meidän tekoälymme, ja ohjelma jatkuu edelleen eri nimillä. Tärkeintä on, että suuret sosiaaliset verkostoitumissivustot, kuten Facebook, Google jne., tarjoavat NSA:lle suorat rajapinnat, joiden kautta se voi ryömiä säilytettyjen tietojen läpi. Tätä täydentävät AT&amp;T:n kaltaisten teleyritysten käyttöön ottamat jatkuvat kuuntelulaitteet.</p>
+<h2><strong>Värivallankumoukset ja Lähi-Idän kansannousut</strong></h2>
+<p>Äkilliset vallankumoukset, jotka saavat voimansa sosiaalisesta mediasta, ovat vain osa tarinaa. RNC on avainasemassa näissä operaatioissa. Sensaatioiden, keskeisten käsitteiden ja jopa motivaation levittäminen kymmeniin tuhansiin ihmisiin on todellinen liikkeellepaneva voima näiden äkillisten joukkomobilisaatioiden taustalla.</p>
+<p>Tuhannet tapaukset, joissa tekoäly ohjaa demokratiaa kannattavia ajatusmalleja eri puolilla kansakuntaa muuttamaan koko väestön mielialaa. Koska kunkin &#8221;hermostollisen hyötykuorman&#8221; kesto on lyhyt, lopputulosta ei voida koskaan taata, koska muita motiiveja ei voida koskaan täysin vapauttaa tai hallita.</p>
+<p>Se on kuitenkin vain ajan ja kaistanleveyden kysymys.</p>
+<h2><strong>Todistajien häiriköinti ja mediaohjelma</strong></h2>
+<p>Keskeistä tässä toiminnassa on median hallinta. Valitsemalla uutistoimitusten avainhenkilöstöä, yleensä niitä, joilla on toimituksellinen määräysvalta, tekoäly pystyy &#8221;suostuttelemaan&#8221; henkilökuntaa olemaan julkaisematta tiettyjä juttuja tai ajattelemaan niitä eri tavalla. Tämä tapahtuu yleensä vetoamalla isänmaallisuuden tunteisiin tai keskittymällä muihin motivaatiotekijöihin.</p>
+<p>Jos joukkovainon kohde tulee tietoiseksi asiasta, suostuttelusta luovutaan ja uhkaillaan suoraan sekä kohdehenkilöä että perheenjäsentä. Toisinaan näitä seurataan suorilla hyökkäyksillä. Tämä voi olla mitä tahansa lihaskohtauksista aina lihasten puristamiseen ja sydämen kiihdyttämiseen asti. Lyhyellä aikavälillä tämä on pelkkää pelottelua, mutta pitkällä aikavälillä sillä olisi sama vaikutus kuin tukkeutuneilla valtimoilla, jotka aiheuttavat sydämen vajaatoiminnan tai laajentuneen sydämen.</p>
+<h2><strong>Lopuksi</strong></h2>
+<p>Tervetuloa tutustumaan Yhdysvaltain hallituksen todellisiin kasvoihin. Auschwitz ranskalaisilla, oman kotisi yksityisyydessä.</p>
+<p>Natsit olisivat olleet ylpeitä saavuttamistanne taloudellisista säästöistä.</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://web.archive.org/web/20110509022420/http://deepthought.newsvine.com/_news/2011/05/03/6578889-can-a-satellite-read-your-thoughts-time-to-come-clean">newsvine.com</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Voiko satelliitti lukea ajatuksiasi? Aika kertoa totuus" data-link="http://eksopolitiikka.github.io/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Voiko satelliitti lukea ajatuksiasi? Aika kertoa totuus" data-link="http://eksopolitiikka.github.io/tiede/voiko-satelliitti-lukea-ajatuksiasi-aika-kertoa-totuus/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/joukkovaino/" rel="tag">joukkovaino</a><a href="/tag/mielenhallinta/" rel="tag">mielenhallinta</a><a href="/tag/synteettinen-telepatia/" rel="tag">synteettinen telepatia</a><a href="/tag/telepatia/" rel="tag">telepatia</a></span></footer></article><!-- #post-## -->
+
+<article id="post-14972" class="post-14972 post type-post status-publish format-standard has-post-thumbnail hentry category-eksopolitiikka tag-edgar-mitchell tag-john-callahan tag-karl-wolf tag-kuu tag-michael-schratt tag-michael-smith tag-stephen-bassett tag-steven-greer tag-ufo-paljastus">
+	
+	<a class="post-thumbnail" href="/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/">
+	<img width="577" height="372" src="/wp-content/uploads/2014/08/moon-577x372.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/eksopolitiikka/" rel="category tag">Eksopolitiikka</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/" rel="bookmark">Steven Greeriltä tulossa uusi UFO-paljastustilaisuus kesäkuussa 2023</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/" rel="bookmark"><time class="entry-date" datetime="2023-05-27T09:09:27+00:00">27 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Steven Greeriltä tulossa uusi UFO-paljastustilaisuus kesäkuussa 2023" data-link="http://eksopolitiikka.github.io/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/" data-app-id-name="index_above_content"></div>
+<p>Tohtori Steven Greer aikoo räjäyttää pankin tänä kesänä pitämällä uuden <a href="https://siriusdisclosure.com/">Disclosure-tapahtuman</a> National Press Clubilla Washingtonissa. Tilaisuudesta lähetetään suora livelähetys youtuben kautta ilmaiseksi. Tällä kertaa hänellä on mukanaan UFO-historian tutkija Michael Schratt, jonka kanssa he käyvät yhdessä läpi yli 100 UFO-tapausta, myös UFO-aluksen noutotapauksia. Tilaisuudessa on mukana myös neljä muuta todistajaa, joiden nimeä ei vielä ole paljastettu:</p>
+<p><b>1.</b>  Joku, joka työskenteli urakoitsijan palveluksessa Dugwayn koealueilla, joka näki eri yhteyksissä: hybridiavaruusolennon ruumiinavauksen, massiivisen maanalaisen laitoksen avautumisen &#8212; yli 1000 neliökilometriä &#8212; ja avaruusaluksen, jota työstettiin.</p>
+<p><b>2.</b> Toinen henkilö oli parin Raytheonin työntekijän kanssa katsomassa UFOa, joka näytti hologrammilta, ja he viittasivat siihen, että Raytheon oli tehnyt sen.</p>
+<p><b>3.</b> Etelänavalla työskentelevä urakoitsija, joka näki neutriinovalojoukon, jota käytetään UFOjen jäljittämiseen.</p>
+<p><b>4</b>.  Eräs sotilas näki ARV:n (ihmisen tekemä UFO, alien reproduction vehicle), jota käytettiin huumekauppaan.</p>
+<p>Michael Schratt on aiemminkin esitelmöinyt salaisista projekteista:</p>
+<p><iframe loading="lazy" title="Michael Schratt exposes the Unacknowledged Special Access Programs" width="474" height="267" src="https://www.youtube.com/embed/VTOgVDCjsrg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>Steven Greerin aiemmasta paljastustilaisuudesta kirjoitettiin vuonna 2001 myös lehdissä. Alla on Washington Timesin artikkeli:</p>
+<h1 class="page-headline">Valtio salailee UFO-todisteita, ryhmä sanoo</h1>
+<p>perjantai, 11.5.2001</p>
+<p>Yhdysvaltain hallitus on salannut todisteita Maan ulkopuolisista vierailuista yli 50 vuoden ajalta, sanoi keskiviikkona 20 eläkkeellä olevaa ilmavoimien, ilmailuhallinnon ja tiedustelupalvelun upseeria. He vaativat kongressia järjestämään kuulemistilaisuuksia siitä, mitä he sanovat Yhdysvaltojen pitkäaikaiseksi salaiseksi sekaantumiseksi UFOihin ja avaruusolentoihin.</p>
+<p>Virkamiehet, jotka kutsuivat itseään UFOihin liittyvien tapahtumien silminnäkijöiksi, kutsuivat sitä &#8221;1900-luvun suurimmaksi salaisuudeksi&#8221; ja kuvailivat sarjaa sotilastutkimuksia, joita he sanoivat nähneensä: muukalaisten avaruusalusten maahansyöksyjä, muukalaisolentojen ruumiita, hallituksen salaisia asiakirjoja, jopa James Bond -tyylisiä liikaa tienneiden ihmisten &#8221;pyyhkimisiä&#8221;.</p>
+<p>&#8221;Henkilöt, joilla on näitä havaintoja, vaihtelevat lentäjistä ja sotilaslentäjistä poliiseihin, niihin ihmisiin, joista teidän elämänne on päivittäin riippuvainen&#8221;, kertoi eläkkeellä oleva ilmavoimien everstiluutnantti Charles Brown epäileville toimittajille.</p>
+<p>&#8221;He ovat erittäin hyvämaineisia ja luotettavia ihmisiä&#8221;, hän sanoi.</p>
+<p>&#8221;Ala on täynnä huijauksia ja petoksia&#8221;, sanoi tohtori Steven Greer, todistajia keränneen Disclosure Project -järjestön johtaja. &#8221;Mutta se ei tarkoita, että kaikki olisi sitä.&#8221;</p>
+<p>Hänen mukaansa 20 todistajaa oli vain murto-osa niistä 400 ihmisestä, jotka ovat halukkaita todistamaan valaehtoisesti ja kongressin koskemattomuuden turvin valtion salamyhkäisestä osasta, jonka he sanovat riistäytyneen käsistä.</p>
+<p>UFOt ovat kiehtoneet amerikkalaisia jo pitkään, myös useita Yhdysvaltain presidenttejä. <a href="https://webbhubbell.com/">Webster L. Hubbell</a>, presidentti Clintonin entinen apulaisoikeusministeri, on kuvaillut omaelämäkerrassaan epäonnistunutta pyrkimystään selvittää hallituksen osuutta aiheeseen.</p>
+<p><a href="https://www.youtube.com/watch?v=HUak1jfA2Hg">John Callahan</a>, FAA:n entinen onnettomuus- ja tutkintaosaston päällikkö, sanoi, että CIA:n virkamiehet ohjasivat häntä salaamaan 18. marraskuuta 1986 tapahtuneen tapauksen, jossa UFO ja japanilainen matkustajakone olivat osallisina lähellä Anchoragea Alaskassa.</p>
+<p>&#8221;Me kaikki vannoimme vaitiolovelvollisuuden velvoittamana, ettei tätä tapahtumaa koskaan tapahtunut&#8221;, hän sanoi.</p>
+<p><a href="https://www.youtube.com/watch?v=phGOYvEGAag">Michael Smith</a>, entinen Yhdysvaltain ilmavoimien lennonjohtaja, joka oli sijoitettuna Klamath Fallsin lähelle Oregon osavaltioon 1960-luvulla ja 1970-luvun alussa, kertoi nähneensä eräänä yönä UFOn leijumassa 80 000 jalan korkeudessa.</p>
+<p>&#8221;Minulle sanottiin, että pidä se omana tietonasi&#8221;, hän sanoi. &#8221;NORAD [North American Aerospace Defense Command] soitti minulle eräänä yönä ja sanoi, että Kalifornian rannikkoa pitkin on tulossa UFO. Kysyin heiltä, mitä tehdä. He sanoivat, ettei mitään, ei mitään, älä kirjoita siitä mitään ylös.&#8221;</p>
+<p>Kun hän oli sijoitettuna toiseen sotilastukikohtaan Michiganissa, UFOt olivat hänen mukaansa niin lähellä yhtä laskeutumisrataa, että kaksi saapuvaa B-52-konetta oli ohjattava niiden ympäri.</p>
+<p>The Disclosure Project, Crozetissa, Virginiassa sijaitseva tutkimusorganisaatio, joka on kerännyt hallituksen todistajia useiden vuosien ajan, sanoo, että sen syy julkisuuteen menemiseen on se, että Yhdysvaltain hallituksella on jo pitkään ollut tietoa painovoiman kumoavista työntövoimajärjestelmistä. Niitä on löydetty pudonneista avaruusaluksista, kuten Roswellissa, New Mexicossa heinäkuussa 1947 tapahtuneeksi väitetyn maahansyöksyn jäljiltä.</p>
+<p>Nämä työntövoimajärjestelmät, jotka käyttäisivät sähkömagneettista ja &#8221;nollapiste-energiatilan&#8221; teknologiaa tuottamaan valtavia määriä energiaa ilman saasteita, muuttaisivat radikaalisti maailman öljypohjaista taloutta. Tällaiset energialähteet eivät edellyttäisi maailman jokien patoamista tai voimalaitosten, siirtolinjojen tai muiden kalliiden infrastruktuurien rakentamista, joita tarvitaan sähkön tuottamiseen maailman 6 miljardille asukkaalle.</p>
+<p>Tällaisen sähkögravitaatioteknologian avulla ihmiset voisivat myös liikkua täysin maanpinnan yläpuolella, jolloin tiet olisivat tarpeettomia. Useat silminnäkijät puhuivat näiden alusten osoittamista uskomattomista nopeuksista, jotka tutkateknikot arvioivat olevan yli 10 000 mailia tunnissa. Nopein tunnettu ihmisen rakentaman lentokoneen nopeus on 3 000 mailia tunnissa.</p>
+<p>Maan ulkopuolisia nopeuksia koskevia tietoja ei kuitenkaan koskaan julkisteta, sanoi Project Disclosure -hankkeen asianajaja <a href="https://www.danielpsheehan.com/">Daniel Sheehan</a>. Jopa Vatikaanin kirjastossa on hänen mukaansa salattua tietoa UFOista.</p>
+<p>Donna Hare, NASA:n suunnittelijakuvittaja, jolla on salainen turvaluokitus, sanoi, että UFOt poistettiin rutiininomaisesti ilmapyyhkäisyllä Maapallosta otetuista korkealla otetuista valokuvista ennen kuin ne julkaistiin yleisölle.</p>
+<p>&#8221;Me poistamme ne aina kuvankäsittelyllä ennen kuin julkaisemme ne yleisölle&#8221;, eräs teknikko kertoi hänelle. Uteliaana hän alkoi kysellä ympäri virastoa.</p>
+<p>&#8221;Eräs vartija kertoi, että häntä oli pyydetty polttamaan joitakin valokuvia eikä katsomaan niitä&#8221;, hän sanoi. &#8221;Häntä vartioi toinen vartija, joka katseli, kun hän poltti valokuvia. Hän katsoi yhtä, ja siinä oli kuva UFOsta, ja hän sai heti iskun päähänsä, ja hänen otsaansa tuli iso haava.&#8221;</p>
+<p>Apollo-astronautit olivat hänen mukaansa havainneet UFOja, mutta heitä &#8221;käskettiin pitämään tämä salassa ja olemaan puhumatta siitä&#8221;, hän sanoi. Yksi heistä, Edgar Mitchell, joka käveli kuussa osana Apollo 14 -ryhmää, on Project Disclosure -hankkeen todistaja.</p>
+<p><a href="https://www.youtube.com/watch?v=adPmuNghjeQ">Karl Wolf</a>, ilmavoimien kersantti, joka työskenteli NSAn palveluksessa, kertoi, että kuun pimeältä puolelta löydettiin salaperäisiä rakenteita, kun Yhdysvallat kartoitti sen pintaa ennen vuoden 1969 kuuhun laskeutumista. Myös nuo valokuvat poistettiin julkisista tiedoista.</p>
+<p>Pentagon ei kommentoi UFOja muuten kuin sanomalla, että niitä ei ole olemassa ja että tällaiset esineet ovat korkealla lentäviä ilmapalloja, suokaasua tai sotilaslentokoneita.</p>
+<p>Huolimatta siitä, että valtio kieltäytyy keskustelemasta asiasta, useat silminnäkijät ovat myös kertoneet olleensa sotilastukikohdissa tai ydinohjuksia sisältävien siilojen läheisyydessä, kun UFO kiersi ohi. Sen jälkeen sotilasupseerit huomasivat, että ohjukset oli väliaikaisesti tehty toimintakyvyttömiksi.</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://www.washingtontimes.com/news/2001/may/11/20010511-022955-2774r/">Washington Times</a></p>
+<hr>
+<p>Tarkkasilmäinen lukija huomaa, että ylläoleva artikkeli ei väitä, että Edgar Mitchell olisi sanonut, että Kuussa on rakennuksia. Väitteen esitti Karl Wolf. Kaikki eivät kuitenkaan pitäneet siitä miten artikkeli oli kirjoitettu. Artikkelin julkaisemisen aikoihin Edgar Mitchell suuttui ja halusi, että hänen nimensä poistetaan kaikilta <a href="https://siriusdisclosure.com/">Sirius Disclosuren</a> sivuilta, sillä hän ei halunnut nimeänsä mainittavan missään yhteydessä, jossa puhutaan rakennuksista Kuussa. <a href="https://www.youtube.com/watch?list=PLoUT4a5Zlf7HKw_kFLCfgR7JNycVjSd7L&amp;v=c3PZhY77ADo">Jack Sarfatti</a>, joka on mukana nykyisessä UFO-buumissa tieteentekijänä, haastatteli Edgar Mitchelliä vuonna 2001 ja lähetti haastattelun Jeff Renselle. Edgar Mitchell <a href="https://www.reddit.com/r/UFOB/comments/xz5dxg/sightings_edgar_mitchells_opinion_on_the_alleged/">ei missään vaiheessa sanonut</a> nähneensä rakennuksia Kuussa.</p>
+<h1>Ed Mitchell oli mitä tyytymättömin siihen, että Greer käytti hänen nimeään todistajana tietojen paljastamisessa</h1>
+<pre>Lähettäjä: tri Jack Sarfatti, sarfatti@well.com
+Aihe: Washington Timesin jutusta, joka koskee
+Greerin UFO-paljastuskonferenssista
+Vastaanottaja: Edgar Mitchell
+Organisaatio: Internet Science Education Project
+13.5.2001</pre>
+<blockquote><p>&#8221;Steve Greer&#8230; alkoi jatkuvasti ylikorostaa tietojaan&#8221;<br>
+&#8212; Edgar Mitchell</p></blockquote>
+<p>(Edgar Mitchell) Jack ja muut: Washington Timesin (juttu) UFOjen paljastamisesta mainitsee nimeni Disclosure Projectin todistajana &#8212; jota en ole &#8230;enkä ole ollut.</p>
+<p>(Jack Sarfatti) En ole lainkaan yllättynyt. Jos katsotte, kuka johtaa tuota CSETI Horse and Pony Disinfo Show &amp; Tell -show&#8217;ta, tunnistatte tuttuja nimiä. Ottakaa huomioon lähde. Merivoimien miehenä ja NASA:n astronauttina, joka todella oli siellä, tiedätte mitä tarkoitan 🙂</p>
+<p>(Edgar Mitchell) Tein yhteistyötä Steve Greerin kanssa muutama vuosi sitten, mutta hän alkoi jatkuvasti ylikorostaa tietojaan, minkä vuoksi minun ja uskoakseni useiden muidenkin oli pakko vetäytyä. Olen pyytänyt, että minut poistettaisiin kaikista verkkosivuista, ilmoituksista jne., mutta näköjään näin ei ole tapahtunut.</p>
+<p>(Jack Sarfatti) Tyypillistä poliittisesti perustelluille vaikuttamistoimille. Lehdistöklubin tapahtuman todellinen motiivi oli avaruuden militarisointi, ei UFOt, josta järkevät hyvää tarkoittavat ihmiset voivat tietysti olla eri mieltä. Koska monet miljoonat äänestäjät uskovat, että UFOt ovat todellisia, UFO-liikkeen hallintaan saaminen on selvästi kaikkien toimijoiden ensisijainen tavoite.</p>
+<p>(Edgar Mitchell) Vaikka uskon vakaasti, että valtion on aika olla avoin ja paljastaa tietoja, vastustan sitä, että minua käytetään väärin tällä tavoin ja että saan syyllisyyttä tiettyjen väitteiden perusteella, jotka eivät yksinkertaisesti ole totta.</p>
+<p>(Jack Sarfatti) Tunnen täsmälleen samoin kuin te. Luulen, että te, <a href="https://www.youtube.com/watch?v=gyWK72VMFvk">Don Ecker</a> (toim.huom. myös Don Ecker puhui Kuussa olevista tukikohdista) ja minä olemme tässä asiassa samaa mieltä.</p>
+<p>(Edgar Mitchell) Minä en, eikä yksikään miehistö, jossa olin mukana (olin kolmessa Apollo-miehistössä), saanut ennen lentoja tai niiden jälkeen minkäänlaista tiedotusta UFO-tapahtumista, nähnyt avaruudessa mitään, mikä viittaisi UFOihin tai rakennuksiin Kuussa jne. Me teimme sen juuri niin kuin virallisissa raporteissa sanottiin. Ainoa väitteeni siitä, että tiedän näistä tapahtumista, on peräisin henkilöiltä, enimmäkseen menneiltä henkilöiltä, jotka olivat hallituksessa, tiedustelupalvelussa tai armeijassa; he olivat paikalla, näkivät sen, mitä näkivät, ja ovat nyt sitä mieltä, että se pitäisi julkistaa. En kuitenkaan väitä, että minulla olisi omakohtaista tietoa, eikä minulla ole sellaista. Välittäkää se eteenpäin muulle verkolle, jos haluatte.</p>
+<p>&#8211;Edgar Mitchell</p>
+<p>Huomaa, että Mitchell kuitenkin myöhemmin antoi ymmärtää pysyneensä Greerin joukoissa mukana, kun hän meni puhumaan Steven Bassettin tilaisuuteen samaiselle pressiklubille muutama vuosi myöhemmin (mutta ei sanallakaan sanonut että hän itse olisi nähnyt omin silmin mitään):</p>
+<p><iframe loading="lazy" title="Edgar Mitchell on UFOs at Press Conference" width="474" height="356" src="https://www.youtube.com/embed/OO66afmxWKA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>Kritiikki Greeriä vastaan kumpuaa vuoden 2001 UFO-paljastustilaisuudesta, joka käsitteli UFO-ilmiötä liian kapeakatseisesti. Tuon aikainen MUFONin johtaja Jerry Glass kommentoi tilaisuutta Stephen Bassettille näin:</p>
+<p>Kunnioittavasti, enemmistö MUFONin jäsenistä, joille teimme kyselytutkimuksen, uskoi, että Greerin &#8221;paljastushanke&#8221; ei onnistunut. Lisäksi useimmat olivat sitä mieltä, että se oli takaisku ufologialle. Seuraavassa oli joitakin heidän perusteluistaan:</p>
+<p>Ufologia sekoittui muihin asioihin &#8212; kuten avaruuspohjaisen puolustuksen käyttöönottoon. Avaruusasejärjestelmät ovat Bushin hallinnon ensisijainen painopistealue. Ja onko tarkoitus ajatella, että vannoutuneet upseerit ja arvostetut West Pointin, Annapolisin ja ilmavoimien akatemian tutkinnon suorittaneet ovat hölmöjä, jotka eivät pidä Yhdysvaltain yleisöä kiinnostuneena puolustusasioista?</p>
+<p>Todistajat olivat julkisesti tiedossa ennen julkistamista &#8212; kukaan ei ollut sisäpiiriläinen. Vain yksi henkilö väitti, että hän näki silminnäkijänä  avaruusolentojen ruumiita. Kun häneltä kysyttiin, miltä ET:t näyttivät, <a href="https://www.youtube.com/watch?v=1GnGGCaC6P4">Clifford Stonen</a> lausunto oli naurettava. Herra Bassett, olivatko nämä parhaat niistä 400 todistajasta, jotka tohtori Greer tarkasti?</p>
+<p>Avaruusolennot eivät ole vihamielisiä&#8230; Mitä sitten teemme tohtori Jacobsin työn (ja muiden tutkijoiden 50 vuoden UFO/ET-tutkimusten), siepattujen, ET-hybridien, implanttien, karjan ja ihmisten silpomisen ja vihamielisten tekojen (Brasilia ja Etelä-Afrikka) kanssa.</p>
+<p>Herra Bassett, ellei kongressi toimi, Paradigmakellonne asettamista aikaan 23:59 pitäisi harkita uudelleen&#8230;</p>
+<p>Kunnioittaen,<br>
+Jerry Glass,<br>
+MUFONin johtaja<br>
+Riverside County, CA</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://rense.com/general10/mitch.htm">rense.com</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Steven Greeriltä tulossa uusi UFO-paljastustilaisuus kesäkuussa 2023" data-link="http://eksopolitiikka.github.io/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Steven Greeriltä tulossa uusi UFO-paljastustilaisuus kesäkuussa 2023" data-link="http://eksopolitiikka.github.io/eksopolitiikka/steven-greerilta-tulossa-uusi-ufo-paljastustilaisuus-kesakuussa-2023/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/edgar-mitchell/" rel="tag">Edgar Mitchell</a><a href="/tag/john-callahan/" rel="tag">John Callahan</a><a href="/tag/karl-wolf/" rel="tag">Karl Wolf</a><a href="/tag/kuu/" rel="tag">kuu</a><a href="/tag/michael-schratt/" rel="tag">Michael Schratt</a><a href="/tag/michael-smith/" rel="tag">Michael Smith</a><a href="/tag/stephen-bassett/" rel="tag">Stephen Bassett</a><a href="/tag/steven-greer/" rel="tag">Steven Greer</a><a href="/tag/ufo-paljastus/" rel="tag">UFO-paljastus</a></span></footer></article><!-- #post-## -->
+
+<article id="post-14967" class="post-14967 post type-post status-publish format-standard has-post-thumbnail hentry category-eksopolitiikka tag-avaruusolennot tag-epiphany tag-oumuamua tag-richard-boylan">
+	
+	<a class="post-thumbnail" href="/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/">
+	<img width="533" height="372" src="/wp-content/uploads/2017/06/e21a6cb84ea2ceab0308d955b4510f3d-533x372.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/eksopolitiikka/" rel="category tag">Eksopolitiikka</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/" rel="bookmark">Richard Boylanin avaruusolennoilta saamat kolme viestiä</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/" rel="bookmark"><time class="entry-date" datetime="2023-05-26T13:13:02+00:00">26 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Richard Boylanin avaruusolennoilta saamat kolme viestiä" data-link="http://eksopolitiikka.github.io/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/" data-app-id-name="index_above_content"></div>
+<blockquote><p>kirjoittanut Richard Boylan, Ph.D.</p></blockquote>
+<h2>Ilmoitus #1</h2>
+<p><u>***RAUHANSOPIMUS (LUONNOSTELMA) MAAPALLON JA TÄHTIKANSOJEN VÄLILLE</u> on luonnosteltu, mutta sitä ei ole edistetty mitenkään. Se lepää YK:n päämajassa (allekirjoittamattomana). VAATIKAA TOIMINTAA! <a href="https://www.drboylan.com/starnations-UNtreaty.html">[Klikkaa tästä lukeaksesi sopimusehdotuksen sisältö.]  </a>Tähtikansat, galaksimme kehittyneiden sivilisaatioiden liitto, ovat ottaneet yhteyden Maan Yhdistyneisiin Kansakuntiin pyytääkseen heitä liittymään mukaan yhteiseen rauhan ja ystävyyden sopimukseen. YK:n pääsihteeri Antonio Gutterresin tulisi välittömästi toimia ottaa yhteys tähtikansojen edustajaan Maapallolla, tohtori Richard Boylaniin, sopimuksen tiimoilta, keskustelemaan sen lopullisesta kieliasusta sekä allekirjoittamaan se. <span style="text-decoration: underline;">Tämä sopimus on merkkinä uuden rauhan ja ystävyyden aikakauden alusta avaruudessa!</span></p>
+<h2>Ilmoitus #2</h2>
+<p>PITKÄ ZETA-TÄHTIOLENTO &#8217;EBE-3&#8217; VAROITTAA SUURESTA GLOBAALIN YDINSODAN RISKISTÄ VUODESTA 2026 ETEENPÄIN jos amerikkalaiset valitsevat uudelleen presidenttiehdokkaan, joka on korruptoitunut, autoritaarinen ja lain ulkopuolinen demagogi, joka kärjistää rodullisia, uskonnollisia, luokkaperustaisia ja kulttuurillisia vastakkainasetteluja. Video vuodelta 1964 (alla) näyttää pitkän Zetan &#8217;EBE-3&#8217;, jota NSA:n agentit kuulustelevat S-4:n laboratoriossa (lähellä Area 51:a). &#8217;EBE-3&#8217; ennustaa hälyttävän ydinsodan. NSA:n valvoja keskeyttää tilanteen ja komentaa &#8217;EBE-3&#8217;:n kidutettavaksi, jottei tämä sanoisi enempää. Voit lukea mitä &#8217;EBE-3&#8217; aikoi sanoa ennen kuin hänet hiljennettiin<a href="https://www.drboylan.com/EBE-3TellsAll.html">  klikkaamalla tätä linkkiä. </a>Katso alla oleva 3 minuutin pätkä EBE-3:n varoituksesta.</p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/h4-KzZe9IpQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Edward Snowden, entinen NSA:n työntekijä, nykyinen ilmiantaja, salakuljetti materiaalia NSA:n tiloista ja julkaisi sen kaikille uhkaavasta ydintuhosta (ydinsota, säteily, pysyvät geneettiset vauriot), elleivät amerikkalaiset äänestä marraskuun 5. päivän 2024 vaaleissa <u>ERITTÄIN TARKOIN</u> ja muuta omaa tulevaisuuttaan.</p>
+<p><img loading="lazy" decoding="async" src="https://www.drboylan.com/edsnowden1.jpg" width="126" height="126"></p>
+<h2>Ilmoitus #3</h2>
+<p>Tähtikansat lähettävät <em>toisen</em> emoaluksen (nimeltään &#8217;<a href="/eksopolitiikka/pentagonin-ufo-johtaja-emoalus-on-mahdollinen-aurinkokunnassamme/">Epiphany</a>&#8217;) saapuvaksi Maapallolle vuonna 2023. Tähtikansat lähettivät aiemmin ensimmäisen emoaluksen &#8217;Oumuamua&#8217; [partioimaan] aurinkokuntaamme vuonna 2017 herättämään meidät. Tämä toinen emoalus <span style="text-decoration: underline;">tuo takaisin viisi suurta henkistä opettajaa ihmiskunnan historiasta.</span> Heidän palatessa he tekevät selväksi useita asioita:</p>
+<ol>
+<li>Ihmiset eivät ole yksin.</li>
+<li>Meitä kehittyneempiä toisia sivilisaatioita on olemassa.</li>
+<li>Jotkut näistä sivilisaatioista ovat niitä, jotka lähettävät takaisin luoksemme viisi suurta opettajaa.</li>
+<li>Nämä opettajat antavat meille opetuksensa jälleen kerran, puhtaina ilman korruptoituneita lisäyksiä. Tärkeimmät näistä ovat: kaikkien ihmisten rakastaminen, oikeudenmukaisuuden tärkeys, rauhan tärkeys ihmisten keskuudessa, sekä tarve rakastaa ja kunnioittaa Maata pyhänä tietoisena olentona.</li>
+</ol>
+<p>Viisi opettajaa tähdistä toisella emoaluksella ovat <u>Krishna, Buddha, Nasaretin Maria, Jesus (Jeshua ben Josef) sekä Paramahansa Yogananda</u>. He tulevat tekemään selväksi, että he (sekä kolme muuta opettajaa tähdistä, jotka <em>ovat jo</em> Maapallolla) ovat tulleet tähdistä.</p>
+<p>Nämä kolme muuta opettajaa tähdistä ovat: Dalai Lama, paavi Francis sekä mies joka ensin syntyi Muhamediksi, joka sitten reinkarnoitui Baha&#8217;u&#8217;llah&#8217;ksi, ja joka nyt on reinkarnoitunut Maan Neuvonantajaksi. Hänen Hopi-nimensä on &#8217;Bahana&#8217;.  <a href="https://www.drboylan.com/revhxhomosap.html">[klikkaa lukeaksesi lisää tähdistä tulleista opettajista.] </a></p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut drboylan.com</p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Richard Boylanin avaruusolennoilta saamat kolme viestiä" data-link="http://eksopolitiikka.github.io/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Richard Boylanin avaruusolennoilta saamat kolme viestiä" data-link="http://eksopolitiikka.github.io/eksopolitiikka/richard-boylanin-avaruusolennoilta-saamat-kolme-viestia/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/avaruusolennot/" rel="tag">avaruusolennot</a><a href="/tag/epiphany/" rel="tag">Epiphany</a><a href="/tag/oumuamua/" rel="tag">Oumuamua</a><a href="/tag/richard-boylan/" rel="tag">Richard Boylan</a></span></footer></article><!-- #post-## -->
+
+<article id="post-13531" class="post-13531 post type-post status-publish format-standard has-post-thumbnail hentry category-paranormaali tag-abraham-lincoln tag-george-washington tag-historia tag-paranormaali-2 tag-theodore-roosevelt">
+	
+	<a class="post-thumbnail" href="/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/">
+	<img width="672" height="372" src="/wp-content/uploads/2021/12/John-F-Kennedy-Last-Words-672x372.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/paranormaali/" rel="category tag">Paranormaali</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/" rel="bookmark">Presidenttien ja ennustusten omituiset tapaukset</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/" rel="bookmark"><time class="entry-date" datetime="2023-05-26T11:11:10+00:00">26 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Presidenttien ja ennustusten omituiset tapaukset" data-link="http://eksopolitiikka.github.io/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/" data-app-id-name="index_above_content"></div>
+<p>Joskus paranormaalit ilmiöt voivat esiintyä jopa yhteiskunnan korkeimmilla tasoilla ja maailman vaikutusvaltaisimpien ihmisten elämässä. Yhdysvaltain presidenteillä on pitkät perinteet siitä, että heidän ympärillään on outoja ilmiöitä, ei vain poliittisesti vaan myös selittämättömän maailman osalta. Tässä tarkastelemme joitakin tapauksia, jotka koskevat presidenttejä ja outoja ennustuksia ja profetioita, jotka viittaavat ymmärryksemme ylittäviin voimiin.</p>
+<p>Ehkä tunnetuin tarina presidentistä ja profetiasta liittyy Yhdysvaltain ensimmäiseen presidenttiin George Washingtoniin. Vuonna 1877 Washington oli Valley Forgessa, noin 20 mailia Britannian miehittämästä Philadelphiasta luoteeseen, hävittyään joukon taisteluita ja kahakoita brittijoukkoja vastaan vapaussodan aikana. He olivat vetäytyneet sinne toipumaan ja pitämään silmällä brittejä, jotka olivat juuri vallanneet heiltä Philadelphian. Olosuhteet olivat hirvittävät: pureva kylmyys, vähenevät tarvikkeet, tautien, altistumisen ja nälän aiheuttama sairaus, eikä apua näkynyt juuri lainkaan. Kun miehet kuolivat ja nääntyivät nälkään siellä jäisessä kylmässä, moraali oli niin alhaalla kuin se vain saattoi olla, ja eräs väsynyt ja lamaantunut sotilas kirjoitti kirjeessään Valley Forgen tilanteesta sekä tuskasta ja toivottomuudesta:</p>
+<p><em>Leirissä on jo muutaman päivän ajan ollut lähes nälänhätä. Osa armeijasta on ollut viikon ilman minkäänlaista lihaa, ja loput kolme tai neljä päivää. Alastomina ja nälkäisinä emme voi tarpeeksi ihailla sotilaiden vertaansa vailla olevaa kärsivällisyyttä ja uskollisuutta, etteivät he ole kärsimyksensä vuoksi ennen tätä kiihottuneet yleiseen kapinaan tai hajoamiseen. Yksittäisissä tapauksissa on kuitenkin ilmennyt voimakkaita tyytymättömyyden merkkejä, ja vain ponnekkaimmat ponnistelut kaikkialla voivat pitkään estää näin järkyttävän katastrofin.</em></p>
+<p><em>Nykyiset kärsimyksemme eivät ole kaikki. Mitään helpotusta ei ole tiedossa. Kaikki New Jerseyn, Pensylvanian, Delawaren ja Marylandin osavaltioissa olevat varastot ja kaikki välittömät lisätarvikkeet, joita ne näyttävät pystyvän tarjoamaan, eivät riitä ylläpitämään armeijaa yli kuukautta pidempään, jos sitäkään. Itäpuolella on tehty hyvin vähän ja eteläpuolella yhtä vähän; ja mitä meillä on oikeus odottaa niiltä alueilta, se on väistämättä hyvin kaukana, ja se on todellakin epävarmempaa kuin voisi toivoa. Kun edellä mainitut varastot loppuvat, millainen kauhea kriisi siitä seuraa, jollei Manner-Euroopan kaikkea energiaa käytetä oikea-aikaisen ratkaisun aikaansaamiseksi?</em></p>
+<figure class="image"><img loading="lazy" decoding="async" src="https://mustorage.blob.core.windows.net/images/2022/10/blobid1665051784938.jpg" alt="" width="570" height="570"><figcaption>George Washington Valley Forgessa</figcaption></figure>
+<p>&nbsp;</p>
+<p>Tämän maanpäällisen helvetin aikana Anthony Sherman, joka väitti olleensa George Washingtonin avustaja, väitti kuulleensa oudon keskustelun presidentin ja erään hänen armeijansa upseerin välillä. Washingtonin tiedettiin tuohon aikaan menevän yksin metsään etsimään lohtua ja rukoilemaan, ja näyttää siltä, että tuona päivänä hänen rukouksiinsa vastattiin. Sherman väitti, että Washington oli palannut yhdeltä metsäretkeltään, ja tällä kertaa hän oli vaikuttanut sekavalta ja järkyttyneeltä, ollut melko sekavassa tilassa, kasvot tavallista kalpeammat, mennyt majapaikkaansa ja pysynyt siellä yksinään suurimman osan päivästä. Kun hän vihdoin tuli ulos, hän kutsui jonkun upseereistaan, Sherman seisoi vieressä ja kertoi, mitä tuona päivänä oli tapahtunut metsässä. Väitetään, että Washington sanoi tapahtuneesta näin:</p>
+<p><em>Tänä iltapäivänä, kun istuin tämän pöydän ääressä valmistelemassa lähetystä, jokin tuntui häiritsevän minua. Kun katsoin ylös, näin vastapäätäni seisovan ainutlaatuisen kauniin naisen. Olin niin hämmästynyt, sillä olin antanut tiukat määräykset olla häiritsemättä, että kesti hetken, ennen kuin keksin kielen kysyä hänen läsnäolonsa syytä. Toistin kysymykseni toisen, kolmannen ja jopa neljännen kerran, mutta en saanut salaperäiseltä vierailijaltani muuta vastausta kuin hänen silmiensä lievän kohotuksen. Tähän mennessä tunsin outojen tuntemusten leviävän minussa. Olisin halunnut nousta, mutta edessäni seisovan olennon kiinnitetty katse teki tahdonilmaisun mahdottomaksi. Yritin vielä kerran puhutella häntä, mutta kieleni oli käynyt hyödyttömäksi, aivan kuin se olisi halvaantunut.</em></p>
+<p><em>Uusi vaikutus, salaperäinen, voimakas ja vastustamaton, valtasi minut. Pystyin vain tuijottamaan tuntematonta vierastani vakaana ja tyhjänä. Vähitellen ympäröivä ilmapiiri näytti siltä kuin se olisi täyttynyt aistimuksista ja muuttunut valoisaksi. Kaikki ympärilläni tuntui harvinaistuvan, ja salaperäinen vierailija itse muuttui ilmavammaksi ja silti aiempaa selvemmin näkökenttääni. Aloin nyt tuntea olevani kuolemaisillani tai pikemminkin kokea tuntemuksia, joiden olen joskus kuvitellut liittyvän hajoamiseen. En ajatellut, en järkeillyt, en liikkunut; kaikki oli yhtä mahdotonta. Olin vain tietoinen siitä, että tuijotin kumppanianiani kiintyneesti ja tyhjänä. Pian kuulin äänen sanovan: &#8221;Tasavallan poika, katso ja opi&#8221;, kun samaan aikaan vierailijani ojensi kätensä itään, näin nyt raskaan valkoisen höyryn nousevan jossakin etäisyydellä kerta toisensa jälkeen. Tämä haihtui vähitellen, ja katselin outoa maisemaa. Edessäni olivat levittäytyneet yhdeksi laajaksi tasangoksi kaikki maailman maat &#8211; Eurooppa, Aasia, Afrikka ja Amerikka. Näin Euroopan ja Amerikan välissä Atlantin aallot, ja Aasian ja Amerikan välissä oli Tyynimeri.</em></p>
+<p><em>&#8221;Tasavallan poika&#8221;, sanoi sama salaperäinen ääni kuin ennenkin, &#8221;katso ja opi&#8221;. Sillä hetkellä näin tumman, varjoisen, enkelin kaltaisen olennon seisovan tai pikemminkin leijuvan ilmassa Euroopan ja Amerikan välissä. Hän kouraisi vettä merestä kumpaankin kämmeneen ja ripotteli oikealla kädellään vettä Amerikkaan, kun taas vasemmalla kädellään hän heitti vettä Eurooppaan. Välittömästi näistä maista nousi pilvi, joka yhdistyi keskellä valtamerta. Hetken aikaa se pysyi paikallaan ja liikkui sitten hitaasti länteen päin, kunnes se kietoi Amerikan hämäriin taitteisiinsa. Terävät salamat välähtivät sen läpi aina välillä, ja kuulin Amerikan kansan tukahdutettuja huokauksia ja huutoja.</em></p>
+<p><em>Toisenkin kerran enkeli kouraisi vettä merestä ja ripotteli sitä, kuten ennenkin. Sitten tumma pilvi vetäytyi takaisin mereen, jonka kohoaviin aaltoihin se vajosi näkyvistä. Kolmannen kerran kuulin salaperäisen äänen sanovan: &#8221;Tasavallan poika, katso ja opi.&#8221; Heitin katseeni Amerikkaan ja näin kylien ja kaupunkien syntyvän toinen toisensa jälkeen, kunnes koko maa Atlantilta Tyynellemerelle oli täynnä niitä.</em></p>
+<p><em>Kuulin jälleen salaperäisen äänen sanovan: &#8221;Tasavallan poika, vuosisadan loppu on tulossa, katso ja opi.&#8221; Tällöin tumma varjoenkeli käänsi kasvonsa etelään, ja näin Afrikasta käsin pahaenteisen aaveen lähestyvän maatamme. Se liehui hitaasti jälkimmäisen jokaisen kaupungin ja kaupungin yllä. Asukkaat asettuivat pian taisteluasetelmaan toisiaan vastaan. Kun jatkoin katsomista, näin kirkkaan enkelin, jonka otsalla lepäsi valon kruunu, johon oli piirretty sana &#8221;Union&#8221;, ja joka kantoi Amerikan lippua, jonka hän asetti jakautuneen kansakunnan väliin ja sanoi: &#8221;Muistakaa, että olette veljiä.&#8221; Välittömästi asukkaat, jotka heittivät pois aseensa, tulivat jälleen kerran ystäviksi ja yhdistyivät kansallisen lipun ympärille.</em></p>
+<p><em>Ja taas kuulin salaperäisen äänen sanovan: &#8221;Tasavallan poika, katso ja opi.&#8221; Tällöin tumma, varjoinen enkeli laittoi torven suuhunsa ja puhalsi kolme erillistä puhallusta, ja hän otti merestä vettä ja ripotteli sitä Eurooppaan, Aasiaan ja Afrikkaan. Silloin silmäni näkivät pelottavan kohtauksen: Jokaisesta näistä maista nousi paksuja, mustia pilviä, jotka pian yhdistyivät yhdeksi. Tämän massan läpi loisti tummanpunainen valo, jonka kautta näin laumoittain aseistettuja miehiä, jotka pilven mukana kulkien marssivat maata pitkin ja purjehtivat meriteitse Amerikkaan. Maamme oli tämän pilvimassan ympäröimä, ja näin näiden valtavien armeijoiden tuhoavan koko maakunnan ja polttavan kylät, kaupungit ja kaupungit, joita näin syntyvän. Kun korvani kuuntelivat tykkien jyrinää, miekkojen kilahtelua ja miljoonien kuolemaan johtavassa taistelussa olevien huutoja ja kiljuntaa, kuulin jälleen salaperäisen äänen sanovan: &#8221;Tasavallan poika, katso ja opi.&#8221; Kun ääni oli vaiennut, pimeä varjoenkeli asetti trumpetin jälleen kerran suulleen ja puhalsi pitkän ja pelottavan puhalluksen. &#8221;Välittömästi yläpuoleltani loisti valoa kuin tuhannen auringon valo, ja se lävisti ja hajotti sirpaleiksi tumman pilven, joka peitti Amerikan. Samalla hetkellä enkeli, jonka päässä yhä loisti sana Union ja joka kantoi toisessa kädessään kansallislippuamme ja toisessa miekkaansa, laskeutui taivaasta valkoisten henkien legioonien saattelemana. Nämä liittyivät välittömästi Amerikan asukkaiden joukkoon, jotka, kuten huomasin, olivat lähes lyötyjä, mutta jotka rohkaistuivat heti uudelleen, sulkivat rikkinäiset rivinsä ja aloittivat taistelun uudelleen.</em></p>
+<p><em>Jälleen kerran, keskellä konfliktin pelottavaa melua, kuulin salaperäisen äänen sanovan: &#8221;Tasavallan poika, katso ja opi.&#8221; Kun ääni hiljeni, varjoenkeli kastoi viimeisen kerran vettä merestä ja ripotteli sitä Amerikan päälle. Välittömästi synkkä pilvi vyöryi takaisin, yhdessä sen mukanaan tuomien armeijoiden kanssa, ja maan asukkaat jäivät voittajiksi! Sitten näin jälleen kerran kylien, kaupunkien ja taajamien syntyvän sinne, missä olin nähnyt ne ennenkin, samalla kun kirkas enkeli istutti tuomansa taivaansinisen lipun niiden keskelle ja huusi kovalla äänellä: &#8221;Niin kauan kuin tähdet pysyvät ja taivaat laskevat kastetta maan päälle, niin kauan unioni kestää.&#8221; Ja ottaen otsaltaan kruunun, jossa näkyi sana &#8221;Unioni&#8221;, hän asetti sen lippujalan päälle samalla, kun kansa polvistuneena sanoi: &#8221;Aamen&#8221;.</em></p>
+<p><em>Kohtaus alkoi välittömästi hämärtyä ja haihtua, ja lopulta näin vain nousevan, kiemurtelevan höyryn, jonka olin ensin nähnyt. Kun tämäkin katosi, huomasin jälleen katsovani salaperäistä vierailijaa, joka samalla äänellä, jonka olin kuullut aiemmin, sanoi: &#8221;Tasavallan poika, se, mitä olet nähnyt, tulkitaan näin: Tasavaltaa kohtaa kolme suurta vaaraa. Kolmas niistä on kaikkein pelottavin, mutta tässä suurimmassa konfliktissa koko maailma yhdessä ei voi voittaa sitä. Jokainen tasavallan lapsi oppikoon elämään Jumalansa, maansa ja unionin puolesta.&#8221; Näillä sanoilla näky katosi, ja minä nousin istuimeltani ja tunsin, että olin nähnyt näyn, jossa minulle oli näytetty Yhdysvaltojen synty, kehitys ja kohtalo.</em></p>
+<p>Kohtasiko George Washington todella enkelin ja saiko hän nämä profeetalliset näyt? Se on suosittu tarina, mutta useimmat vakavasti otettavat historioitsijat ovat jo pitkään torjuneet sen. Yksi ongelmista on se, että kertomuksen kirjoitti Philadelphiasta kotoisin oleva toimittaja Charles Alexander, joka julkaisi The Soldier&#8217;s Casket -lehteä, joka oli sisällissodan veteraaneille suunnattu aikakauslehti, ja joka oli varsin tunnettu siitä, että hän kirjoitti viihdyttäviä tarinoita erilaisista kuuluisista henkilöistä, joilla oli selvänäkijän tai profeetallisia unia, kuten Abraham Lincolnista, Odysseus S. Grantista ja monista muista. Hän harrasti myös yliluonnollisia tarinoita, kuten tarinoita sotilaista, jotka olivat saaneet outoja voimia, ja jopa brittiläisessä armeijassa olleesta riivaajattaresta, joka oli loikannut Konfederaation puolelle, ja jokainen artikkeli tuntui fantastisemmalta kuin edellinen. Vaikka näitä tarinoita julkaistiin rutiininomaisesti laillisissa sanomalehdissä ja ne esitettiin todellisina kertomuksina, nykyään uskotaan, että suurin osa niistä, elleivät jopa kaikki, olivat pelkkää fiktiota, jonka Alexander oli keksinyt hiljaisina uutispäivinä, kuten tuon ajan sanomalehdissä oli varsin tavallista. Alexander väitti, että Sherman oli ensin tullut hänen luokseen ja kertonut hänelle tarinan, joten on epäselvää, oliko Shermania edes koskaan oikeasti olemassa. Alexander ei koskaan nimenomaisesti sanonut, että tarina Washingtonista ja enkelistä oli kuvitteellinen tai valheellinen, mutta se vaikuttaa todennäköiseltä. Tapasiko Washington todella enkelin Valley Forgessa? Sitä ei voi tietää varmasti.</p>
+<figure class="image"><img loading="lazy" decoding="async" src="https://mustorage.blob.core.windows.net/images/2022/10/blobid1665051759377.jpg" alt="" width="570" height="692"><figcaption>George Washington</figcaption></figure>
+<p>&nbsp;</p>
+<p>Presidentti Abraham Lincolnilla oli tiettävästi useita profeetallisia näkyjä omasta kuolemastaan. Yhden niistä kertoi Ward Hill Lamon -niminen mies, joka oli Lincolnin entinen lakimieskumppani, ystävä ja joskus myös henkivartija. Lamonin mukaan Lincoln oli uskoutunut hänelle hyvin oudosta unesta, jonka hän oli nähnyt joitakin päiviä aiemmin ja jossa hän oli nähnyt oman kuolemansa. Lamon saneli, mitä Lincoln kertoi hänelle, ja hänen mukaansa presidentti sanoi:</p>
+<p><em>Noin kymmenen päivää sitten jäin eläkkeelle hyvin myöhään. Aloin pian nähdä unta. Ympärilläni tuntui olevan kuoleman kaltainen hiljaisuus. Sitten kuulin vaimeaa nyyhkytystä, aivan kuin useat ihmiset itkivät. Luulin, että nousin sängystäni ja vaelsin alakertaan. Saavuin itäiseen huoneeseen. Edessäni oli katafalkki, jonka päällä lepäsi hautajaisvaatteisiin kääritty ruumis. Sen ympärille oli sijoitettu sotilaita, jotka toimivat vartijoina, ja ympärillä oli ihmisjoukko, joista toiset tuijottivat surullisesti ruumista, jonka kasvot olivat peitossa, toiset itkivät säälittävästi. &#8217;Kuka on kuollut Valkoisessa talossa?&#8217; Kysyin yhdeltä sotilaista. &#8217;Presidentti&#8217;, oli hänen vastauksensa. &#8217;Salamurhaaja tappoi hänet.&#8217;</em></p>
+<p>Muutama päivä sen jälkeen, kun hän oli kertonut Lamonille tämän tarinan, 14. huhtikuuta 1865 etelävaltioiden kannattaja John Wilkes Booth ampui Lincolnia takaraivoon, kun hän katseli Our American Cousinia Ford&#8217;s Theaterissa, ja hän kuoli seuraavana päivänä. Ei voida vahvistaa, että Lincoln todella kertoi tämän Lamonille, ja Lamon kertoi tarinan vasta 20 vuotta presidentin kuoleman jälkeen, mutta se on silti karmiva tarina, ja Lincolnin tiedettiin olevan kiinnostunut unien tulkinnasta ja uskovan, että unilla oli salaperäinen voima kertoa tulevaisuudesta, joten se sopii tavallaan asiaan. Lincoln väitti saaneensa presidenttikautensa aikana monia outoja unia, joiden hän uskoi olevan luonteeltaan ennustavia. Kaiken kummallisuutta lisää se, että Lincolnin väitetään myös kertoneen henkivartijalleen William H. Crookille, että hän näki näitä unia kolmena yönä peräkkäin, ja poistuessaan Valkoisesta talosta sillä kohtalokkaalla matkalla Ford-teatteriin hän väitetysti sanoi Crookille &#8221;Hyvästi&#8221; hänelle ominaisen &#8221;Hyvää yötä&#8221; sijasta. Pelottavaa.</p>
+<figure class="image"><img loading="lazy" decoding="async" src="https://mustorage.blob.core.windows.net/images/2022/10/blobid1665051397126.jpg" alt="" width="570" height="712"><figcaption>Abraham Lincoln</figcaption></figure>
+<p>&nbsp;</p>
+<p>Oli tarina totta tai ei, tämä ei ollut ainoa kerta, kun presidentti Lincolnin väitettiin ennustaneen oman kuolemansa. Ehkä vielä oudompaa oli se, että Lincoln kohtasi jotain aivan paranormaalia omana vaalipäivänään. Juuri vaalipäivänään vuonna 1860, juuri sen jälkeen kun hänelle oli kerrottu, että hän oli nyt Yhdysvaltain presidentti, Lincoln oli ilmeisesti istunut kotona sohvalla, kun hän katsoi täyspitkään peiliin ja näki itsensä siinä seisomassa, vain oudosti kahdella kasvoilla, joista toinen oli toista kalpeampi ja lähes kuoleman kalpeana. Hätääntyneenä ja hieman levottomana Lincoln oli sitten noussut seisomaan lähestyäkseen peiliä, ja ilmestys oli saman tien kadonnut. Melko hämmentynyt presidentti oli istuutunut takaisin sohvalle, mutta hänen oma, karmiva kaksikasvoinen kasvonsa oli jälleen ilmestynyt peiliin.</p>
+<p>Tapaus häiritsi Lincolnia, joka kertoi siitä vaimolleen Mary Todd Lincolnille. Muutamaa päivää myöhemmin salaperäinen kaksoisolento peilissä ilmestyi uudelleen, ja Lincolnin vaimo tuli yhä vakuuttuneemmaksi siitä, että se oli enne tulevista pahoista asioista ja että se kaikki tarkoitti, että Lincoln valittaisiin toiselle kaudelle, mutta hän ei eläisi sitä loppuun. Aavemaisesta tapauksesta kirjoitti kirjassaan Noah Brooks, joka väitti kuulleensa sen omakohtaisesti Lincolnilta itseltään ja joka kirjoitti siitä kirjassaan Washington in Lincoln&#8217;s Time (1895). Presidentti Abraham Lincoln todellakin kuolisi kuukauden kuluttua toisesta virkakaudestaan, aivan kuten hänen vaimonsa oli ennustanut ja pelännyt.</p>
+<p>Tämä kuulostaa siltä, että hän näki oman kaksoisolentonsa, mikä ei tarujen mukaan ole koskaan hyvä asia. Sana doppelgänger on alun perin peräisin saksankielisestä sanonnasta, joka tarkoittaa &#8221;kaksoisolentoa&#8221;, ja sen sijaan, että se tarkoittaisi henkilöä, joka vain muistuttaa hämmästyttävän paljon toista, sanan alkuperä on syvällä outojen, pahaenteisten ja yliluonnollisten ilmiöiden maailmassa. Doppelgänger-ilmiötä kiertävät myytit ja legendat ovat moninaisia. Joissakin perinteissä niitä pidettiin varjoyksilöinä, aavekaksosina, jotka seuraavat omistajiaan ja joita meillä kaikilla on, vaikkakin ne harvoin ilmoittavat itsestään. Näiden varjo-olentojen sanottiin usein olevan ilkeitä huonon onnen, vastoinkäymisten, sairauksien, katastrofien ja kuoleman enteitä, eikä koskaan pidetty hyvänä asiana, jos joku näkee oman kaksoisolentonsa. Toisissa perinteissä kaksoisolento on yliluonnollinen olento, kuten henki tai demoni, joka ottaa henkilön muodon salaperäisiä tarkoituksia varten, ja toisissa tarinoissa se kuvataan henkilön hengen fyysiseksi ilmentymäksi, eräänlaiseksi jatkeeksi, joka on saanut muodon fyysisessä maailmassa. Näkikö Lincoln siis omansa, ja tekikö se häneen synkän taikansa? Kuka tietää?</p>
+<p><img loading="lazy" decoding="async" src="https://mustorage.blob.core.windows.net/images/2022/10/blobid1665051419140.jpg" alt="" width="570" height="435"></p>
+<p>Seuraava tarinamme alkaa 56-vuotiaasta saksalaisesta naisesta nimeltä Ollie Burgadine, 14 lapsen äidistä Mariposasta, Illinoisin osavaltiosta, joka väitetysti näki vuonna 1903 näyn enkelistä, joka oli tullut hänen luokseen kertomaan, että silloinen presidentti Theodore Roosevelt kuolisi &#8221;räjähtämällä&#8221;. Hän lähetti tuolloin sähkeen Valkoiseen taloon varoittaakseen heitä, mutta ei saanut vastausta, luultavasti siksi, että häntä pidettiin hulluna. Seuraavana vuonna 1904 hän oli viettänyt aikaa siskonsa kanssa Baltimoressa, kun sama enkeli vieraili jälleen. Tällä kertaa enkeli näytti olevan vihainen hänelle siitä, ettei hän ollut pyrkinyt kiireellisemmin varoittamaan presidenttiä tämän tulevasta tuomiosta, joten tällä kertaa enkeli pakotti hänet fyysisesti menemään Valkoiseen taloon. Elokuun 1. päivänä 1904 Burgadine marssi Valkoiseen taloon kertomaan asiasta presidentille, ja hänet pidätettiin välittömästi. The Cincinnati Enquirer -lehden raportissa tapauksesta lukee:</p>
+<p><em>Washington, elokuu. 1 Toinen &#8221;kummajainen&#8221;, joka on vieraillut Valkoisessa talossa sen jälkeen, kun presidentti palasi viime torstaina, vieraili tänään yli 50-vuotiaan saksalaisen rouva Burgadinen muodossa. Hän kertoi kotinsa olevan Mariposassa Illinoisissa, mutta hän oli viettänyt jonkin aikaa sisarensa luona Baltimoressa.</em></p>
+<p><em>&#8221;Olen tullut varoittamaan presidenttiä&#8221;, hän kertoi Valkoisen talon toimistossa, &#8221;että hänen henkensä on vaarassa. Olen nähnyt näyn, jossa enkeli ilmestyi minulle ja käski minua varoittamaan presidenttiä. En saanut enkeliltä selville, mitä presidentille aiotaan tehdä, mutta tiedän, ettei häntä aiota ampua. Enkeli antoi ymmärtää, että hänet aiotaan räjäyttää. Sähkäilin presidentille vuosi sitten, että jos hän menisi Chicagoon, hänet tapettaisiin, mutta hän lähti kuitenkin. Henki on ilmestynyt minulle uudelleen, vihaisempana kuin koskaan aikaisemmin, ja varoitti minua, että minun on ilmoitettava presidentille vaarasta.&#8221;</em></p>
+<p><em>Etsivä kertoi rouva Burgadinelle, että presidentillä oli valtiovarainministeriössä toimisto, jossa kuunneltiin juuri tällaisia varoituksia, ja että hän veisi rouvan asianmukaisten virkamiesten luo. Hän saattoi hänet valtiovarainministeriön salaisen palvelun toimistoon, ja nainen oli tyytyväinen tietäessään, että hänen varoituksensa oli kerrottu ihmisille, jotka välittäisivät sen heti presidentille. Rouva Burgadine kertoi olevansa 14 lapsen äiti, ja hänellä oli mukanaan valokuva perheestä.</em></p>
+<p>Hänen on täytynyt estää katastrofi tai enkeli oli väärässä, sillä Roosevelt ei koskaan räjähtänyt, vaan kuoli keuhkoveritulppaan 6. tammikuuta 1919. Minusta tässä tarinassa ei ole niinkään outoa se, että enkeli tuli tämän satunnaisen henkilön taloon varoittamaan presidentin kuolemasta, vaan pikemminkin se, että Valkoisessa talossa oli toimisto, joka oli perustettu nimenomaan kuuntelemaan tällaisia varoituksia. Tarkoittaako tämä profeetallisia varoituksia vai vain varoituksia yleensä? Artikkelista ei oikein käy selväksi. Kaikki nämä tapaukset antavat eräänlaisen ainutlaatuisen lisän näille suurille miehille, mutta on vaikea tietää, onko mikään niistä totta. Onko tässä kaikessa jotakin perää vai ovatko nämä vain tarinoita, jotka on rakennettu näiden historian henkilöiden ympärille? Se kaikki on aika pirun outo joukko historiallisia kummallisuuksia, olipa kyseessä mikä tahansa tapaus.</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://mysteriousuniverse.org/2022/10/Strange-Cases-of-Presidents-and-Prophecies/">Mysterious Universe</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Presidenttien ja ennustusten omituiset tapaukset" data-link="http://eksopolitiikka.github.io/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Presidenttien ja ennustusten omituiset tapaukset" data-link="http://eksopolitiikka.github.io/paranormaali/presidenttien-ja-ennustusten-omituiset-tapaukset/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/abraham-lincoln/" rel="tag">Abraham Lincoln</a><a href="/tag/george-washington/" rel="tag">George Washington</a><a href="/tag/historia/" rel="tag">historia</a><a href="/tag/paranormaali-2/" rel="tag">paranormaali</a><a href="/tag/theodore-roosevelt/" rel="tag">Theodore Roosevelt</a></span></footer></article><!-- #post-## -->
+
+<article id="post-14963" class="post-14963 post type-post status-publish format-standard has-post-thumbnail hentry category-eksopolitiikka tag-avaruusolennot tag-eksodiplomatia tag-michael-wolf tag-richard-boylan tag-zeta-reticuli">
+	
+	<a class="post-thumbnail" href="/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/">
+	<img width="590" height="372" src="/wp-content/uploads/2014/06/contact-590x372.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/eksopolitiikka/" rel="category tag">Eksopolitiikka</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/" rel="bookmark">Richard Boylan sai uuden viestin avaruusolennoilta</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/" rel="bookmark"><time class="entry-date" datetime="2023-05-25T12:42:52+00:00">25 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Richard Boylan sai uuden viestin avaruusolennoilta" data-link="http://eksopolitiikka.github.io/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/" data-app-id-name="index_above_content"></div>
+<blockquote>
+<p align="LEFT"><span style="color: #000000; font-size: medium;">kirjoittanut Richard Boylan, Ph.D.</span></p>
+</blockquote>
+<p align="LEFT"><span style="color: #000000;">Ystävät,</span></p>
+<p>China Laken laivaston ilmatorjunta-asetukikohdassa koelennettiin antigravitaatioaluksen prototyypilla vuonna 2006 lähellä laboratioriota, jossa kone oli suunniteltu: <a href="https://www.michelsonlab.com/">Michelson Laboratories</a>, Ridgecrest, Kalifornia.</p>
+<p class="BasicParagraph"><span style="color: #000000;">China Laken tukikohta on 120 mailia Nevadan Area 51:sta länteen. Tätä jättiläismäistä aavikkotukikohtaa on joskus kutsuttu myös nimellä &#8221;laivaston Area 51&#8221;.</span></p>
+<p align="LEFT"><img loading="lazy" decoding="async" src="https://earthstar.tripod.com/graphics/diskshaped_craft.jpg" width="202" height="269" align="left" border="0" hspace="10"></p>
+<p class="BasicParagraph">Vuosina 1966-1967 tohtori Boylan eli ja työskenteli China Laken tukikohdan sisäänkäynnin lähettyvillä. Insinööriystävät laivaston laboratoriossa näyttivät hänelle eräitä ultrakehittyneitä teknologioita kaukana olevalla tukikohta-alueella. Avaruusolentokonsultit ovat auttaneet China Laken tukikohdassa jo kauan ennen vuotta 1966, mutta koska Altair Aquilan avaruusolennot näyttävät normaaleilta ihmisiltä, tohtori Boylan ei osaa sanoa näkikö hän altairilaisia China Lakessa vaiko ei. Toki avaruusolentojen läsnäolo laivaston tukikohdassa on ja on ollut erittäin salaista, ja kukaan siellä työtä tehnyt työntekijä ei asiasta puhu.</p>
+<p>Vuosikymmeniä sitten Ralph, sanfransiscolainen toimittaja KPFA-FM -radioasemalla, tri Boylanin ystävä, kerran sanoi tri Boylanille, että tiedustelupalvelut olivat varoittaneet häntä, että hänet (Ralph) &#8221;vietäisiin taivaisiin ja että hänen elämänsä on vaarassa&#8221;, jos Ralph koskaan toistamiseen lähettäisi haastattelua, jollaisen hän oli tehnyt lennonjohtajasta, joka työskenteli China Laken Armitagen lentokentällä, ja jonka työhön kuului avaruudesta laskeutuvien UFOjen ohjaaminen laskeutumaan China Laken tukikohtaan (oletettavasti heidän tullakseen työskentelemään avaruusolentokonsultantteina tiedeprojekteissa)! Ralph hermostunesti antoi minulle kopion hänen haastattelustaan turvaan siltä varalta, että Ralph yhtäkkiä &#8221;katoaisi&#8221;.</p>
+<p class="BasicParagraph"><span style="color: #000000;">Se mikä ei ole turvaluokiteltua on juuri minkä tri Boylan sai tietää helmikuun 1. päivä (2023) kolmen avaruusolennon vierailtua hänen luonaan yöllä, joka palautti muistot hänen puuttuvan ajan muistipaikastaan, joka häneltä katosi vuoden 1967 kenttämatkalla China Laken laivaston asekeskukselle.<br>
+</span></p>
+<p>Ensimmäinen helmikuun 1. päivän vierailijoista oli pitkä zetareticulilainen, jota NSA kutsui vuonna 1964 nimellä<span style="color: #000000;"> ‘EBE-3’  (ja jonka kuulustelut filmattiin Area 51:n S-4 laboratoriossa, ja joka löytyy myös tri Boylanin verkkosivuilta otsikolla</span><span style="color: #000000;"> ‘<a href="https://www.drboylan.com/">Announcement #3</a>’.)</span></p>
+<p class="BasicParagraph"><img loading="lazy" decoding="async" src="https://earthstar.tripod.com/graphics/MichaelWolf_Kolta.jpg" width="384" height="286" border="0"></p>
+<p>Kaksi muuta vierailijaa tähdistä olivat (1) Kolta, lyhyt harmaa zetareticulilainen, entinen kansallisen turvallisuuden konsultti avaruusolentoasioissa; ja (2) Anon Sa Ra, altairilainen prinssi ja tähtikansojen konsultti Valkoiselle talon turvallisuuskanslialle annetussa lainassa tähtikansojen liitolta.</p>
+<p class="BasicParagraph"><img loading="lazy" decoding="async" src="https://earthstar.tripod.com/graphics/AnonSaRa.jpg" width="144" height="328" align="left" border="0" hspace="10"></p>
+<p class="BasicParagraph">Tämä helmikuun 1. päivän 2023 briiffaus oli toisinto siitä mitä he näyttivät tri Boylanille vuonna 1967 China Laken laivaston lentokentällä.</p>
+<p>Pitkä Zeta EBE-3 näytti tri Boylanille, että kolmannen maailmansodan ydinsodan riski on nyt korostunut, ja se olisi valtuutettuna Maapallolla hänen tehtävänsä estää sellaisen sodan puhkeaminen.</p>
+<p class="BasicParagraph">Lyhyt Zeta Kolta kommunikoi tri Boylanille telepaattisesti hänen yhteydestään tri Michael Wolfiin, ja hän toisti kolmannen maailmansodan uhan vallitsevan ja kabaalin roolin narujen vetelyssä, jolla epävakautettaisiin poliittista järjestystä kohti sotaa.</p>
+<p class="BasicParagraph">Altairilainen Anon Sa Ra telepaattisesti viestitti, että hän on lähitulevaisuudessa tri Boylanin yhteyshenkilö keskeisiin valtion henkilöihin ja hän auttaa tri Boylania varoittamaan heitä, ja näin myös peittoamaan, kabaalin suunnitelman kolmannen maailmansodan aloittamisesta.</p>
+<p>Rukoilkaa rauhan puolesta. Työskennelkää rauhan puolesta.</p>
+<p class="BasicParagraph">Richard Boylan, Ph.D.</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://earthstar.tripod.com/TSB_dir/2023/Disc0423.html">The Star Beacon</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Richard Boylan sai uuden viestin avaruusolennoilta" data-link="http://eksopolitiikka.github.io/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Richard Boylan sai uuden viestin avaruusolennoilta" data-link="http://eksopolitiikka.github.io/eksopolitiikka/richard-boylan-sai-uuden-viestin-avaruusolennoilta/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/avaruusolennot/" rel="tag">avaruusolennot</a><a href="/tag/eksodiplomatia/" rel="tag">eksodiplomatia</a><a href="/tag/michael-wolf/" rel="tag">Michael Wolf</a><a href="/tag/richard-boylan/" rel="tag">Richard Boylan</a><a href="/tag/zeta-reticuli/" rel="tag">Zeta Reticuli</a></span></footer></article><!-- #post-## -->
+
+<article id="post-13470" class="post-13470 post type-post status-publish format-standard has-post-thumbnail hentry category-tietoisuus tag-arcturus tag-kanavointi tag-tietoisuus-2">
+	
+	<a class="post-thumbnail" href="/tietoisuus/hyva-karma-palaa-teille-takaisin/">
+	<img width="300" height="226" src="/wp-content/uploads/2016/01/arcturian.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy">	</a>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/tietoisuus/" rel="category tag">Tietoisuus</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/tietoisuus/hyva-karma-palaa-teille-takaisin/" rel="bookmark">Hyvä karma palaa teille takaisin</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/tietoisuus/hyva-karma-palaa-teille-takaisin/" rel="bookmark"><time class="entry-date" datetime="2023-05-25T11:11:23+00:00">25 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/tietoisuus/hyva-karma-palaa-teille-takaisin/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Hyvä karma palaa teille takaisin" data-link="http://eksopolitiikka.github.io/tietoisuus/hyva-karma-palaa-teille-takaisin/" data-app-id-name="index_above_content"></div>
+<blockquote><p>∞9D Arcturuksen Neuvosto, Kanavoinut Daniel Scranton</p></blockquote>
+<p>“Tervehdys. Me olemme Arcturuksen Neuvosto. Me olemme mielissämme saadessamme yhteyden kaikkiin teihin.</p>
+<p>Jälleen kerran ihmiskunta on yllättänyt meidät positiivisesti, kun te olette näyttäneet, että teillä on enemmän selkärankaa kuin ketään korkeammissa todellisuuksissa olisi voinut toivoakaan. Teidän olonne siellä tänä aikana on suurta. Teette tilaa koko kollektiiville, huolimatta siitä miten vaikeaa teidän on olla siellä oma itsenne.</p>
+<p>Teette näin samalla kun jatkatte omien traumojenne selvittelyä ja omien ylösnousemusoireidenne hoitoa. Kunnioitamme teitä, jotka olette hereillä ja jotka olette siellä, mitä suurimmin, koska haluatte auttaa ja koska haluatte saada hurjimman mahdollisen reissukokemuksen vielä ollessanne fyysisessä kehossa.</p>
+<p>Te olette myös oikeutettuja samaan apuun, jota otatte vastaan. Me ja muut olennot ja kollektiivit autamme teitä, ja teemme niin koska olette ansainneet apumme. Teillä on hyvää karmaa, ja te olette sietäneet niin paljon puutetta, negatiivisuutta, sairautta ja menetyksiä, ja kaikkia haastavia tunteita siellä, ja vaa&#8217;an tulee kääntyä tasapainoon kaksinaisuuden universumissa.</p>
+<p>Jotkut ihmiset miettivät mikä järki tässä kaikessa kärsimyksessä on. No, mitä enemmän kärsii, sitä enemmän ekstaasia on tiedossa myöhemmin, koska tuo ekstaasi syntyy vastineeksi omaan kärsimykseenne, jotta energiat voisivat olla tasapainossa tässä kauniissa universumissamme. Tuo ekstaasi on teidän. Se on korvamerkitty erityisesti teitä varten, jotka olette sen luoneet, jotka kärsitte ja sieditte niin paljon kuin mitä olette tehneet.</p>
+<p>Te olette niitä, joista me puhumme juuri nyt, sillä vaikka kokemuksenne tässä elämässä eivät olekaan olleet niin karmeita verrattuna muihin, olette kokeneet pahinta mitä maailmassanne juuri nyt näette. Kaikki ulkopuolellanne näkyvä on myös teidän sisällänne.</p>
+<p>Nyt pääsette hyötymään kaikista luomuksistanne, mutta ensin te tarvitsette hieman apua. Te tarvitsette apua sen uskomiseen, että kaikki esiin loihtimanne on edelleen olemassa. Te kaipaatte apua avautumiseen vastaanottamaan sen, ja tarvitsette joitain korkean energian lähetyksiä, jotta te olette sopusoinnussa sen kanssa. Ja näin meidän kaltaiset auttajat tulevat esiin, ja me jatkamme näyttäytymisiä.</p>
+<p>Me emme ole menossa minnekään. Me varmistamme, että kaikki vastaanottavat teille tulossa olevat lahjasäkit. Ja arvatkaa mitä? Niin tekee myös korkeammat itsenne ja henkiset oppaanne. Me kaikki työskentelemme yhdessä tehdäksemme elämästä parempaa kaikille teille, ei ainoastaan niille, jotka ovat hereillä.</p>
+<p>Mutta varmasti heränneiden kollektiivi on näyttämässä tietä. Te toimitte esimerkkinä, ja muut, jotka eivät ole vielä hereillä, tarvitsevat sitä. Mutta älkää huoliko. Massaherääminen on tulossa, ja teistä ei enää kauaa tunnu niin yksinäiseltä kuin tähän asti olette on.</p>
+<p>Me olemme Arcturuksen Neuvosto, ja me olemme nauttineet yhteydestä kanssanne.”</p>
+<p><iframe loading="lazy" style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?height=420&amp;href=https%3A%2F%2Fwww.facebook.com%2Fdanielthechannel%2Fvideos%2F5735580066494849%2F&amp;show_text=false&amp;width=560&amp;t=0" width="560" height="420" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="Hyvä karma palaa teille takaisin" data-link="http://eksopolitiikka.github.io/tietoisuus/hyva-karma-palaa-teille-takaisin/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="Hyvä karma palaa teille takaisin" data-link="http://eksopolitiikka.github.io/tietoisuus/hyva-karma-palaa-teille-takaisin/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/arcturus/" rel="tag">Arcturus</a><a href="/tag/kanavointi/" rel="tag">kanavointi</a><a href="/tag/tietoisuus-2/" rel="tag">tietoisuus</a></span></footer></article><!-- #post-## -->
+
+<article id="post-13453" class="post-13453 post type-post status-publish format-standard hentry category-ufot tag-florida tag-ufo tag-ufot">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/ufot/" rel="category tag">UFOt</a></span>
+		</div>
+		<h1 class="entry-title"><a href="/ufot/ufo-miami-beachilla-floridassa/" rel="bookmark">UFO Miami Beachilla, Floridassa</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/ufot/ufo-miami-beachilla-floridassa/" rel="bookmark"><time class="entry-date" datetime="2023-05-24T11:11:43+00:00">24 toukokuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/ufot/ufo-miami-beachilla-floridassa/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="UFO Miami Beachilla, Floridassa" data-link="http://eksopolitiikka.github.io/ufot/ufo-miami-beachilla-floridassa/" data-app-id-name="index_above_content"></div>
+<p>Havaintopäivä: 14. heinäkuuta 2022<br>
+Havaintopaikka: pohjoinen Miami Beach, Florida, USA</p>
+<p>Tämä mystinen kohde ilmaantui taivaalle Miamin ylle auringonlaskun aikaan. Silminnäkijä kuvasi sitä jättiläismäiseksi siittiöksi, jonka ympärillä oli monia pieniä tähtiä. Jotkut kutsuvat sitä SpaceX-raketiksi, mutta minä en näe mitään rakettia. Näetkö sinä? Näen kylläkin suuren pisaran muotoisen lautasaluksen, joka on osittain läpinäkyvä ja joka sitten muuttuu näkyväksi. Siitä irtoaa myös joitain valoja, jotka näyttävät putoavan. Uskon, että nämä ovat pieniä aluksia, jotka vievät ihmisiä vedenalaiseen tukikohtaan Floridan rannikolla.</p>
+<p>Scott C. Waring,  Taiwan</p>
+<p><img loading="lazy" decoding="async" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDp7-Ye5Z9x_QQUQnV3rj_7JwnkZ-qzI9NQ-M25phtl7axcee3BQlsssH9iIRNNj1xGqe5nZAXYE5CwHFEZy8Bb50FSwHBzHZZaL1iSI-0YIZRnDjdfWJrA4BM46zq13BDNngoRAgxOE7bFnWiv76_Gz7POwpsyM1asNO_JEDemTfXrbhWaMOV9cnz/w640-h360/ovni,%20omni,MUFON,%20%E7%9B%AE%E6%92%83%E3%80%81%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3,%20%20UFO,%20UFOs,%20sighting,%20sightings,%20ET,%20anomaly,%20anomalies,%20ancient,%20archaeology,%20astrobiology,%20paleontology,%20waarneming,%20.png" width="640" height="360" border="0" data-original-height="551" data-original-width="980"></p>
+<p>Silminnäkijä kertoo:</p>
+<p>Tulin töistä kotiin ja katsoin ylös ja näin tämän kirkkaan valkoisen vanan, jota luulin aluksi pilveksi. Se jatkoi liikkumista, ja perästä valuva savu/pilvivana jatkui myös. Videolla näet sen &#8221;lentämässä&#8221; ympäriinsä.</p>
+<p><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/B-xDYidiE8k" width="640" height="375" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://www.ufosightingsdaily.com/2022/07/sphere-over-menlo-park-california-july.html">UFO Sightings Daily</a></p>
+<div style="display:none;" class="shareaholic-canvas" data-app="share_buttons" data-title="UFO Miami Beachilla, Floridassa" data-link="http://eksopolitiikka.github.io/ufot/ufo-miami-beachilla-floridassa/" data-app-id-name="index_below_content"></div>
+<div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="UFO Miami Beachilla, Floridassa" data-link="http://eksopolitiikka.github.io/ufot/ufo-miami-beachilla-floridassa/" data-app-id-name="index_below_content"></div>	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/florida/" rel="tag">Florida</a><a href="/tag/ufo/" rel="tag">UFO</a><a href="/tag/ufot/" rel="tag">UFOt</a></span></footer></article><!-- #post-## -->
+	<nav class="navigation paging-navigation" role="navigation">
+		<h1 class="screen-reader-text">Artikkelien selaus</h1>
+		<div class="pagination loop-pagination">
+			<a class="prev page-numbers" href="/tietoa-sivustosta/mita-on-eksopolitiikka/page/54/">&larr; Edellinen</a>
+<a class="page-numbers" href="/tietoa-sivustosta/mita-on-eksopolitiikka/">1</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="/tietoa-sivustosta/mita-on-eksopolitiikka/page/54/">54</a>
+<span aria-current="page" class="page-numbers current">55</span>
+<a class="page-numbers" href="/tietoa-sivustosta/mita-on-eksopolitiikka/page/56/">56</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="/tietoa-sivustosta/mita-on-eksopolitiikka/page/464/">464</a>
+<a class="next page-numbers" href="/tietoa-sivustosta/mita-on-eksopolitiikka/page/56/">Seuraava &rarr;</a>		</div>
+<!-- .pagination -->
+	</nav><!-- .navigation -->
+	
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+	<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="xyz_insert_html_widget-11" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Tykkää tästä!</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/Eksopolitiikka" data-width="300" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Eksopolitiikka"><a href="https://www.facebook.com/Eksopolitiikka">Se Uusi Eksopolitiikka</a></blockquote></div></div></aside><aside id="social-widget-3" class="widget Social_Widget"><h1 class="widget-title">Seuraa meitä!</h1>
+<div class="socialmedia-buttons smw_left">
+<div class="socialmedia-text">Olemme myös muualla verkossa.</div>
+<a href="https://www.facebook.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="Facebook: eksopolitiikka.github.io" title="Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://twitter.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Twitter: Eksopolitiikka" title="Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://eksopolitiikka.tumblr.com/" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/tumblr.png" alt="Tumblr: Eksopolitiikka" title="Tumblr" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="/feed" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="RSS-syöte" title="RSS-syöte" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://www.stumbleupon.com/stumbler/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/stumble.png" alt="Seuraa meitä StumbleUpon" title="Seuraa meitä StumbleUpon" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://delicious.com/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/delicious.png" alt="Seuraa meitä Delicious" title="Seuraa meitä Delicious" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a>
+</div></aside><aside id="categories-4" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<l></l>
+</ul></aside>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

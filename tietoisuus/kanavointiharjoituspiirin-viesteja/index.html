@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="fi">
+<![endif]--><!--[if IE 8]>
+<html class="ie ie8" lang="fi">
+<![endif]--><!--[if !(IE 7) | !(IE 8) ]><!--><html lang="fi">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Kanavointiharjoituspiirin viestejä | _| Eksopolitiikka.github.io |_</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="/wp-content/themes/twenty14-child/js/html5.js"></script>
+	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style type="text/css">body { cursor: url('data:image/x-icon;base64,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'), auto; }</style>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; syöte" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; kommenttien syöte" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; Kanavointiharjoituspiirin viestejä kommenttien syöte" href="/tietoisuus/kanavointiharjoituspiirin-viesteja/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.7" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="social-widget-css" href="/wp-content/plugins/social-media-widget/social_widget.css?ver=6.7" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-lato-css" href="//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/twenty14-child/genericons/genericons.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-style-css" href="/wp-content/themes/twenty14-child/style.css?ver=6.7" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css' href='/wp-content/themes/twenty14-child/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/posts/7056">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7">
+<link rel="canonical" href="/tietoisuus/kanavointiharjoituspiirin-viesteja/">
+<link rel="shortlink" href="/?p=7056">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ftietoisuus%2Fkanavointiharjoituspiirin-viesteja%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ftietoisuus%2Fkanavointiharjoituspiirin-viesteja%2F#038;format=xml">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css" id="twentyfourteen-header-css">.site-title a {
+			color: #2640c1;
+		}</style>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92325018, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/92325018" style="position:absolute; left:-9999px;" alt=""></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GT-WRHZQF4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFH6DS8S8Z"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFH6DS8S8Z');</script>
+<script data-ad-client="ca-pub-9834086743067807" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">var _paq = _paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(["setDomains", ["*.eksopolitiikka.fi/piwik"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//eksopolitiikka.flywheelsites.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();</script>
+<noscript><p><img src="//eksopolitiikka.flywheelsites.com/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56945167, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56945167" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+<script>window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '208160250391514',
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+<meta name="google-site-verification" content="elqn5KcMco5Z26arxftj3SZWY_B2I71BCLz_pLcaGPo">
+</head>
+
+<body class="post-template-default single single-post postid-7056 single-format-standard group-blog masthead-fixed footer-widgets singular">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="/" rel="home">_| Eksopolitiikka.github.io |_</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Haku</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Ensisijainen valikko</button>
+				<a class="screen-reader-text skip-link" href="#content">Siirry sisältöön</a>
+				<div class="menu-eksopolitiikka-fi-container"><ul id="menu-eksopolitiikka-fi" class="nav-menu">
+<li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1050">
+<a href="/todellista-eksopolitiikkaa/" title="Etusivu">Eksopolitiikka.github.io</a>
+<ul class="sub-menu">
+	<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1057"><a href="/todellista-eksopolitiikkaa/kaikki-artikkelit/">Kaikki artikkelit</a></li>
+	<li id="menu-item-17642" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-17642"><a href="/eksopolitiikka/mita-on-eksopolitiikka/">Mitä on Eksopolitiikka?</a></li>
+	<li id="menu-item-11269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11269"><a href="/todellista-eksopolitiikkaa/ensikontaktiin-valmistautuminen/">Ensikontaktiin valmistautuminen</a></li>
+	<li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052"><a href="/todellista-eksopolitiikkaa/" title="Etusivu">Avaruusolennot varoittavat yhteiskunnallisesta jakautumisesta</a></li>
+	<li id="menu-item-3563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563"><a href="/todellista-eksopolitiikkaa/faktojen-erottaminen-disinformaatiosta/">Faktojen erottaminen disinformaatiosta</a></li>
+	<li id="menu-item-6797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6797"><a href="/">Kuinka saada yhteys avaruusolentoihin</a></li>
+	<li id="menu-item-1641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1641"><a href="/todellista-eksopolitiikkaa/eksopolitiikka-chat/">Eksopolitiikka-chat</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23"><a href="/category/ufot/">UFOt</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="/category/eksopolitiikka/">Eksopolitiikka</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="/category/paranormaali/">Paranormaali</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a href="/category/tiede/">Tiede</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-16">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+<ul class="sub-menu">
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774"><a href="/todellista-eksopolitiikkaa/opas-yhden-lakiin/">Opas Yhden Lakiin</a></li>
+</ul>
+</li>
+<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1055">
+<a href="/tietoa-sivustosta/">Tietoa sivustosta</a>
+<ul class="sub-menu">
+	<li id="menu-item-10031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031"><a href="/tietoa-sivustosta/ufoaiheisia-kirjoja/">Ufoaiheisia kirjoja</a></li>
+	<li id="menu-item-4377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4377"><a href="/tietoa-sivustosta/eksopoliittisia-linkkeja/">Eksopoliittisia linkkejä</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			
+<article id="post-7056" class="post-7056 post type-post status-publish format-standard has-post-thumbnail hentry category-tietoisuus tag-katalyytti tag-oppiminen">
+	
+	<div class="post-thumbnail">
+	<img width="672" height="372" src="/wp-content/uploads/2014/12/Living-in-the-True-Essence-of-Love-672x372.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" fetchpriority="high">	</div>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/tietoisuus/" rel="category tag">Tietoisuus</a></span>
+		</div>
+		<h1 class="entry-title">Kanavointiharjoituspiirin viestejä</h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/tietoisuus/kanavointiharjoituspiirin-viesteja/" rel="bookmark"><time class="entry-date" datetime="2024-05-05T11:11:38+00:00">5 toukokuun, 2024</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/tietoisuus/kanavointiharjoituspiirin-viesteja/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p class="about"><strong>TÄMÄN PUHTAAKSIKIRJOITUKSEN SISÄLLÖSTÄ:</strong> Tämä telepaattinen kanavointi on kerätty viikottaisista meditaatioista, jotka on pidetty Rock Creek Research &amp; Development Laboratoriesissa sekä L/L Researchilla. Se tarjotaan siinä toivossa, että se on sinulle avuksi. Kuten Liiton olennot aina sanovat, käytäthän omaa harkintaasi tämän materiaalin arvioimiseen. Jos jokin on totta sinulle, hyvä. Jos jokin ei ole totta, jätä se taaksesi, sillä ei Liitto emmekä me halua olla kenellekään haitaksi.</p>
+<hr>
+<p><strong>Huomautus: </strong>Tämä on kanavointiharjoituspiirin kanavoinnin puhtaaksikirjoitus. Tässä piirissä kokemattomat kanavoijat harjoittelevat. Sellaisenaan puhtaaksikirjoituksen sisältö ja/tai laatu voi vaihdella L/L Researchin kokeneempien kanavien kanavoimasta materiaalista.</p>
+<h2 class="transcript-title">Kanavointiharjoituspiiri</h2>
+<p class="transcript-date">elokuun 21, 2019</p>
+<p>Ryhmän kysymys: Q’uo, tänä iltana kysymyksemme liittyy hätääntymiseen henkisellä polulla, kun on niin paljon katalyyttia jota käyttää, on vaikeaa sanoa mitä tehdä ja minne mennä. Voisitko antaa meille jotain vihjeitä miten prosessoida katalyyttia, joka vaikuttaa liian isolta asialta käsitellä?</p>
+<p><em>(Jim kanavoi)</em></p>
+<p>Olen Q’uo ja olen tämän instrumentin luona. Me olemme mitä mielissämme jälleen kerran tullessamme osaksi etsinnän polkuanne, jonka te tunnette totuutena, sillä totuus, kokonaisuudessaan, vapauttaa teidät. Jokainen teistä henkisellä polullanne kuvastaa suurta halua saada tietää lisää tästä totuudesta, ja me puhumme teille tänä iltana pyrkimyksenämme paljastaa teille lisää tätä totuutta. Me pyytäisimme teitä, kuten aina, ottamaan sanomisemme niinkutsutusti &#8221;suolakiteen&#8221; kera, että voisitte hyödyntää sanojamme ja ajatuksiamme haluamallanne tavalla, jolla on merkitystä henkisellä polullanne. Jos jokin meidän teille kertoma asia ei kuulosta todelta, jättäkää se syrjään sen enempiä pohtimatta, sillä me emme ole erehtymättömiä auktoriteetteja. Me olemme, paljon kuin tekin, muutaman askeleen teitä pidemmällä samalla polulla. Jos teette meille tämän palveluksen, teette totuuden jakamisesta meille niin paljon helpompaa, sillä me emme halua muuttua esteeksi tai hidasteeksi polullanne.</p>
+<p>Tänä iltana kysytte erittäin pistävän kysymyksen, sillä jossain kohtaa jokainen totuuden etsijä huomaa, että on todella paljon erilaisia mahdollisuuksia oppia, katalyyttia mitä prosessoida, suhteita joita tasapainottaa, ja sisäinen aistimus olemuksesta, tunne siitä kokonaisuudesta, joka kykenee työskentelemään katalyytin, kuten te sanotte, ylivoimaisen suuren määrän ja laadun kanssa. Tämä on, tottakai, erään tyyppinen kokemus, jonka jossain kohtaa jokainen etsijä löytää omalla polulaan, ja ehkäpä useammin kuin kerran, silä monet ihmiset ovat esi-inkarnatiivisesti valinneet pyrkiä oppia niin paljon kuin mahdollista inkarnaation aikana. Oppiminen niin paljon kuin mahdollista tarkoittaa joskus, etsijällä on joskus tunne siitä, oppimisen mahdollisuuksia on enemmän kuin mitä hän kykenee sietämään, ja että tekee mieli levätä, siirtyä pois polulta hetkeksi ja että voi hengähtää henkisesti ja kokea virkistyvänsä tästä tauosta tietäen, että jossain vaiheessa sitä tulee taas nousemaan ylös ja alkamaan, askel kerrallaan, kulkea henkistä polkua jonka olette valinneet itsellenne omille oppimismahdollisuuksillenne.</p>
+<p>On hyvä muistaa, että elämänkuviossanne ei ole mitään ongelmaa, haastetta tai tapahtumaa, joka ei olisi omaa valintaanne. Näin teiltä vaaditaan kääntymistä sisäänpäin etsimään sieltä voimaa, jonka tiedätte siellä olevan kun tulee aika tehdä se mikä tulee tehdä. Jokainen henkäys henkisellä polulla on täynnä oman olemuksen luonteen ja luomakunnan luonteen elämänvoimaa. Jokaiselle teistä on saatavilla omalla polullanne kaikkina aikoina tällaista henkisluonteista energiaa jos vain pyydätte apua niiltä enkeliolennoilta ja oppailta, jotka ovat siellä auttamassa jokaista totuuden etsijää.</p>
+<p>Nyt me siirrämme yhteyden sille joka tunnetaan nimellä Gary. Me olemme Q’uo.</p>
+<p><em>(Gary kanavoi)</em></p>
+<p>Te tunnette meidät Q’uon periaatteena. Jatkamme tästä aiheesta, joka koskee sitä, että kohtaamme katalyytin määrän tai intensiteetin, joka vaikuttaa suuremmalta kuin tunnemme olevamme kykeneviä kohtaamaan tai käsittelemään, tasapainottamaan tai integroimaan. Näiden kahden näkökulman väliltä voitaisiin tutkia paljon kaikkea: katalyytin näkökulmaa ja oman itsen katalyytin tasapainottamiskykyjen näkökulmaa. Näkökulma muodostuu useista syötteistä järjestelmään, mutta me voimme tehdä huomion, että se on muokattavissa. Se muuttuu jatkuvasti. Sen rajoja voidaan venyttää. Itse ja olosuhteet voidaan nähdä uudelleen. Näkökulma voi mukautua tai muuttua muun muassa siten, että itselle annetaan enemmän tunnustusta kuin mitä sille on aiemmin annettu, ja tunnustetaan, että itselle ei anneta enempää kuin mitä se pystyy käsittelemään.</p>
+<p>Jos siis esiintyy vastarintaa, sanomme teille, että vastarinta on apu evoluutiolle ja tahdon ja uskon kehittymiselle, ja jos vastarintaa tuntuu olevan liikaa, se saattaa osoittaa, että kurssin muuttaminen on tarpeen, että uudelleenarviointia saatetaan tarvita, tai kuten viittasimme, saattaa olla, että havaintokyky itsessään on jonkinlaisen itsetutkiskelun tarpeessa.</p>
+<p>Väline etsii sitä lankaa, jota hän tunsi seurattavan, ja hän törmää siihen ja sanaan tai ajatukseen, jonka mukaan itselle on annettava se kunnia, joka hänelle kuuluu. Siihen, mikä saa katalyytin tuntumaan ylimitoitetulta tai kapasiteettiaan suuremmalta, kuuluu itsensä arviointi &#8212; siis itsensä voiman tai ajan, kärsivällisyyden, rehellisyyden, kyvyn pitää tai kestää sitä, mikä venyttää ja vetää tai työntää tai pyörittää. On hyvä olla rehellinen itselleen siitä, mitä valmiuksia on olemassa. Ei ole hyvä laittaa liikaa painoa tuohon tankoon. Mutta on myös hyvä viedä katalyytti meditaatioon nähdäkseen, mitä syvempi minä voisi tehdä tuolla katalyytillä silloin, kun tietoinen minä on hukkunut tai kärähtänyt, kuten voisi sanoa, niin että kenties tapahtuu sopeutumista tai avautumista luovuudelle, joka oli rajoitettu hukkumisen havaitsemisessa, tai elinvoimaisen energian hyödyntämistä sisällä.</p>
+<p>On hyvin suotavaa antaa itselle kannustuspuheita, sanoisimmeko, koota itsensä tahdon ja uskon avulla vastaamaan edessä oleviin haasteisiin. Visioiminen on hyödyllistä tämän kokoontumisen kannalta. Niin sanotusti menestyksen visiointi tai syvempi visiointi siitä, että olette Luoja ja kohtaatte Luojan jokaisessa elämäntilanteessanne, ja siellä missä on kipua ja tulta, siellä &#8230; annamme tälle välineelle sanan &#8221;unelma&#8221; [joka] poltetaan pois, siellä missä rajoitukset vedetään taaksepäin, jotta voitte kokonaisuutena tunnistaa syvemmin itsenne Luojana.</p>
+<p>Kerätkää tahtonne, keskittykää ja astukaa ulos kärsimyksestänne, rajoituksistanne ja vaikeuksistanne kertovien tarinoiden pienistä säiliöistä ja nähkää laajemmasta näkökulmasta, että olette matkalla, ja joihinkin vaiheisiin, joihinkin matkan topografioihin liittyy ehkä ylimääräisiä ponnisteluja tai erityisen akuutteja vaikeuksia. [Nähkää], että teillä on määränpää ja teillä on apua. Niin yksinäiseksi kuin tunnettekin itsenne sisäisesti tai elämänne ulkoisesti, kukaan ei koskaan kulje etsintää yksin. Tukilähteitä on enemmän kuin osaamme kertoakaan, jopa niille, jotka eivät tietoisesti kutsu apua, vaan keskittymisensä puhtauden ja palvelusuuntautuneiden aikeidensa avulla. Tuo apu tulee erityisesti niiden saataville, jotka tietoisesti kutsuvat; ja [sen] osalta, mikä on raskasta harteilla ja ylivoimaista, voi löytää itsensä lisäksi muita hartioita auttamaan tuon kuorman kanssa. Tuo [apu] voi saapua rakkaiden muodossa, uusina hahmoina jopa minän näyttämöllä, tai muuttuvina olosuhteina tai näkymättömänä apuna opastuksesta ja hengen kohottavista, inspiroivista energioista, jotka sallivat ihmisen, jos voimme sanoa sen yksinkertaistetusti, tulla suuremmaksi kuin katalyytti tai haaste, niin että ette ole katalyytin alla vaan katsotte sitä, tuotte sen sydämeenne ja tulette vahvemmiksi.</p>
+<p>Tämä instrumentti pyytää meitä poistumaan ja siirtymään Austin-nimisen instrumentin luo. Kiitämme tätä instrumenttia ja tätä ryhmää. Me olemme ne, jotka tunnette nimellä Q&#8217;uo.</p>
+<p><em>(Austin kanavoi)</em></p>
+<p>Me olemme Q&#8217;uo, ja me olemme tämän instrumentin luona. Kun keskustelemme erilaisista lähestymistavoista ja näkökulmista, jotka voivat auttaa käsittelemään ja lievittämään sitä katalyytin voimakkuutta, jota tämä ryhmä ja todellakin monet muutkin pallollanne tällä hetkellä tuntevat, katsomme aiheelliseksi tutkia joitakin taustalla olevia metafysiikan ja mekaniikan piirteitä, jotka vaikuttavat tähän laajalle levinneeseen voimakkuuteen. Olemme nimittäin havainneet, että universaalien prosessien valaiseminen ja tietämys itsen ja universumin toiminnasta auttaa usein saamaan kontekstin omille kokemuksille. Kontekstin hahmottaminen on usein jo itsessään helpottavaa, sillä saatatte itsestänne tuntea olevan vain pieni osa paljon suuremmasta, laajemmasta ja monimutkaisemmasta maailmankaikkeudesta, mutta vakuutamme teille, että teissä itsessänne on koko maailmankaikkeus, ja kun ymmärrätte olemisenne kontekstin maailmankaikkeudessa, ymmärrätte itsenne todellisen luonteen Luojana.</p>
+<p>Tämä ajanjakso planetaarisella pallollanne on varsin ainutlaatuinen monella eri tavalla ja monesta eri näkökulmasta. Käytännössä aina, kun planeetalla siirrytään tiheyksistä toiseen, erityisesti kolmannesta tiheydestä neljänteen tiheyteen, tapahtuu yhteenkietoutuminen ja siirtymä planeetan ja tämän planeetan mieli/keho/henki-kompleksien ja yhteiskuntakompleksien käytettävissä olevissa energioissa. Kun yhteiskunnallinen kompleksi, kuten omanne, kehittyy keskittyen fyysiseen tasoon ja fyysisessä maailmankaikkeudessa olemisenne mekaniikkaan, tämä energiamuutos voi olla järkyttävä ja jäädä suurelta osin huomaamatta. Vaikka nämä kaksi meneillään olevan siirtymän ominaisuutta saattavat näyttää olevan ristiriidassa keskenään, uskomme, että tämä on suuri osa siitä syystä, miksi niin monet pallollanne olevat entiteetit tuntevat kasvavaa intensiteettiä ja vaikeutta omien henkilökohtaisten energioidensa ja niitä ympäröivien sosiaalisten energioiden välillä.</p>
+<p>Tämän uuden energian luonne planetaarisella pallollanne tänä aikana on merkittävästi korkeampi ja intensiivisempi kuin planeetallanne on koettu kolmannen tiheyden loppupuolella. Sellaisen fokuksen ja intensiteetin kasvun pääpiirre on oman itsen valistaminen omalle itselle. Planeettanne on nyt tukevasti olemassa potentiaalisen neljännen tiheyden avaruus/ajassa ja aika/avaruudessa, kolmannen tiheyden attribuuttien jäänteet pysyvät sisällänne ja yhteiskunnassanne johtuen vahvistetuista ajatuksen ja toiminnan kaavoista. Itsessänne kokema intensiteetti katalyyttia kohdatessanne ovat nämä kaavat oman itsen sisällä, jotka paljastetaan. Koska kolmannessa tiheydessä alitajuinen mieli ei ole suoraan henkilön havaittavissa, tämä omien vääristymien paljastaminen saattaa olla epämukavaa ja vaikeaa. Näin ollen tällaiset kokemukset ovat varsin yleviä ja, kuten kuvailit, voimakkaita.</p>
+<p>Tätä kaikkea kärjistää omat omalaatuiset planeetan olosuhteet, jotka ovat olleet epäharmonian lähde, kuten tiedätte, läpi kolmannen tiheyden viime syklin. Planeetallanne on monia, monia olentoja, jotka ovat tulleet tänne uusimaan kolmannen tiheyden, jatkamaan kolmannen tiheyden oppitunteja, ja tämä niinkutsuttu eri sosiaalisten kompleksien “sekamelska”, joka on osittain perua planeetoilta, jotka ovat varsin erilaisia omaanne nähden, korostaa epäharmoniaa planeetan sosiaalisessa piirissä. Tämä planeetan epäharmonia ei välttämättä esiinny ulkoisissa sosiaalisissa tapahtumissa, vaan ilmenee yhtä usein myös itsessä.</p>
+<p>Olitte tietoisia näistä olosuhteista ennen inkarnoitumistanne tähän aikaan ja paikkaan, ja kuitenkin vaikka ymmärrätte olemassaolon vaikeuden tänä aikana, jokainen teistä on tehnyt valinnan liittyä mukaan porukkaan. Vaeltajina oli toiveenanne, unelmananne ja syvimpänä halunanne olla täällä nyt niin, että voisitte mahdollisesti löytää sydämenne tällaisen kaaoksen keskellä, avata itsenne maailmalle, joka epätoivoisesti tarvitsee rakkautta ja valoa, joita tiedätte voitavan ilmentää.</p>
+<p>Teidän pohtiessanne elämienne aikana kokemianne vaikeuksia me tarjoamme teille lohdutuksen, että tämä rakkaus ja valo, huolimatta siitä mitä koette, huolimatta siitä mitkä ovat olosuhteenne ja huolimatta siitä minne polkunne teidät vie, tulee aina olemaan luonanne, ystäväni, ja te tulette löytämään tämän jälleen kerran uudestaan.</p>
+<p>Tänä aikana me jätämme tämän instrumentin ja siirrämme yhteyden sille joka tunnetaan nimellä Trish. Me olemme Q’uo.</p>
+<p><em>(Trish kanavoi)</em></p>
+<p>Me olemme Q’uo ja me olemme nyt tämän instrumentin luona. Hätääntymisen tunne ja sen koettu voimakkuus on aihe, joka on suurten massojen kokemuksen aiheena tällä hetkellä tällä planeetalla. Me huomautamme kokemuksen suuruudesta keinona muistuttaa teitä, tai valaista teitä, siitä seikasta, että uusia kokemuksia ei koeta yksinään. Me haluaisimme myös painottaa, että kokemus itsessään, katalyytti, hätääntymisen tunne, intensiteetti ja mukana olevat muut itset, ne ovat kaikki osa sinua, aivan kuten sinä olet osa niitä. Me emme halua tehdä pilkkaa sellaisesta vakavasta ja tuskallisesta kysymyksestä ja aiheesta &#8212; me haluaisimme yksinkertaisesti näyttää teille, että tunne on ihana lahja jokaiselle olennolle tässä ajassa ja tilassa. Me ymmärrämme, että se voi tuntua siltä kuin olisi hukkumassa tai kuin ei voisi hengittää. Me ymmärrämme, että on suurta epämukavuutta, ja ehkäpä jopa eksymisen tunnetta, epävarmuutta siitä miten mennä eteenpäin, ja jopa uskomus siitä, että sellaiselle kokemukselle ei ole loppua.</p>
+<p>Me yksinkertaisesti pyydämme teitä tarkastelemaan tätä havaittua negatiivista kokemusta kiitollisuudella ja ehkäpä harjoituksena ja nähdä se sen sijaan positiivisena, nähdä tuon tuskan kauneus, niin ihana lahja, vaikka me sanommekin periaatteessa samaa asiaa: että te olette niin siunattuja vastaanottaessa ja tietäessä ja eläessä tässä illuusiossa, johon liittyy tuskaa ja epävarmuutta. Me ymmärrämme, että siinä on epämukavuutta, mutta kokemalla sen me ymmärrämme suuruuden, kauneuden, asiat, elementit, että kaikki on hyvin.</p>
+<p>Pyydämme anteeksi, tämä instrumentti tuntuu saavan informaatiotulvan ja kamppailee saadakseen tolkkua, vaikka hän palaa aina takaisin toteamukseen, että ylikuormittuneisuuden tunne on makea hedelmä korjattavaksi. Me pyydämme teitä korjaamaan tuon sadon hedelmän, että maistatte tuskaa, tuota hätääntymisen tunnetta, että panette merkille sen intensiteetin hapokkuuden ja että katsotte sitä kiitollisina, että tunnette ja näette ja ymmärrätte, että olette vain Luoja, joka kokee kaiken saatavilla olevan, ja siihen kuuluvat myös nämä hetket, jotka näyttävät niin pimeiltä ja toivottomilta. Juuri tällä kiitollisuuden asenteella, pyydämme anteeksi, tämä instrumentti nauraa, koska riimittely tuntuu niin täydelliseltä, mutta juuri tällä asenteella voi oppia nousemaan yläpuolelle tai asumaan sisällä, mutta rauhassa.</p>
+<p>Ehkä voisimme ehdottaa harjoituksena, kun olo tuntuu hätääntyneeltä ja epävarmalta ja ehkäpä toivottomalta, että istuisitte itsenne kanssa hiljaisuudessa, ja että pyytäisitte korkeampaa itseänne tekemään itsensä tunnetuksi, ja kun korkeampi itse on tehnyt itsensä tunnetuksi, pyydämme että kysyisitte kysymyksen tai esittäisitte aikomuksen ymmärtää, sillä korkeampi itsenne ei koskaan hylkää teitä, ja korkeampi itsenne kykenee mahdollisesti tekemään asiasta selkoa ja tarjoamaan näkemystä silloin, kun tunnette itsenne niin etääntyneiksi siitä kokemuksesta, että tiedätte kaiken olevan hyvin.</p>
+<p>Pyydämme teitä luottamaan kykyynne päästä yli, sekä kykyynne mennä itseenne. Me tunnemme tarpeen yksinkertaisesti sanoa, että lempeys ja kärsivällisyys ovat kaksi päätyökalua työkalupakissanne. Lempeydellä ja kärsivällisyydellä itseä kohtaan, muita kohtaan, katalyyttia itseään kohtaan on mahdollista oppia pitämään kokemusta, olipa se miten tuskallinen tai pimeä tahansa, pitämään omaa itseä rakkauden keskellä. Tuon kokemuksen avulla on mahdollista saada aikaan ja vaalia todellista myötätuntoa ja henkistä evoluutiota. Me olemme niin kiitollisia tästä kysymyksestä, ja me olemme kiitollisia jokaisen instrumentin halukkuudesta käsitellä niin valtavan voimakasta aihetta, sellaista josta tiedämme jokaisella tällä planeetalla olevan kokemusta, ja mahdollisesti niiden intensiteetti ja taajuus kasvaa ajan myötä.</p>
+<p>Nyt me poistumme tämän instrumentin luota ja palaamme sen luo, joka tunnetaan nimellä Austin. Me olemme Q’uo.</p>
+<p><em>(Austin kanavoi)</em></p>
+<p>Me olemme Q’uo ja olemme jälleen tämän instrumentin luona. Ennen ryhmän puoleen kääntymistä lisäkysymyksiä varten, me tarjoamme viimeisen, lyhyen ajatuksen vastauksena illan pääkysymykseen.</p>
+<p>Kuten olemme sanoneet, tänä iltana kuvailtu intensiteetti ja vaikeus eivät ole rajattuja niille, jotka istuvat tämän piirin ääressä, eikä edes niille, jotka ovat henkisellä polulla. Tänä aikana surun kutsuhuuto planeetallanne ulottuu äärettömyyteen ja vastauksena tähän kutsuun me Planeettojen Liitto Yhden Äärettömän Luojan Palveluksessa käännämme tahdonvoimamme kohti planeettaanne, ja avaamme sydämemme jokaiselle olennolle, joka kutsuu meitä surussaan. Me tarjoamme teille suurimman ja syvimmän rakkautemme, ja pidämme teitä syvällä sydämissämme.</p>
+<p>Nyt me kysymme oliko vielä joitain muita kysymyksiä joihin vastata?</p>
+<p><strong>Trish</strong>: Q’uo, olen epävarma jos kysyn tätä kysymystä sillä tavalla kuin se haluttiin kysyttävän, mutta on esitetty kysymys siitä miten henkisellä polulla oleva ja tiettyä filosofiaa seuraava voi olla kanssakäymisissä tämän planeetan lasten kanssa rikkomatta heidän vapaata tahtoaan. Onko olemassa tapaa puhua heille, joka olisi yhdenmukainen tämän filosofian kanssa?</p>
+<p><strong>Q’uo:</strong> Olen Q’uo olen tietoinen tästä kysymyksestä, sisareni. Filosofia, jota jaamme tämänkaltaisten instrumenttien kautta, on vain tietty näkökulma, ja teidän planetaarisella pallollanne se on todellakin melko ainutlaatuinen näkökulma. Huolimatta sen, mitä jaamme kanssanne, ainutlaatuisista erityispiirteistä, jakamisemme ytimessä on kuitenkin viesti, jota on jaettu monilla, monilla eri tavoilla, ja, sanoisimmeko, henkisen mietiskelyn järjestelmä, joka ei ole täysin uusi.</p>
+<p>Me alustamme vastaustamme tuolla informaatiolla helpottaaksemme välttämättömyyden tunnetta syöttää mitään tiettyä filosofiaa tai opetusta omille lapsille tai lapsille lähipiirissä. Me ymmärrämme halua toimia tällä tietyllä Luojan etsinnän ja kunnioittamisen tavalla, mutta me huomautamme jokaisen yksilön yksilöllisestä polusta. Kuitenkin voimme ehdottaa sellaista menetelmää löytää yhteyksiä sen mitä me jaamme teille ja teille saatavilla olevien filosofioiden ja metodologioiden välille, jotka ovat jo suunnattu yhteiskuntanne lasten ja nuorten kasvattamiseen ja kunnioittamiseen. Mielestämme tämä aihe, vaikka sitä monet tutkijat ja opettajanne ovatkin tutkineet, on edelleen varsinen mystinen, ja me ehdottaisimme, että jo olemassa ja saatavilla olevien opetusten yhteensulauttaminen meidän kertomamme kanssa mahdollistaa asianmukaisempien ja rakastavampien tapojen valaisemisen sille miten kasvattaa lasta ja ja antaa teidän keskuudessanne olevien nuorten kasvulle Luojan rakkautta ja henkeä.</p>
+<p>Onko jatkokysymystä, sisareni?</p>
+<p><strong>Trish:</strong> Ei, kiitos Q’uo.</p>
+<p><strong>Q’uo:</strong> Minä olen Q’uo ja me kiitämme sinua, sisareni.</p>
+<p>Onko toista kysymystä tähän hetkeen?</p>
+<p><strong>Gary:</strong> Q’uo, onko mahdollista tukkia, edes osittain, punaisen säteen energiakeskus?</p>
+<p><strong>Q’uo:</strong> Minä olen Q’uo, ja olen tietoinen kysymyksestäsi, veljeni. Siten kuin me ymmärrämme, että te jo tiedätte, punaisen säteen energiakeskus, sekä violetin säteen energiakeskus, ovat omalaatuisia energiakeskusjärjestelmässä, joka teidän kokemustanne määrittää. Vaikka ne ovat omalaatuisia, ne eivät ole samanlaisia omalaatuisuudessaan. Punaisen säteen energiakeskus, vaikka sitä ei voi tukkia tai vääristää samalla tavalla kuin tuntemianne muokattavampia energiakeskuksia, punaisen säteen energia voi esiintyä monilla tukkeutuneilla tai vääristyneillä tavoilla.</p>
+<p>Punaisen säteen energiakeskus on keskus, joka tarjoaa kaikkein perustavanlaatuisimman ja perusluonteisimman energeettisen pohjan kaikelle tämän jälkeen tulevalle kokemukselle, ja kuitenkaan tämä perusta ei välttämättä aina ole vakaa, ja se saattaa epävakaantua rakentamalla perustan päälle epävakailla tavoilla. Huomaamme vaikeaksi ilmaista tätä käsitettä tämän instrumentin kautta, vaikka me toivomme, että me olemme antaneet jonkinlaista näkemystä tämän perustavanlaatuisen energiakeskuksen omalaatuiseen luonteeseen.</p>
+<p>Onko vielä jatkokysymystä, veljeni?</p>
+<p><strong>Gary:</strong> Joten jokainen punainen säde on jokaiselle olennolle uniikki, ja riippuen olennon katalyytin käsittelystä, vaikkei sitä voikaan muuttaa, se on vakio. Onko se vakioitu ennen inkarnaatiota tietylle aktivaatiotasolle?</p>
+<p><strong>Q’uo: </strong>Me olemme Q’uo. Me olemme tietoinen kysymyksestäsi, veljeni. Vastaamme tähän kysymykseen myöntävästi, sillä tämä perusta on olennaisesti suunniteltu ja laadittu ennen inkarnaatiota. Selventääksemme, punaisen säteen energiakeskus ei ole aktiivinen ennen inkarnaatiota, mutta tämän energiakeskuksen omalaatuisuus ja vakaus ovat perustavanlaatuiset aspektit oman itsen ja korkeamman itsen suunnittelemille vääristymille, ja ne suuresti määräävät sen edistyksen, jota olennolla voi olla muiden energiakeskusten kanssa.</p>
+<p>Onko vielä toista jatkokysymystä, veljeni?</p>
+<p><strong>Gary:</strong> Kyllä, kiitos. Minulla on vielä yksi. Puhuttaessa oman itsen tasapainottamisesta, Ra sanoo: “Ensimmäinen tasapainotus on Malkuth, Maa, värähtelyenergian kompleksi nimeltään punaisen säteen kompleksi. Tämän energian ymmärrys ja hyväksyminen on perustavanlaatuista.” Voitko avata hieman miksi “tämän energian ymmärrys ja hyväksyminen” on niin perustaanlaatuista?</p>
+<p><strong>Q’uo:</strong> Minä olen Q’uo ja olen tietoinen kysymyksestä, veljeni. Me rohkaisemme etsijää, joka toivoo ymmärtävänsä tätä perustavanlaatuista energiaa, keskittymään kysymyksen operatiiviseen sanaan “perustavanlaatuinen”. Tarkastellessanne katalyyttia, jota koette läpi elämänne, voi käydä ilmiselväksi, missä henkilön energiakeskusten tiettyjä henkilökohtaisia vääristymiä ilmaistaan ja yhteyksiä luodaan, että onko näiden vääristymien alkuperä tukoksessa, aktivoinnissa tai yliaktivoinnissa. Kuitenkin me ehdottaisimme, että kaiken tämän katalyytin keskellä, huolimatta siitä mikä sellaisen katalyytin laatu on, että on olemassa elämän perusenergiaa &#8212; olennaista ja hienovaraista energiaa, joihin kaikki nämä vääristymät perustuvat. Tämän energian etsiminen, ymmärtäminen ja siitä seuraava hyväksyminen voimaannuttavat katalyytin tulkintaa, joka itse perustuu tähän energiaan ja joka sallii etsijän avata itsensä energian sisäänvirtauksille omassa itsessä.</p>
+<p>Onko vielä toista kysymystä, veljeni?</p>
+<p><strong>Gary:</strong> Itse asiassa kyllä, on vielä yksi. Onko olemassa sanoja kuvaamaan tätä perustavanlaatuista elämän punaisen säteen energiaa, jolle kaikki katalyytti rakentuu?</p>
+<p><strong>Q’uo:</strong> Minä olen Q’uo ja olen tietoinen kysymyksestäsi, veljeni. Meillä on vaikeuksia ilmaista tätä energiaa tämän instrumentin kautta, mutta voimme puhua tästä aiheesta ja toivottavasti tarjota vihjauksia sille mitä etsit. Tarjoamme tälle instrumentille kuvailevat sanat “elinvoima” ja “elämä” ja annamme kysymyksiä pohdittavaksi, “Mitä on elämä? Mikä on elossa? Mistä elämä tulee? Miksi olet elossa?” Me uskomme, että vastauksia näille kysymyksille etsivä voi päästä ymmärrykseen punaisen säteen energiakeskuksen perustavanlaatuisesta energiasta.</p>
+<p>Huomaamme, että tämän instrumentin omat energiat ovat hupenemassa, ja pyydämme josko se jonka tunnette nimellä Gary ottaisi kontaktin jälleen vastaan tänä iltana?</p>
+<p><strong>Gary:</strong> Kyllä, haluaisin koittaa. Kiitos Q’uo.</p>
+<p><strong>Q’uo:</strong> Minä olen Q’uo ja me kiitämme sinua, veljeni, mietteliäistä kysymyksistä ja mahdollisuudesta tälle instrumentille harjoittaa sen omia kyvykkyyksiä asiassa, joka voitaisiin tulkita vaikeaksi kysymystenne joukossa. Sanomme hyvästit tälle instrumentille ja siirrämme yhteyden sille joka tunnetaan nimellä Gary. Me olemme Q’uo.</p>
+<p><em>(Gary kanavoi)</em></p>
+<p>Me olemme Q’uo, ja me jatkamme kontaktia tämän instrumentin kautta. Haluamme ilmaista kiitollisuutemme kaikille läsnäoleville instrumenteille, ja me lähdemme tämän instrumentin matkaan ottamaan ensimmäistä loikkaa palvelemaan muita toimimalla instrumenttina kysymyksillä, joista hänellä ei ole mitään etukäteistietoa.</p>
+<p>Onko ryhmällä joitain kysymyksiä?</p>
+<p><strong>Austin:</strong> Q’uo, Liitto usein puhuu meditaation tärkeydestä henkisellä polulla, mutta aina ei ole selvää miksi se on niin tärkeää. Voisitko puhua hieman meditaation vaikutuksesta etsijään ja miksi Liitto pitää sitä niin tärkeänä aspektina henkisellä polulla.</p>
+<p><strong>Q’uo:</strong> Me olemme Q’uo ja me kiitämme sinua, veljeni, kysymyksestä, ja tämän instrumentin alkutaipaleen helpottamisesta tähän tälle instrumentille hieman pelottavaan tilanteeseen.</p>
+<p>Olet kysynyt tänä iltana miksi meditaatio voi olla niin tärkeä työkalu henkisen etsijän matkalla, ja erityisesti mitä vaikutuksia sillä voi olla tälle polulle, ja me sanoisimme, että vaikutuksia on useita, on useita syitä miksi me Liitossa korostamme tämän toiminnan tärkeyttä.</p>
+<p>Ehkäpä voisimme aloittaa kuvaamalla meditaatiota siltana, omasta itsestä, joka havaitsee itsensä erillisenä, elää erillisyyden narratiisissa, erillisessä ympäristössä, ykseyden totuuteen; sillä ajatukset luonnostaan tuppaavat peittämään ykseyden oman itsen kokemukselta, joka tarkoittaa oman itsen todellisen luonteen pittämistä omalta itseltä. Ajatukset, joita etsijä löytää niitä tutkiessaan, tuntuvat ajattelevan itsekseen, ja [kun ne jätetään] havainnoimatta, ne kantavat etsijän niinsanotusti mukanaan, jokainen ajatus pirstaloittaa huomiota niin, että etsijä ei näe itseään, tai sitä mitä illuusion takana on, vaan sen sijaan näkee illuusion ja vain ja ainoastaan illuusion.</p>
+<p>Meditaatio on siis voimakas työkalu, jolla saada huomio suunnattua näistä takertuvista ja kilpailevista ajatuksista niin, että itse voi tulla tietoiseksi tajunnasta ja ymmärtää, että itse ei ole sama kuin ajattelemansa ajatukset. Ystäväni, mitä onkaan ajatusten tuolla puolen? [Erityisesti] Ajatukset, joita etsijän mieleen nousee. Sellainen on rajamaa, jota kohti meditaatio vie. Ja sillä rajalla löytyy se mitä kaivataan, mikä parantaa, portaali jonka lävitse luovuus ja elämä ja avoimet mahdollisuudet tulevat.</p>
+<p>Jotta voisimme saattaa tämän illan nopeammin loppuun, kysymme onko ryhmällä vielä yhtä kysymystä.</p>
+<p><strong>Jim:</strong> Q’uo, voisitko kertoa meille mikä on kaikkein yleisin tukos, joka estää ehdottoman rakkauden virtaamasta sydämissämme?</p>
+<p><strong>Q’uo:</strong> Me olemme Q’uo ja vastaanotimme kysymyksen ja kiitämme siitä,  veljeni. Me muistutamme (tai instrumentti muistuttaa itseään, se on epävarma) siitä, mitä Ra on kuvannut <em>kyvyttömyydeksi nähdä oma itse ja toinen itse Luojana</em>, <a id="_ftnref1" href="https://www.llresearch.org/homecomings/channeling_circles/practice_circles/2019_0821.aspx?fbclid=IwAR3IXWnL28KhdZog6E7BrdxYPDldOF9VO0Ah3HnmWLfESbpEuaR7wpDERso#_ftn1" name="_ftnref1">[1]</a>  joka tukkii sydämen. Sellainen on erittäin lavea toteamus esittää, joka ensisilmäyksellä vaikuttaa antavan jonkin merkityksen, mutta mitä tarkoittaakaan nähdä Luoja itsessä ja muissa? Sitä voidaan tutkia intellektuaaliselta tai analyyttiselta kannalta, ja sillä on representaationsa kielen maailmassa, mutta näkeminen ja kokeminen ovat artikulaatiokyvyn tuolla puolen, kun tunnustetaan että toinen itse <em>ei ole</em> oman itsen edessä seisova keho, tai sen käytöstavat, tai mitä tuo persoona sitten esittääkin teille, vaan pitää tunnustaa, että olento edessäsi on Yksi, universumin lähde, äärettömyys itsessään, joka piilottaa itsensä itseltään edessäsi.</p>
+<p>Se, ja tämä Luoja, ovat kokonaisuuden, täydellisyyden ja loppuunsaattamisen loukkaamattomia ominaisuuksia &#8212; että tämä on heidän totuutensa, teidän totuutenne, ainoa totuus. Nämä pohdinnat avaavat sydämen ja tuovat syvemmän ja syvemmän oivalluksen siitä, että kaikki on Yhtä, kaikki on rakkautta, ja vastausta tuolle Yhdelle, ehtoollistanssia Yhden kanssa, tuon Yhden läsnä oleva olento, ainoa olento, on rakkaus ja avoin sydän. Sydämen ensisijainen tukkeutuminen perustuu siis erillisyyteen, sitä vahvistaa huntu, ja sen jälkeen se hukkuu kaikkiin niihin energioihin, jotka syntyvät erillisyydestä ja joista monet voidaan nimetä.</p>
+<p>Me kiitämme niitä, jotka tunnette nimellä Jim ja Austin, näistä kysymyksistä, jotka ovat tukeneet tätä instrumenttia johtoaseman ottamisessa. Me kiitämme tätä instrumenttia, kun se on sallinut meidän harjoittaa sitä, ja nyt me siirrämme tämän kontaktin tämän piirin päätteeksi sille joka tunnetaan nimellä Jim. Me olemme Q’uo.</p>
+<p><em>(Jim kanavoi)</em></p>
+<p>Minä olen Q’uo ja olen jälleen kerran tämän instrumentin luona. Me olemme mitä tyytyväisimpiä siihen edistykseen, jota jokainen uusi instrumentti tässä ryhmässä saa aikaan. Me olemme yllättyneitä, että edistys jatkuu harjoituksen toistuvuudesta huolimatta. Muistatte sen minkä olette oppineet ja tuotte sen esiin joka kerta hienostuneella tavalla, joka antaa meille enemmän liikkumavaraa, sanoisimmeko, tarjota ajatuksiamme kielenne käsitteiden ja sanojen kautta.</p>
+<p>Olette olleet meille inspiraatio, kuten me toivomme olevamme teille inspiraatio. Me kiitämme teitä jälleen kerran jatkuvasta vaivannäöstänne tämän harjoituksen parissa. Eläkää tuolla samalla ahkeruudella ja halulla arkipäiväänne, ja huomaatte, että hätäännyttävää katalyyttia aletaan käyttää ja se alkaa olla tasapainossa olemuksessanne, niin että voitte tuntea lohtua tietäen, että teillä on sisällänne kyky käsitellä kaikkea mitä eteenne tulee, kun pidätte päivittäistä toimintaanne ja sen sisältämiä kokemuksia ajattelun ravintona, kasvupotentiaalina, eteenpäin menemisenä rakkaudessa ja valossa jokaisella askeleella, jonka otatte. Me olemme te ja te olette me, ja me olemme Yksi. Me jätämme teidät nyt Yhden Äärettömän Luojan rakkauteen ja valoon. Te tunnette meidät Q’uona. Adonai vasu borragus.</p>
+<p class="footnote"><a id="_ftn1" href="https://www.llresearch.org/homecomings/channeling_circles/practice_circles/2019_0821.aspx?fbclid=IwAR3IXWnL28KhdZog6E7BrdxYPDldOF9VO0Ah3HnmWLfESbpEuaR7wpDERso#_ftnref1" name="_ftn1">[1]</a> Ra: “Tukoksen juurisyy on kyvyttömyys nähdä toinen itse Luojana, tai toisin ilmaistuna, rakkauden puute.” 87.21</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://www.llresearch.org/channeling/practice/1">L/L Research</a></p>
+	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/katalyytti/" rel="tag">katalyytti</a><a href="/tag/oppiminen/" rel="tag">oppiminen</a></span></footer></article><!-- #post-## -->
+	<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Artikkelien selaus</h1>
+		<div class="nav-links">
+			<a href="/eksopolitiikka/niger-lansimaiden-venajan-ja-avaruusolentojen-himoitsema-maa/" rel="prev"><span class="meta-nav">Edellinen artikkeli</span>Niger: länsimaiden, Venäjän ja avaruusolentojen himoitsema maa</a><a href="/tiede/luoko-havaitsija-oman-todellisuutensa/" rel="next"><span class="meta-nav">Seuraava artikkeli</span>Luoko havaitsija oman todellisuutensa?</a>		</div>
+<!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+<div id="comments" class="comments-area">
+
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Vastaa <small><a rel="nofollow" id="cancel-comment-reply-link" href="/tietoisuus/kanavointiharjoituspiirin-viesteja/#respond" style="display:none;">Peruuta vastaus</a></small>
+</h3>
+<form action="/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Sähköpostiosoitettasi ei julkaista.</span> <span class="required-field-message">Pakolliset kentät on merkitty <span class="required">*</span></span></p>
+<p class="comment-form-comment"><label for="comment">Kommentti <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p>
+<p class="comment-form-author"><label for="author">Nimi <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required></p>
+<p class="comment-form-email"><label for="email">Sähköpostiosoite <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required></p>
+<p class="comment-form-url"><label for="url">Kotisivu</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Tallenna nimeni, sähköpostiosoitteeni ja kotisivuni tähän selaimeen seuraavaa kommentointikertaa varten.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Lähetä kommentti"> <input type="hidden" name="comment_post_ID" value="7056" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+<!-- #comments -->
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+
+<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="xyz_insert_html_widget-11" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Tykkää tästä!</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/Eksopolitiikka" data-width="300" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Eksopolitiikka"><a href="https://www.facebook.com/Eksopolitiikka">Se Uusi Eksopolitiikka</a></blockquote></div></div></aside><aside id="social-widget-3" class="widget Social_Widget"><h1 class="widget-title">Seuraa meitä!</h1>
+<div class="socialmedia-buttons smw_left">
+<div class="socialmedia-text">Olemme myös muualla verkossa.</div>
+<a href="https://www.facebook.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="Facebook: Eksopolitiikka.github.io" title="Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://twitter.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Twitter: Eksopolitiikka" title="Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://eksopolitiikka.tumblr.com/" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/tumblr.png" alt="Tumblr: Eksopolitiikka" title="Tumblr" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="/feed" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="RSS-syöte" title="RSS-syöte" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://www.stumbleupon.com/stumbler/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/stumble.png" alt="Seuraa meitä StumbleUpon" title="Seuraa meitä StumbleUpon" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://delicious.com/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/delicious.png" alt="Seuraa meitä Delicious" title="Seuraa meitä Delicious" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a>
+</div></aside><aside id="categories-4" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="text-2" class="widget widget_text"><h1 class="widget-title">Ystäväsivut</h1>			<div class="textwidget">
+<a href="http://fufora.fi/">FUFORA - Suomen Ufotutkijat</a><br><br>
+<a href="https://www.mysteerienmaailma.com/">Mysteerien maailma</a><br><br>
+<a href="https://www.suomengalaktinenliitto.net/">Suomen Galaktinen Liitto</a><br><br>
+<a href="http://www.paranormaaliblogi.net/">Paranormaaliblogi</a><br><br>
+<a href="http://www.uusielamaohjelma.fi/">Uusi Elämä</a><br><br>
+<a href="http://www.tuulamaria.fi/Versio_olevasta/Versio_Olevasta.html">Versio Olevasta</a>
+<br><br>
+<a href="http://www.avartuvaihmiskuva.fi/">Avartuva Ihmiskuva ry</a>
+<br><br>
+<a href="http://www.rajatieto.tv/">Rajatieto.tv</a>
+<br><br>
+</div>
+		</aside>
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/8-tyokalua-totuuden-erotteluun-infosodan-keskella/">8 työkalua totuuden erotteluun infosodan keskellä</a>
+									</li>
+											<li>
+					<a href="/ufot/asiantuntijat-tarkastelevat-houstonin-ufo-havaintoa/">Asiantuntijat tarkastelevat Houstonin UFO-havaintoa</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/saammeko-pian-tietaa-avaruusolentojen-elavan-keskuudessamme/">Saammeko pian tietää avaruusolentojen elävän keskuudessamme?</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-kolumbiasta-3/">UFO-havainto Kolumbiasta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/tata-heranneiden-on-tarkoitus-tehda/">Tätä heränneiden on tarkoitus tehdä</a>
+									</li>
+											<li>
+					<a href="/ufologia/bob-lazarin-tarina-loytyy-nyt-myos-virtuaalisena/">Bob Lazarin tarina löytyy nyt myös virtuaalisena</a>
+									</li>
+											<li>
+					<a href="/ufot/mika-on-tama-floridan-sqr-lentokentalla-lentava-pallo/">Mikä on tämä Floridan SQR-lentokentällä lentävä pallo?</a>
+									</li>
+											<li>
+					<a href="/uutiset/laivasto-julkaisee-ufo-briiffausdokumentteja/">Laivasto julkaisee UFO-briiffausdokumentteja</a>
+									</li>
+											<li>
+					<a href="/uutiset/uusi-ufo-kuuleminen-kongressissa-keskiviikkona-13-11-2024/">Uusi UFO-kuuleminen kongressissa keskiviikkona 13.11.2024</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-minnesotasta/">UFO-havainto Minnesotasta</a>
+									</li>
+											<li>
+					<a href="/ufot/valoja-new-yorkin-lowvillessa/">Valoja New Yorkin Lowvillessa</a>
+									</li>
+											<li>
+					<a href="/ufot/hehkuva-ufo-arizonassa/">Hehkuva UFO Arizonassa</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-pallo-seurailee-avaruussukkula-discoverya/">UFO-pallo seurailee avaruussukkula Discoverya</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-kiitaa-lentokoneen-ikkunan-ohi/">UFO kiitää lentokoneen ikkunan ohi</a>
+									</li>
+											<li>
+					<a href="/ufot/oljynporauslautalla-kuvattiin-lautasen-muotoinen-ufo/">Öljynporauslautalla kuvattiin lautasen muotoinen UFO</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/reagointi-avaruusolentojen-soluttautumiseen-salaisiin-jarjestoihin/">Reagointi avaruusolentojen soluttautumiseen salaisiin järjestöihin</a>
+									</li>
+											<li>
+					<a href="/ufologia/mies-vaittaa-etta-avaruusolennot-veivat-hanen-spermaansa-ja-risteyttivat-hybridilapsia/">Mies väittää, että avaruusolennot veivät hänen spermaansa ja risteyttivät hybridilapsia</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-4" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h1 class="widget-title">Avainsanoja</h1>
+<div class="tagcloud">
+<a href="/tag/abduktio/" class="tag-cloud-link tag-link-48 tag-link-position-1" style="font-size: 9.1797752808989pt;" aria-label="abduktio (51 kohdetta)">abduktio</a>
+<a href="/tag/antarktis/" class="tag-cloud-link tag-link-259 tag-link-position-2" style="font-size: 9.1011235955056pt;" aria-label="antarktis (50 kohdetta)">antarktis</a>
+<a href="/tag/arcturus/" class="tag-cloud-link tag-link-316 tag-link-position-3" style="font-size: 12.797752808989pt;" aria-label="Arcturus (149 kohdetta)">Arcturus</a>
+<a href="/tag/area-51/" class="tag-cloud-link tag-link-83 tag-link-position-4" style="font-size: 8.7865168539326pt;" aria-label="area 51 (46 kohdetta)">area 51</a>
+<a href="/tag/arizona/" class="tag-cloud-link tag-link-167 tag-link-position-5" style="font-size: 9.1797752808989pt;" aria-label="Arizona (52 kohdetta)">Arizona</a>
+<a href="/tag/arkeologia/" class="tag-cloud-link tag-link-20 tag-link-position-6" style="font-size: 11.067415730337pt;" aria-label="arkeologia (91 kohdetta)">arkeologia</a>
+<a href="/tag/astronomia/" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 12.325842696629pt;" aria-label="astronomia (130 kohdetta)">astronomia</a>
+<a href="/tag/aurinko/" class="tag-cloud-link tag-link-195 tag-link-position-8" style="font-size: 10.202247191011pt;" aria-label="aurinko (70 kohdetta)">aurinko</a>
+<a href="/tag/australia/" class="tag-cloud-link tag-link-123 tag-link-position-9" style="font-size: 8pt;" aria-label="Australia (36 kohdetta)">Australia</a>
+<a href="/tag/avaruusolennot/" class="tag-cloud-link tag-link-401 tag-link-position-10" style="font-size: 10.831460674157pt;" aria-label="avaruusolennot (84 kohdetta)">avaruusolennot</a>
+<a href="/tag/brasilia/" class="tag-cloud-link tag-link-151 tag-link-position-11" style="font-size: 8.1573033707865pt;" aria-label="Brasilia (38 kohdetta)">Brasilia</a>
+<a href="/tag/britannia/" class="tag-cloud-link tag-link-314 tag-link-position-12" style="font-size: 8.7865168539326pt;" aria-label="Britannia (46 kohdetta)">Britannia</a>
+<a href="/tag/cia/" class="tag-cloud-link tag-link-388 tag-link-position-13" style="font-size: 9.8876404494382pt;" aria-label="CIA (64 kohdetta)">CIA</a>
+<a href="/tag/eksopolitiikka-2/" class="tag-cloud-link tag-link-17 tag-link-position-14" style="font-size: 17.831460674157pt;" aria-label="eksopolitiikka (665 kohdetta)">eksopolitiikka</a>
+<a href="/tag/elokuu2014/" class="tag-cloud-link tag-link-61 tag-link-position-15" style="font-size: 8pt;" aria-label="elokuu2014 (36 kohdetta)">elokuu2014</a>
+<a href="/tag/florida/" class="tag-cloud-link tag-link-156 tag-link-position-16" style="font-size: 9.4943820224719pt;" aria-label="Florida (57 kohdetta)">Florida</a>
+<a href="/tag/historia/" class="tag-cloud-link tag-link-45 tag-link-position-17" style="font-size: 9.1011235955056pt;" aria-label="historia (50 kohdetta)">historia</a>
+<a href="/tag/iss/" class="tag-cloud-link tag-link-89 tag-link-position-18" style="font-size: 12.011235955056pt;" aria-label="ISS (118 kohdetta)">ISS</a>
+<a href="/tag/kalifornia/" class="tag-cloud-link tag-link-120 tag-link-position-19" style="font-size: 11.460674157303pt;" aria-label="Kalifornia (101 kohdetta)">Kalifornia</a>
+<a href="/tag/kanada/" class="tag-cloud-link tag-link-132 tag-link-position-20" style="font-size: 9.1797752808989pt;" aria-label="Kanada (52 kohdetta)">Kanada</a>
+<a href="/tag/kanavointi/" class="tag-cloud-link tag-link-85 tag-link-position-21" style="font-size: 16.022471910112pt;" aria-label="kanavointi (387 kohdetta)">kanavointi</a>
+<a href="/tag/keith-basterfield/" class="tag-cloud-link tag-link-806 tag-link-position-22" style="font-size: 8.4719101123596pt;" aria-label="Keith Basterfield (42 kohdetta)">Keith Basterfield</a>
+<a href="/tag/kesakuu2014/" class="tag-cloud-link tag-link-9 tag-link-position-23" style="font-size: 10.044943820225pt;" aria-label="kesäkuu2014 (67 kohdetta)">kesäkuu2014</a>
+<a href="/tag/kevin-randle/" class="tag-cloud-link tag-link-1554 tag-link-position-24" style="font-size: 8.0786516853933pt;" aria-label="Kevin Randle (37 kohdetta)">Kevin Randle</a>
+<a href="/tag/kuu/" class="tag-cloud-link tag-link-54 tag-link-position-25" style="font-size: 12.404494382022pt;" aria-label="kuu (133 kohdetta)">kuu</a>
+<a href="/tag/lokakuu2014/" class="tag-cloud-link tag-link-100 tag-link-position-26" style="font-size: 10.044943820225pt;" aria-label="lokakuu2014 (66 kohdetta)">lokakuu2014</a>
+<a href="/tag/marraskuu2014/" class="tag-cloud-link tag-link-126 tag-link-position-27" style="font-size: 9.1797752808989pt;" aria-label="marraskuu2014 (51 kohdetta)">marraskuu2014</a>
+<a href="/tag/mars/" class="tag-cloud-link tag-link-104 tag-link-position-28" style="font-size: 10.359550561798pt;" aria-label="mars (73 kohdetta)">mars</a>
+<a href="/tag/meksiko/" class="tag-cloud-link tag-link-118 tag-link-position-29" style="font-size: 11.224719101124pt;" aria-label="Meksiko (94 kohdetta)">Meksiko</a>
+<a href="/tag/nasa/" class="tag-cloud-link tag-link-46 tag-link-position-30" style="font-size: 12.089887640449pt;" aria-label="NASA (121 kohdetta)">NASA</a>
+<a href="/tag/paranormaali-2/" class="tag-cloud-link tag-link-40 tag-link-position-31" style="font-size: 13.662921348315pt;" aria-label="paranormaali (194 kohdetta)">paranormaali</a>
+<a href="/tag/syyskuu2014/" class="tag-cloud-link tag-link-75 tag-link-position-32" style="font-size: 10.044943820225pt;" aria-label="syyskuu2014 (67 kohdetta)">syyskuu2014</a>
+<a href="/tag/teksas/" class="tag-cloud-link tag-link-147 tag-link-position-33" style="font-size: 8.7078651685393pt;" aria-label="Teksas (45 kohdetta)">Teksas</a>
+<a href="/tag/tiede-2/" class="tag-cloud-link tag-link-19 tag-link-position-34" style="font-size: 16.337078651685pt;" aria-label="tiede (428 kohdetta)">tiede</a>
+<a href="/tag/tietoisuus-2/" class="tag-cloud-link tag-link-32 tag-link-position-35" style="font-size: 16.730337078652pt;" aria-label="tietoisuus (479 kohdetta)">tietoisuus</a>
+<a href="/tag/ufo/" class="tag-cloud-link tag-link-2 tag-link-position-36" style="font-size: 22pt;" aria-label="UFO (2&nbsp;230 kohdetta)">UFO</a>
+<a href="/tag/ufo-kontakti/" class="tag-cloud-link tag-link-416 tag-link-position-37" style="font-size: 8.1573033707865pt;" aria-label="UFO-kontakti (38 kohdetta)">UFO-kontakti</a>
+<a href="/tag/ufo-paljastus/" class="tag-cloud-link tag-link-409 tag-link-position-38" style="font-size: 13.741573033708pt;" aria-label="UFO-paljastus (200 kohdetta)">UFO-paljastus</a>
+<a href="/tag/ufo-tutkimus/" class="tag-cloud-link tag-link-774 tag-link-position-39" style="font-size: 10.752808988764pt;" aria-label="UFO-tutkimus (82 kohdetta)">UFO-tutkimus</a>
+<a href="/tag/ufologia/" class="tag-cloud-link tag-link-108 tag-link-position-40" style="font-size: 12.797752808989pt;" aria-label="ufologia (151 kohdetta)">ufologia</a>
+<a href="/tag/ufot/" class="tag-cloud-link tag-link-212 tag-link-position-41" style="font-size: 22pt;" aria-label="UFOt (2&nbsp;238 kohdetta)">UFOt</a>
+<a href="/tag/usa/" class="tag-cloud-link tag-link-23 tag-link-position-42" style="font-size: 9.1011235955056pt;" aria-label="USA (50 kohdetta)">USA</a>
+<a href="/tag/venaja/" class="tag-cloud-link tag-link-18 tag-link-position-43" style="font-size: 9.8089887640449pt;" aria-label="venäjä (62 kohdetta)">venäjä</a>
+<a href="/tag/video/" class="tag-cloud-link tag-link-11 tag-link-position-44" style="font-size: 10.123595505618pt;" aria-label="video (68 kohdetta)">video</a>
+</div>
+</aside><aside id="xyz_insert_html_widget-7" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">A word from our sponsors</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- uusilaatikko -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="5020475662" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="block-4" class="widget widget_block"><div class="alignleft">
+     <script type="text/javascript">amzn_assoc_ad_type = "banner";
+	amzn_assoc_marketplace = "amazon";
+	amzn_assoc_region = "US";
+	amzn_assoc_placement = "assoc_banner_placement_default";
+	amzn_assoc_campaigns = "primemain";
+	amzn_assoc_banner_type = "category";
+	amzn_assoc_p = "12";
+	amzn_assoc_isresponsive = "false";
+	amzn_assoc_banner_id = "1A1582R37K6AZB4ZETG2";
+	amzn_assoc_width = "300";
+	amzn_assoc_height = "250";
+	amzn_assoc_tracking_id = "suomi075-20";
+	amzn_assoc_linkid = "33f2dafb38c0a20c0202e008f3b590d6";</script>
+     <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;Operation=GetScript&amp;ID=OneJS&amp;WS=1"></script>
+    </div></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h1 class="widget-title">Tsekkaa myös</h1>
+<div class="textwidget custom-html-widget">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pysty -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="6573230488" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form></aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments-2">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+					</ul>
+
+		</aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Arkistot</h1>
+			<ul>
+					<li><a href="/2024/11/">marraskuu 2024</a></li>
+	<li><a href="/2024/10/">lokakuu 2024</a></li>
+	<li><a href="/2024/09/">syyskuu 2024</a></li>
+	<li><a href="/2024/08/">elokuu 2024</a></li>
+	<li><a href="/2024/07/">heinäkuu 2024</a></li>
+	<li><a href="/2024/06/">kesäkuu 2024</a></li>
+	<li><a href="/2024/05/">toukokuu 2024</a></li>
+	<li><a href="/2024/04/">huhtikuu 2024</a></li>
+	<li><a href="/2024/03/">maaliskuu 2024</a></li>
+	<li><a href="/2024/02/">helmikuu 2024</a></li>
+	<li><a href="/2024/01/">tammikuu 2024</a></li>
+	<li><a href="/2023/12/">joulukuu 2023</a></li>
+	<li><a href="/2023/11/">marraskuu 2023</a></li>
+	<li><a href="/2023/10/">lokakuu 2023</a></li>
+	<li><a href="/2023/09/">syyskuu 2023</a></li>
+	<li><a href="/2023/08/">elokuu 2023</a></li>
+	<li><a href="/2023/07/">heinäkuu 2023</a></li>
+	<li><a href="/2023/06/">kesäkuu 2023</a></li>
+	<li><a href="/2023/05/">toukokuu 2023</a></li>
+	<li><a href="/2023/04/">huhtikuu 2023</a></li>
+	<li><a href="/2023/03/">maaliskuu 2023</a></li>
+	<li><a href="/2023/02/">helmikuu 2023</a></li>
+	<li><a href="/2023/01/">tammikuu 2023</a></li>
+	<li><a href="/2022/12/">joulukuu 2022</a></li>
+	<li><a href="/2022/11/">marraskuu 2022</a></li>
+	<li><a href="/2022/10/">lokakuu 2022</a></li>
+	<li><a href="/2022/09/">syyskuu 2022</a></li>
+	<li><a href="/2022/08/">elokuu 2022</a></li>
+	<li><a href="/2022/07/">heinäkuu 2022</a></li>
+	<li><a href="/2022/06/">kesäkuu 2022</a></li>
+	<li><a href="/2022/05/">toukokuu 2022</a></li>
+	<li><a href="/2022/04/">huhtikuu 2022</a></li>
+	<li><a href="/2022/03/">maaliskuu 2022</a></li>
+	<li><a href="/2022/02/">helmikuu 2022</a></li>
+	<li><a href="/2022/01/">tammikuu 2022</a></li>
+	<li><a href="/2021/12/">joulukuu 2021</a></li>
+	<li><a href="/2021/11/">marraskuu 2021</a></li>
+	<li><a href="/2021/10/">lokakuu 2021</a></li>
+	<li><a href="/2021/09/">syyskuu 2021</a></li>
+	<li><a href="/2021/08/">elokuu 2021</a></li>
+	<li><a href="/2021/07/">heinäkuu 2021</a></li>
+	<li><a href="/2021/06/">kesäkuu 2021</a></li>
+	<li><a href="/2021/05/">toukokuu 2021</a></li>
+	<li><a href="/2021/04/">huhtikuu 2021</a></li>
+	<li><a href="/2021/03/">maaliskuu 2021</a></li>
+	<li><a href="/2021/02/">helmikuu 2021</a></li>
+	<li><a href="/2021/01/">tammikuu 2021</a></li>
+	<li><a href="/2020/12/">joulukuu 2020</a></li>
+	<li><a href="/2020/11/">marraskuu 2020</a></li>
+	<li><a href="/2020/10/">lokakuu 2020</a></li>
+	<li><a href="/2020/09/">syyskuu 2020</a></li>
+	<li><a href="/2020/08/">elokuu 2020</a></li>
+	<li><a href="/2020/07/">heinäkuu 2020</a></li>
+	<li><a href="/2020/06/">kesäkuu 2020</a></li>
+	<li><a href="/2020/05/">toukokuu 2020</a></li>
+	<li><a href="/2020/04/">huhtikuu 2020</a></li>
+	<li><a href="/2020/03/">maaliskuu 2020</a></li>
+	<li><a href="/2020/02/">helmikuu 2020</a></li>
+	<li><a href="/2020/01/">tammikuu 2020</a></li>
+	<li><a href="/2019/12/">joulukuu 2019</a></li>
+	<li><a href="/2019/11/">marraskuu 2019</a></li>
+	<li><a href="/2019/10/">lokakuu 2019</a></li>
+	<li><a href="/2019/09/">syyskuu 2019</a></li>
+	<li><a href="/2019/08/">elokuu 2019</a></li>
+	<li><a href="/2019/07/">heinäkuu 2019</a></li>
+	<li><a href="/2019/06/">kesäkuu 2019</a></li>
+	<li><a href="/2019/05/">toukokuu 2019</a></li>
+	<li><a href="/2019/04/">huhtikuu 2019</a></li>
+	<li><a href="/2019/03/">maaliskuu 2019</a></li>
+	<li><a href="/2019/02/">helmikuu 2019</a></li>
+	<li><a href="/2019/01/">tammikuu 2019</a></li>
+	<li><a href="/2018/12/">joulukuu 2018</a></li>
+	<li><a href="/2018/11/">marraskuu 2018</a></li>
+	<li><a href="/2018/10/">lokakuu 2018</a></li>
+	<li><a href="/2018/09/">syyskuu 2018</a></li>
+	<li><a href="/2018/08/">elokuu 2018</a></li>
+	<li><a href="/2018/07/">heinäkuu 2018</a></li>
+	<li><a href="/2018/06/">kesäkuu 2018</a></li>
+	<li><a href="/2018/05/">toukokuu 2018</a></li>
+	<li><a href="/2018/04/">huhtikuu 2018</a></li>
+	<li><a href="/2018/03/">maaliskuu 2018</a></li>
+	<li><a href="/2018/02/">helmikuu 2018</a></li>
+	<li><a href="/2018/01/">tammikuu 2018</a></li>
+	<li><a href="/2017/12/">joulukuu 2017</a></li>
+	<li><a href="/2017/11/">marraskuu 2017</a></li>
+	<li><a href="/2017/10/">lokakuu 2017</a></li>
+	<li><a href="/2017/09/">syyskuu 2017</a></li>
+	<li><a href="/2017/08/">elokuu 2017</a></li>
+	<li><a href="/2017/07/">heinäkuu 2017</a></li>
+	<li><a href="/2017/06/">kesäkuu 2017</a></li>
+	<li><a href="/2017/05/">toukokuu 2017</a></li>
+	<li><a href="/2017/04/">huhtikuu 2017</a></li>
+	<li><a href="/2017/03/">maaliskuu 2017</a></li>
+	<li><a href="/2017/02/">helmikuu 2017</a></li>
+	<li><a href="/2017/01/">tammikuu 2017</a></li>
+	<li><a href="/2016/12/">joulukuu 2016</a></li>
+	<li><a href="/2016/11/">marraskuu 2016</a></li>
+	<li><a href="/2016/10/">lokakuu 2016</a></li>
+	<li><a href="/2016/09/">syyskuu 2016</a></li>
+	<li><a href="/2016/08/">elokuu 2016</a></li>
+	<li><a href="/2016/07/">heinäkuu 2016</a></li>
+	<li><a href="/2016/06/">kesäkuu 2016</a></li>
+	<li><a href="/2016/05/">toukokuu 2016</a></li>
+	<li><a href="/2016/04/">huhtikuu 2016</a></li>
+	<li><a href="/2016/03/">maaliskuu 2016</a></li>
+	<li><a href="/2016/02/">helmikuu 2016</a></li>
+	<li><a href="/2016/01/">tammikuu 2016</a></li>
+	<li><a href="/2015/12/">joulukuu 2015</a></li>
+	<li><a href="/2015/11/">marraskuu 2015</a></li>
+	<li><a href="/2015/10/">lokakuu 2015</a></li>
+	<li><a href="/2015/09/">syyskuu 2015</a></li>
+	<li><a href="/2015/08/">elokuu 2015</a></li>
+	<li><a href="/2015/07/">heinäkuu 2015</a></li>
+	<li><a href="/2015/06/">kesäkuu 2015</a></li>
+	<li><a href="/2015/05/">toukokuu 2015</a></li>
+	<li><a href="/2015/04/">huhtikuu 2015</a></li>
+	<li><a href="/2015/03/">maaliskuu 2015</a></li>
+	<li><a href="/2015/02/">helmikuu 2015</a></li>
+	<li><a href="/2015/01/">tammikuu 2015</a></li>
+	<li><a href="/2014/12/">joulukuu 2014</a></li>
+	<li><a href="/2014/11/">marraskuu 2014</a></li>
+	<li><a href="/2014/10/">lokakuu 2014</a></li>
+	<li><a href="/2014/09/">syyskuu 2014</a></li>
+	<li><a href="/2014/08/">elokuu 2014</a></li>
+	<li><a href="/2014/07/">heinäkuu 2014</a></li>
+	<li><a href="/2014/06/">kesäkuu 2014</a></li>
+			</ul>
+
+			</aside>
+</div>
+<!-- #content-sidebar -->
+<div id="secondary">
+		<h2 class="site-description">Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</h2>
+	
+	
+	</div>
+<!-- #secondary -->
+
+		</div>
+<!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="xyz_insert_html_widget-5" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Pls halp</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- banner -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="3129837163" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="xyz_insert_html_widget-9" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">träkker</h1>
+<!-- Begin TradeTracker SuperTag Code -->
+<script type="text/javascript">var _TradeTrackerTagOptions = {
+		t: 'a',
+		s: '224240',
+		chk: 'be0fd726c66aedbfc732d9bb3543e638',
+		overrideOptions: {}
+	};
+
+	(function() {var tt = document.createElement('script'), s = document.getElementsByTagName('script')[0]; tt.setAttribute('type', 'text/javascript'); tt.setAttribute('src', (document.location.protocol == 'https:' ? 'https' : 'http') + '://tm.tradetracker.net/tag?t=' + _TradeTrackerTagOptions.t + '&s=' + _TradeTrackerTagOptions.s + '&chk=' + _TradeTrackerTagOptions.chk); s.parentNode.insertBefore(tt, s);})();</script>
+<!-- End TradeTracker SuperTag Code --></aside><aside id="text-5" class="widget widget_text"><h1 class="widget-title">Visits</h1>			<div class="textwidget">
+<p>[pvcp_1]</p>
+</div>
+		</aside>	</div>
+<!-- #footer-sidebar -->
+</div>
+<!-- #supplementary -->
+
+			<div class="site-info">
+								<a href="http://wordpress.org/">Voimanlähteenä WordPress</a>
+			</div>
+<!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div>
+<!-- #page -->
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">window._qevents = window._qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+window._qevents.push({
+qacct:"p-YswNbbATdMBA9",
+uid:"__INSERT_EMAIL_HERE__"
+});</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-YswNbbATdMBA9.gif" border="0" height="1" width="1" alt="Quantcast">
+</div>
+</noscript>
+<!-- End Quantcast tag --><div style="width:100%;text-align:center; font-size:11px; clear:both">
+<a target="_blank" title="Insert HTML Snippet Wordpress Plugin" href="http://xyzscripts.com/wordpress-plugins/insert-html-snippet/">HTML Snippets</a> Powered By : <a target="_blank" title="PHP Scripts & Wordpress Plugins" href="http://www.xyzscripts.com/">XYZScripts.com</a>
+</div>
+<script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=6.7" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+<script type="text/javascript" src="/wp-content/themes/twenty14-child/js/functions.js?ver=20140319" id="twentyfourteen-script-js"></script>
+</body>
+</html>

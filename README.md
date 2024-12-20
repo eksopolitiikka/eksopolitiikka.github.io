@@ -1,3 +1,2 @@
 # eksopolitiikka.github.io
-
-backing up website
+website backup

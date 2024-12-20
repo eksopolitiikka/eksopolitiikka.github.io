@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="fi">
+<![endif]--><!--[if IE 8]>
+<html class="ie ie8" lang="fi">
+<![endif]--><!--[if !(IE 7) | !(IE 8) ]><!--><html lang="fi">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Faktojen erottaminen disinformaatiosta | _| Eksopolitiikka.github.io |_</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="/wp-content/themes/twenty14-child/js/html5.js"></script>
+	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style type="text/css">body { cursor: url('data:image/x-icon;base64,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'), auto; }</style>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; syöte" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; kommenttien syöte" href="/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.7" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="social-widget-css" href="/wp-content/plugins/social-media-widget/social_widget.css?ver=6.7" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-lato-css" href="//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/twenty14-child/genericons/genericons.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-style-css" href="/wp-content/themes/twenty14-child/style.css?ver=6.7" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css' href='/wp-content/themes/twenty14-child/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/3559">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7">
+<link rel="canonical" href="/todellista-eksopolitiikkaa/faktojen-erottaminen-disinformaatiosta/">
+<link rel="shortlink" href="/?p=3559">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ftodellista-eksopolitiikkaa%2Ffaktojen-erottaminen-disinformaatiosta%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ftodellista-eksopolitiikkaa%2Ffaktojen-erottaminen-disinformaatiosta%2F#038;format=xml">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css" id="twentyfourteen-header-css">.site-title a {
+			color: #2640c1;
+		}</style>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92325018, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/92325018" style="position:absolute; left:-9999px;" alt=""></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GT-WRHZQF4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFH6DS8S8Z"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFH6DS8S8Z');</script>
+<script data-ad-client="ca-pub-9834086743067807" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">var _paq = _paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(["setDomains", ["*.eksopolitiikka.fi/piwik"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//eksopolitiikka.flywheelsites.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();</script>
+<noscript><p><img src="//eksopolitiikka.flywheelsites.com/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56945167, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56945167" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+<script>window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '208160250391514',
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+<meta name="google-site-verification" content="elqn5KcMco5Z26arxftj3SZWY_B2I71BCLz_pLcaGPo">
+</head>
+
+<body class="page-template-default page page-id-3559 page-child parent-pageid-1033 group-blog masthead-fixed footer-widgets singular">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="/" rel="home">_| Eksopolitiikka.github.io |_</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Haku</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Ensisijainen valikko</button>
+				<a class="screen-reader-text skip-link" href="#content">Siirry sisältöön</a>
+				<div class="menu-eksopolitiikka-fi-container"><ul id="menu-eksopolitiikka-fi" class="nav-menu">
+<li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1050">
+<a href="/todellista-eksopolitiikkaa/" title="Etusivu">Eksopolitiikka.github.io</a>
+<ul class="sub-menu">
+	<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1057"><a href="/todellista-eksopolitiikkaa/kaikki-artikkelit/">Kaikki artikkelit</a></li>
+	<li id="menu-item-17642" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-17642"><a href="/eksopolitiikka/mita-on-eksopolitiikka/">Mitä on Eksopolitiikka?</a></li>
+	<li id="menu-item-11269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11269"><a href="/todellista-eksopolitiikkaa/ensikontaktiin-valmistautuminen/">Ensikontaktiin valmistautuminen</a></li>
+	<li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-1052"><a href="/todellista-eksopolitiikkaa/" title="Etusivu">Avaruusolennot varoittavat yhteiskunnallisesta jakautumisesta</a></li>
+	<li id="menu-item-3563" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3559 current_page_item menu-item-3563"><a href="/todellista-eksopolitiikkaa/faktojen-erottaminen-disinformaatiosta/" aria-current="page">Faktojen erottaminen disinformaatiosta</a></li>
+	<li id="menu-item-6797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6797"><a href="/">Kuinka saada yhteys avaruusolentoihin</a></li>
+	<li id="menu-item-1641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1641"><a href="/todellista-eksopolitiikkaa/eksopolitiikka-chat/">Eksopolitiikka-chat</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23"><a href="/category/ufot/">UFOt</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="/category/eksopolitiikka/">Eksopolitiikka</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="/category/paranormaali/">Paranormaali</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a href="/category/tiede/">Tiede</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-16">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+<ul class="sub-menu">
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774"><a href="/todellista-eksopolitiikkaa/opas-yhden-lakiin/">Opas Yhden Lakiin</a></li>
+</ul>
+</li>
+<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1055">
+<a href="/tietoa-sivustosta/">Tietoa sivustosta</a>
+<ul class="sub-menu">
+	<li id="menu-item-10031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031"><a href="/tietoa-sivustosta/ufoaiheisia-kirjoja/">Ufoaiheisia kirjoja</a></li>
+	<li id="menu-item-4377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4377"><a href="/tietoa-sivustosta/eksopoliittisia-linkkeja/">Eksopoliittisia linkkejä</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			
+<article id="post-3559" class="post-3559 page type-page status-publish hentry">
+	<header class="entry-header"><h1 class="entry-title">Faktojen erottaminen disinformaatiosta</h1></header><!-- .entry-header -->
+	<div class="entry-content">
+		<p>Gerard Aartsen on lähestynyt toimitustamme kirjansa <a href="http://www.bgapublications.nl/publications/book/before_disclosure/">Before Disclosure – Dispelling the Fog of Speculation (lataa tästä)</a> tiimoilta. Kirja käsittelee UFO-paljastusta, sekä ilmiön ympärillä pyörivää salailua, ja on hyvää luettavaa eksopolittisen tutkimuksen perusteista kiinnostuneelle. Seuraavassa on 50-sivuisen kirjan ykköskappale suomennettuna.</p>
+<p><a href="http://www.bgapublications.nl/publications/book/before_disclosure/"><img fetchpriority="high" decoding="async" class="size-medium" src="http://www.bgapublications.nl/wp-content/uploads/2016/01/Cover-draft-195x300.jpg" width="195" height="300"></a></p>
+<p>&nbsp;</p>
+<h2>1. Faktojen erottaminen disinformaatiosta</h2>
+<p>Ufologian ja eksopolitiikan alalla kasvaa spekulaatio vuosi vuodelta, tai siltä ainakin tuntuu, ja ulkoavaruudesta vierailevat alukset tekevät itsensä tunnetuiksi yhä useammin. Älkäämme tällöin haaskatko aikaa ja jättäkö tunnustamatta sananlaskun elefanttia (tai emoalusta) huoneessamme: Jos moderni maailma ei ollut tietoinen avaruusvierailijoista ja niiden aikeista ennen kuin 1950-luvulla kontaktihenkilöt alkoivat kokemuksistaan kirjoittaa ja puhua, miksi nykypäivän tutkijat jättävät huomiotta tietonsa ja sallimmeko me havaintomme tulla sen disinformaation hämärtämäksi, joka oli tarkoitettu niiden mustamaalaamiseen?</p>
+<p>Otetaan esimerkiksi tarina, joka hiljattain alkoi taas kiertää verkossa, että ainakin neljä &#8221;82:sta avaruusolentorodusta taistelee maapallon hallinnasta&#8221; [1], perustuen videoihin joiden olisi tarkoitus esuttaa &#8221;tutkijoiden&#8221; löydöksiä. Kuka tahansa jolla on vähänkään tietoa avaruusolentojen läsnäolosta maapallolla alkaisi heti ihmetellä miksi niillä kestäisi niin kauan &#8221;saada haltuunsa&#8221; maapallo, olettaaen että niillä on olemassa teknologiaa jolla päästä uskomattoman pitkiä matkoja avaruudessa tänne, ja että &#8212; perustuen muinaisiin tietoihin niiden olemassaolosta täällä &#8212; ne ovat tulleet tänne vuosisatoja, jos ei vuosituhansia. Lisäksi, koska suurin osa ihmisistä ei edes ota avaruusolentojen läsnäoloa vakavasti, voimme Carl Saganin tavoin ihmetellä miksi useampi naapuri ei ole tätä huomannut. [2]</p>
+<p>Edelleen, jos menemme takaisin kontaktien ryöppyyn joka vihki modernin ufologian ajan virkaansa 1950-luvulla, eräs silmiinpistävä seikka on että yhdelläkään kontaktihenkilöllä, jonka tietoja ei saastutettu disinformaatiokampanjalla, ollut mitään muuta kuin pelkkää positiivista sanottavaa kokemuksistaan. Viesti joka heitä pyydettiin välittämään oli, vaikka kyseessä oli vain muutama vuosi toisen maailmansodan päättymisestä ja elettiin käsinkosketeltavaa ydinsodan uhkaa, viesti ihmisrodun voimaantumisesta: Meidän tulee välttää aseellisten konfliktien kehittyminen mikäli aiomme välttyä itsetuholta, ja rauhanomainen tulevaisuus kansainvälisen yhteistyön avulla sekä varmistaa kaikkien ihmisten tarpeiden tyydyttäminen on toteuttamiskelpoista, mikä on ihmiskunnan ykseyden ilmaisu.</p>
+<p>Ollessaan mukana ydin- ja perinteisten aseiden varustelussa Neuvostoliittoa vastaan, läntinen sotateollinen kompleksi, johon kuuluu fossiilisten ja ydinpolttoaineiden teollisuudenala, piti tätä viestiä niiden intressien vastaisena. Niin paljon, että hallitukset ja niiden sotavoimat, jotka tarvitsivat kansan tuen ideologiselle sodankäynnille ja globaalille asevarustelulle, päättivät 1950-luvun puolivälissä, että, huolimatta armeijan löytämien yhden tai useamman lentävän lautasen salailusta, kontaktihenkilöiden viesti kansainvälisestä rauhanyhteistyöstä ja veljeydestä otettiin vastaan liian hyvin. Viitteitä tästä suosiosta voidaan löytää siinä, kun kolme vuotta julkistamisestaan Flying Saucers Have Landed (1953), kirja joka sisälsi George Adamskin alkuperäisen kontaktikokemuksen, sai kaksitoista kertaa uusintapainoksen pelkästään USA:ssa ja se julkaistiin seitsemällä (!) muulla kielellä.</p>
+<p>Koska yritykset hiljentää nämä erilaisen, järkevämmän elämäntyylin viestintuojat rahalla tai uhkailemalla eivät saaneet aikaan haluttua lopputulosta, päätettiin että heidän kokemuksiaan pilkattaisiin ja heidän henkilöitään mustamaalattaisiin. Samaan aikaan filmintekijät lisäsivät julkisen mielipiteen sekaannusta tuotoksilla kuten Invaders from Mars (1953), Earth vs the Flying Saucers (1956), Invasion of the Saucer Men (1957), ja niin edelleen. Tämä kävi niin selväksi, että Flying Saucer Review lopulta julkaisi &#8221;erikoisnumeron&#8221; sen maalis-huhtikuun numerossa 1959 kirjoittaen: &#8221;Me kammoksumme tätä elokuvien ja muun median kautta tapahtuvan maailman mielipiteen ehdollistamisen trendiä, jotta pelättäisiin avaruusaluksia.&#8221; [3]</p>
+<p>Samaan aikaan perustettiin salamyhkäiset hallituksen virastot suunnittelemaan pelottavia kokemuksia (&#8221;sotilas-abduktioita&#8221; eli MILABS, karjansilpomisia jne.) jotta saataisiin aikaan ulkoavaruuden vierailijoihin kohdistunut pelko. [4] On merkittävää huomata, että ensimmäinen raportoitu ulkoavaruuden olentojen väitetty &#8221;abduktio&#8221;, jossa oli mukana pariskunta nimeltään Betty ja Barney Hill, ei tapahtunut kuin vasta vuonna 1061. Miksi &#8221;ne&#8221; olisivat odottaneet ensimmäistä &#8221;abduktiota&#8221; siihen asti kunnes &#8221;avaruusolentojen uhka&#8221; oli päässyt julkiseen tietoon?</p>
+<p>Ylläolevan valossa meidän tulisi varoa nielemästä sellaisenaan mitä tahansa ulkoavaruuden vierailijoihin  tai teknologiaan liittyvää tietoa, joka korviimme kantautuu &#8221;hallituksen sisäpiiriläisten&#8221; tai &#8221;pilliinpuhaltajien&#8221; kautta, jotka saattavat olla töissä tai sitten ei salaisissa laboratorioissa, yksinkertaisesti siitä syystä että emme voi koskaan olla varmoja onko heidän tietonsa tarkoituksella istutettu ruokkimaan tai lisäämään kansan pelkoa ja hämmennystä.</p>
+<p>Monet &#8221;salaisen avaruusohjelman&#8221; (secret space program, SSP) väitteistä, esimerkiksi, jotka tulevat &#8221;pilliinpuhaltajilta&#8221;, tuntuvat nojaamaan entisen Lockheed Skunk Worksin insinöörin Ben Richin kuulemma tekemiin väitteisiin: &#8221;Meillä on nyt teknologia viedä E.T. kotiin.&#8221; Mutta sotilas-ilmailuhistorioitsija Peter Merlin, joka on ollut kuuntelemassa monia hänen esitelmiä, selittää että tämä lausunto on pelkkä väärinymmärrys hänen menestyneestä sloganistaan jota Rich käytti puheidensa loppulauseena vuodesta 1983 eteenpäin: &#8221;Skunk Worksille on annettu tehtäväksi tuoda [elokuvan päähahmo] E.T. takaisin kotiin.&#8221; [5]</p>
+<p>Ottaen huomioon nämä olosuhteet, väitteet &#8221;salaisista avaruusohjelmista&#8221; joissa on mukana ihmiskunnan valtaeliitti lentelemässä ympäri aurinkokuntaa &#8221;maapallon ulkopuolisten liittolaisten&#8221; avustamana ei ole mahdollista tulla tarkoin tutkituksi, ja ne ainoastaan vahvistuvat &#8221;pilliinpuhaltajien&#8221; väitteistä, joiden taustat ovat yhtä sumeita ja joiden lähteitä ei voida tutkia sen tarkemmin niitäkään. Sitä paitsi, kuka on koskaan kuullut &#8221;salaisesta avaruusohjelmasta&#8221; ennen Ronald Reaganin huonosti suunniteltua vuoden 1983 Strategic Defence Initiativea, tai edes ennen maapallon fiktionaalisten hallitusten päätettyä tehdä yhteistyötä vuoden 1996 elokuvassa Independence Day?</p>
+<blockquote>
+<h3>Esimerkki 1: Avaruusvierailijoiden aikeet:</h3>
+<p>“Mikäli [UFOt ydinasetukikohtien yllä] haluaisivat tuhota ne, kaikilla käytössä olevillaan voimilla, ne olisivat jo tehneet sen. Joten henkilökohtaisesti en usko että niillä on pahoja aikeita.”<br>
+&#8212; Robert Salas, USA:n ilmavoimien kapteeni, evp. (2010)</p>
+<p>“Se on täyttä huuhaata että [avaruusolennot] tekisivät geneettisiä tai seksuaalisia kokeita tämän planeetan ihmisillä kun niillä on teknologia joka on tuhansia vuosia edellä mitään mitä voimme edes kuvitella nykyhetkestä.”<br>
+&#8212; Benjamin Creme, esoteerikko (2010)</p>
+<p>“On aika selvää että mikäli [avaruusolentojen läsnäolo] olisi vihamielinen, me olisimme nyt jo tuhoutuneet. (&#8230;) Meillä ei ole puolustusta mikäli se olisi niiden todellinen aikomus.”<br>
+&#8212; Edgar Mitchell, astronautti (2008)</p>
+<p>“Miksi niin fysiikan ja insinööritaidon saralla niin edistyneiden – uskomattomia tähtienvälisiä matkoja matkaavien – tulisi olla niin takapajuisia mitä biologiaan tulee?”<br>
+&#8212; Carl Sagan, astronomi (1993)</p>
+<p>“Me kaikki tiedämme voiman [josta avaruusolennot] ammentavat että se olisi saanut suurimmat pommimme näyttämään suutari-paukuilta itsenäisyyspäivänä. Eivätkö nämä faktat asianmukaisesti vastaa kysymyksiin niiden vihamielisyydestä?”<br>
+&#8212; George Adamski, kontaktihenkilö (1957)</p>
+</blockquote>
+<p>Päin vastoin, meillä on vakuutteluja, ensimmäisten kontaktihenkilöiden suusta, että vieraat &#8221;kernaasti antaisivat tämän tiedon [painovoiman kumoamiseksi] joka on meitä niin hyvin palvellut, paitsi että te ette ole vielä oppineet elämään keskenänne rauhassa ja veljeydessä, kaikkien ihmisten hyvinvointia edistäen, kuten me elämme muissa maailmoissa. Jos me paljastaisimme tämän voiman teille tai kenelle tahansa ihmiselle maapallolla ja siitä tulisi julkista tietoa, jotkut teistä ihmisistä pian rakentaisivat avaruusaluksia, lastaisivat ne täyteen aseita ja lähtisivät sarjamurhaamaan valloittaakseen ja ottaakseen haltuunsa muita maailmoja.&#8221; [6] Meidän tuleekin siis täten kysyä itseltämme, jos ne ovat vaivautuneet selittämään meille miksi he eivät vielä jaa teknologiaansa kanssamme, miksi ne eivät ole varoittaneet meitä kilpailijoistaan avaruudessa, jos sellainen uhka todella olisi olemassa?</p>
+<p>Epäilemättä Natsi-Saksan ajoista lähtien on työskennelty salassa avaruusteknologian parissa. Kuitenkin se ei vielä todista kenenkään oikeasti kyenneen kehittämään alusta joka veisi meidät kuuta kauemmas. Desmond Leslie, joka on lähes liittyvää unohdettu ensimmäisenä ihmisenä joka on antanut yleiskuvauksen avaruusolentojen vierailujen historiasta hänen kirjassaan Flying Saucers Have Landed, tarjosi kaikkein mukaansatempaavimman argumentin asiassa. Hän vaivihkaa huomautti että &#8221;ainoa vasta-argumentti &#8217;maan ulkopuoleisen [eli siis vihollis-] vallan&#8217; teorialle on, että nämä lautaset (niin ystävälliset kuin vihamieliset), ovat lennelleet ympäri maailmaa jo suht pitkän aikaa. Tutkijat ovat osoittaneet että ne ovat ilmaantuneet suurin joukoin ja niitä on monet korkea-arvoiset astronomit nähneet vuosia ennen Wrightin veljesten ensimmäistä lentoa. Tässä tapauksessa mikä tahansa valta, jolla on niitä ollut hallussaan, täytyy olla rauhanomainen, sillä se olisi voinut valloittaa maapallon, käytännössä yhdessä yössä, milloin vain.&#8221; [7] Selvästikin luonnonvarojen muuttuessa niukemmiksi, tämä pätee yhä enemmän nykypäivänä kuin mitä se teki vuonna 1955.</p>
+<p>Niinkin lähiaikoina kuin vuonna 2008, ensinen Apollo 14 -astronautti tohtori Edgar Mitchell, joka sanoi itse olleensa &#8221;tarpeeksi etuoikeutettu saada olla mukana siinä että planeetallamme on vierailtu&#8221;, eikä olekaan aivan kuka tahansa joka näin sanoo, väitti haastattelussa: &#8221;Epäilen että viimeisen noin 60 vuoden aikana on ollut jonkinlaista takaisinmallinnusta (&#8230;) mutta se ei ole läheskään niin hienostunutta kuin mitä näillä oletetuilla vierailijoilla on.&#8221; [8]</p>
+<p>Täten voimme nähdä miten väitteet &#8221;salaisesta avaruusohjelmasta&#8221; johtuvat kiertoradaltaan suistuneista spekulaatioista &#8212; mielikuvituksen karkaamisesta, enemmän kuin joidenkin spekuloimasta breakaway-sivilisaatiosta. Niille, jotka haluavat varustautua pelon edistämää narratiivia varten, toivotaan että ylläolevat mietiskelyt näyttäisivät lukijoille miten ajatella, ei mitä ajatella.</p>
+<p>Tulisi olla selvää, että väitetyt hirmuteot, jotka monet tällä hetkellä liittävät &#8221;avaruusolentoihin&#8221;, ovat päässeet mukaan avaruusolennoista käytävään keskusteluun jokin aika sen jälkeen kun avaruusvierailijoita koskeva vihan ja hämmennyksen kampanja saatin käyntiin, kovin samalla tavoin kuin että me emme koskaan ole kuulleet &#8221;sinisten lintujen&#8221; [9] rodusta ennen Avatar-elokuvan (2009) suurmenestystä. Selkeästi disinformaatiokampanja on saanut aikaan tuhoa ihmisten luottamuksessa &#8221;virallista&#8221; tarinaa kohtaan, mutta se on myös tuhonnut heidän kriittisen ajattelukyvyn, jopa niin pahasti että monet näkevät salaliittoja siellä missä niitä ei oikeasti ole &#8212; tai menettävät kosketuksen todellisuuteen. Niin pahast, että alarmistit ja fantasioijat nyt tuntuvat olevan runsaslukuisempia kuin ne jotka aidosti pyrkivät erottamaan faktat fiktiosta. On siis tullut aika tuoda logiikka ja maalaisjärki takaisin toimintaamme.</p>
+<p>Monet ovat samaa mieltä siitä, että &#8221;totuus&#8221; on kiinni näkökulmasta, mutta henkilön näkökulma hyvin paljon riippuu heidän henkisen evoluutionsa asteesta. Esimerkiksi, kun Carl Sagan esitti kuulluisassa TV-sarjassaan Cosmos: &#8221;Meidät on tehty tähtipölystä. Me olemme kosmoksen tapa tulla tietoiseksi itsestään&#8221;, se mitä hän sanoi ei ollut kovinkaan kaukana siitä kun Jeesus sanoi &#8221;Minä ja Isä olemme yhtä&#8221;, hänen ilmaistessaan tunnustuksensa kaiken elämän Lähteelle. Tämä vuorostaan ei ole kaukana siitä mitä George Adamski kirjoitti vuonna 1958: &#8221;[Ihmisen tulee] ymmärtää että hän on yhtä kaiken luomakunnan kanssa. Hänen tulee ymmärtää etä värähtelevät atomit hänen nykyisessä kehossaan on käytetty ja uudelleenkäytetty läpi luomakunnan; siksi heidän on täytynyt osallistua jokaiseen vaiheeseen, matalimmasta kuviteltavissa olevasta muodosta suunnattomiin taivaankappaleisiin jotka iäisyyksiä sitten absorboitiin takaisin avaruuteen. Ei ole olemassa jaotteluja, muita kuin ne jotka ihminen on itselleen asettanut!&#8221; [10]</p>
+<p>Joten näemme lausunnot kuten Saganin astrofyysisen väittämän, jonka George Adamski, jota monet pitävät maallikkona, ilmaisi arkipäiväisemmin, olevan vain toinen tapa ilmaista se mitä jotkut näkevät kristinuskon doktriinina. Täten, vaikka &#8221;totuus&#8221; saattaa vaihdella henkilöstä toiseen, riippuen heidän tietoisuuden kehityksestään, jos kokemuksella on universaalia arvoa se tullaan tunnustamaan ja varmentamaan eri näkökulmista, huolimatta siitä tietystä ihmispyrkimyksen alasta jolla kukin henkilö itseään ilmaisee. Me voisimme kutsua tätä tieteenalat ylittäväksi vahvistamiseksi &#8212; tieteen ja uskonnon, tässä tapauksessa, ilmaistessa saman totuuden omasta todellisuuden kokemuksestaan.</p>
+<p>Koska salailu on saanut aikaan äärettömän spekulaation avaruusolentojen läsnäolon luonteesta planeetallamme, jopa niiden keskuudessa jotka pitävät itseään tutkijoina tarvitsemme tavan jolla selvitetään mitkä tiedot, faktat tai väitteet ansaitsevat vakavan huomiomme ja mitkä voimme turvallisesti heittää menemään. Tietäen disinformaatiokampanjan olleen tarkoitettu tuhoamaan ensimmäisten kontaktihenkilöiden maineen, niin että heitä ei enää otettaisi vakavasti, nämä tarjoavat luotettavan lähtökohdan, erityisesti koska heidän selonteoissaan on kaikissa mukana huomattavia yhtäläisyyksiä. Vielä enemmän koska niissä on tietoa kontaktihenkilöiltä toiselta puolen maailmaa tuohon aikaan, ja myös koska monet ovat raportoineet samanlaisia kokemuksia myöhempinä vuosikymmeninä. Nämä kirjeenvaihdot, jotka olen laajalti dokumentoinut kirjoissani, ottavat mukaan kunnioituksen vapaata tahtoamme ja itsemääräämisoikeuttamme kohtaan lajina, ja ne käsittelevät myös tapaa jolla yhteiskunta on järjestäytynyt tuhoisan elääkseen kilpailun tarpeen ympärille.</p>
+<p>Selvästikin on olemassa myös ristiriitoja tai vastakkainasetteluja kontaktihenkilöiden raporteissa, mutta nämä eivät koskaan liity pääasialliseen kontaktin luonteen tai vierailijoiden aikeiden aspekteihin, ja saattavat johtua eri syistä, mm. rajoittuneesta havainnointikyvystä; ymmärryksen puutteesta; välitetyn informaation vääristymisestä joko ensiksimainitun tai koko elämän kestäneen ehdollistamisen seurauksena; tarpeesta fiktiollistaa; tai nauretuksi tulemisen pelosta &#8212; kaikki kontaktihenkilön puolelta. Sellaiset epäjohdonmukaisuudet ovat juuri näistä syistä paljon vähemmän tärkeitä kuin lausunnot jotka tukevat toisiaan, ja myös vahvistavat ihmiskunnan yhteisen viisauden perinteet.</p>
+<p>Kuten selitin kirjassa <a href="https://www.amazon.com/gp/product/9081549545/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=9081549545&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=5eaf63bee68187938636ca6ce32c65db" target="_blank">Priorities for a Planet in Transition</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=9081549545" alt="" width="1" height="1" border="0">, etsimällä vastaavuuksia elintärkeistä piirteistä kvalitatiivisen tutkimuksen avulla, ja syntetisoimalla omat löydöksemme, me voimme johtaa arvokkaan kriteeristön &#8212; historiallisen, sosiaalisen, poliittisen ja henkisen &#8212; joka palvelee koetinkivenä selon minkä tahansa väitteen tarkastelua koskien avaruusolentojen läsnäoloa. Yhteenvetona, jos luonamme vierailisi sekä hyväntahtoisia että pahantahoisia avaruusolentoja&#8230;</p>
+<p>• ei ole olemassa syytä miksi vain yhden tyyppinen kontakti olisi tapahtunut ilman toisen tyyppistä ensimmäisten raportoitujen kontaktien aikaan;</p>
+<p>• ei ole olemassa syytä miksi koskaan sattunut pahantahtoinen kontakti ei olisi tullut viranomaisten tai arvohenkilöiden raportoimaksi, useimmat heistä ovat raportoineet hyväntahtoisia kontakteja;</p>
+<p>• meillä tulisi olla myös raportteja kontaktihenkilöistä jotka edistävät kansainvälisen yhteistyön, oikeuden ja rauhan, vastakohtia, kuten myös tuhoisista teknologioista, alkuperäisten kontaktihenkilöiden joukossa;</p>
+<p>• meillä tulisi olla raportteja aikaisempien kontaktihenkilöiden elämänfilosofioista ja opetuksista jotka vastaavat ja varmentavat ihmiskunnan yhteisen viisauden perinteiden ja uskontojen perusopetukset, sekä myös vastakkaisista opetuksista ja elämän käsityksistä.</p>
+<p>Jos me nyt sovellamme näitä kriteerejä hedelmällisiin väitteisiin &#8221;abduktioista&#8221;, me nopeasti havaitsemme että sellaiset eivät kestä kriittistä kvalitatiivisen datan synteesiä tai logiikkaa. Sillä jos näiden avaruudesta tulleiden vierailijoiden tekemät abduktiot olisivat autenttinen ilmiö, eikö näiden monen ihmisen joukossa 1950-luvulla tulisi olla niitä jotka paljastavat kontaktitarinansa? Samalla tavoin, eikö tulisi myös olla avaruusväen kanssa tehdystä kontaktista kertonutta viranomaista tai arvohenkilöä, joka sanoisi että hän on kokenut abduktion?</p>
+<p>Varmastikaan tämä ei kiellä keneltäkään heidän kokemustaan. Kuten osoitin työssäni käyttämäni tutkimusmenetelmän selityksessä, on olemassa ainakin neljä uskottavaa selitystä &#8221;abduktio&#8221;ilmiölle:</p>
+<p>(1) kun ihmiset omaksuvat vallalla olevan terminologian &#8212; &#8221;abduktio&#8221; &#8212; sille mikä periaatteessa on yhteisymmärrykseen perustuva kontaktikokemus, vaikka muistojen omituisuus olisikin herättänyt pelkoä (esim. Travis Walton ei enää viittaa kontaktikokemukseen abduktiona vaan &#8221;ambulanssisoittona&#8221;) [11];</p>
+<p>(2) kun salainen hallituksen tai armeijan virasto lavastaa hypnoosin tai huumeiden aikaansaaman kokemuksen jonka tarkoitus on sekoittaa ja harhaanjohtaa kansaa avaruusolentojen läsnäolon todellisesta luonteesta;</p>
+<p>tai kun herkät ihmiset joko (3) omaavat ylivilkkaan mielikuvituksen, tai (4) nojaavat ajatusmalliin joka on tämän ilmiön ympärille rakentunut, ja vakuuttavat itsensä siitä että se on tapahtunut heille, aivan kuin unet ovat totta niiden näkemisen aikaan. [12]</p>
+<p>Täten päättääksemme mikäli tietoon voidaan luottaa jotta voidaan saada selko edes jonkin asteisesta totuudesta tai todellisuudesta jyrkän subjektiivisissa kokemuksissa, meidän tulee ainoastaan nähdä saadaanko ilmiölle varmistus useista eri näkökulmista, tai ainakin useammasta kuin yhdestä, ihmisiltä eri aikoina, eri aloilla ja/tai eri sosiaaliluokissa. Tämä on olennaista aloilla kuten ufologia, koska kouriintuntuva todistusaineisto on mahdotonta löytää ennen avoimen kontaktin hetkeä. Loppujen lopuksi, vuosikymmeniä jatkuneen disinformaatiokampanjan lopputulemana, jopa hallituksen tai heidän virastojensa tekemä &#8221;UFO-paljastus&#8221; tulee kyseenalaistetuksi yksinkertaisesti siksi koska he ovat riippuvaisia kansan tuesta heidän (geo)poliittisille agendoilleen.</p>
+<p>Lukijat voivat huomata, että lähestymistapamme täten ei ole etsiä varmistusta joukolle uskomuksia ja hylätä vastakkainen evidenssi, vaan sen sijaan auttaa eliminoimaan disinformaatio, misinformaatio ja spekulaatio. Tässä mielessä totuudenmukaisuuden vahvistaminen uskonnollisin opetuksin on yhtä arvokasta kuin tieteellisten lähteiden avulla.</p>
+<p>Tulisi muistaa, että tiede, tai tieteellinen lähestymistapa, ei ole sama kuin ateismi. Järjelle evoluutiobiologi Richard Dawkinsin ateismi itsessään merkitsee uskomusta, eikä se ole vähemmän fundamentalistinen kuin Raamatun kirjaimellisesti tulkitseva näkökulma, sen sijaan että Raamattu nähtäisiin kahden testamentin koostavana 66 kirjan kokoelmana, jonka on kirjoittanut usea profeetta, pappi ja kirjanoppinut tai heidän seuraajansa usean eri sukupolven ajan. Juuri tämän tyyppinen jäykän äärimmäinen ajattelu johtaa väistämättä konfliktiin, oli kyseessä sitten uskonnon, tieteen, politiikan tai talouden ala &#8212; suvaitsevaisuuden, kunnioituksen ja oikeiden ihmissuhteiden ollessa sen väistämättömät ja äärimmäiset viholliset.</p>
+<p>Kuka tahansa, joka jaksaa tutkia ihmiskunnan yhteisen viisauden perinteitä, havaitsee että uskontojen olemuksessa &#8212; alkuperäiset opetukset miinus dogma joka näiden jälkeen tulleiden tulkitsijoiden (pappien) sallittiin kasata niiden ympärille &#8212; on monta yhteistä elintärkeää sopimuksen kohtaa, joista tärkeimpinä:</p>
+<p>(1) syklinen ilmestys palaavan Opettajan kautta, kosmisen syklin alussa tai lopussa,</p>
+<p>(2) tietoisuuden evoluution lähteestä, jolle tulee antaa ilmaisu</p>
+<p>(3) elämällä Kultaisen Säännön mukaan jotta luotaisiin oikeanlaisia ihmissuhteita.</p>
+<p>Monet saattavat löytää lohtua uskonnon hylkäämisestä jäykän dogman tieltä, jonka myöhemmät tulkitsijat ovat muodostaneet alkuperäisen opetuksen ympärille, ja jotka valheellisesti väittivät että ne tarkoitettiin ainutkertaiseksi järkähtämättömäksi Jumalalliseksi ohjeeksi, mutta se on kutakuinkin yhtä lyhytnäköistä kuin sivuuttaa kontaktiväitteet sen takia että alkuperäisten kontaktihenkilöiden kertomuksille naurettiin. Kuitenkin vääristymätön tarkastelu sekä alkuperäisiin opetuksiin että alkuperäisiin avaruusolentokontaktitapausten selontekoihin näyttää niiden olevan osoittimia elämäntyyliin, joka perustuu tietoisuuden kasvuun oikeanlaisten ihmissuhteiden kautta.</p>
+<p>Todellakin, kuka tahansa, joka on lukenut ensimmäisiä kontaktikertomuksia, huomaa että maapallon ulkopuolisilla vierailla &#8212; vaikka heidän neuvonsa ja opetuksensa onkin verhottu &#8221;uskonnolliselta kuulostaviin&#8221; termeihin joita nämä kontaktihenkilöt pitivät tuttuina &#8212; ei ollut mitään tekemistä uskonnon kanssa &#8221;vastuun alistamisen&#8221; ulkoiselle auktoriteetille, vaan päinvastoin, poikkeuksetta kutsuu omaa vastuuntuntoamme oikaisemaan maailman vääryydet, kuten kattavasti on kuvattu teoksessa <a href="https://www.amazon.com/gp/product/9081549545/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=9081549545&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=5eaf63bee68187938636ca6ce32c65db" target="_blank">Priorities for a Planet in Transition</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=9081549545" alt="" width="1" height="1" border="0">.</p>
+<p>Jälleen kerran mennessämme mukaan hallitsemattomiin spekulaatioihin että, esimerkiksi, uskonnot ovat pelkkää ulkoavaruuden vieraiden ajatusten manipulointia, emme edesauta mitenkään selkiyttämään asiaa, vaan sumennamme sen vähemmän ilmeisillä peloilla. Ja juuri pelko ja tietämättömyys ovat johtaneet ihmiskunnan harhaan Opetusten olemuksesta kohti dogmaa ja ääriliikkeitä, mikä on luonut nykypäivän vaaralliset juovat ihmisten välille.</p>
+<p>Benjamin Cremen, jonka työtä pidetään Ajattoman Viisauden opetuksien viimeisimpänä tulkintana, &#8221;Jumala on kokemus joka pitää kokea. Laajennat tajuntaasi tullaksesi tietoiseksi. Kaikessa on kyse tietoisuudesta.&#8221; [13]</p>
+<p>Paljolti samalla tavoin kuin Peter Harrison, Institute for Advanced Studies in the Humanities:n johtaja University of Queenslandissa, Australiassa, jokin aika sitten sanoi että &#8221;sekä tieteen että uskonnon alkupiste on jonkinlainen kokemus, ja pointti on saada selko tuosta kokemuksesta.&#8221; [14]</p>
+<p>Danel Fryn kontaktin hänelle antama määritelmä tieteestä kohtaamisensa aikana heinäkuussa 1950 tarjoaa kiusoittelevan sillan nykyisen tieteen ja uskonon ymmärtämyksemme välillä, &#8221;järjestäytyneenä ja älykkäästi ohjattuna totuuden etsintänä&#8221; joka jakautuu kolmeen haaran:</p>
+<p>(1) fyysinen tai materiaalinen tiede, joka käsittelee ihmisen ja tämän fyysisen ympäristön välistä suhdetta;</p>
+<p>(2) yhteiskuntatieteet, jotka kuvaavat ihmisen ja tämän toverin välistä suhdetta; ja</p>
+<p>(3) hengentieteet, jotka kattavat &#8221;ihmisen, suuremman luovan voiman ja äärettömän älykkyyden joka läpäisee ja hallinnoi kaikkea luontoa&#8221; välisen suhteen. [15]</p>
+<p>Se että tämä &#8221;silta&#8221; ei ole välttämättä toiveajattelua osaltani sai vahvistusta vuonna 2012 Delawaren yliopiston fysiikan professori Stephen M. Barrilta, joka kirjoitti että mikäli &#8221;hyväksymme perinteisemmän kvanttimekaniikan ymmärryksen joka palaa takaisin Von Neumanniin, tuo logiikka johtaa (&#8230;) päätelmään että kaikki ei ole vain materiaa liikkeessä, ja että erityisesti ihmismielessä on jotain joka ylittää materian ja sen lait. Silloin tulee mahdolliseksi ottaa vakavasti joitain kysymyksiä jotka materialismi on sulkenut pois: Jos ihmismieli ylittää materian jossain mielessä, voisiko olla olemassa mieliä jotka ylittävät kokonaan fyysisen universumin? Ja olisiko olemassa jopa lopullista Mieltä?&#8221; [16]</p>
+<p>Professori Barr ei todellakaan ole ainoa tiedemies joka on saapunut tähän tai vastaavanlaiseen päätelmään Todellisuuden äärimmäisestä luonteesta. Lisäksi Daniel Fryn kontakti avaruudesta selittää: &#8221;Ihmiskunta (&#8230;) aivan sama minne tai koska se syntyy, on siunattu sisäisellä synnynnäisellä oivalluksella siitä että on olemassa ääretön äly ja korkeampi voima joka on suurempi kuin ihmisen kyky ymmärtää. Monien kehitysvaiheidensa aikana ihmisen asenne tätä voimaa kohtaan on vaihdellut pelosta ja inhotuksesta kunnioitukseen ja rakkauteen. Mutta ihmisellä on aina ollut vaistonvarainen halu oppia enemmän luonteensa henkisestä puolesta ja voimansa luovasta sfääristä.&#8221; [17]</p>
+<p>Samoin eräs George Adamskin kontakteista selvensi: &#8221;Me toisista maailmoista jotka olemme eläneet tuntemattomina keskuudessanne selkeästi näemme kuinka Jumalallisen alkuperän identiteetti on kadonnut. Maapallon ihmiset ovat muuttuneet erillisiksi olennoiksi jotka eivät enää ole todella inhimillisiä ilmaisussaan niinkuin he olivat alussa. Joka tapauksessa, näiden tapojensa vankina on edelleen alkuperäinen sielu joka kaipaa sen Jumalallisen perimän ilmaisua. (&#8230;) [K]unnes ihminen voi heittää niskastaan kahleet, jotka hänen henkilökohtainen ylpeytensä saa aikaan, ja sallii tämän äänen ohjata häntä, hän elää oman olemuksensa lakien vastaisena taistelijana.&#8221; [18]</p>
+<p>Kuten on näytetty kirjassa <a href="https://www.amazon.com/gp/product/9081549545/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=9081549545&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=5eaf63bee68187938636ca6ce32c65db" target="_blank">Priorities for a Planet in Transition</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=9081549545" alt="" width="1" height="1" border="0">, modernin ajan ensimmäisten kontaktihenkilöiden selonteot UFOista ovat vääränään tietoa ja neuvoja meille miten rakentaa uusi maailma joka varmistaa lajimme selviytymisen ja turvallisen sivilisaation kehityksen. Perustuen tuon kirjan evidenssiin, ja sen asiaan kuuluvuuteen liittyen maailman tilaan tällä hetkellä, ehdotin käytännöllistä ja enemmän evidenssiin perustuvaa määritelmää termille &#8221;eksopolitiikka&#8221;, joka palaa sen rakenneosien juurille, sanan &#8221;ekso&#8221; tarkoittaessa &#8221;ulkopuolelta&#8221; ja &#8221;politiikka&#8221; tarkoittaen &#8221;kansalaisia koskettavia asioita&#8221;:</p>
+<p>Eksopolitiikka &#8212; Toisten planeettojen asukit näyttämässä ihmiskunnalle vaihtoehdon, järkevämmän tavan järjestää yhteskunta, ilman että he pakottavat omia näkemyksiään.</p>
+<p>Faktojen, jotka me voimme turvallisesti huomata tarkastelemalla modernin avaruusolentojen kanssa saadun kontakti-ilmiön historiaa, tullessa sivuutetuiksi, ei ole ihme että kuuden sokean miehen tarina, jossa he yrittävät tunnistaa elefanttia sen ruumiinosien perusteella kun elukka on heidän edessään, on ehkä kaikkein sopivin allegoria UFO-tutkimuksen ja avaruusolentojen läsnäolon nykytilasta.</p>
+<p>Kuitenkin salaisuuden ja disinformaation hallitsemassa ympäristössä meidän tulee lähestyä maapallon ulkopuolisten vierailujen aihetta &#8212; ja sitä koskevaa todistusaineistoa &#8212; kokonaiskuvalle avoimin silmin, samalla kun pidämme kriittisen suhtautumisen mihinkään väitteisiin kontaktista tai &#8221;sisäpiirin&#8221; tiedosta joka on tullutesiin disinformaatiokampanjan alettua.</p>
+<p>Ainoa tapa jolla voimme tehdä tämän on tunnustaa ne monet silmiinpistävät yhtäläisyydet ensimmäisten kontaktihenkilöiden selonteoissa ihmiskokemuksen laajemmassa kontekstissa, ja ottaa nämä koetinkivinä joita vasten tutkia tarkasti mitään väitteita jota saattavat olla pelon, hämmennyksen tai sensaatiomaisen huomionhaun saastuttamia, joka on suurimman osan kontaktinarratiivista karakterisoima 1950-luvulta eteenpäin tavattoman paljon.</p>
+<p>Yhteenveto</p>
+<h3>Perusfaktat</h3>
+<p>• 1950-luvun kontaktihenkilöt poikkeuksetta raportoivat tulleensa hyväntahtoisten avaruuden asukkien kontaktoimiksi, jotka kiinnittivät huomion sosioekonomisen tasa-arvon vaaroihin jakautuneessa maailmassa täynnä ydinaseita, ja kansainvälisen yhteistoiminnan tarpeelle ratkaista ihmiskunnan ongelmat selviytymisemme ja sivilisaatiomme turvallisen kehityksen vuoksi.</p>
+<p>• Toisilta planeetoilta tulleiden vierailijoiden ja kontaktihenkilöiden kuten George Adamski, Daniel Fry, Buck Nelson ja Howard Menger kautta tuleva positiivinen viesti sai aikaan suuren kiinnostuksen sotaa pelkäävältä kansalta joka eli ydinsodan psykologisen uhan alla.</p>
+<p>• Ideologisen etäisyyden johdosta lännen ja idän blokkien välillä kylmän sodan aikana tuolloiset auktoriteetit tarvitsivat kansan tuen asevarustelulle ja käynnistivät yksimielisen disinformaatiokampanjan, jonka tehtävä oli mustamaalata kontaktihenkilöiden kokemuksia ja pilkata heidän tietojaan ja heidän persoonaansa.</p>
+<p>• Mitä enemmän erilaisista sosiaalisista, akateemisista ja uskonnollisista taustoista tulleiden ihmisten kokemuksia vertaillaan, sitä luotettavammaksi ja pätevämmäksi osoittautuu tämän kvalitatiivisen tutkimuksen löydökset.</p>
+<h3>Seuraukset</h3>
+<p>• Epäilys, hämmästys ja pelko, jotka johtuvat tarkoituksellisesta disinformaatiokampanjasta ja pelottelusta kuten järjestetyistä &#8221;abduktioista&#8221;, avasivat ovet rehottavalle spekulaatiolle kansan keskuudessa.</p>
+<h3>Vahvistukset</h3>
+<p>• Maailman tila tällä hetkellä varmistaa kiireellisen tarpeen kansainväliselle yhteistyölle, sosioekonomiselle oikeudelle ja rauhalle, kuten avaruusvierailijat ovat asian puolesta puhuneet alkuperäisten kontaktihenkilöiden kirjoituksissa.</p>
+<p>• Selkeästi korkeamman etiikan ja moraalin omaavat avaruusvierailijat ovat jo ihmiskunnan kaikkein korkeimpien pyrkimysten tunnustamia, kuten Ihmisoikeuksien Yleismaailmallisen Julistuksen ja Brandtin komission raportin lopputulokset ja suositukset, sekä North-South – A Programme or Survival, http://fhqe.us/download/north-south-a-programme-for-survival-the-report-of-the-independent-commission-on-international-development-issues.pdf</p>
+<p>• Informaatio avaruusvierailijoiden hyväntahtoisista aikeista alkuperäisten kontaktihenkilöiden kertomuksissa löytää vahvistusta jälkeentulleiden kontaktihenkilöiden selonteoista ympäri maailman, kuten myös viranomaisten ja arvohenkilöiden selonteoista.</p>
+<p>• Ihmisten veljeskunnan käsite jonka avaruusolennot ovat tuoneet esiin alkuperäisten kontaktihenkilöiden kertomuksissa voidaan myös löytää Kultaisesta Säännöstä, jonka me löydämme jokaisen maapallon uskonnon ydinajatuksista, kuten myös Iättömän Viisauden opetuksista.</p>
+<p>• Yhä useammin tiedemiehet ja uskontojen seuraajat löytävät yhteisen jalansijan tunnustaessaan havaitun universumin tuolla puolen olevan transkendenttisen vallan todellisuuden olemassaolon-</p>
+<h2>Lähdeviitteet</h2>
+<ol>
+<li>Johnthomas Didymus (2016), <a href="http://www.inquisitr.com/3434305/ufo-researchers-82-alien-species-are-currently-in-contact-with-earth-and-at-least-four-are-fighting-for-control-over-earth-video/">‘UFO Researchers: 82 Alien Species Are Currentlyin Contact With Earth – And At Least Four Are Fighting For Control over Earth’</a>. <em>Inquisitr</em> (verkossa), 19 elokuuta. [Haettu 24 elokuuta 2016]</li>
+<li> Carl Sagan (1983), ‘Are they coming for us?’ <em>Parade</em> magazine, maaliskuu 7.</li>
+<li> Pääkirjoitus, ‘Why This Horror From Space Trend?’. <em>Flying Saucer Review</em>, Vol.5, No.2, March-April 1959, p.15</li>
+<li> Katso  esim. Steven Greer (2006), <a href="http://www.disclosureproject.org/docs/pdf/ExopoliticsOrXenopolitics.pdf">‘Exopolitics or Xenopolitics’</a> (PDF).</li>
+<li>Peter R. Merlin (2013), <a href="http://www.astronomyufo.com/UFO/SUNlite5_6.pdf">‘Taking ET home: The birth of a modern myth’.</a> <em>SUNlite</em>, Vol.5, No.6, November-December, pp.17-19. (PDF) [haettu 11 syyskuuta 2016]</li>
+<li>George Adamski (1955), <em><a href="https://www.amazon.com/gp/product/0942176014/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0942176014&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=6accf3a60dd82bbc8572747c34f15c27" target="_blank">Inside the Spaceships</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=0942176014" alt="" width="1" height="1" border="0"></em>, p.90</li>
+<li>Desmond Leslie (1955), ‘Astronomy and Space-Men’, <em>Flying Saucer Review</em>, Vol.1, No.3, July-August, p.23</li>
+<li>
+<a href="http://www.youtube.com/watch?v=RhNdxdveK7c">Tri Edgar Mitchellin haastattelu</a> Nick Margerrisonin kanssa (2008), <em>The Night Before</em>, Kerrang! Radio, UK, 23 heinäkuuta.</li>
+<li>Aikaisin maininta &#8221;sinisten lintujen&#8221; rodusta <a href="http://sitsshow.blogspot.nl/2015/03/benjamin-fulford-and-david-wilcocks.html">Stillness in the Storm -blogissa</a>, päivätty 2 maaliskuuta 2015. [haettu 4 syyskuuta 2016]</li>
+<li>George Adamski (1958), <em><a href="https://www.amazon.com/gp/product/B0007I2V4S/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0007I2V4S&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=1da46a0c710d0cec3cb1e645bf55cee6" target="_blank">Telepathy: The cosmic or universal language</a><img loading="lazy" decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=B0007I2V4S" alt="" width="1" height="1" border="0"></em>, Part II, p.26</li>
+<li>
+<a href="http://www.youtube.com/watch?v=Nwy-A0OtQIA">‘Travis Walton shares new theory on Fire in the Sky alien abduction’</a>. Open Minds TV, 2 July 2012</li>
+<li>Gerard Aartsen (2015), <em><a href="https://www.amazon.com/gp/product/9081549545/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=9081549545&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=5eaf63bee68187938636ca6ce32c65db" target="_blank">Priorities for a Planet in Transition</a><img decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=9081549545" alt="" width="1" height="1" border="0"></em>, pp.172-74</li>
+<li> Benjamin Creme (2016), ‘Questions and answers’. <em>Share International</em> magazine, Vol.35, No.6, July/August, p.35</li>
+<li> Peter Harrison (2016), vastaus lukijan kommenttiin esseessään <a href="http://www.bigquestionsonline.com/2016/06/28/are-science-religion-conflict/">‘Are Science and Religion in Conflict?’</a> <em>Big Questions Online</em>, 28 kesäkuuta. [haettu 27 elokuuta 2016]</li>
+<li>Daniel Fry (1954), <em>[A Report By Alan] To Men of Earth</em>, in Fry (1966), <em><a href="https://www.amazon.com/gp/product/1881852008/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1881852008&amp;linkCode=as2&amp;tag=suomi42007-20&amp;linkId=8585ed2299d5d00c2efd3608d83c89ed" target="_blank">The White Sands Incident</a><img loading="lazy" decoding="async" style="border: none !important; margin: 0px !important;" src="//ir-na.amazon-adsystem.com/e/ir?t=cbx08-20&amp;l=am2&amp;o=1&amp;a=1881852008" alt="" width="1" height="1" border="0"></em>, pp.75-76</li>
+<li> Stephen M. Barr (2012), <a href="http://www.bigquestionsonline.com/2012/07/10/does-quantum-physics-make-easier-believe-god/">‘Does Quantum Physics Make It Easier to Believe in God?’</a>. Big Questions Online, 10 July. [haettu 27 elokuuta 2016]</li>
+<li> Fry (1954), op cit, pp.77-78</li>
+<li> Adamski (1955), op cit, pp.116-1</li>
+</ol>
+	</div>
+<!-- .entry-content -->
+</article><!-- #post-## -->
+
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+	<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="xyz_insert_html_widget-11" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Tykkää tästä!</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/Eksopolitiikka" data-width="300" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Eksopolitiikka"><a href="https://www.facebook.com/Eksopolitiikka">Se Uusi Eksopolitiikka</a></blockquote></div></div></aside><aside id="social-widget-3" class="widget Social_Widget"><h1 class="widget-title">Seuraa meitä!</h1>
+<div class="socialmedia-buttons smw_left">
+<div class="socialmedia-text">Olemme myös muualla verkossa.</div>
+<a href="https://www.facebook.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="Facebook: Eksopolitiikka.github.io" title="Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://twitter.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Twitter: Eksopolitiikka" title="Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://eksopolitiikka.tumblr.com/" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/tumblr.png" alt="Tumblr: Eksopolitiikka" title="Tumblr" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="/feed" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="RSS-syöte" title="RSS-syöte" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://www.stumbleupon.com/stumbler/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/stumble.png" alt="Seuraa meitä StumbleUpon" title="Seuraa meitä StumbleUpon" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://delicious.com/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/delicious.png" alt="Seuraa meitä Delicious" title="Seuraa meitä Delicious" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a>
+</div></aside><aside id="categories-4" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="text-2" class="widget widget_text"><h1 class="widget-title">Ystäväsivut</h1>			<div class="textwidget">
+<a href="http://fufora.fi/">FUFORA - Suomen Ufotutkijat</a><br><br>
+<a href="https://www.mysteerienmaailma.com/">Mysteerien maailma</a><br><br>
+<a href="https://www.suomengalaktinenliitto.net/">Suomen Galaktinen Liitto</a><br><br>
+<a href="http://www.paranormaaliblogi.net/">Paranormaaliblogi</a><br><br>
+<a href="http://www.uusielamaohjelma.fi/">Uusi Elämä</a><br><br>
+<a href="http://www.tuulamaria.fi/Versio_olevasta/Versio_Olevasta.html">Versio Olevasta</a>
+<br><br>
+<a href="http://www.avartuvaihmiskuva.fi/">Avartuva Ihmiskuva ry</a>
+<br><br>
+<a href="http://www.rajatieto.tv/">Rajatieto.tv</a>
+<br><br>
+</div>
+		</aside>
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/8-tyokalua-totuuden-erotteluun-infosodan-keskella/">8 työkalua totuuden erotteluun infosodan keskellä</a>
+									</li>
+											<li>
+					<a href="/ufot/asiantuntijat-tarkastelevat-houstonin-ufo-havaintoa/">Asiantuntijat tarkastelevat Houstonin UFO-havaintoa</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/saammeko-pian-tietaa-avaruusolentojen-elavan-keskuudessamme/">Saammeko pian tietää avaruusolentojen elävän keskuudessamme?</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-kolumbiasta-3/">UFO-havainto Kolumbiasta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/tata-heranneiden-on-tarkoitus-tehda/">Tätä heränneiden on tarkoitus tehdä</a>
+									</li>
+											<li>
+					<a href="/ufologia/bob-lazarin-tarina-loytyy-nyt-myos-virtuaalisena/">Bob Lazarin tarina löytyy nyt myös virtuaalisena</a>
+									</li>
+											<li>
+					<a href="/ufot/mika-on-tama-floridan-sqr-lentokentalla-lentava-pallo/">Mikä on tämä Floridan SQR-lentokentällä lentävä pallo?</a>
+									</li>
+											<li>
+					<a href="/uutiset/laivasto-julkaisee-ufo-briiffausdokumentteja/">Laivasto julkaisee UFO-briiffausdokumentteja</a>
+									</li>
+											<li>
+					<a href="/uutiset/uusi-ufo-kuuleminen-kongressissa-keskiviikkona-13-11-2024/">Uusi UFO-kuuleminen kongressissa keskiviikkona 13.11.2024</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-minnesotasta/">UFO-havainto Minnesotasta</a>
+									</li>
+											<li>
+					<a href="/ufot/valoja-new-yorkin-lowvillessa/">Valoja New Yorkin Lowvillessa</a>
+									</li>
+											<li>
+					<a href="/ufot/hehkuva-ufo-arizonassa/">Hehkuva UFO Arizonassa</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-pallo-seurailee-avaruussukkula-discoverya/">UFO-pallo seurailee avaruussukkula Discoverya</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-kiitaa-lentokoneen-ikkunan-ohi/">UFO kiitää lentokoneen ikkunan ohi</a>
+									</li>
+											<li>
+					<a href="/ufot/oljynporauslautalla-kuvattiin-lautasen-muotoinen-ufo/">Öljynporauslautalla kuvattiin lautasen muotoinen UFO</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/reagointi-avaruusolentojen-soluttautumiseen-salaisiin-jarjestoihin/">Reagointi avaruusolentojen soluttautumiseen salaisiin järjestöihin</a>
+									</li>
+											<li>
+					<a href="/ufologia/mies-vaittaa-etta-avaruusolennot-veivat-hanen-spermaansa-ja-risteyttivat-hybridilapsia/">Mies väittää, että avaruusolennot veivät hänen spermaansa ja risteyttivät hybridilapsia</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-4" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h1 class="widget-title">Avainsanoja</h1>
+<div class="tagcloud">
+<a href="/tag/abduktio/" class="tag-cloud-link tag-link-48 tag-link-position-1" style="font-size: 9.1797752808989pt;" aria-label="abduktio (51 kohdetta)">abduktio</a>
+<a href="/tag/antarktis/" class="tag-cloud-link tag-link-259 tag-link-position-2" style="font-size: 9.1011235955056pt;" aria-label="antarktis (50 kohdetta)">antarktis</a>
+<a href="/tag/arcturus/" class="tag-cloud-link tag-link-316 tag-link-position-3" style="font-size: 12.797752808989pt;" aria-label="Arcturus (149 kohdetta)">Arcturus</a>
+<a href="/tag/area-51/" class="tag-cloud-link tag-link-83 tag-link-position-4" style="font-size: 8.7865168539326pt;" aria-label="area 51 (46 kohdetta)">area 51</a>
+<a href="/tag/arizona/" class="tag-cloud-link tag-link-167 tag-link-position-5" style="font-size: 9.1797752808989pt;" aria-label="Arizona (52 kohdetta)">Arizona</a>
+<a href="/tag/arkeologia/" class="tag-cloud-link tag-link-20 tag-link-position-6" style="font-size: 11.067415730337pt;" aria-label="arkeologia (91 kohdetta)">arkeologia</a>
+<a href="/tag/astronomia/" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 12.325842696629pt;" aria-label="astronomia (130 kohdetta)">astronomia</a>
+<a href="/tag/aurinko/" class="tag-cloud-link tag-link-195 tag-link-position-8" style="font-size: 10.202247191011pt;" aria-label="aurinko (70 kohdetta)">aurinko</a>
+<a href="/tag/australia/" class="tag-cloud-link tag-link-123 tag-link-position-9" style="font-size: 8pt;" aria-label="Australia (36 kohdetta)">Australia</a>
+<a href="/tag/avaruusolennot/" class="tag-cloud-link tag-link-401 tag-link-position-10" style="font-size: 10.831460674157pt;" aria-label="avaruusolennot (84 kohdetta)">avaruusolennot</a>
+<a href="/tag/brasilia/" class="tag-cloud-link tag-link-151 tag-link-position-11" style="font-size: 8.1573033707865pt;" aria-label="Brasilia (38 kohdetta)">Brasilia</a>
+<a href="/tag/britannia/" class="tag-cloud-link tag-link-314 tag-link-position-12" style="font-size: 8.7865168539326pt;" aria-label="Britannia (46 kohdetta)">Britannia</a>
+<a href="/tag/cia/" class="tag-cloud-link tag-link-388 tag-link-position-13" style="font-size: 9.8876404494382pt;" aria-label="CIA (64 kohdetta)">CIA</a>
+<a href="/tag/eksopolitiikka-2/" class="tag-cloud-link tag-link-17 tag-link-position-14" style="font-size: 17.831460674157pt;" aria-label="eksopolitiikka (665 kohdetta)">eksopolitiikka</a>
+<a href="/tag/elokuu2014/" class="tag-cloud-link tag-link-61 tag-link-position-15" style="font-size: 8pt;" aria-label="elokuu2014 (36 kohdetta)">elokuu2014</a>
+<a href="/tag/florida/" class="tag-cloud-link tag-link-156 tag-link-position-16" style="font-size: 9.4943820224719pt;" aria-label="Florida (57 kohdetta)">Florida</a>
+<a href="/tag/historia/" class="tag-cloud-link tag-link-45 tag-link-position-17" style="font-size: 9.1011235955056pt;" aria-label="historia (50 kohdetta)">historia</a>
+<a href="/tag/iss/" class="tag-cloud-link tag-link-89 tag-link-position-18" style="font-size: 12.011235955056pt;" aria-label="ISS (118 kohdetta)">ISS</a>
+<a href="/tag/kalifornia/" class="tag-cloud-link tag-link-120 tag-link-position-19" style="font-size: 11.460674157303pt;" aria-label="Kalifornia (101 kohdetta)">Kalifornia</a>
+<a href="/tag/kanada/" class="tag-cloud-link tag-link-132 tag-link-position-20" style="font-size: 9.1797752808989pt;" aria-label="Kanada (52 kohdetta)">Kanada</a>
+<a href="/tag/kanavointi/" class="tag-cloud-link tag-link-85 tag-link-position-21" style="font-size: 16.022471910112pt;" aria-label="kanavointi (387 kohdetta)">kanavointi</a>
+<a href="/tag/keith-basterfield/" class="tag-cloud-link tag-link-806 tag-link-position-22" style="font-size: 8.4719101123596pt;" aria-label="Keith Basterfield (42 kohdetta)">Keith Basterfield</a>
+<a href="/tag/kesakuu2014/" class="tag-cloud-link tag-link-9 tag-link-position-23" style="font-size: 10.044943820225pt;" aria-label="kesäkuu2014 (67 kohdetta)">kesäkuu2014</a>
+<a href="/tag/kevin-randle/" class="tag-cloud-link tag-link-1554 tag-link-position-24" style="font-size: 8.0786516853933pt;" aria-label="Kevin Randle (37 kohdetta)">Kevin Randle</a>
+<a href="/tag/kuu/" class="tag-cloud-link tag-link-54 tag-link-position-25" style="font-size: 12.404494382022pt;" aria-label="kuu (133 kohdetta)">kuu</a>
+<a href="/tag/lokakuu2014/" class="tag-cloud-link tag-link-100 tag-link-position-26" style="font-size: 10.044943820225pt;" aria-label="lokakuu2014 (66 kohdetta)">lokakuu2014</a>
+<a href="/tag/marraskuu2014/" class="tag-cloud-link tag-link-126 tag-link-position-27" style="font-size: 9.1797752808989pt;" aria-label="marraskuu2014 (51 kohdetta)">marraskuu2014</a>
+<a href="/tag/mars/" class="tag-cloud-link tag-link-104 tag-link-position-28" style="font-size: 10.359550561798pt;" aria-label="mars (73 kohdetta)">mars</a>
+<a href="/tag/meksiko/" class="tag-cloud-link tag-link-118 tag-link-position-29" style="font-size: 11.224719101124pt;" aria-label="Meksiko (94 kohdetta)">Meksiko</a>
+<a href="/tag/nasa/" class="tag-cloud-link tag-link-46 tag-link-position-30" style="font-size: 12.089887640449pt;" aria-label="NASA (121 kohdetta)">NASA</a>
+<a href="/tag/paranormaali-2/" class="tag-cloud-link tag-link-40 tag-link-position-31" style="font-size: 13.662921348315pt;" aria-label="paranormaali (194 kohdetta)">paranormaali</a>
+<a href="/tag/syyskuu2014/" class="tag-cloud-link tag-link-75 tag-link-position-32" style="font-size: 10.044943820225pt;" aria-label="syyskuu2014 (67 kohdetta)">syyskuu2014</a>
+<a href="/tag/teksas/" class="tag-cloud-link tag-link-147 tag-link-position-33" style="font-size: 8.7078651685393pt;" aria-label="Teksas (45 kohdetta)">Teksas</a>
+<a href="/tag/tiede-2/" class="tag-cloud-link tag-link-19 tag-link-position-34" style="font-size: 16.337078651685pt;" aria-label="tiede (428 kohdetta)">tiede</a>
+<a href="/tag/tietoisuus-2/" class="tag-cloud-link tag-link-32 tag-link-position-35" style="font-size: 16.730337078652pt;" aria-label="tietoisuus (479 kohdetta)">tietoisuus</a>
+<a href="/tag/ufo/" class="tag-cloud-link tag-link-2 tag-link-position-36" style="font-size: 22pt;" aria-label="UFO (2&nbsp;230 kohdetta)">UFO</a>
+<a href="/tag/ufo-kontakti/" class="tag-cloud-link tag-link-416 tag-link-position-37" style="font-size: 8.1573033707865pt;" aria-label="UFO-kontakti (38 kohdetta)">UFO-kontakti</a>
+<a href="/tag/ufo-paljastus/" class="tag-cloud-link tag-link-409 tag-link-position-38" style="font-size: 13.741573033708pt;" aria-label="UFO-paljastus (200 kohdetta)">UFO-paljastus</a>
+<a href="/tag/ufo-tutkimus/" class="tag-cloud-link tag-link-774 tag-link-position-39" style="font-size: 10.752808988764pt;" aria-label="UFO-tutkimus (82 kohdetta)">UFO-tutkimus</a>
+<a href="/tag/ufologia/" class="tag-cloud-link tag-link-108 tag-link-position-40" style="font-size: 12.797752808989pt;" aria-label="ufologia (151 kohdetta)">ufologia</a>
+<a href="/tag/ufot/" class="tag-cloud-link tag-link-212 tag-link-position-41" style="font-size: 22pt;" aria-label="UFOt (2&nbsp;238 kohdetta)">UFOt</a>
+<a href="/tag/usa/" class="tag-cloud-link tag-link-23 tag-link-position-42" style="font-size: 9.1011235955056pt;" aria-label="USA (50 kohdetta)">USA</a>
+<a href="/tag/venaja/" class="tag-cloud-link tag-link-18 tag-link-position-43" style="font-size: 9.8089887640449pt;" aria-label="venäjä (62 kohdetta)">venäjä</a>
+<a href="/tag/video/" class="tag-cloud-link tag-link-11 tag-link-position-44" style="font-size: 10.123595505618pt;" aria-label="video (68 kohdetta)">video</a>
+</div>
+</aside><aside id="xyz_insert_html_widget-7" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">A word from our sponsors</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- uusilaatikko -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="5020475662" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="block-4" class="widget widget_block"><div class="alignleft">
+     <script type="text/javascript">amzn_assoc_ad_type = "banner";
+	amzn_assoc_marketplace = "amazon";
+	amzn_assoc_region = "US";
+	amzn_assoc_placement = "assoc_banner_placement_default";
+	amzn_assoc_campaigns = "primemain";
+	amzn_assoc_banner_type = "category";
+	amzn_assoc_p = "12";
+	amzn_assoc_isresponsive = "false";
+	amzn_assoc_banner_id = "1A1582R37K6AZB4ZETG2";
+	amzn_assoc_width = "300";
+	amzn_assoc_height = "250";
+	amzn_assoc_tracking_id = "suomi075-20";
+	amzn_assoc_linkid = "33f2dafb38c0a20c0202e008f3b590d6";</script>
+     <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;Operation=GetScript&amp;ID=OneJS&amp;WS=1"></script>
+    </div></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h1 class="widget-title">Tsekkaa myös</h1>
+<div class="textwidget custom-html-widget">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pysty -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="6573230488" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form></aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments-2">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+					</ul>
+
+		</aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Arkistot</h1>
+			<ul>
+					<li><a href="/2024/11/">marraskuu 2024</a></li>
+	<li><a href="/2024/10/">lokakuu 2024</a></li>
+	<li><a href="/2024/09/">syyskuu 2024</a></li>
+	<li><a href="/2024/08/">elokuu 2024</a></li>
+	<li><a href="/2024/07/">heinäkuu 2024</a></li>
+	<li><a href="/2024/06/">kesäkuu 2024</a></li>
+	<li><a href="/2024/05/">toukokuu 2024</a></li>
+	<li><a href="/2024/04/">huhtikuu 2024</a></li>
+	<li><a href="/2024/03/">maaliskuu 2024</a></li>
+	<li><a href="/2024/02/">helmikuu 2024</a></li>
+	<li><a href="/2024/01/">tammikuu 2024</a></li>
+	<li><a href="/2023/12/">joulukuu 2023</a></li>
+	<li><a href="/2023/11/">marraskuu 2023</a></li>
+	<li><a href="/2023/10/">lokakuu 2023</a></li>
+	<li><a href="/2023/09/">syyskuu 2023</a></li>
+	<li><a href="/2023/08/">elokuu 2023</a></li>
+	<li><a href="/2023/07/">heinäkuu 2023</a></li>
+	<li><a href="/2023/06/">kesäkuu 2023</a></li>
+	<li><a href="/2023/05/">toukokuu 2023</a></li>
+	<li><a href="/2023/04/">huhtikuu 2023</a></li>
+	<li><a href="/2023/03/">maaliskuu 2023</a></li>
+	<li><a href="/2023/02/">helmikuu 2023</a></li>
+	<li><a href="/2023/01/">tammikuu 2023</a></li>
+	<li><a href="/2022/12/">joulukuu 2022</a></li>
+	<li><a href="/2022/11/">marraskuu 2022</a></li>
+	<li><a href="/2022/10/">lokakuu 2022</a></li>
+	<li><a href="/2022/09/">syyskuu 2022</a></li>
+	<li><a href="/2022/08/">elokuu 2022</a></li>
+	<li><a href="/2022/07/">heinäkuu 2022</a></li>
+	<li><a href="/2022/06/">kesäkuu 2022</a></li>
+	<li><a href="/2022/05/">toukokuu 2022</a></li>
+	<li><a href="/2022/04/">huhtikuu 2022</a></li>
+	<li><a href="/2022/03/">maaliskuu 2022</a></li>
+	<li><a href="/2022/02/">helmikuu 2022</a></li>
+	<li><a href="/2022/01/">tammikuu 2022</a></li>
+	<li><a href="/2021/12/">joulukuu 2021</a></li>
+	<li><a href="/2021/11/">marraskuu 2021</a></li>
+	<li><a href="/2021/10/">lokakuu 2021</a></li>
+	<li><a href="/2021/09/">syyskuu 2021</a></li>
+	<li><a href="/2021/08/">elokuu 2021</a></li>
+	<li><a href="/2021/07/">heinäkuu 2021</a></li>
+	<li><a href="/2021/06/">kesäkuu 2021</a></li>
+	<li><a href="/2021/05/">toukokuu 2021</a></li>
+	<li><a href="/2021/04/">huhtikuu 2021</a></li>
+	<li><a href="/2021/03/">maaliskuu 2021</a></li>
+	<li><a href="/2021/02/">helmikuu 2021</a></li>
+	<li><a href="/2021/01/">tammikuu 2021</a></li>
+	<li><a href="/2020/12/">joulukuu 2020</a></li>
+	<li><a href="/2020/11/">marraskuu 2020</a></li>
+	<li><a href="/2020/10/">lokakuu 2020</a></li>
+	<li><a href="/2020/09/">syyskuu 2020</a></li>
+	<li><a href="/2020/08/">elokuu 2020</a></li>
+	<li><a href="/2020/07/">heinäkuu 2020</a></li>
+	<li><a href="/2020/06/">kesäkuu 2020</a></li>
+	<li><a href="/2020/05/">toukokuu 2020</a></li>
+	<li><a href="/2020/04/">huhtikuu 2020</a></li>
+	<li><a href="/2020/03/">maaliskuu 2020</a></li>
+	<li><a href="/2020/02/">helmikuu 2020</a></li>
+	<li><a href="/2020/01/">tammikuu 2020</a></li>
+	<li><a href="/2019/12/">joulukuu 2019</a></li>
+	<li><a href="/2019/11/">marraskuu 2019</a></li>
+	<li><a href="/2019/10/">lokakuu 2019</a></li>
+	<li><a href="/2019/09/">syyskuu 2019</a></li>
+	<li><a href="/2019/08/">elokuu 2019</a></li>
+	<li><a href="/2019/07/">heinäkuu 2019</a></li>
+	<li><a href="/2019/06/">kesäkuu 2019</a></li>
+	<li><a href="/2019/05/">toukokuu 2019</a></li>
+	<li><a href="/2019/04/">huhtikuu 2019</a></li>
+	<li><a href="/2019/03/">maaliskuu 2019</a></li>
+	<li><a href="/2019/02/">helmikuu 2019</a></li>
+	<li><a href="/2019/01/">tammikuu 2019</a></li>
+	<li><a href="/2018/12/">joulukuu 2018</a></li>
+	<li><a href="/2018/11/">marraskuu 2018</a></li>
+	<li><a href="/2018/10/">lokakuu 2018</a></li>
+	<li><a href="/2018/09/">syyskuu 2018</a></li>
+	<li><a href="/2018/08/">elokuu 2018</a></li>
+	<li><a href="/2018/07/">heinäkuu 2018</a></li>
+	<li><a href="/2018/06/">kesäkuu 2018</a></li>
+	<li><a href="/2018/05/">toukokuu 2018</a></li>
+	<li><a href="/2018/04/">huhtikuu 2018</a></li>
+	<li><a href="/2018/03/">maaliskuu 2018</a></li>
+	<li><a href="/2018/02/">helmikuu 2018</a></li>
+	<li><a href="/2018/01/">tammikuu 2018</a></li>
+	<li><a href="/2017/12/">joulukuu 2017</a></li>
+	<li><a href="/2017/11/">marraskuu 2017</a></li>
+	<li><a href="/2017/10/">lokakuu 2017</a></li>
+	<li><a href="/2017/09/">syyskuu 2017</a></li>
+	<li><a href="/2017/08/">elokuu 2017</a></li>
+	<li><a href="/2017/07/">heinäkuu 2017</a></li>
+	<li><a href="/2017/06/">kesäkuu 2017</a></li>
+	<li><a href="/2017/05/">toukokuu 2017</a></li>
+	<li><a href="/2017/04/">huhtikuu 2017</a></li>
+	<li><a href="/2017/03/">maaliskuu 2017</a></li>
+	<li><a href="/2017/02/">helmikuu 2017</a></li>
+	<li><a href="/2017/01/">tammikuu 2017</a></li>
+	<li><a href="/2016/12/">joulukuu 2016</a></li>
+	<li><a href="/2016/11/">marraskuu 2016</a></li>
+	<li><a href="/2016/10/">lokakuu 2016</a></li>
+	<li><a href="/2016/09/">syyskuu 2016</a></li>
+	<li><a href="/2016/08/">elokuu 2016</a></li>
+	<li><a href="/2016/07/">heinäkuu 2016</a></li>
+	<li><a href="/2016/06/">kesäkuu 2016</a></li>
+	<li><a href="/2016/05/">toukokuu 2016</a></li>
+	<li><a href="/2016/04/">huhtikuu 2016</a></li>
+	<li><a href="/2016/03/">maaliskuu 2016</a></li>
+	<li><a href="/2016/02/">helmikuu 2016</a></li>
+	<li><a href="/2016/01/">tammikuu 2016</a></li>
+	<li><a href="/2015/12/">joulukuu 2015</a></li>
+	<li><a href="/2015/11/">marraskuu 2015</a></li>
+	<li><a href="/2015/10/">lokakuu 2015</a></li>
+	<li><a href="/2015/09/">syyskuu 2015</a></li>
+	<li><a href="/2015/08/">elokuu 2015</a></li>
+	<li><a href="/2015/07/">heinäkuu 2015</a></li>
+	<li><a href="/2015/06/">kesäkuu 2015</a></li>
+	<li><a href="/2015/05/">toukokuu 2015</a></li>
+	<li><a href="/2015/04/">huhtikuu 2015</a></li>
+	<li><a href="/2015/03/">maaliskuu 2015</a></li>
+	<li><a href="/2015/02/">helmikuu 2015</a></li>
+	<li><a href="/2015/01/">tammikuu 2015</a></li>
+	<li><a href="/2014/12/">joulukuu 2014</a></li>
+	<li><a href="/2014/11/">marraskuu 2014</a></li>
+	<li><a href="/2014/10/">lokakuu 2014</a></li>
+	<li><a href="/2014/09/">syyskuu 2014</a></li>
+	<li><a href="/2014/08/">elokuu 2014</a></li>
+	<li><a href="/2014/07/">heinäkuu 2014</a></li>
+	<li><a href="/2014/06/">kesäkuu 2014</a></li>
+			</ul>
+
+			</aside>
+</div>
+<!-- #content-sidebar -->
+</div>
+<!-- #main-content -->
+
+<div id="secondary">
+		<h2 class="site-description">Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</h2>
+	
+	
+	</div>
+<!-- #secondary -->
+
+		</div>
+<!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="xyz_insert_html_widget-5" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Pls halp</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- banner -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="3129837163" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="xyz_insert_html_widget-9" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">träkker</h1>
+<!-- Begin TradeTracker SuperTag Code -->
+<script type="text/javascript">var _TradeTrackerTagOptions = {
+		t: 'a',
+		s: '224240',
+		chk: 'be0fd726c66aedbfc732d9bb3543e638',
+		overrideOptions: {}
+	};
+
+	(function() {var tt = document.createElement('script'), s = document.getElementsByTagName('script')[0]; tt.setAttribute('type', 'text/javascript'); tt.setAttribute('src', (document.location.protocol == 'https:' ? 'https' : 'http') + '://tm.tradetracker.net/tag?t=' + _TradeTrackerTagOptions.t + '&s=' + _TradeTrackerTagOptions.s + '&chk=' + _TradeTrackerTagOptions.chk); s.parentNode.insertBefore(tt, s);})();</script>
+<!-- End TradeTracker SuperTag Code --></aside><aside id="text-5" class="widget widget_text"><h1 class="widget-title">Visits</h1>			<div class="textwidget">
+<p>[pvcp_1]</p>
+</div>
+		</aside>	</div>
+<!-- #footer-sidebar -->
+</div>
+<!-- #supplementary -->
+
+			<div class="site-info">
+								<a href="http://wordpress.org/">Voimanlähteenä WordPress</a>
+			</div>
+<!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div>
+<!-- #page -->
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">window._qevents = window._qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+window._qevents.push({
+qacct:"p-YswNbbATdMBA9",
+uid:"__INSERT_EMAIL_HERE__"
+});</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-YswNbbATdMBA9.gif" border="0" height="1" width="1" alt="Quantcast">
+</div>
+</noscript>
+<!-- End Quantcast tag --><div style="width:100%;text-align:center; font-size:11px; clear:both">
+<a target="_blank" title="Insert HTML Snippet Wordpress Plugin" href="http://xyzscripts.com/wordpress-plugins/insert-html-snippet/">HTML Snippets</a> Powered By : <a target="_blank" title="PHP Scripts & Wordpress Plugins" href="http://www.xyzscripts.com/">XYZScripts.com</a>
+</div>
+<script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+<script type="text/javascript" src="/wp-content/themes/twenty14-child/js/functions.js?ver=20140319" id="twentyfourteen-script-js"></script>
+</body>
+</html>

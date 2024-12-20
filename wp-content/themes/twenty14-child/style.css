@@ -1,0 +1,517 @@
+/*
+Theme Name:     Twenty Fourteen Custom-Theme
+Theme URI:      http://calebbrumfield.com/
+Description:    Custom child theme for the Twenty Fourteen theme 
+Author:         Caleb Brumfield
+Author URI:     http://calebrumfield.com/
+Template:       twentyfourteen
+Version:        1.18
+
+*/
+
+/* Import the parent theme css file */
+@import url("/wp-content/themes/twentyfourteen/style.css");
+
+/* Google Fonts :) */
+@import url("//fonts.googleapis.com/css?family=Exo");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Site Centered instead of left aligned. */
+/*  This code requires some changes to the header area and custom background/right-most color. */
+.site {
+    margin: 0px auto;
+	box-shadow: 0px 0px 21px #9f9f9f;
+}
+/**/
+
+/* header bar */
+.site-header {
+    background-color: #fff; /* #10387A; /* #1F4A92; /*#0D68FF; /* old #021C49; /**/
+	font-family: 'Exo', 'Lato', sans-serif;
+}
+/* footer area */
+.site-footer {
+    background-color: #000000; /* #1F4A92; /* #0D68FF; /**/
+	background: #000000 url('http://thespiritscience.net/images/Tina_SS_splashbg.jpg') no-repeat scroll;
+	background-position: center center;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	text-shadow: 1px 1px 1px #000;
+}
+
+/* Footer Calendar Widget */
+.site-footer .widget_calendar table {
+    background: rgba(16, 56, 122, 0.6);
+    text-shadow: 0px 0px 3px #206CE8;
+}
+.site-footer .widget_calendar tbody a {
+	background-color: rgba(39,120,255,0.45);
+	text-shadow: 0px 0px 2px #F0F0F0;
+}
+.site-footer .widget_calendar tbody a,
+.site-footer .widget_calendar thead a,
+.site-footer .widget_calendar tfoot a {
+	text-shadow: 0px 0px 2px #F0F0F0;
+}
+.site-footer .widget_calendar tbody a:hover {
+	background-color: #3F89FF;
+}
+.site-footer .widget_calendar a:hover {
+	color: #BCD7FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+/* Footer Tag Cloud links */
+.site-footer .widget.ctc a {
+    color: #FFB00D;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-shadow: 1px 1px 0px #000;
+}
+.site-footer .widget.ctc a:hover {
+    color: #FFFFFF;
+	text-shadow: 0px 0px 2px #000;
+}
+
+
+/* Left sidebar */
+.site:before,
+#main #secondary {
+    background-color: rgba(0, 0, 0, 0);
+	background-color: transparent;
+	display: none;
+}
+
+/* Links and hover/rollover objects */
+.site-navigation a {
+	color: #000;
+}
+.site-navigation a:hover {
+	color: #000; /* #3779D6;/**/
+}
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+.site-navigation li .current_page_item > a, 
+.site-navigation li .current_page_ancestor > a, 
+.site-navigation li .current-menu-item > a, 
+.site-navigation li .current-menu-ancestor > a {
+	color: #000; /*#3F89FF; /**/
+}
+.site-navigation li {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Search Toggle & Container */
+.search-toggle {
+    background-color: #2778FF;
+}
+.search-toggle:hover,
+.search-toggle.active,
+.search-box {
+    background-color: #3F89FF; /*#3582FF; /**/
+}
+
+/* Nav Menu Button */
+.menu-toggle:before {
+	color: #000;
+}
+
+/* Nav Menu colors */
+#menu-primary > li:nth-child(1), 
+#menu-primary > li:nth-child(1) ul {
+	background-color: #F6A273; /* Orange */
+}
+#menu-primary > li:nth-child(2), 
+#menu-primary > li:nth-child(2) ul {
+	background-color: #F4ED16; /* #FFF789; #FDFFB5; /* Yellow */
+}
+#menu-primary > li:nth-child(3), 
+#menu-primary > li:nth-child(3) ul {
+	background-color: #1BF75D; /* #47F97F; /* Green */
+}
+#menu-primary > li:nth-child(4), 
+#menu-primary > li:nth-child(4) ul {
+	background-color: #66DEF9; /* Teal/Blue */
+}
+#menu-primary > li:nth-child(5), 
+#menu-primary > li:nth-child(5) ul {
+	background-color: #4B68F4; /* #657BF5; /* Blue/Indigo */
+}
+#menu-primary > li:nth-child(6), 
+#menu-primary > li:nth-child(6) ul {
+	background-color: #8A71F3; /* Violet */
+}
+#menu-primary > li:nth-child(7), 
+#menu-primary > li:nth-child(7) ul {
+	background-color: #FD83C0; /* Red */
+}
+
+/* Nav Drop-Down link gradient */
+#menu-primary .sub-menu li:nth-child(1) a {
+	background-color: rgba( 255, 255, 255, 0.56 );
+}
+#menu-primary .sub-menu li:nth-child(2) a {
+	background-color: rgba( 255, 255, 255, 0.48 );
+}
+#menu-primary .sub-menu li:nth-child(3) a {
+	background-color: rgba( 255, 255, 255, 0.40 );
+}
+#menu-primary .sub-menu li:nth-child(4) a {
+	background-color: rgba( 255, 255, 255, 0.32 );
+}
+#menu-primary .sub-menu li:nth-child(5) a {
+	background-color: rgba( 255, 255, 255, 0.24 );
+}
+#menu-primary .sub-menu li:nth-child(6) a {
+	background-color: rgba( 255, 255, 255, 0.16 );
+}
+#menu-primary .sub-menu li:nth-child(7) a {
+	background-color: rgba( 255, 255, 255, 0.08 );
+}
+#menu-primary .sub-menu li:nth-child(8) a {
+	background-color: rgba( 0, 0, 0, 0.02 );
+}
+#menu-primary .sub-menu li:nth-child(9) a {
+	background-color: rgba( 0, 0, 0, 0.06 );
+}
+#menu-primary .sub-menu li:nth-child(10) a {
+	background-color: rgba( 0, 0, 0, 0.10 );
+}
+#menu-primary .sub-menu li:nth-child(11) a {
+	background-color: rgba( 0, 0, 0, 0.14 );
+}
+#menu-primary .sub-menu li:nth-child(12) a {
+	background-color: rgba( 0, 0, 0, 0.18 );
+}
+#menu-primary .sub-menu li:nth-child(13) a {
+	background-color: rgba( 0, 0, 0, 0.22 );
+}
+#menu-primary .sub-menu li:nth-child(14) a {
+	background-color: rgba( 0, 0, 0, 0.26 );
+}
+/* Hover / Rollover */
+#menu-primary li a,
+#menu-primary li a:hover,
+#menu-primary .sub-menu li a:hover {
+	background-color: rgba(255, 255, 255, 0.66);
+}
+
+/* Main navigation bar */
+
+.primary-navigation ul ul,
+.primary-navigation li:hover > a, 
+.primary-navigation li.focus > a {
+	background-color: #2778FF;
+	color: #000;
+}
+
+.primary-navigation ul ul a:hover, 
+.primary-navigation ul ul li.focus > a {
+	background-color: #3F89FF;
+	color: #000;
+}
+
+
+/* Featured Content left sidebar padding */
+.search-box-wrapper, .featured-content {
+    padding-left: 0px;
+}
+/* Featured content links */
+.featured-content a:hover {
+    color: #F0F0F0;
+	text-shadow: 0px 0px 3px #F0F0F0;
+}
+
+
+/* Header */
+.site-title {
+    width: 38%;
+    max-width: 38%;
+	text-align: center;
+	background-color: #FFFFFF; /* #1F4A92; /**/
+	display: none;
+}
+
+/* Header Tagline Text  */
+.site-description {
+    font-size: 12px;
+	line-height: 24px;
+	margin-top: 2px;
+}
+
+.site-content .entry-header, .site-content .entry-content {
+	margin-right: auto;
+}
+
+/* Feature boxes */
+.featured-content-inner article:nth-child(1) .entry-header,
+.featured-content-inner article:nth-child(3) .entry-header,
+.featured-content-inner article:nth-child(5) .entry-header {
+    border-color: #000000;
+	background-color: #000000;
+}
+.featured-content-inner article:nth-child(2) .entry-header,
+.featured-content-inner article:nth-child(4) .entry-header,
+.featured-content-inner article:nth-child(6) .entry-header {
+    border-color: #00000D;
+	background-color: #00000D;
+}
+.featured-content-inner :nth-child(4),
+.featured-content-inner :nth-child(5),
+.featured-content-inner :nth-child(6) {
+    display: none;
+}
+
+/* Content Area padding */
+.content-area, .content-sidebar {
+	padding-top: 32px
+}
+.site-content, .site-main .widecolumn {
+	margin-left: 0px;
+}
+.site-content .entry-header, 
+.site-content .entry-content, 
+.site-content .entry-summary, 
+.site-content .entry-meta, 
+.page-content {
+    max-width: 625px;
+}
+.hentry {
+	max-width: 894px;
+}
+.content-area .post .post-thumbnail {
+    width: 100%;
+	margin: 0px auto;
+}
+
+/* Posts & Post header */
+.site-content .has-post-thumbnail .entry-header {
+    margin-top: -50px;
+}
+
+/* Post Header Image */
+.post .post-thumbnail img,
+.post .post-thumbnail img:hover {
+    width: 100%;
+}
+
+/* Read More link */
+.post a.more-link {
+    display: block;
+	margin-top: 8px;
+}
+
+/* Post Tags */
+.home .post footer.entry-meta {
+    display: none;
+}
+
+/* Post Comments & Previous/Next Nav area */
+.post-navigation, 
+.image-navigation, 
+.comments-area {
+    max-width: 774px;
+}
+
+
+/* Full Page Width */
+.no-sidebar .site-content {
+    margin-right: 0px;
+}
+.no-sidebar .hentry {
+	max-width: 100%;
+}
+.no-sidebar .site-content .entry-header, 
+.no-sidebar .site-content .entry-content, 
+.no-sidebar .site-content .entry-summary, 
+.no-sidebar .site-content .entry-meta, 
+.no-sidebar .page-content {
+    max-width: 100%;
+	margin-right: 0px;
+}
+.no-sidebar .comments-area,
+.no-sidebar .post-navigation, 
+.no-sidebar .image-navigation {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Centered Title */
+.entry-header.center-title,
+.entry-title.center-title {
+	text-align: center;
+}
+
+
+/* WP125 Ads Plugin */
+#wp125adwrap_2c {
+	text-align: center;
+}
+#wp125adwrap_2c .wp125ad {
+	margin: 0px auto;
+	display: inline-block;
+	float: none;
+}
+
+
+/* Media Queries for responsive display */
+/* Mobile Max */
+@media screen and (max-width: 400px) {
+	.site-title {
+		width: 34%;
+		max-width: 34%;
+	}
+}
+
+/* Table Min */
+@media screen and (min-width: 401px) {
+	.site-title {
+		width: 24%;
+		max-width: 24%;
+	}
+}
+
+@media screen and (min-width: 673px) {
+    .featured-content-inner :nth-child(4) {
+		display: inline-block;
+	}
+}
+
+/* Tablet Max */
+@media screen and (min-width: 783px) {
+	.site-title {
+		width: 18%;
+		max-width: 18%;
+	}
+	
+	/* Main navigation bar */
+	.primary-navigation ul ul,
+	.primary-navigation li:hover > a, 
+	.primary-navigation li.focus > a {
+		background-color: #FFFFFF; /* #2778FF; /**/
+		color: #000;
+	}
+	
+	.primary-navigation ul ul a:hover, 
+	.primary-navigation ul ul li.focus > a {
+		background-color: #FFFFFF; /* #3F89FF; /**/
+		color: #000;
+	}
+	
+	.primary-navigation a {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	
+	.site-navigation li {
+		border-top: 0px;
+	}
+	
+	/* Nav Menu colors */
+	/* remove background colors */
+	#menu-primary > li:nth-child(1), 
+	#menu-primary > li:nth-child(1) ul,
+	#menu-primary > li:nth-child(2), 
+	#menu-primary > li:nth-child(2) ul,
+	#menu-primary > li:nth-child(3), 
+	#menu-primary > li:nth-child(3) ul,
+	#menu-primary > li:nth-child(4), 
+	#menu-primary > li:nth-child(4) ul,
+	#menu-primary > li:nth-child(5), 
+	#menu-primary > li:nth-child(5) ul,
+	#menu-primary > li:nth-child(6), 
+	#menu-primary > li:nth-child(6) ul,
+	#menu-primary > li:nth-child(7), 
+	#menu-primary > li:nth-child(7) ul {
+		background-color: transparent;
+	}
+	
+	/* Use colors on hover only */
+	#menu-primary > li:nth-child(1):hover, 
+	#menu-primary > li:nth-child(1):hover ul{
+		background-color: #F6A273; /* Orange */
+	}
+	#menu-primary > li:nth-child(2):hover, 
+	#menu-primary > li:nth-child(2):hover ul{
+		background-color: #F4ED16; /* Yellow */
+	}
+	#menu-primary > li:nth-child(3):hover, 
+	#menu-primary > li:nth-child(3):hover ul{
+		background-color: #1BF75D; /* Green */
+	}
+	#menu-primary > li:nth-child(4):hover, 
+	#menu-primary > li:nth-child(4):hover ul{
+		background-color: #66DEF9; /* Teal/Blue */
+	}
+	#menu-primary > li:nth-child(5):hover, 
+	#menu-primary > li:nth-child(5):hover ul{
+		background-color: #4B68F4; /* Blue/Indigo */
+	}
+	#menu-primary > li:nth-child(6):hover, 
+	#menu-primary > li:nth-child(6):hover ul{
+		background-color: #8A71F3; /* Violet */
+	}
+	#menu-primary > li:nth-child(7):hover, 
+	#menu-primary > li:nth-child(7):hover ul{
+		background-color: #FD83C0; /* Red */
+	}
+	
+	#menu-primary > li:last-child:hover ul {
+		left: -132px;
+	}
+	
+	.primary-navigation li:hover > a, 
+	.primary-navigation li.focus > a {
+		background-color: rgba( 255, 255, 255, 0.64 );
+	}
+	
+	.site-footer {
+		background-attachment: fixed;
+	}
+	
+}
+
+/* Desktop Min */
+@media screen and (min-width: 1008px) {
+	.site-title {
+		width: 182px;
+		max-width: 182px;
+	}
+	
+	.featured-content-inner :nth-child(4) {
+		display: none;
+	}
+}
+
+/* Desktop Max */
+@media screen and (min-width: 1080px) {
+	.site-title {
+	    width: 222px;
+		max-width: 222px;
+	}
+	
+}
+
+
+.slider-viewport .post-thumbnail img {
+width: 100%;
+}
+
+.full-width .post-thumbnail img {
+    width: 100%;
+}
+
+
+.content_wrapper .content .post .postimg, .content_wrapper .content .page .postimg {
+height: auto; /*height: 276px;*/
+width: 100%;
+} 

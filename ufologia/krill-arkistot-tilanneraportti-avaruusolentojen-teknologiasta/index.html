@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="fi">
+<![endif]--><!--[if IE 8]>
+<html class="ie ie8" lang="fi">
+<![endif]--><!--[if !(IE 7) | !(IE 8) ]><!--><html lang="fi">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Krill-arkistot: Tilanneraportti avaruusolentojen teknologiasta | _| Eksopolitiikka.github.io |_</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="/wp-content/themes/twenty14-child/js/html5.js"></script>
+	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style type="text/css">body { cursor: url('data:image/x-icon;base64,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'), auto; }</style>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; syöte" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; kommenttien syöte" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; Krill-arkistot: Tilanneraportti avaruusolentojen teknologiasta kommenttien syöte" href="/ufologia/krill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.7" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="social-widget-css" href="/wp-content/plugins/social-media-widget/social_widget.css?ver=6.7" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-lato-css" href="//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/twenty14-child/genericons/genericons.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-style-css" href="/wp-content/themes/twenty14-child/style.css?ver=6.7" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css' href='/wp-content/themes/twenty14-child/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/posts/13947">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7">
+<link rel="canonical" href="/ufologia/krill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta/">
+<link rel="shortlink" href="/?p=13947">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fufologia%2Fkrill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fufologia%2Fkrill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta%2F#038;format=xml">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css" id="twentyfourteen-header-css">.site-title a {
+			color: #2640c1;
+		}</style>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92325018, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/92325018" style="position:absolute; left:-9999px;" alt=""></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GT-WRHZQF4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFH6DS8S8Z"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFH6DS8S8Z');</script>
+<script data-ad-client="ca-pub-9834086743067807" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">var _paq = _paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(["setDomains", ["*.eksopolitiikka.fi/piwik"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//eksopolitiikka.flywheelsites.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();</script>
+<noscript><p><img src="//eksopolitiikka.flywheelsites.com/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56945167, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56945167" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+<script>window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '208160250391514',
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+<meta name="google-site-verification" content="elqn5KcMco5Z26arxftj3SZWY_B2I71BCLz_pLcaGPo">
+</head>
+
+<body class="post-template-default single single-post postid-13947 single-format-standard group-blog masthead-fixed footer-widgets singular">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="/" rel="home">_| Eksopolitiikka.github.io |_</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Haku</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Ensisijainen valikko</button>
+				<a class="screen-reader-text skip-link" href="#content">Siirry sisältöön</a>
+				<div class="menu-eksopolitiikka-fi-container"><ul id="menu-eksopolitiikka-fi" class="nav-menu">
+<li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1050">
+<a href="/todellista-eksopolitiikkaa/" title="Etusivu">Eksopolitiikka.github.io</a>
+<ul class="sub-menu">
+	<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1057"><a href="/todellista-eksopolitiikkaa/kaikki-artikkelit/">Kaikki artikkelit</a></li>
+	<li id="menu-item-17642" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-17642"><a href="/eksopolitiikka/mita-on-eksopolitiikka/">Mitä on Eksopolitiikka?</a></li>
+	<li id="menu-item-11269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11269"><a href="/todellista-eksopolitiikkaa/ensikontaktiin-valmistautuminen/">Ensikontaktiin valmistautuminen</a></li>
+	<li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052"><a href="/todellista-eksopolitiikkaa/" title="Etusivu">Avaruusolennot varoittavat yhteiskunnallisesta jakautumisesta</a></li>
+	<li id="menu-item-3563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563"><a href="/todellista-eksopolitiikkaa/faktojen-erottaminen-disinformaatiosta/">Faktojen erottaminen disinformaatiosta</a></li>
+	<li id="menu-item-6797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6797"><a href="/">Kuinka saada yhteys avaruusolentoihin</a></li>
+	<li id="menu-item-1641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1641"><a href="/todellista-eksopolitiikkaa/eksopolitiikka-chat/">Eksopolitiikka-chat</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23"><a href="/category/ufot/">UFOt</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="/category/eksopolitiikka/">Eksopolitiikka</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="/category/paranormaali/">Paranormaali</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a href="/category/tiede/">Tiede</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-16">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+<ul class="sub-menu">
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774"><a href="/todellista-eksopolitiikkaa/opas-yhden-lakiin/">Opas Yhden Lakiin</a></li>
+</ul>
+</li>
+<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1055">
+<a href="/tietoa-sivustosta/">Tietoa sivustosta</a>
+<ul class="sub-menu">
+	<li id="menu-item-10031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031"><a href="/tietoa-sivustosta/ufoaiheisia-kirjoja/">Ufoaiheisia kirjoja</a></li>
+	<li id="menu-item-4377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4377"><a href="/tietoa-sivustosta/eksopoliittisia-linkkeja/">Eksopoliittisia linkkejä</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			
+<article id="post-13947" class="post-13947 post type-post status-publish format-standard has-post-thumbnail hentry category-ufologia tag-karjansilvonta tag-krill tag-mustat-helikopterit tag-paul-bennewitz tag-roswell tag-ufo-paljastus">
+	
+	<div class="post-thumbnail">
+	<img width="320" height="254" src="/wp-content/uploads/2017/02/Area-51-UFO-2-people-001.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="/wp-content/uploads/2017/02/Area-51-UFO-2-people-001.jpg 320w, /wp-content/uploads/2017/02/Area-51-UFO-2-people-001-300x238.jpg 300w" sizes="(max-width: 320px) 100vw, 320px">	</div>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/ufologia/" rel="category tag">ufologia</a></span>
+		</div>
+		<h1 class="entry-title">Krill-arkistot: Tilanneraportti avaruusolentojen teknologiasta</h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/ufologia/krill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta/" rel="bookmark"><time class="entry-date" datetime="2023-06-23T11:11:57+00:00">23 kesäkuun, 2023</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/ufologia/krill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Toim. huom. tässä esitetään niinkutsuttujen Krill-paperien ensimmäinen osa. Krill-paperit sisältävät tietoa Yhdysvaltain hallituksen toimista avaruusolentojen kanssa, ja ne on julkaistu internetissä 80-luvulla. Ensimmäisen osan esittelyjohdannon on kirjoittanut Milton William Cooper.</p>
+<p>Tietolähde paperien informaatiolle on kaikesta päätellen sama, kuin kirjalle <a href="https://www.uudenajansarastus.fi/">Roswellin Avaruusolennon Haastattelu</a>. Tiedot kuitenkin eroavat huomattavasti, ja onkin oletettavaa, että tässä esitetyt tiedot ovat niitä, joita on sensuroitu niiden kiertäessä valtion eri toimijoiden keskuudessa.</p>
+<hr>
+<p><span style="font-family: Arial; font-size: small;">NIMEN ALKUPERÄ JA MERKITYS: </span><br>
+<b><span style="font-family: Arial; font-size: small;">KRLL<br>
+KRYL<br>
+O. H. KRLL<br>
+O. H. CRIL<br>
+O. H. KRILL</span></b></p>
+<p><b>KRILL-paperit</b> vaikuttivat putkahtavan ulos tyhjästä ja ovat saaneet aikaan spekulaatioiden aallon. Kuka on <b>O. H. Krill? </b>Onko tieto oikeaa? Ovatko tekstin osat oikein vai väärin? Mistä paperit tulivat? Vastaan JOIHINKIN kysymyksiin tässä.</p>
+<p>Kun <b>avaruusolennot</b> laskeutuivat <b>Hollomanin ilmatukikohtaan</b> 60-luvulla (<a href="/eksopolitiikka/presidentti-eisenhower-ja-holloman-laskeutuminen/">toim. huom. 1955?</a>), tuolloin saatiin aikaan viestintäyhteys Yhdysvaltain hallituksen ja <strong>avaruusolentojen</strong> välille. Kommunikaatiossa tahojen välillä päästiin sopuun, mikä oli edeltäjä tästä seuranneille muodolliselle sopimukselle ja diplomaattisuhteille. (kts. <b><a href="https://www.bibliotecapleyades.net/exopolitica/esp_exopolitics_Q.htm" target="_blank" rel="noopener"><span style="color: #0000dd;">TÄMÄ</span></a></b>)</p>
+<p><b>Avaruusolennot</b> jättivät panttivangin Yhdysvalloille ja lupasivat suorittaa oman osansa sopimuksesta. Tuon panttivangin nimi oli <b>KRLL</b> ja joskus nimi kirjoitettiin <b>KRYL</b>. Viittaan häneen nimellä <b>KRLL</b> niinkuin <b>MAJESTY</b>-dokumenteissa kirjoitettiin, jotka näin omin silmin. Tämä panttivanki antoi paljon informaatiota avaruusolennoista, ja tästä tiedosta tuli &#8221;<b>KELTAISEN KIRJAN</b>&#8221; perusta, jota täydennettiin informaatiolla, jota saatiin myöhemmin &#8221;VIERAILTA&#8221;. Jotta tätä informaatiota voitaisiin levittää ja siitä voitaisiin keskustella armeijan ja tieteen piireissä, keksittiin pseudonyymikoodinimi informaatiolle, jonka alkuperäisenä lähteenä oli <b>KRLL</b>. Koodinimi <b>KRLL:lle</b> oli <b>Cril</b>. Etunimen alkukirjaimet <b>O. H.</b> tulevat sanoista &#8221;<b>ORIGINAL HOSTAGE</b>&#8221; (alkuperäinen panttivanki).</p>
+<p>Kaiken informaation, jota on näin ollut kierrossa, jonka lähteenä oli <b>KRLL</b>, sanottiin olevan <b>O. H. Crilin</b> kirjoittamaa. Informaatio oli yleensä luonteeltaan tieteellistä tai salatieteellistä, ja sitä sensuroitiin niin, että mitään viittauksia ei esitetty avaruusolentojen rotuun tai kulttuuriin. Tämä tehtiin, jotta saataisiin palautetta ja suosituksia niiltä asiantuntijoilta, jotka eivät olleet tietoisia salaisuudesta. Sitä käytettiin myös välittämään teknologiaa <strong>avaruusolennoilta</strong> puolustusteollisuuden alihankkijoille ja Yhdysvaltain avaruusohjelmalle.</p>
+<p><b>KRLL</b> sairastui muutaman vuoden päästä mutta tätä hoiti lääkäri, josta tuli myöhemmin hallituksen <strong>avaruusolentolääketieteen ja -patologian</strong> asiantuntija. Minun tietoni on, että <b>KRLL</b> kuoli myöhempänä ajankohtana. Pseudonyymin käyttöä jatkettiin samaan tarkoitukseen monen vuoden ajan, ja se saattaa olla käytössä tällä hetkellä tai sitten ei.</p>
+<p><b>KRILL</b>-paperit on varmaankin kirjoittanut joku valtiolla tai armeijassa, joka tiesi tästä informaatiosta, koska kirjoittaja <b>O. H. Krill</b> on aivan ilmiselvä viittaus <b>O. H. Cril:n</b> ja näin siis <b>KRLL:n</b>. En tiedä kuka kirjoittaja on, enkä tiedä onko materiaali suoraan KRLL:lta peräisin vaiko ei. MUTTA ON SELVÄÄ, ETTÄ KUKA SITTEN <b>O. H. KRILL</b> ONKIN, HÄN MAHDOLLISSTI TIESI <b>KRLL:N </b>TARINAN. Mielestäni materiaalin alkuperä on todennäköisimmin spekulaatioiden kohteena. En voi kommentoida materiaalia, joka käsittelee informaatiota jota en ole koskaan aiemmin nähnyt. Kuitenkin, voin sanoa ja totean, että iso osa siitä pitää paikkansa ja on samaa kuin informaatio, jonka itse olen jo aiemmin tuonut julki.</p>
+<p>En ole koskaan nähnyt <b>KRILL</b>-papereita eläessäni ennen kuin Paranetin sysop suuntasi huomio niihin siellä olleessa tiedostossa. Tämä tapahtui muutama päivä joulua ennen, ja latasin ne <b>Ted Markleylle</b> heti kun vain pystyin. Hän vahvisti minulle, että hän oli saanut ne haltuunsa toiselta lähteeltä jo aiemmin.</p>
+<p>Pyydän lähettää kommentteja tästä minulle sähköpostilla. Haluaisin kuulla keneltä tahansa, joka tietää näiden dokumenttien historiasta tai niiden validiudesta tai mistään, mikä niihin liittyy.</p>
+<p><b><a href="https://www.bibliotecapleyades.net/vida_alien/esp_vida_alien_3.htm" target="_blank" rel="noopener"><span style="color: #0000dd;">Bill Cooper</span></a> <span style="font-family: Arial; font-size: small;"><span style="color: #000080;">( </span> <a href="mailto:wba2320@ritvax.isc.rit.edu"><span style="color: #0000dd;">wba2320@ritvax.isc.rit.edu</span></a><span style="color: #000080;"> )</span></span></b></p>
+<hr>
+<p>&nbsp;</p>
+<pre>KRILL-ARKISTOT
+LUOTTAMUKSELLINEN
+
+TILANNERAPORTTI HANKKIMASTAMME KEHITTYNEESTÄ AVARUUSOLENTOJEN 
+TEKNOLOGIASTA JA KANSSAKÄYMISISTÄ MUUKALAISKULTTUURIEN KANSSA
+
+TAMMIKUU 1988
+
+KIRJOITTANUT
+O.H. KRILL
+</pre>
+<h2>Tiivistelmä</h2>
+<p>Niiden neljänkymmenen vuoden aikana, jolloin UFOja on aktiivisesti tarkkailtu sivilisaatiossamme, on kerätty paljon tietoa &#8212; tietoa, joka on usein osoittanut ilmiön sellaisia puolia, jotka on salattu. Tietojen tukahduttamisen ja siilouttamisen seurauksena kulttuurimme on pirstoutunut useisiin &#8221;todellisuuden&#8221; tasoihin, jotka sekä elävät rinnakkain että ovat vastakkain. Osa kulttuuristamme ei usko tai ei halua uskoa muiden lajien olemassaoloon; osa kulttuuristamme tunnustaa niiden olemassaolon tai niiden olemassaolon todennäköisyyden; osa kulttuuristamme on todellisuudessa vuorovaikutuksessa muiden lajien kanssa. Nämä samanaikaiset realiteetit vaikuttavat osaltaan siihen äärimmäisen hämmentyneeseen tilaan, jossa olemme.</p>
+<p>UFOjen tutkimus noudattaa samanlaista kaavaa. Jotkut tarkastelevat asiaa täysin empiirisestä näkökulmasta, toiset etsivät tapahtumien kuvioita ja toiminnallisia suhteita, ja taas toiset lähtevät liikkeelle ja kysyvät oikeat kysymykset oikeaan aikaan ja saavat vastauksia. Jotkut näistä vastauksista, joita on saatu, ovat joidenkin mielestä varsin häiritseviä ja fantastisia.</p>
+<p>Kaiken kaikkiaan olemme tekemisissä uusien käsitteiden kanssa fysiikassa, uusien käsitteiden kanssa psykologiassa ja vähitellen kasvavan tietoisuuden kanssa siitä, että emme ole täällä yksin, emmekä ole koskaan olleetkaan yksin. Aivan kuin tämä ei olisi vielä tarpeeksi, käy ilmi, että yhteiskuntamme osat ovat tienneet tämän ja ovat ilmeisesti olleet vuorovaikutuksessa joidenkin näiden muukalaislajien kanssa jo jonkin aikaa.</p>
+<p>Lopputulos on, että ihmiskunta on koko ajan johdettu väärälle tielle, tielle, jota on vaivannut salaliittojen ja disinformaation kerrostumat. Teknologinen tieto ja absoluuttinen valta ovat olleet ihmisten motiiveina. Muukalaispuolella motiivina on ollut selviytyminen, tai ainakin mitä tulee vallitseviin muukalaisvierailijoihin.</p>
+<p>Tämän asiakirjan tarkoituksena on tuoda paljon tätä koskevia yksityiskohtia julkisuuteen. Teitä ei pyydetä uskomaan sitä, vaan harkitsemaan sitä sen valossa, mitä on tapahtunut, mitä tapahtuu ja mitä saattaa kehittyä aivan nenämme alla. Jos huomaatte, että ette voi sietää tällaisia ajatuksia tai että ette pysty käsittelemään niitä, älkää lukeko enempää.</p>
+<p>On aivan selvää, tai sen pitäisi olla, että UFOtilanne on sekä monimutkainen että vaarallinen. UFO-ongelma on monialainen ja moniulotteinen ilmiö. Olemme todenneet, että seuraavilla seikoilla on tosiasioihin perustuva pohja:</p>
+<ul>
+<li>Muista maailmoista tulleita aluksia on törmännyt Maahan.</li>
+<li>Muukalaisalukset ovat peräisin sekä ultraulottuvuuslähteistä että meidän ulottuvuuden sisällä olevista lähteistä.</li>
+<li>Yhdysvaltain hallituksen varhaiset yritykset hankkia muukalaisteknologiaa olivat menestyksekkäitä.</li>
+<li>Yhdysvaltain hallituksella on ollut jossain vaiheessa eläviä muukalaispanttivankeja.</li>
+<li>Hallitus on tehnyt ruumiinavauksia avaruusolentojen ruumiille.</li>
+<li>Yhdysvaltain tiedustelupalvelut, turvallisuusviranomaiset ja julkiset virastot ovat mukana tilanteeseen liittyvien tosiasioiden peittelyssä.</li>
+<li>Ihmisiä on abduktoitu ja siepataan parhaillaan, silvottu, murhattu ja kidnapattu UFOtilanteen seurauksena.</li>
+<li>Tällä planeetalla on tällä hetkellä aktiivinen avaruusolentojen läsnäolo keskuudessamme, joka hallitsee yhteiskuntamme eri osia.</li>
+<li>Muukalaisvoimat ylläpitävät tukikohtia Maassa ja Kuussa.</li>
+<li>Yhdysvaltain hallituksella on jo jonkin aikaa ollut yhteistyösuhde avaruusolentovoimien kanssa, ja sen nimenomaisena tarkoituksena on ollut hankkia teknologiaa gravitaatiovoiman, sädeaseiden ja mielenhallinnan alalla.</li>
+<li>Miljoonia nautoja on tapettu biologista materiaalia hankittaessa.</li>
+<li>Sekä avaruusolennot että Yhdysvaltain hallitus ovat vastuussa silpomisista, mutta eri syistä.</li>
+<li>Elämme moniulotteisessa maailmassa, joka on päällekkäinen ja jossa vierailevat entiteetit muista ulottuvuuksista. Jotkut näistä entiteeteistä ovat vihamielisiä. Monet eivät ole vihamielisiä.</li>
+<li>Geneettisen kehityksemme ja uskontojemme perusta on ei-maallisten ja maanpäällisten voimien interventiossa.</li>
+<li>Todellinen teknologia ylittää huomattavasti sen, mitä yleisö havaitsee.</li>
+<li>Yhdysvaltojen avaruusohjelma on peiteoperaatio, joka on olemassa suhdetoimintaa varten.</li>
+<li>Ihmisiä tapetaan aktiivisesti, jotta tosiasiat tilanteesta salattaisiin. CIA ja NSA ovat mukana niin syvällä, että paljastuminen johtaisi niiden avoimen rakenteen romahtamiseen.</li>
+<li>Faktat osoittavat avaruusolentojen astuvan keskuuteemme avoimesti 5-10 vuoden kuluessa.</li>
+<li>Sivilisaatiomme on yksi monista, joita on ollut olemassa viimeisten miljardin vuoden aikana.</li>
+</ul>
+<p>Sinulla on todennäköisesti enemmän johtopäätöksiä. Jatka vain lukemista&#8230;</p>
+<h2>Eläinten silpomiset ja UFOt</h2>
+<h4>Yleinen kronologia</h4>
+<p>Vuoden 1963 puolivälissä Haskellin piirikunnassa Teksasissa sattui useita karjanhyökkäyksiä. Tyypillisessä tapauksessa Angus-sonnin kurkku oli viilletty auki ja sen vatsassa oli lautasen kokoinen haava. Kansalaiset luulivat hyökkäysten johtuvan jonkinlaisesta villipedosta, &#8221;katoavasta tuholaisesta&#8221;. Kun se jatkoi salamyhkäisiä vaelluksiaan Haskellin piirikunnan takamaastossa, verenhimo sai hieman myyttisemmät mittasuhteet, ja uuden nimen oli määrä jäädä pysyväksi: Haskell Rascal.</p>
+<p>Seuraavan vuosikymmenen aikana tuli satunnaisia raportteja samanlaisista hyökkäyksistä karjaa vastaan. Näitä hyökkäyksiä kuvattiin toisinaan &#8221;silpomisiksi&#8221;. Merkittävin näistä harvinaisista raporteista oli &#8221;Snippy&#8221;-hevosen silpomiskuolema Etelä-Coloradossa vuonna 1967, johon liittyi alueen UFO-havaintoja, Condonin komitean tutkimus ja maailmanlaajuinen lehdistöjulkisuus.</p>
+<p>Nykyaikaisen eläinten silpomisaallon voidaan sanoa alkaneen toden teolla vuonna 1973. Tuota vuotta pidetään yleisesti viimeisen yhteisen UFO-iskun vuotena, vaikka tätä väitettä voidaankin kyseenalaistaa, kun otetaan huomioon kaksi vuotta myöhemmin sattuneet tapahtumat.</p>
+<p>Vuosina 1973 ja 1974 suurin osa klassisista silpomisilmoituksista oli peräisin Yhdysvaltojen keskiosista.</p>
+<p>Vuonna 1975 ennennäkemätön hyökkäys levisi Yhdysvaltojen läntisiin kahteen kolmasosaan. Silpomisilmoitukset saavuttivat huippunsa tuona vuonna, ja niihin liittyi kertomuksia UFOista ja tunnistamattomista helikoptereista. Vuonna 1978 hyökkäykset lisääntyivät.</p>
+<p>Vuoteen 1979 mennessä Kanadassa, pääasiassa Albertassa ja Saskatchewanissa, tapahtui lukuisia karjan silpomisia. Yhdysvalloissa hyökkäykset tasaantuivat.</p>
+<p>Vuonna 1980 toiminta lisääntyi Yhdysvalloissa. Tuon vuoden jälkeen silpomisista on raportoitu harvemmin, mikä saattaa kuitenkin osittain johtua siitä, että karjankasvattajat ja maanviljelijät ovat yhä haluttomampia ilmoittamaan silpomisista. Silpomiset jatkuvat edelleen. Yhdysvalloissa on kuollut yli kymmenen tuhatta eläintä; vaikka silpomisia on tapahtunut maailmanlaajuisesti, olosuhteet ovat aina samat.</p>
+<h4>Yleisiä huomioita</h4>
+<p>Kaikissa tutkimuksissa, joilla pyritään selvittämään karjaan ja muihin eläimiin kohdistuvien silpomisiskujen järjestelmällisyyttä, on otettava huomioon tietyt tekijät, jotka voivat liittyä tai olla liittymättä suoraan itse silpomiseen. Näitä silpomisia &#8212; ulkoisten tai sisäisten osien tappamista ja salakavalaa poistamista &#8212; on kohdistettu kirjaimellisesti tuhansiin eläimiin (pääasiassa karjaan) 1960-luvulta lähtien. Näihin eläimiin kohdistuvat leikkaukset on tehty hämmästyttävän tarkasti, mikä viittaa erittäin kehittyneiden välineiden ja tekniikoiden käyttöön. Silpomisten puuduttava ja jatkuva säännöllisyys sekä hyödyttömien ruhojen näennäisen huoleton hävittäminen viittaavat silpojien äärimmäiseen itsevarmuuteen &#8212; jopa ylimielisyyteen. Tämä ylimielisyys näyttää olevan oikeutettua sen vapauden ja rankaisemattomuuden vuoksi, jolla nämä teot on toteutettu.</p>
+<p>Erään ongelman erityisen osatekijän merkitys paljastuu pian, kun silpomisia tutkitaan perusteellisesti. Tarkoitan merkitsemättömien ja muuten tunnistamattomien helikoptereiden ilmaantumista eläinten silpomispaikkojen läheisyyteen sekä alueellisesti että ajallisesti. Näiden kahden esiintyminen on ollut niin jatkuvaa, että ne eivät ole enää sattumaa.</p>
+<p>Nämä mysteerihelikopterit ovat lähes aina ilman tunnistemerkintöjä, tai merkinnät voivat näyttää siltä, että ne on maalattu yli tai peitetty jollain. Helikoptereiden raportoidaan usein lentävän epänormaalilla, vaarallisella tai laittomalla korkeudella. Ne saattavat kavahtaa, jos silminnäkijät tai lainvalvojat yrittävät lähestyä niitä.</p>
+<p>On useita kertomuksia helikopterin käyttäjien aggressiivisesta käyttäytymisestä, ja ne ovat ajaneet takaa silminnäkijöitä, &#8221;pörränneet&#8221;, leijuneet heidän yläpuolellaan tai jopa tulittaneet heitä. Toisinaan helikopterit ilmestyvät hyvin lähelle silpomispaikkoja, jopa leijuvat laitumen yläpuolella, josta silvottu ruho myöhemmin löydetään. Niitä saatetaan havaita juuri ennen tai jälkeen silpomisten &#8212; tai päivien kuluessa silpomisesta. Tarkoituksena on vain korostaa, että &#8221;mysteerihelikopteri&#8221; on osa asiaa, joka ansaitsee tarkastelun.</p>
+<p>Ajatus &#8221;salaperäisistä helikoptereista&#8221; ei kehittynyt samanaikaisesti eläinten silpomisen kanssa. Tällaisista helikoptereista &#8212; merkitsemättömistä, matalalla lentävistä, äänettömistä (tai helikopterilta kuulostavista) &#8212; on raportoitu jo vuosia, ja ne on yhdistetty vielä laajemmin levinneeseen ilmiöön &#8212; &#8221;kummituslentoihin&#8221; (kiinteäsiipisiin). Itse helikoptereita on nähty monissa maissa alueilla, joilla on raportoitu ufoista. Joissakin mielenkiintoisimmissa kertomuksissa mysteerihelikopterit on nähty UFOjen kanssa tai pian sen jälkeen, kun UFOja oli havaittu.</p>
+<p>Osuvin mieleeni tuleva tapaus, joka ei kuitenkaan ole kaikkein yksittäisin, on tapaus, jonka Virgil Armstrong kuvasi luennossaan &#8221;What NASA Didn&#8217;t Tell Us About the Moon&#8221; (Mitä NASA ei kertonut meille Kuusta). Hän käsittelee helikoptereita ja ufoja yleensä.</p>
+<p>Armstrong kuvailee ystäväänsä, joka oli keksinyt erityisen kamerajärjestelyn ajatuksena, että se lisäisi mahdollisuuksia saada hyviä kuvia UFOista. Kamera oli asennettu aseenkantaan yhdessä laserin kanssa. Ajatuksena oli ampua laserilla kohti UFOa, jos sellainen näkyisi, ja toivottavasti UFO pysähtyisi, jolloin hän voisi ottaa laadukkaita kuvia.</p>
+<p>Ei kovinkaan kauan sen jälkeen, kun he olivat asettuneet aavikolle, UFO todellakin ilmestyi, ja he ampuivat laseria, jolloin kiekko pysähtyi leijumaan. He ottivat siitä aika monta hyvää kuvaa. Pian sen jälkeen kiekko lensi pois. Muutamassa minuutissa he kuulivat helikopterien erehtymättömän äänen tulevan heidän suuntaansa. Helikopterit laskeutuivat strategisesti heidän ryhmänsä ympärille, ja koptereista nousi joukko mustia baretteja, jotka ovat ilmavoimien strategisia turvallisuusjoukkoja. Barettien komentaja käveli ryhmän luo ja kysyi: &#8221;Mitä te täällä teette?&#8221;. &#8221;Ilmeisesti kuvaamme lentäviä esineitä, ja näimme juuri lentävän lautasen ja saimme siitä erittäin, erittäin hyviä kuvia.&#8221; Sitten komentaja kysyi ryhmän johtajalta, tiesikö tämä, missä hän oli. Ryhmän johtaja vastasi: &#8221;En&#8221;. Sitten komentaja sanoi: &#8221;Ehdotamme, että lähdette heti pois täältä!&#8221;. Ryhmän johtaja kysyi sitten: &#8221;Millä oikeudella teillä on oikeus käskeä meitä lähtemään pois täältä?&#8221;. Onko tämä hallituksen maata?&#8221; Mustien barettien komentaja vastasi: &#8221;Niin on. Tämä on Andrewsin ilmavoimien tukikohta, ja jos ette ole poissa täältä kymmenessä minuutissa, teidät on pidätetty.&#8221; Sen jälkeen baretit poistivat filmin kamerasta, ja ryhmä poistui.</p>
+<p>Tämä ei ainoastaan havainnollista eräänlaista tapausta, jossa UFOja nähdään suhteessa helikoptereihin, vaan se havainnollistaa myös sen tosiasian, että joko jotkut lautaset ovat meidän, tai meillä on sotilaallinen/hallituksellinen suhde niiden kanssa, jotka niitä lentävät. Edellä mainitut helikopterit eivät ole mysteerihelikoptereita, vaan ne olivat Yhdysvaltojen armeijan helikoptereita.</p>
+<p>Toinen sotilashelikoptereita ja Yhdysvaltojen omistamia levyjä koskeva tapaus on peräisin Wendell Stevensin kirjasta &#8221;<a href="https://www.amazon.com/UFO-Crash-Aztec-Well-Secret/dp/093426905X?crid=13NNZP305JF59&amp;keywords=UFO+Crash+at+Aztec&amp;qid=1671263745&amp;sprefix=%2Caps%2C1778&amp;sr=8-2&amp;linkCode=ll1&amp;tag=suomi42007-20&amp;linkId=ac8790727cd1de50ff30c7b7a4a5445c&amp;language=en_US&amp;ref_=as_li_ss_tl">UFO Crash at Aztec</a>&#8221;. Kirjassa hän kertoo tapauksesta, jossa intiaani oli retkeilemässä vuoristossa Area 51:n läheisyydessä Groom Lakessa, Nelliksen ilmatukikohdan alueella Las Vegasin pohjoispuolella. Hän kuuli lähestyvät helikopterit ja piiloutui pois näkyvistä. Helikopterit lähettivät kuulutusjärjestelmien kautta varoituksen kaikille alueella oleville, että heidän pitäisi näyttäytyä, koska he aikoivat suorittaa &#8221;vaarallisen sotilaallisen testin&#8221;. Intiaani pysyi piilossa, ja helikopterit lensivät yläpuolella ja palasivat alas kohti Groom Lake -laitosta. Minuuttia myöhemmin kahden helikopterin nähtiin lentävän kanjonia ylöspäin, ja niiden välissä ja hieman niiden yläpuolella lensi musta kiekko. Ne lensivät yläpuolella, ja sitten helikopterit kääntyivät ja lensivät takaisin kohti tukikohtaa, ja pian sen jälkeen kiekko seurasi niitä. Kirjassa annetaan henkilön nimi ja se, miten häneen voi ottaa yhteyttä lisätietoja varten.</p>
+<h4>Mysteerikopterit</h4>
+<p>Tilanteet, joihin liittyy salaperäisiä helikoptereita, näyttävät olevan hieman salakavalampia. Hyvä esimerkki on tapahtuma, joka sattui Madisonin piirikunnassa Montanassa kesäkuun ja lokakuun 1976 välisenä aikana. Tuona aikana oli tapahtunut 22 vahvistettua karjan silpomista, ja niihin liittyi eri puolilla piirikuntaa ilmoituksia äänettömistä, merkitsemättömistä, suihkumustista helikoptereista, vilkkuvista tai tasaisesti vilkkuvista poikkeavista valoista ilmassa ja maanpinnan läheisyydessä, merkitsemättömistä kiinteäsiipisistä lentokoneista ja valkoisista pakettiautoista syrjäisillä ja aiemmin saavuttamattomissa olevilla alueilla.</p>
+<p>Tämän ajanjakson loppupuolella, alkusyksystä 1976, eräs metsästäjä Bozemanista, Montanasta, oli eräänä päivänä yksin liikkeellä noin kello 15.00 Red Mountainin alueella lähellä Norrisia. Hän katseli, kun musta helikopteri ilman merkintöjä lensi yläpuolella ja katosi pienen kukkulan alle. Utelias metsästäjä kiipesi kukkulan huipulle. Musta kopteri (hänen mielestään Bell Jet Ranger) oli maassa, ja moottori kävi yhä. Seitsemän miestä oli ilmeisesti poistunut koneesta ja käveli mäkeä ylös kohti tarkkailijaa. Kun metsästäjä eteni kohti seitsemää, hän vilkutti ja huusi ystävällisiä tervehdyksiä. Silloin hän huomasi, että miehissä oli jotain &#8212; he olivat kaikki itämaisia. Heillä oli vinot silmät ja oliivinvärinen iho, ja he höpöttelivät keskenään jotain käsittämätöntä kieltä. Heillä oli &#8221;arkivaatteet&#8221;, ei univormuja. Yhtäkkiä he alkoivat palata helikopteriin. Metsästäjä, joka yhä vilkutti ja huusi ystävällisiä tervehdyksiä, lähti heidän peräänsä. Itämaalaiset kiihdyttivät vauhtiaan. Kun metsästäjä lähestyi heitä parin metrin päähän, he aloittivat juoksun, tungeksivat kopteriin ja lähtivät lentoon.</p>
+<p>Englannissa on dokumentoitu &#8221;mysteerihelikopteriaalto&#8221;, jonka mukaan tunnistamattomassa kopterissa oli itämaisilta näyttäviä matkustajia. Viistosilmäiset, oliivinahkaiset, itämaisilta näyttävät matkustajat ovat olleet ufokertomusten keskiössä ja periferiassa jo vuosia. Huomattava osa surullisen kuuluisista &#8221;miehistä mustissa&#8221; (MIB) on samannäköisiä, mutta hyvin usein heidät nähdään hyvin kalpeina ja laihoina miehinä, jotka ovat herkkiä valolle.</p>
+<p>STIGMATAn numerossa 5 (syksy-talvi 1978) Tom Adams esitteli merkittävimmät spekulatiiviset selitykset, jotka selittävät silpomisen ja helikopterin välisen yhteyden, mukaan lukien seuraavat:</p>
+<ul>
+<li>Helikopterit ovat itse UFOja, jotka on naamioitu maanpäällisiksi aluksiksi.</li>
+<li>Kopterit ovat peräisin Yhdysvaltain hallitukselta/sotilailta ja osallistuvat suoraan varsinaisten silpomisten suorittamiseen.</li>
+<li>Helikopterit ovat hallituksen/sotilaiden, eivätkä ne osallistu silpomisiin vaan tutkivat niitä.</li>
+<li>Helikopterit ovat hallituksen/sotilaiden, ja ne tietävät silpojien henkilöllisyyden ja motiivit, ja läsnäolollaan ne yrittävät kääntää huomion pois armeijan mahdollisesta osallisuudesta.</li>
+</ul>
+<p>Tom Adamsin mielestä vastaus voi olla edellä mainittujen selitysten yhdistelmä. On myös spekuloitu, että he ovat mukana biologisissa kokeissa, jotka liittyvät kemialliseen tai biologiseen sodankäyntiin, tai geobotaanisessa öljyn ja mineraaliesiintymien etsinnässä. Eräässä tapauksessa silpomispaikalta löydettiin armeijan standardityyppinen skalpelli. Koska levyt ovat useimmiten liittyneet silpomisiin, uskotaan, että kyseessä oli harhautustapahtuma.</p>
+<p>Nämä tapahtumat tai niistä keskusteleminen on vain esiaste varsinaisille paljastuksille siitä, mikä on silpomisten taustalla: muukalaisten omaan käyttöönsä hankkimat biologiset materiaalit. Jotta voisimme keskustella tästä loogisesti ja tapahtumajärjestyksessä, meidän on tarkasteltava sitä, mitä todella on tapahtunut aivan nenämme alla: suoraa vuorovaikutusta maan ulkopuolisten biologisten entiteettien (EBE:t) kanssa. Keskustellaksemme tästä meidän on kuitenkin yritettävä aloittaa alusta siitä, minkä nyt tiedämme olevan totta.</p>
+<h2>Saaga alkaa</h2>
+<p>Kaikki näyttää alkaneen tuhansia vuosia sitten, mutta tämän keskustelun kannalta aloitetaan tapahtumista, jotka ovat meille kaikille tuttuja. Vuonna 1947, kaksi vuotta sen jälkeen, kun olimme laukaisseet ensimmäisen ydinräjähdyksen, jonka nykyinen sivilisaatiomme räjäytti, tapahtui <a href="/ufot/mantellin-ufo-tapaus/">Mantellin episodi</a>, jossa meillä oli ensimmäinen kirjattu sotilaallinen yhteenotto avaruusolentojen kanssa, joka johti sotilaslentäjän kuolemaan. Nyt on aivan ilmeistä, että hallituksemme ei oikein tiennyt, miten käsitellä tilannetta. Vuonna 1952 maan pääkaupungin yli lensi sarja kiekkoja. Tämä tapahtuma johti siihen, että Yhdysvaltojen turvallisuusjoukot (<a href="/eksopolitiikka/fbin-yhteys-mj-12n/">CIA, NSA, DIA, FBI</a>) kutsuttiin paikalle yrittämään pitää tilanne hallinnassa, kunnes ymmärrettäisiin, mitä oli tapahtumassa. Tänä aikana hallitus perusti työryhmän, joka tunnettiin nimellä <a href="/eksopolitiikka/katsaus-majestic-12-ryhman-projektien-hrn/">Majestic Twelve</a> (MJ-12). Alkuperäiset jäsenet olivat: Amiraali Roscoe H. Hillenkoetter, tohtori Vannevar Bush, ministeri James Forrestal, kenraali Nathan P. Twining, kenraali Hoyt S. Vandenburg, tohtori Detlev Bronk, tohtori Jerome Hunsaker, Sidney W. Souers, Gordon Gray, tohtori Donald Menzel, kenraali Robert M. Montague ja tohtori Lloyd V. Berkner.</p>
+<p>MJ-12-ryhmä <a href="/eksopolitiikka/ufologian-lyhyt-historia-1940-1989/">on ollut jatkuvasti olemassa oleva ryhmä sen perustamisesta lähtien</a>, ja uudet jäsenet ovat korvanneet kuolleet jäsenet. Esimerkiksi kun ministeri Forrestal oli järkyttynyt nähdessään Yhdysvaltojen myyvän itsensä toisessa maailmansodassa, hänet lähetettiin merivoimien sairaalaan henkisen rasituksen vuoksi. Ennen kuin sukulaiset ehtivät hänen luokseen, hän &#8221;hyppäsi 16. kerroksen ikkunasta&#8221;. Useimmat hänen läheisensä pitävät hänen itsemurhaansa suunniteltuna. Kun Forrestal kuoli, hänen tilalleen tuli kenraali Walter B. Smith.</p>
+<p>Joulukuussa 1947 perustettiin <a href="/eksopolitiikka/project-sign/">Project Sign</a>, jonka tarkoituksena oli hankkia mahdollisimman paljon tietoa UFOista, niiden suoritusominaisuuksista ja tarkoituksista. Turvallisuuden säilyttämiseksi <a href="/eksopolitiikka/project-sign/">Project Signin</a> ja MJ-12:n välinen yhteydenpito rajoitettiin kahteen henkilöön ilmavoimien materiaalijohdon tiedusteluosastolla, joiden tehtävänä oli välittää tietyntyyppisiä tietoja kanavien kautta. Sign-projekti muuttui <a href="/eksopolitiikka/project-grudge/">Grudge-projektiksi</a> joulukuussa 1948. Hankkeella Grudge oli siviilivastine nimeltä Project Bluebook, jonka me kaikki tunnemme. Bluebookiin välitettiin vain &#8221;turvallisia&#8221; raportteja. Vuonna 1949 MJ-12 kehitti ensimmäisen varasuunnitelman nimeltä MJ-1949-04P/78, jonka mukaan joitakin tietoja voitaisiin tarvittaessa julkistaa.</p>
+<p>Kenraali George C. Marshall <a href="/eksopolitiikka/billy-cooper-mj-12n-alkupera-identiteetti-ja-tarkoitus/">perusti Majestic Twelve -ryhmän</a> heinäkuussa 1947 tutkimaan Roswell-Magdalenan UFO-onnettomuuden jälkiä ja romua. Amiraali Hillenkoetter, joka oli CIA:n johtaja 1. toukokuuta 1947 ja syyskuun 1950 välisenä aikana, päätti aktivoida &#8221;<a href="/eksopolitiikka/salaisen-kontaktihenkiloiden-vastaisen-vastatiedusteluohjelman-paljastaminen/">Robertsonin paneelin</a>&#8221;, jonka tarkoituksena oli valvoa eri puolilla maata esiintyviä siviilien ufotutkimusryhmiä. Hän liittyi myös NICAPiin vuonna 1956 ja hänet valittiin sen johtokunnan jäseneksi. Tästä asemasta käsin hän pystyi toimimaan MJ-12:n &#8221;vakoilijana&#8221; yhdessä muiden salaisten asiantuntijoidensa ryhmän kanssa. He pystyivät ohjaamaan NICAP:ia haluamaansa suuntaan. Kun &#8221;lentävien lautasten ohjelma&#8221; oli MJ-12:n täydellisessä hallinnassa ja fyysiset todisteet piilossa, kenraali Marshall tunsi olonsa rauhallisemmaksi tämän hyvin oudon tilanteen suhteen. Nämä miehet ja heidän seuraajansa ovat 39 vuoden ajan pitäneet suurimman osan yleisöstä, mukaan lukien suuren osan läntisestä maailmasta, huijattuna erittäin menestyksekkäästi asettamalla valheellisia asiantuntijoita ja käyttämällä vaikutusvaltaansa heidän takanaan saadakseen suunnitelmansa toimimaan, ja he ovat onnistuneet siinä varsin hyvin. Tähän asti.</p>
+<p>Kuuden kuukauden kuluessa siitä, kun Roswellin onnettomuus tapahtui 2. heinäkuuta 1947 ja kun toinen UFO-hylky löydettiin 3. heinäkuuta 1947 San Augustine Flatsista Magdalenan läheltä New Mexicosta, virastoja organisoitiin uudelleen ja ihmisiä siirrettiin paikasta toiseen. Alkuperäisen &#8221;turvakannen&#8221; päätavoitteena ja sen rakentamisen syynä oli lautasalusten tekninen analysointi ja yritys kopioida niitä. Tätä toimintaa johtavat seuraavat ryhmät:</p>
+<ul>
+<li>Tutkimus- ja kehittämislautakunta (R&amp;DB)</li>
+<li>Ilmavoimien tutkimus- ja kehitystoiminta (AFRD).</li>
+<li>merivoimien tutkimusvirasto (ONR).</li>
+<li>CIA:n tieteellisen tiedustelun toimisto (CIA-OSI).</li>
+<li>NSA:n tieteellisen tiedustelun toimisto (NSA-OSI).</li>
+</ul>
+<p>Kenenkään näistä ryhmistä ei pitänyt tietää koko tarinaa. Kunkin ryhmän oli määrä tietää vain ne osat, jotka MJ-12 antoi heidän tietää. MJ-12 toimii myös erilaisten siviilitiedustelu- ja tutkintaryhmien kautta. MJ-12 manipuloi CIA:ta ja FBI:ta toteuttamaan tarkoituksiaan. NSA luotiin alun perin suojelemaan talteen otettujen lentolautasten salaisuutta, ja lopulta se sai täyden määräysvallan kaikessa tietoliikennetiedustelussa.</p>
+<p>Tämän valvonnan ansiosta NSA voi valvoa ketä tahansa yksilöä postin, puhelimen, teleksien, sähkeiden ja nyt myös verkkotietokoneiden kautta, ja se voi seurata yksityistä ja henkilökohtaista viestintää haluamallaan tavalla. Itse asiassa nykyinen NSA on MJ-12:n nykyinen päälaajennus, joka liittyy &#8221;lentävien lautasten ohjelmaan&#8221;. UFOtutkimuksen alalla levitetään valtavia määriä <a href="/uutiset/naton-kognitiivinen-sodankaynti-lansiarmeijat-kayvat-taistelua-aivoistasi/">disinformaatiota</a>. Kaikkien ohjelman minkä tahansa näkökohdan todistajien elämää seurataan yksityiskohtaisesti, sillä jokainen on allekirjoittanut turvallisuusvalan. Ohjelmassa työskennelleille ihmisille, mukaan lukien armeijan jäsenet, valan rikkomisella voi olla jokin seuraavista suorista seurauksista:</p>
+<ul>
+<li>Suullinen varoitus, johon liittyy salassapitovalan tarkistaminen.</li>
+<li>Voimakkaampi varoitus, johon liittyy joskus otsaan hakkaamista ja pelottelua.</li>
+<li>Yksilön psykologinen työstäminen masennuksen aikaansaamiseksi, mikä johtaa itsemurhaan.</li>
+<li>Henkilön murha, joka lavastetaan itsemurhaksi tai onnettomuudeksi.</li>
+<li>Oudot ja äkilliset onnettomuudet, jotka ovat aina kuolemaan johtavia.</li>
+<li>Erikoisvankiloihin sulkeminen.</li>
+<li>Eristäminen &#8221;mielisairaaloihin&#8221;, joissa heitä &#8221;hoidetaan&#8221; mielenhallinta- ja ohjelmoinnin purkamistekniikoilla. Yksilöt vapautetaan muuttuneiden persoonallisuuksien, identiteettien ja muuttuneiden muistojen kera.</li>
+<li>Yksilön vieminen &#8221;sisäpiiriin&#8221;, jossa hän työskentelee &#8221;heille&#8221; ja jossa häntä voidaan tarkkailla. Tämä tapahtuu yleensä suljetuissa tiloissa, joissa on vain vähän yhteyksiä ulkomaailmaan. Maanalaiset tilat ovat tavallinen paikka tälle.</li>
+</ul>
+<p>Ketä tahansa henkilöä, jonka he katsovat olevan &#8221;liian lähellä totuutta&#8221;, kohdellaan samalla tavalla. MJ-12 tekee kaikkensa säilyttääkseen ja suojellakseen perimmäistä salaisuutta. Kuten tulemme näkemään myöhemmin, sen ominaispiirteet, mitä tämä perimmäinen salaisuus olisi, muuttuisivat jyrkästi, sillä se oli jotakin, mitä edes MJ-12 ei voinut ennustaa &#8212; todellinen kontakti avaruusolentoryhmiin.</p>
+<p>Sitä, miten varsinainen yhteydenotto hallituksen ja avaruusolentojen välillä alun perin toteutettiin, ei tiedetä, mutta hallitukselle oli kerrottu, että sen voisi tehdä siviili oikeilla laitteilla. <a href="/eksopolitiikka/project-beta-paul-bennewitzin-tarina/">Tohtori Paul Bennewitz</a>, siviilitiedemies, teki niin tietokonelaitteita käyttäen ja ilmoitti hallitukselle tehneensä niin, ymmärtämättä, että siihen mennessä, vuonna 1983, hallitus oli todellisuudessa yhtä syvällä tekemisissä avaruusolentojen kanssa kuin hänen viestinsä avaruusolentojen kanssa paljasti. Tohtori Bennewitz asuu Manzanon asevarastoalueen vieressä Albuquerquessa, New Mexicossa. Hän havaitsi jatkuvasti ufoja alueen yllä ja päätti aluksi, että ne olivat uhka laitokselle. Hän kehitti koodausjärjestelmän ja yritti ja onnistui kommunikoimaan alueen yllä lentävien avaruusolentojen kanssa.</p>
+<p>Hän sai selville, että sen jälkeen, kun olimme olleet yhteydessä avaruusolentoihin vuosia sitten, suostuimme tarjoamaan niille maanalaisia tukikohtia Yhdysvalloissa vastineeksi tietyistä teknologisista salaisuuksista, jotka avaruusolennot paljastaisivat meille. Muukalaiset saisivat myös suorittaa tiettyjä operaatioita, sieppauksia ja silpomisia ilman, että he puuttuisivat asiaan.</p>
+<p>Alkuperäinen yhteys hallituksen ja maan ulkopuolisten biologisten olentojen välillä, jotka ovat väriltään harmaita ja noin 1-1.4m korkeita (jäljempänä &#8217;harmaat&#8217;), saatiin aikaan vuosina 1947-1951. Tiesimme, että harmaat olivat mukana suorittamassa eläinten (ja joidenkin ihmisten) silpomista ja että ne käyttivät näistä materiaaleista saatuja rauhasaineita ravinnoksi (imeytyivät ihon läpi) ja kloonatakseen lisää harmaita maanalaisissa laboratorioissaan. Hallitus oli myös tietoinen siitä, että harmaat tekivät joitakin sieppauksia varmistaakseen geneettistä materiaalia. Hallitus vaati harmaita toimittamaan heille luettelon, joka esitettäisiin kansalliselle turvallisuusneuvostolle.</p>
+<p>Kaiken tämän aikana hallitus piti harmaita periaatteessa siedettävinä olentoina, vaikkakin hieman vastenmielisinä. He olettivat tuolloin, ettei ollut kohtuutonta olettaa, että yleisö tottuisi ja voisi tottua niiden läsnäoloon. Vuosien 1968 ja 1969 välisenä aikana laadittiin suunnitelma, jolla yleisö saataisiin tietoiseksi niiden olemassaolosta seuraavien kahdenkymmenen vuoden aikana. Tämä ajanjakso huipentuisi dokumenttielokuvasarjaan, jossa selitettäisiin harmaiden historiaa ja aikomuksia.</p>
+<p>Harmaat vakuuttivat meille, että sieppausten todellinen tarkoitus oli sivilisaatiomme valvonta, ja kun saimme tietää, että sieppaukset olivat paljon yleisempiä ja salakavalampia kuin meille uskoteltiin, hallitus huolestui. Heidän huolensa perustui myös lisätietoon sieppausten tarkoituksista:</p>
+<ul>
+<li>3 mm:n suuruisen pallomaisen biologisen seurantalaitteen asettaminen nenäontelon kautta siepatun aivoihin.</li>
+<li>Subliminaalisten posthypnoottisten suggestioiden toteuttaminen, jotka pakottaisivat siepatun tekemään jonkin tietyn teon kahden tai viiden seuraavan vuoden kuluessa.</li>
+<li>Geneettinen risteytys harmaiden ja ihmisten välillä.</li>
+<li>Levymäisten valvontalaitteiden asettaminen siepattujen lihaskudokseen. Niiden olemassaolo on varmistettu röntgenkuvauksella.</li>
+</ul>
+<p>Kun olimme saaneet selville totuuden harmaiden aikeista (he aikovat jäädä tänne ja hallita maailmaamme), oli jo liian myöhäistä. Olimme jo &#8221;myyneet&#8221; ihmiskunnan. Ei sillä, että sillä olisi ollut mitään merkitystä, koska he olivat täällä tekemässä sitä, mitä tekivät joka tapauksessa.</p>
+<p>Vuonna 1983 hallituslähteet hahmottelivat tarinan, jossa sanottiin, että harmaat ovat vastuussa biologisesta evoluutiostamme manipuloimalla tämän planeetan jo kehittyneiden kädellisten DNA:ta. DNA:n manipuloinnin eri aikaväleiksi määriteltiin 25 000, 15 000, 5 000 ja 2 500 vuotta sitten. Alun perin hallitus ajatteli, että harmaat eivät tarkoittaneet meille mitään pahaa, mutta nyt, vuonna 1988, kuva, joka on syntymässä, on juuri päinvastainen. Tarina on nyt tarina suuresta petoksesta useilla eri tasoilla: Harmaiden Troijan hevonen -tyylinen manipulointi ja valehtelu, jotka liittoutuivat MJ-12:n joukkojen kanssa neljä vuosikymmentä sitten; hallituksen harhaanjohtaminen UFO-aiheesta, jotta sopimus harmaiden kanssa voitaisiin pitää ilman julkista valvontaa; valheet siepatuille henkilöille; harmaiden jatkuva ihmisten sieppaaminen ja eläinten silpominen, jotta ne voisivat kerätä entsyymejä, verta ja muita kudoksia omiin eloonjäämistarpeisiinsa; ja harmaiden rodun ja pitkän pohjoismaisen rodun geneettinen sekoitus, jonka avulla harmaiden rajapinta ihmisiin olisi helpompaa toteuttaa.</p>
+<p>Armeijan lounaistukikohdasta saadut tiedot paljastavat, että nämä monitasoiset petokset ovat totta. On myös osoitettu, että <a href="https://2001-2009.state.gov/r/pa/ho/time/rd/104253.htm">SDI:n</a> (Tähtien sota) tavoitteena on itse asiassa toteuttaa harmaiden ehdottama hyökkäys pohjoismaisia vastaan, kun he saapuvat joukkona tähän päivään ja vuoteen 1992 mennessä. Tämä aikataulu näyttää sopivan yhteen monien siepattujen hypnoottisen ohjelmoinnin jälkeisen ohjelmoinnin kanssa, joka koskee toimia seuraavien kahden-viiden vuoden aikana.</p>
+<p>Sama lähde näkee, että harmaat hallitsevat ja kontrolloivat maailmaa samalla tavalla kuin &#8221;V&#8221;-televisiosarjassa &#8212; he ovat huolissaan vain omasta selviytymisagendastaan, ja tämä agenda vaatii biologista materiaali planeetan muilta elämänmuodoilta.</p>
+<p>Ilmeinen syy harmaiden huolenpitoon tästä johtuu siitä, että heillä ei ole virallista ruoansulatuskanavaa ja että he imevät ravintoaineet ja erittävät jätteet suoraan ihon kautta. Niiden hankkimat aineet sekoitetaan vetyperoksidiin ja &#8221;maalataan&#8221; niiden iholle, jolloin tarvittavat ravintoaineet imeytyvät. Tästä voidaan päätellä, että jotkin niitä vastaan suunnatut aseet voisivat olla tämänsuuntaisia.</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="http://www.v-j-enterprises.com/krill1.html">v-j-enterprises.com</a></p>
+	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/karjansilvonta/" rel="tag">karjansilvonta</a><a href="/tag/krill/" rel="tag">Krill</a><a href="/tag/mustat-helikopterit/" rel="tag">mustat helikopterit</a><a href="/tag/paul-bennewitz/" rel="tag">Paul Bennewitz</a><a href="/tag/roswell/" rel="tag">Roswell</a><a href="/tag/ufo-paljastus/" rel="tag">UFO-paljastus</a></span></footer></article><!-- #post-## -->
+	<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Artikkelien selaus</h1>
+		<div class="nav-links">
+			<a href="/eksopolitiikka/jos-yhdysvalloilla-on-maahan-syoksyneita-ufoja-on-aika-paljastaa-ne/" rel="prev"><span class="meta-nav">Edellinen artikkeli</span>Jos Yhdysvalloilla on maahan syöksyneitä UFOja, on aika paljastaa ne</a><a href="/ufologia/krill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta-osa-2/" rel="next"><span class="meta-nav">Seuraava artikkeli</span>Krill-arkistot: Tilanneraportti avaruusolentojen teknologiasta, osa 2</a>		</div>
+<!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+<div id="comments" class="comments-area">
+
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Vastaa <small><a rel="nofollow" id="cancel-comment-reply-link" href="/ufologia/krill-arkistot-tilanneraportti-avaruusolentojen-teknologiasta/#respond" style="display:none;">Peruuta vastaus</a></small>
+</h3>
+<form action="/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Sähköpostiosoitettasi ei julkaista.</span> <span class="required-field-message">Pakolliset kentät on merkitty <span class="required">*</span></span></p>
+<p class="comment-form-comment"><label for="comment">Kommentti <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p>
+<p class="comment-form-author"><label for="author">Nimi <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required></p>
+<p class="comment-form-email"><label for="email">Sähköpostiosoite <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required></p>
+<p class="comment-form-url"><label for="url">Kotisivu</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Tallenna nimeni, sähköpostiosoitteeni ja kotisivuni tähän selaimeen seuraavaa kommentointikertaa varten.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Lähetä kommentti"> <input type="hidden" name="comment_post_ID" value="13947" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+<!-- #comments -->
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+
+<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="xyz_insert_html_widget-11" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Tykkää tästä!</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/Eksopolitiikka" data-width="300" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Eksopolitiikka"><a href="https://www.facebook.com/Eksopolitiikka">Se Uusi Eksopolitiikka</a></blockquote></div></div></aside><aside id="social-widget-3" class="widget Social_Widget"><h1 class="widget-title">Seuraa meitä!</h1>
+<div class="socialmedia-buttons smw_left">
+<div class="socialmedia-text">Olemme myös muualla verkossa.</div>
+<a href="https://www.facebook.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="Facebook: Eksopolitiikka.github.io" title="Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://twitter.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Twitter: Eksopolitiikka" title="Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://eksopolitiikka.tumblr.com/" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/tumblr.png" alt="Tumblr: Eksopolitiikka" title="Tumblr" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="/feed" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="RSS-syöte" title="RSS-syöte" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://www.stumbleupon.com/stumbler/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/stumble.png" alt="Seuraa meitä StumbleUpon" title="Seuraa meitä StumbleUpon" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://delicious.com/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/delicious.png" alt="Seuraa meitä Delicious" title="Seuraa meitä Delicious" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a>
+</div></aside><aside id="categories-4" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="text-2" class="widget widget_text"><h1 class="widget-title">Ystäväsivut</h1>			<div class="textwidget">
+<a href="http://fufora.fi/">FUFORA - Suomen Ufotutkijat</a><br><br>
+<a href="https://www.mysteerienmaailma.com/">Mysteerien maailma</a><br><br>
+<a href="https://www.suomengalaktinenliitto.net/">Suomen Galaktinen Liitto</a><br><br>
+<a href="http://www.paranormaaliblogi.net/">Paranormaaliblogi</a><br><br>
+<a href="http://www.uusielamaohjelma.fi/">Uusi Elämä</a><br><br>
+<a href="http://www.tuulamaria.fi/Versio_olevasta/Versio_Olevasta.html">Versio Olevasta</a>
+<br><br>
+<a href="http://www.avartuvaihmiskuva.fi/">Avartuva Ihmiskuva ry</a>
+<br><br>
+<a href="http://www.rajatieto.tv/">Rajatieto.tv</a>
+<br><br>
+</div>
+		</aside>
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/8-tyokalua-totuuden-erotteluun-infosodan-keskella/">8 työkalua totuuden erotteluun infosodan keskellä</a>
+									</li>
+											<li>
+					<a href="/ufot/asiantuntijat-tarkastelevat-houstonin-ufo-havaintoa/">Asiantuntijat tarkastelevat Houstonin UFO-havaintoa</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/saammeko-pian-tietaa-avaruusolentojen-elavan-keskuudessamme/">Saammeko pian tietää avaruusolentojen elävän keskuudessamme?</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-kolumbiasta-3/">UFO-havainto Kolumbiasta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/tata-heranneiden-on-tarkoitus-tehda/">Tätä heränneiden on tarkoitus tehdä</a>
+									</li>
+											<li>
+					<a href="/ufologia/bob-lazarin-tarina-loytyy-nyt-myos-virtuaalisena/">Bob Lazarin tarina löytyy nyt myös virtuaalisena</a>
+									</li>
+											<li>
+					<a href="/ufot/mika-on-tama-floridan-sqr-lentokentalla-lentava-pallo/">Mikä on tämä Floridan SQR-lentokentällä lentävä pallo?</a>
+									</li>
+											<li>
+					<a href="/uutiset/laivasto-julkaisee-ufo-briiffausdokumentteja/">Laivasto julkaisee UFO-briiffausdokumentteja</a>
+									</li>
+											<li>
+					<a href="/uutiset/uusi-ufo-kuuleminen-kongressissa-keskiviikkona-13-11-2024/">Uusi UFO-kuuleminen kongressissa keskiviikkona 13.11.2024</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-minnesotasta/">UFO-havainto Minnesotasta</a>
+									</li>
+											<li>
+					<a href="/ufot/valoja-new-yorkin-lowvillessa/">Valoja New Yorkin Lowvillessa</a>
+									</li>
+											<li>
+					<a href="/ufot/hehkuva-ufo-arizonassa/">Hehkuva UFO Arizonassa</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-pallo-seurailee-avaruussukkula-discoverya/">UFO-pallo seurailee avaruussukkula Discoverya</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-kiitaa-lentokoneen-ikkunan-ohi/">UFO kiitää lentokoneen ikkunan ohi</a>
+									</li>
+											<li>
+					<a href="/ufot/oljynporauslautalla-kuvattiin-lautasen-muotoinen-ufo/">Öljynporauslautalla kuvattiin lautasen muotoinen UFO</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/reagointi-avaruusolentojen-soluttautumiseen-salaisiin-jarjestoihin/">Reagointi avaruusolentojen soluttautumiseen salaisiin järjestöihin</a>
+									</li>
+											<li>
+					<a href="/ufologia/mies-vaittaa-etta-avaruusolennot-veivat-hanen-spermaansa-ja-risteyttivat-hybridilapsia/">Mies väittää, että avaruusolennot veivät hänen spermaansa ja risteyttivät hybridilapsia</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-4" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h1 class="widget-title">Avainsanoja</h1>
+<div class="tagcloud">
+<a href="/tag/abduktio/" class="tag-cloud-link tag-link-48 tag-link-position-1" style="font-size: 9.1797752808989pt;" aria-label="abduktio (51 kohdetta)">abduktio</a>
+<a href="/tag/antarktis/" class="tag-cloud-link tag-link-259 tag-link-position-2" style="font-size: 9.1011235955056pt;" aria-label="antarktis (50 kohdetta)">antarktis</a>
+<a href="/tag/arcturus/" class="tag-cloud-link tag-link-316 tag-link-position-3" style="font-size: 12.797752808989pt;" aria-label="Arcturus (149 kohdetta)">Arcturus</a>
+<a href="/tag/area-51/" class="tag-cloud-link tag-link-83 tag-link-position-4" style="font-size: 8.7865168539326pt;" aria-label="area 51 (46 kohdetta)">area 51</a>
+<a href="/tag/arizona/" class="tag-cloud-link tag-link-167 tag-link-position-5" style="font-size: 9.1797752808989pt;" aria-label="Arizona (52 kohdetta)">Arizona</a>
+<a href="/tag/arkeologia/" class="tag-cloud-link tag-link-20 tag-link-position-6" style="font-size: 11.067415730337pt;" aria-label="arkeologia (91 kohdetta)">arkeologia</a>
+<a href="/tag/astronomia/" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 12.325842696629pt;" aria-label="astronomia (130 kohdetta)">astronomia</a>
+<a href="/tag/aurinko/" class="tag-cloud-link tag-link-195 tag-link-position-8" style="font-size: 10.202247191011pt;" aria-label="aurinko (70 kohdetta)">aurinko</a>
+<a href="/tag/australia/" class="tag-cloud-link tag-link-123 tag-link-position-9" style="font-size: 8pt;" aria-label="Australia (36 kohdetta)">Australia</a>
+<a href="/tag/avaruusolennot/" class="tag-cloud-link tag-link-401 tag-link-position-10" style="font-size: 10.831460674157pt;" aria-label="avaruusolennot (84 kohdetta)">avaruusolennot</a>
+<a href="/tag/brasilia/" class="tag-cloud-link tag-link-151 tag-link-position-11" style="font-size: 8.1573033707865pt;" aria-label="Brasilia (38 kohdetta)">Brasilia</a>
+<a href="/tag/britannia/" class="tag-cloud-link tag-link-314 tag-link-position-12" style="font-size: 8.7865168539326pt;" aria-label="Britannia (46 kohdetta)">Britannia</a>
+<a href="/tag/cia/" class="tag-cloud-link tag-link-388 tag-link-position-13" style="font-size: 9.8876404494382pt;" aria-label="CIA (64 kohdetta)">CIA</a>
+<a href="/tag/eksopolitiikka-2/" class="tag-cloud-link tag-link-17 tag-link-position-14" style="font-size: 17.831460674157pt;" aria-label="eksopolitiikka (665 kohdetta)">eksopolitiikka</a>
+<a href="/tag/elokuu2014/" class="tag-cloud-link tag-link-61 tag-link-position-15" style="font-size: 8pt;" aria-label="elokuu2014 (36 kohdetta)">elokuu2014</a>
+<a href="/tag/florida/" class="tag-cloud-link tag-link-156 tag-link-position-16" style="font-size: 9.4943820224719pt;" aria-label="Florida (57 kohdetta)">Florida</a>
+<a href="/tag/historia/" class="tag-cloud-link tag-link-45 tag-link-position-17" style="font-size: 9.1011235955056pt;" aria-label="historia (50 kohdetta)">historia</a>
+<a href="/tag/iss/" class="tag-cloud-link tag-link-89 tag-link-position-18" style="font-size: 12.011235955056pt;" aria-label="ISS (118 kohdetta)">ISS</a>
+<a href="/tag/kalifornia/" class="tag-cloud-link tag-link-120 tag-link-position-19" style="font-size: 11.460674157303pt;" aria-label="Kalifornia (101 kohdetta)">Kalifornia</a>
+<a href="/tag/kanada/" class="tag-cloud-link tag-link-132 tag-link-position-20" style="font-size: 9.1797752808989pt;" aria-label="Kanada (52 kohdetta)">Kanada</a>
+<a href="/tag/kanavointi/" class="tag-cloud-link tag-link-85 tag-link-position-21" style="font-size: 16.022471910112pt;" aria-label="kanavointi (387 kohdetta)">kanavointi</a>
+<a href="/tag/keith-basterfield/" class="tag-cloud-link tag-link-806 tag-link-position-22" style="font-size: 8.4719101123596pt;" aria-label="Keith Basterfield (42 kohdetta)">Keith Basterfield</a>
+<a href="/tag/kesakuu2014/" class="tag-cloud-link tag-link-9 tag-link-position-23" style="font-size: 10.044943820225pt;" aria-label="kesäkuu2014 (67 kohdetta)">kesäkuu2014</a>
+<a href="/tag/kevin-randle/" class="tag-cloud-link tag-link-1554 tag-link-position-24" style="font-size: 8.0786516853933pt;" aria-label="Kevin Randle (37 kohdetta)">Kevin Randle</a>
+<a href="/tag/kuu/" class="tag-cloud-link tag-link-54 tag-link-position-25" style="font-size: 12.404494382022pt;" aria-label="kuu (133 kohdetta)">kuu</a>
+<a href="/tag/lokakuu2014/" class="tag-cloud-link tag-link-100 tag-link-position-26" style="font-size: 10.044943820225pt;" aria-label="lokakuu2014 (66 kohdetta)">lokakuu2014</a>
+<a href="/tag/marraskuu2014/" class="tag-cloud-link tag-link-126 tag-link-position-27" style="font-size: 9.1797752808989pt;" aria-label="marraskuu2014 (51 kohdetta)">marraskuu2014</a>
+<a href="/tag/mars/" class="tag-cloud-link tag-link-104 tag-link-position-28" style="font-size: 10.359550561798pt;" aria-label="mars (73 kohdetta)">mars</a>
+<a href="/tag/meksiko/" class="tag-cloud-link tag-link-118 tag-link-position-29" style="font-size: 11.224719101124pt;" aria-label="Meksiko (94 kohdetta)">Meksiko</a>
+<a href="/tag/nasa/" class="tag-cloud-link tag-link-46 tag-link-position-30" style="font-size: 12.089887640449pt;" aria-label="NASA (121 kohdetta)">NASA</a>
+<a href="/tag/paranormaali-2/" class="tag-cloud-link tag-link-40 tag-link-position-31" style="font-size: 13.662921348315pt;" aria-label="paranormaali (194 kohdetta)">paranormaali</a>
+<a href="/tag/syyskuu2014/" class="tag-cloud-link tag-link-75 tag-link-position-32" style="font-size: 10.044943820225pt;" aria-label="syyskuu2014 (67 kohdetta)">syyskuu2014</a>
+<a href="/tag/teksas/" class="tag-cloud-link tag-link-147 tag-link-position-33" style="font-size: 8.7078651685393pt;" aria-label="Teksas (45 kohdetta)">Teksas</a>
+<a href="/tag/tiede-2/" class="tag-cloud-link tag-link-19 tag-link-position-34" style="font-size: 16.337078651685pt;" aria-label="tiede (428 kohdetta)">tiede</a>
+<a href="/tag/tietoisuus-2/" class="tag-cloud-link tag-link-32 tag-link-position-35" style="font-size: 16.730337078652pt;" aria-label="tietoisuus (479 kohdetta)">tietoisuus</a>
+<a href="/tag/ufo/" class="tag-cloud-link tag-link-2 tag-link-position-36" style="font-size: 22pt;" aria-label="UFO (2&nbsp;230 kohdetta)">UFO</a>
+<a href="/tag/ufo-kontakti/" class="tag-cloud-link tag-link-416 tag-link-position-37" style="font-size: 8.1573033707865pt;" aria-label="UFO-kontakti (38 kohdetta)">UFO-kontakti</a>
+<a href="/tag/ufo-paljastus/" class="tag-cloud-link tag-link-409 tag-link-position-38" style="font-size: 13.741573033708pt;" aria-label="UFO-paljastus (200 kohdetta)">UFO-paljastus</a>
+<a href="/tag/ufo-tutkimus/" class="tag-cloud-link tag-link-774 tag-link-position-39" style="font-size: 10.752808988764pt;" aria-label="UFO-tutkimus (82 kohdetta)">UFO-tutkimus</a>
+<a href="/tag/ufologia/" class="tag-cloud-link tag-link-108 tag-link-position-40" style="font-size: 12.797752808989pt;" aria-label="ufologia (151 kohdetta)">ufologia</a>
+<a href="/tag/ufot/" class="tag-cloud-link tag-link-212 tag-link-position-41" style="font-size: 22pt;" aria-label="UFOt (2&nbsp;238 kohdetta)">UFOt</a>
+<a href="/tag/usa/" class="tag-cloud-link tag-link-23 tag-link-position-42" style="font-size: 9.1011235955056pt;" aria-label="USA (50 kohdetta)">USA</a>
+<a href="/tag/venaja/" class="tag-cloud-link tag-link-18 tag-link-position-43" style="font-size: 9.8089887640449pt;" aria-label="venäjä (62 kohdetta)">venäjä</a>
+<a href="/tag/video/" class="tag-cloud-link tag-link-11 tag-link-position-44" style="font-size: 10.123595505618pt;" aria-label="video (68 kohdetta)">video</a>
+</div>
+</aside><aside id="xyz_insert_html_widget-7" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">A word from our sponsors</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- uusilaatikko -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="5020475662" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="block-4" class="widget widget_block"><div class="alignleft">
+     <script type="text/javascript">amzn_assoc_ad_type = "banner";
+	amzn_assoc_marketplace = "amazon";
+	amzn_assoc_region = "US";
+	amzn_assoc_placement = "assoc_banner_placement_default";
+	amzn_assoc_campaigns = "primemain";
+	amzn_assoc_banner_type = "category";
+	amzn_assoc_p = "12";
+	amzn_assoc_isresponsive = "false";
+	amzn_assoc_banner_id = "1A1582R37K6AZB4ZETG2";
+	amzn_assoc_width = "300";
+	amzn_assoc_height = "250";
+	amzn_assoc_tracking_id = "suomi075-20";
+	amzn_assoc_linkid = "33f2dafb38c0a20c0202e008f3b590d6";</script>
+     <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;Operation=GetScript&amp;ID=OneJS&amp;WS=1"></script>
+    </div></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h1 class="widget-title">Tsekkaa myös</h1>
+<div class="textwidget custom-html-widget">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pysty -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="6573230488" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form></aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments-2">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+					</ul>
+
+		</aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Arkistot</h1>
+			<ul>
+					<li><a href="/2024/11/">marraskuu 2024</a></li>
+	<li><a href="/2024/10/">lokakuu 2024</a></li>
+	<li><a href="/2024/09/">syyskuu 2024</a></li>
+	<li><a href="/2024/08/">elokuu 2024</a></li>
+	<li><a href="/2024/07/">heinäkuu 2024</a></li>
+	<li><a href="/2024/06/">kesäkuu 2024</a></li>
+	<li><a href="/2024/05/">toukokuu 2024</a></li>
+	<li><a href="/2024/04/">huhtikuu 2024</a></li>
+	<li><a href="/2024/03/">maaliskuu 2024</a></li>
+	<li><a href="/2024/02/">helmikuu 2024</a></li>
+	<li><a href="/2024/01/">tammikuu 2024</a></li>
+	<li><a href="/2023/12/">joulukuu 2023</a></li>
+	<li><a href="/2023/11/">marraskuu 2023</a></li>
+	<li><a href="/2023/10/">lokakuu 2023</a></li>
+	<li><a href="/2023/09/">syyskuu 2023</a></li>
+	<li><a href="/2023/08/">elokuu 2023</a></li>
+	<li><a href="/2023/07/">heinäkuu 2023</a></li>
+	<li><a href="/2023/06/">kesäkuu 2023</a></li>
+	<li><a href="/2023/05/">toukokuu 2023</a></li>
+	<li><a href="/2023/04/">huhtikuu 2023</a></li>
+	<li><a href="/2023/03/">maaliskuu 2023</a></li>
+	<li><a href="/2023/02/">helmikuu 2023</a></li>
+	<li><a href="/2023/01/">tammikuu 2023</a></li>
+	<li><a href="/2022/12/">joulukuu 2022</a></li>
+	<li><a href="/2022/11/">marraskuu 2022</a></li>
+	<li><a href="/2022/10/">lokakuu 2022</a></li>
+	<li><a href="/2022/09/">syyskuu 2022</a></li>
+	<li><a href="/2022/08/">elokuu 2022</a></li>
+	<li><a href="/2022/07/">heinäkuu 2022</a></li>
+	<li><a href="/2022/06/">kesäkuu 2022</a></li>
+	<li><a href="/2022/05/">toukokuu 2022</a></li>
+	<li><a href="/2022/04/">huhtikuu 2022</a></li>
+	<li><a href="/2022/03/">maaliskuu 2022</a></li>
+	<li><a href="/2022/02/">helmikuu 2022</a></li>
+	<li><a href="/2022/01/">tammikuu 2022</a></li>
+	<li><a href="/2021/12/">joulukuu 2021</a></li>
+	<li><a href="/2021/11/">marraskuu 2021</a></li>
+	<li><a href="/2021/10/">lokakuu 2021</a></li>
+	<li><a href="/2021/09/">syyskuu 2021</a></li>
+	<li><a href="/2021/08/">elokuu 2021</a></li>
+	<li><a href="/2021/07/">heinäkuu 2021</a></li>
+	<li><a href="/2021/06/">kesäkuu 2021</a></li>
+	<li><a href="/2021/05/">toukokuu 2021</a></li>
+	<li><a href="/2021/04/">huhtikuu 2021</a></li>
+	<li><a href="/2021/03/">maaliskuu 2021</a></li>
+	<li><a href="/2021/02/">helmikuu 2021</a></li>
+	<li><a href="/2021/01/">tammikuu 2021</a></li>
+	<li><a href="/2020/12/">joulukuu 2020</a></li>
+	<li><a href="/2020/11/">marraskuu 2020</a></li>
+	<li><a href="/2020/10/">lokakuu 2020</a></li>
+	<li><a href="/2020/09/">syyskuu 2020</a></li>
+	<li><a href="/2020/08/">elokuu 2020</a></li>
+	<li><a href="/2020/07/">heinäkuu 2020</a></li>
+	<li><a href="/2020/06/">kesäkuu 2020</a></li>
+	<li><a href="/2020/05/">toukokuu 2020</a></li>
+	<li><a href="/2020/04/">huhtikuu 2020</a></li>
+	<li><a href="/2020/03/">maaliskuu 2020</a></li>
+	<li><a href="/2020/02/">helmikuu 2020</a></li>
+	<li><a href="/2020/01/">tammikuu 2020</a></li>
+	<li><a href="/2019/12/">joulukuu 2019</a></li>
+	<li><a href="/2019/11/">marraskuu 2019</a></li>
+	<li><a href="/2019/10/">lokakuu 2019</a></li>
+	<li><a href="/2019/09/">syyskuu 2019</a></li>
+	<li><a href="/2019/08/">elokuu 2019</a></li>
+	<li><a href="/2019/07/">heinäkuu 2019</a></li>
+	<li><a href="/2019/06/">kesäkuu 2019</a></li>
+	<li><a href="/2019/05/">toukokuu 2019</a></li>
+	<li><a href="/2019/04/">huhtikuu 2019</a></li>
+	<li><a href="/2019/03/">maaliskuu 2019</a></li>
+	<li><a href="/2019/02/">helmikuu 2019</a></li>
+	<li><a href="/2019/01/">tammikuu 2019</a></li>
+	<li><a href="/2018/12/">joulukuu 2018</a></li>
+	<li><a href="/2018/11/">marraskuu 2018</a></li>
+	<li><a href="/2018/10/">lokakuu 2018</a></li>
+	<li><a href="/2018/09/">syyskuu 2018</a></li>
+	<li><a href="/2018/08/">elokuu 2018</a></li>
+	<li><a href="/2018/07/">heinäkuu 2018</a></li>
+	<li><a href="/2018/06/">kesäkuu 2018</a></li>
+	<li><a href="/2018/05/">toukokuu 2018</a></li>
+	<li><a href="/2018/04/">huhtikuu 2018</a></li>
+	<li><a href="/2018/03/">maaliskuu 2018</a></li>
+	<li><a href="/2018/02/">helmikuu 2018</a></li>
+	<li><a href="/2018/01/">tammikuu 2018</a></li>
+	<li><a href="/2017/12/">joulukuu 2017</a></li>
+	<li><a href="/2017/11/">marraskuu 2017</a></li>
+	<li><a href="/2017/10/">lokakuu 2017</a></li>
+	<li><a href="/2017/09/">syyskuu 2017</a></li>
+	<li><a href="/2017/08/">elokuu 2017</a></li>
+	<li><a href="/2017/07/">heinäkuu 2017</a></li>
+	<li><a href="/2017/06/">kesäkuu 2017</a></li>
+	<li><a href="/2017/05/">toukokuu 2017</a></li>
+	<li><a href="/2017/04/">huhtikuu 2017</a></li>
+	<li><a href="/2017/03/">maaliskuu 2017</a></li>
+	<li><a href="/2017/02/">helmikuu 2017</a></li>
+	<li><a href="/2017/01/">tammikuu 2017</a></li>
+	<li><a href="/2016/12/">joulukuu 2016</a></li>
+	<li><a href="/2016/11/">marraskuu 2016</a></li>
+	<li><a href="/2016/10/">lokakuu 2016</a></li>
+	<li><a href="/2016/09/">syyskuu 2016</a></li>
+	<li><a href="/2016/08/">elokuu 2016</a></li>
+	<li><a href="/2016/07/">heinäkuu 2016</a></li>
+	<li><a href="/2016/06/">kesäkuu 2016</a></li>
+	<li><a href="/2016/05/">toukokuu 2016</a></li>
+	<li><a href="/2016/04/">huhtikuu 2016</a></li>
+	<li><a href="/2016/03/">maaliskuu 2016</a></li>
+	<li><a href="/2016/02/">helmikuu 2016</a></li>
+	<li><a href="/2016/01/">tammikuu 2016</a></li>
+	<li><a href="/2015/12/">joulukuu 2015</a></li>
+	<li><a href="/2015/11/">marraskuu 2015</a></li>
+	<li><a href="/2015/10/">lokakuu 2015</a></li>
+	<li><a href="/2015/09/">syyskuu 2015</a></li>
+	<li><a href="/2015/08/">elokuu 2015</a></li>
+	<li><a href="/2015/07/">heinäkuu 2015</a></li>
+	<li><a href="/2015/06/">kesäkuu 2015</a></li>
+	<li><a href="/2015/05/">toukokuu 2015</a></li>
+	<li><a href="/2015/04/">huhtikuu 2015</a></li>
+	<li><a href="/2015/03/">maaliskuu 2015</a></li>
+	<li><a href="/2015/02/">helmikuu 2015</a></li>
+	<li><a href="/2015/01/">tammikuu 2015</a></li>
+	<li><a href="/2014/12/">joulukuu 2014</a></li>
+	<li><a href="/2014/11/">marraskuu 2014</a></li>
+	<li><a href="/2014/10/">lokakuu 2014</a></li>
+	<li><a href="/2014/09/">syyskuu 2014</a></li>
+	<li><a href="/2014/08/">elokuu 2014</a></li>
+	<li><a href="/2014/07/">heinäkuu 2014</a></li>
+	<li><a href="/2014/06/">kesäkuu 2014</a></li>
+			</ul>
+
+			</aside>
+</div>
+<!-- #content-sidebar -->
+<div id="secondary">
+		<h2 class="site-description">Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</h2>
+	
+	
+	</div>
+<!-- #secondary -->
+
+		</div>
+<!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="xyz_insert_html_widget-5" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Pls halp</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- banner -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="3129837163" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="xyz_insert_html_widget-9" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">träkker</h1>
+<!-- Begin TradeTracker SuperTag Code -->
+<script type="text/javascript">var _TradeTrackerTagOptions = {
+		t: 'a',
+		s: '224240',
+		chk: 'be0fd726c66aedbfc732d9bb3543e638',
+		overrideOptions: {}
+	};
+
+	(function() {var tt = document.createElement('script'), s = document.getElementsByTagName('script')[0]; tt.setAttribute('type', 'text/javascript'); tt.setAttribute('src', (document.location.protocol == 'https:' ? 'https' : 'http') + '://tm.tradetracker.net/tag?t=' + _TradeTrackerTagOptions.t + '&s=' + _TradeTrackerTagOptions.s + '&chk=' + _TradeTrackerTagOptions.chk); s.parentNode.insertBefore(tt, s);})();</script>
+<!-- End TradeTracker SuperTag Code --></aside><aside id="text-5" class="widget widget_text"><h1 class="widget-title">Visits</h1>			<div class="textwidget">
+<p>[pvcp_1]</p>
+</div>
+		</aside>	</div>
+<!-- #footer-sidebar -->
+</div>
+<!-- #supplementary -->
+
+			<div class="site-info">
+								<a href="http://wordpress.org/">Voimanlähteenä WordPress</a>
+			</div>
+<!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div>
+<!-- #page -->
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">window._qevents = window._qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+window._qevents.push({
+qacct:"p-YswNbbATdMBA9",
+uid:"__INSERT_EMAIL_HERE__"
+});</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-YswNbbATdMBA9.gif" border="0" height="1" width="1" alt="Quantcast">
+</div>
+</noscript>
+<!-- End Quantcast tag --><div style="width:100%;text-align:center; font-size:11px; clear:both">
+<a target="_blank" title="Insert HTML Snippet Wordpress Plugin" href="http://xyzscripts.com/wordpress-plugins/insert-html-snippet/">HTML Snippets</a> Powered By : <a target="_blank" title="PHP Scripts & Wordpress Plugins" href="http://www.xyzscripts.com/">XYZScripts.com</a>
+</div>
+<script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=6.7" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+<script type="text/javascript" src="/wp-content/themes/twenty14-child/js/functions.js?ver=20140319" id="twentyfourteen-script-js"></script>
+</body>
+</html>

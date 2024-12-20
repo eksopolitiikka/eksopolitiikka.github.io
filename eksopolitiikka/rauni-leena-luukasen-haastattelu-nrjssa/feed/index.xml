@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Artikkelin Rauni-Leena Luukasen haastattelu NRJ:ssä kommentit	</title>
+	<atom:link href="/eksopolitiikka/rauni-leena-luukasen-haastattelu-nrjssa/feed/" rel="self" type="application/rss+xml" />
+	<link>/eksopolitiikka/rauni-leena-luukasen-haastattelu-nrjssa/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 18 Dec 2021 18:00:36 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+</channel>
+</rss>

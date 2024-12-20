@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linkki &#8211; _| Eksopolitiikka.github.io |_</title>
+	<atom:link href="/type/link/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</description>
+	<lastBuildDate>Sat, 06 Feb 2016 10:42:00 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+	<item>
+		<title>Valon Galaktinen Liitto &#038; UFOt</title>
+		<link>/eksopolitiikka/valon-galaktinen-liitto-ufot/</link>
+					<comments>/eksopolitiikka/valon-galaktinen-liitto-ufot/#respond</comments>
+		
+		<dc:creator><![CDATA[paatoimittaja]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2015 20:07:23 +0000</pubDate>
+				<category><![CDATA[Eksopolitiikka]]></category>
+		<category><![CDATA[eksopolitiikka]]></category>
+		<category><![CDATA[UFO]]></category>
+		<category><![CDATA[UFOt]]></category>
+		<guid isPermaLink="false">/?p=1908</guid>
+
+					<description><![CDATA[Ylläpitäjämme yllättyivät UFOihin ja avaruusolentoihin liittyvän keskustelun monipuolisuudesta vastaan tullessa seuraava linkki: http://keskustelu.suomi24.fi/t/10936923 Jo pitkään lukemistomme suosituimpia kokonaisuuksia on edesmenneen Carla L. Rueckertin kanavoima Yhden Laki -sarja, josta on olemassa myös suomenkielinen aiheeseen keskittynyt sivusto. Suomi24:n keskusteluavaus on mielenkiintoinen, ja se sopii tulla tässä uudelleen kirjatuksi: Valon Galaktinen Liitto on ehdottomasti todellinen satojen tuhansien tähtikansojejn [&#8230;]]]></description>
+		
+					<wfw:commentRss>/eksopolitiikka/valon-galaktinen-liitto-ufot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

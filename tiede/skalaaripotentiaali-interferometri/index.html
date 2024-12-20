@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="fi">
+<![endif]--><!--[if IE 8]>
+<html class="ie ie8" lang="fi">
+<![endif]--><!--[if !(IE 7) | !(IE 8) ]><!--><html lang="fi">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Skalaaripotentiaali-interferometri | _| Eksopolitiikka.github.io |_</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="/wp-content/themes/twenty14-child/js/html5.js"></script>
+	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style type="text/css">body { cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAACzwbHD0MC+yrq0v7De6d/d7d7F18vE1crC0cXBz8PK18ySoZO9y76+zsK5xru0wbS7yLu+y762w7ezwbavv7Gtu6+dqZ6xvbOst624x7zH1MrFz8SgppisuaeYrJiVqJo5TDl8iXhrdGJha1mDj4CJmYehtKGNnpGWo5aBkoWbqp2frqGsvq6FlIKTpJCcsJ6On4+QoZCYqJaBkX9vfmuCk4CHmIuUo5R7jX98jX9pe2xpeGRFUT1Za1NEVkI7UD1oeWFAUDhmdWGWoY1hcVp9j3iHm4SVpZKZpZfD0MGImIeFloWHmYZ3jHSHnIaBloJ/lH9tgG6KnYh4inWImYWImoSbrZ90hnh8jX2AkoFGWURecVqCkXlYaVJld16EmYMAAAA3RjNba1hLXUicr5h9j3d2iXCdqJeZpZOksaNyg3JnfGR1inJogGZofWZYbFRsgGhpf2VldmJ6inh2hXWAkICPnpCfrqCGloV9jHmPoItUZVBcb1lhb19gcluhspoAAAAAAABQYE1bbVeDlH9md2SesZydqJmvvKudrp2JnIqHmIGSoouEk318inSNl4KAi3Z5hG5vgGp6iXhsf2p1hHOElYR4iHiBj31/kHtaa1Z0hXCjtp9ZaFZmdWUAAAAAAAAAAABqeWZ/knpXZ1eRoY+grpydrpyktqWgs6OgtqKcsZmUqZKGmoJugmp+kXp4i3R/knuIm4N9j3l6jHN9jnmCkYCcrZyQo4tne2ODk394iXRTZE9YalMAAAAAAAAAAAAAAACTppJfb1mPm4hsfGyXqpamt6ehsqOrvK6lt6mXrpiNoY2XqJWZrJanuaKhtJt3iXJ7jXZyhG1SZE1fcllre2dtgGlzhW2JmoJ6jHVfcl1WZ1BtfmoAAAAAAAAAAAAAAAAAAAB3h29yf2xnd2aPpI2ktaSvvK6ZqZqsvKx9kn2qvKWYqJVvfWdse2RremSNnYaKm4RzhW5ugGlgcltOYEk7TTZPYUxbcFVleV+Eln0+Tzxgb2AAAAAAAAAAAAAAAAAAAAB+jn1zh2+Iloh4hnGhtZyZqpdrfGaImoSUqY+UqJJSZEk9Szc5STEkNB04SDGDlHyJnYWDlX9cblhpe2RbbVY4SjNDVD1OYEdFVz5BUTwAAAAAAAAAAAAAAAAAAAAAAAAAAABacFhUZFNfbFY2SC1TZUlyhGt8jXORqI5IW0FCUTtBUTZBUTtldV4+TzkzRS6Ckn2PoolecFkrPSVVaFJKXEZCVDtJXEFMXkhXalMAAAAAAAAAAAAAAAAAAAAAAAAAAAB7kXtic2A8RjcKGAE+TjaClHyHl391hG0rNh87SS8wOyYeLhk+TThvfmg4RzhxgG2Aj3RgclUQIAwkMyBAUTxAUTxFW0M4SDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABfbl1meVxJXEIlNR5UY01peGNGUjxHUD5aZFChrplygm0WJRAzQi1DUT5FUkJnd14wQSYoPCRiclw9TzorPicmOyIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4hXlKYUSRpIhgcFshMhoeLxcrNCQ3QTGqtKTS3ctxgWogLxoaKxVGUkBCUT09SDgwPSlVZk5jdl1leF9SZlA1SjYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7TjxAUTmPnIV6iHJIVkEhLBsQGwg5RDFYZFI0Qy0YIxEUIQwYJhYvQC9DUkFmdmVhdlpKXD93i281RzJbbV0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUDtCUzt5hm+lt5+jsp12gnJHVkI8SThLVkdOWUpKWEZOWkyNnI2QoYxgc1lGWD9RZk5Za1EwQi4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABicl9QYkpQYktqfGiZppm1w7a0v7bBz8C2x7Guway0xbGltaKcrpdfclo9UDlqfWR5i3JIW0RRZE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLnYpXbFNNYEpWalNxhnOBk4KDloORpY+Cln58kHl1i3NkeltCVzhFWD9jdF50hXJkdWFecFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCmYFQaU1UaU+GmH2PoYqImohsgnJmhW9ogGtbbVdYaVNsfmh8jHmbrJlwgGhneWNJWEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACftKEyTTA8TDRGVDmAkXnF08Wht6uovKynt6XDzLeYqJG8zraGm4JcbVRbcVZFWUCNnI0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbbmM/UDksOiQ1RTFdc16Aj3+ZpZSIlH9+i3RjdFlSZUpGWT81Si9PYEhldGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoeGVaZlZMW0YyQy4wQiwyQCo2STA0Riw2RzQzRC9sfWl+jXthc196iHoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4kHxabFaKlXt0gWhWaFZhdGJecWB/lIKir6CZpJWGkYCCknxkeGOcrJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACht6lneWR5hGpvfmeBkIGWoJF5hXSIlIShrp9+joCWo5B3hnBxhW8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBlIN4iHBkdWKSpJWruamstqeerJyaqZyVp5h7jn1ecFuAkoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcbVePoo2YrJ+Jm4qEl4WBkn+HlYaYrZiDmINvhnEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmuqZkeWGJmoiLno6KlIattKWXopR4i3RfdF6BmIkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvgnGgsqCZoZSjrqKvua6SopOcrpx1h3cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhohMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUpJlaa1WDi3qKmoSTp5GHoIRNaEp+j3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhqbrZ8hMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3g3CfrZuhrpybsJijup9qf2SisKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhqbrZ+brZ8hMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbppM7STdygG5pdmhZZ1JidGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhqbrZ+brZ+brZ8hMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+j3KMm4WEkIJuf2mRoYsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMhohMhohMhohMhohMhohMhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABpeWF0hmlne2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAcAAAAPAAAAD4AAAA+AAAAfwAAAH8AAAD/gAAB/4AAAf/AAAH/4AAD/+AAA//gAAf/8AAH//AAB//4AA///AAP//wAD//8AB///gAf//8AP///AD/3/4B/8/+Af/H/wH/w/8D/8H/g//A/8f/w=='), auto; }</style>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; syöte" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; kommenttien syöte" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="_| Eksopolitiikka.github.io |_ &raquo; Skalaaripotentiaali-interferometri kommenttien syöte" href="/tiede/skalaaripotentiaali-interferometri/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.7" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="social-widget-css" href="/wp-content/plugins/social-media-widget/social_widget.css?ver=6.7" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-lato-css" href="//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/twenty14-child/genericons/genericons.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfourteen-style-css" href="/wp-content/themes/twenty14-child/style.css?ver=6.7" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css' href='/wp-content/themes/twenty14-child/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/posts/14877">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7">
+<link rel="canonical" href="/tiede/skalaaripotentiaali-interferometri/">
+<link rel="shortlink" href="/?p=14877">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ftiede%2Fskalaaripotentiaali-interferometri%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ftiede%2Fskalaaripotentiaali-interferometri%2F#038;format=xml">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css" id="twentyfourteen-header-css">.site-title a {
+			color: #2640c1;
+		}</style>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92325018, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/92325018" style="position:absolute; left:-9999px;" alt=""></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GT-WRHZQF4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFH6DS8S8Z"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFH6DS8S8Z');</script>
+<script data-ad-client="ca-pub-9834086743067807" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">var _paq = _paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(["setDomains", ["*.eksopolitiikka.fi/piwik"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//eksopolitiikka.flywheelsites.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();</script>
+<noscript><p><img src="//eksopolitiikka.flywheelsites.com/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56945167, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56945167" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+<script>window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '208160250391514',
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+<meta name="google-site-verification" content="elqn5KcMco5Z26arxftj3SZWY_B2I71BCLz_pLcaGPo">
+</head>
+
+<body class="post-template-default single single-post postid-14877 single-format-standard group-blog masthead-fixed footer-widgets singular">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="/" rel="home">_| Eksopolitiikka.github.io |_</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Haku</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Ensisijainen valikko</button>
+				<a class="screen-reader-text skip-link" href="#content">Siirry sisältöön</a>
+				<div class="menu-eksopolitiikka-fi-container"><ul id="menu-eksopolitiikka-fi" class="nav-menu">
+<li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1050">
+<a href="/todellista-eksopolitiikkaa/" title="Etusivu">Eksopolitiikka.github.io</a>
+<ul class="sub-menu">
+	<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1057"><a href="/todellista-eksopolitiikkaa/kaikki-artikkelit/">Kaikki artikkelit</a></li>
+	<li id="menu-item-17642" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-17642"><a href="/eksopolitiikka/mita-on-eksopolitiikka/">Mitä on Eksopolitiikka?</a></li>
+	<li id="menu-item-11269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11269"><a href="/todellista-eksopolitiikkaa/ensikontaktiin-valmistautuminen/">Ensikontaktiin valmistautuminen</a></li>
+	<li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052"><a href="/todellista-eksopolitiikkaa/" title="Etusivu">Avaruusolennot varoittavat yhteiskunnallisesta jakautumisesta</a></li>
+	<li id="menu-item-3563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563"><a href="/todellista-eksopolitiikkaa/faktojen-erottaminen-disinformaatiosta/">Faktojen erottaminen disinformaatiosta</a></li>
+	<li id="menu-item-6797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6797"><a href="/">Kuinka saada yhteys avaruusolentoihin</a></li>
+	<li id="menu-item-1641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1641"><a href="/todellista-eksopolitiikkaa/eksopolitiikka-chat/">Eksopolitiikka-chat</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23"><a href="/category/ufot/">UFOt</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="/category/eksopolitiikka/">Eksopolitiikka</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="/category/paranormaali/">Paranormaali</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-15"><a href="/category/tiede/">Tiede</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-16">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+<ul class="sub-menu">
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774"><a href="/todellista-eksopolitiikkaa/opas-yhden-lakiin/">Opas Yhden Lakiin</a></li>
+</ul>
+</li>
+<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1055">
+<a href="/tietoa-sivustosta/">Tietoa sivustosta</a>
+<ul class="sub-menu">
+	<li id="menu-item-10031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031"><a href="/tietoa-sivustosta/ufoaiheisia-kirjoja/">Ufoaiheisia kirjoja</a></li>
+	<li id="menu-item-4377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4377"><a href="/tietoa-sivustosta/eksopoliittisia-linkkeja/">Eksopoliittisia linkkejä</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			
+<article id="post-14877" class="post-14877 post type-post status-publish format-standard has-post-thumbnail hentry category-tiede tag-skalaariaseet tag-skalaariteknologia tag-tiede-2">
+	
+	<div class="post-thumbnail">
+	<img width="500" height="372" src="/wp-content/uploads/2014/06/1-swarmreveals-500x372.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" fetchpriority="high">	</div>
+
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="/category/tiede/" rel="category tag">Tiede</a></span>
+		</div>
+		<h1 class="entry-title">Skalaaripotentiaali-interferometri</h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="/tiede/skalaaripotentiaali-interferometri/" rel="bookmark"><time class="entry-date" datetime="2024-01-21T11:11:11+00:00">21 tammikuun, 2024</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/author/paatoimittaja/" rel="author">paatoimittaja</a></span></span>			<span class="comments-link"><a href="/tiede/skalaaripotentiaali-interferometri/#respond">Kommentoi</a></span>
+					</div>
+<!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Tämä artikkeli tiivistää aiemmin esitetyn T. Beardenin pidemmän artikkelin Neuvostoliiton skalaariaseista.</p>
+<hr>
+<p id="cc-m-header-7325908084">1930-luvulla Tesla julkisti muitakin outoja ja kauheita aseita: kuolonsäteen, aseen, joka tuhoaa satoja tai jopa tuhansia lentokoneita satojen kilometrien etäisyydeltä, ja hänen lopullisen aseensa, jolla hän lopettaisi kaiken sodan &#8211; Teslan suojakilven, jota mikään ei voisi läpäistä. Siihen mennessä kukaan ei kuitenkaan enää kiinnittänyt todellista huomiota unohdettuun suureen neroon. Tesla kuoli vuonna 1943 paljastamatta koskaan näiden suurten aseiden ja keksintöjen salaisuutta.</p>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325911784" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/iecd7b9cef5494458/version/1363652562/image.gif" sizes="(min-width: 640px) 640px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=gif/path/s40c423127565d23a/image/iecd7b9cef5494458/version/1363652562/image.gif 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/iecd7b9cef5494458/version/1363652562/image.gif 640w" alt="Figure 6. Multimode Tesla Weapon - Scalar Potential Interferometer" data-src-width="640" data-src-height="435" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/iecd7b9cef5494458/version/1363652562/image.gif" data-image-id="5127800484"></p>
+<p><em>kuva 6. Tesla-monitoimiase &#8212; Skalaaripotentiaali-interferometri</em></p>
+<div id="cc-m-7325908884" class="j-module n j-text ">
+<p>Valitettavasti Neuvostoliitto on jo kauan sitten, vuonna 1981, havainnut Teslan skalaariaaltovaikutukset ja käyttänyt niitä aseina. Tässä meillä on aikaa käsitellä yksityiskohtaisesti vain tehokkainta näistä pelottavista Tesla-aseista &#8211; joihin Brežnev epäilemättä viittasi vuonna 1975, kun Neuvostoliiton osapuoli SALT-neuvotteluissa yhtäkkiä ehdotti uusien aseiden kehittämisen rajoittamista &#8221;pelottavammiksi kuin mitä ihmismieli on kuvitellut&#8221;. Yksi näistä aseista on Saryshaganin ohjusasemalla äskettäin valmistunut Tesla-haupitsi, jota pidetään tällä hetkellä joko suurenergialaserina tai hiukkassädeaseena, (Katso taiteilijan näkemys <a href="https://archive.aviationweek.com/issue/19800728">Aviation Week &amp; Space Technology</a>, 28. heinäkuuta 1980, s. 48).</p>
+</div>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325915884" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/if64ba3c38d0bb9a2/version/1363652981/image.jpg" sizes="(min-width: 585px) 585px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=jpg/path/s40c423127565d23a/image/if64ba3c38d0bb9a2/version/1363652981/image.jpg 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/if64ba3c38d0bb9a2/version/1363652981/image.jpg 585w" alt="Aviation Week &amp; Space Technology July 28, 1980" data-src-width="585" data-src-height="480" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/if64ba3c38d0bb9a2/version/1363652981/image.jpg" data-image-id="5127806384"></p>
+<p><em>Aviation Week &amp; Space Technology, 28.7.1980</em></p>
+<div class="cc-clear"></div>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325912984" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ia6b472d91deec12d/version/1363653012/image.jpg" sizes="(min-width: 600px) 600px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=jpg/path/s40c423127565d23a/image/ia6b472d91deec12d/version/1363653012/image.jpg 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ia6b472d91deec12d/version/1363653012/image.jpg 600w" alt="Figure 7. Tesla Weapons at Saryshagan" data-src-width="600" data-src-height="426" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ia6b472d91deec12d/version/1363653012/image.jpg" data-image-id="5127801584"></p>
+<p><em>kuva 7. Tesla-aseita Sary Shaganissa</em></p>
+<div class="cc-clear"></div>
+<p>Sary Shaganin haupitsi on itse asiassa valtava Teslan skalaarinen interferometri, jolla on neljä toimintatilaa. Yksi jatkuva toimintatila on Tesla-kilpi, joka asettaa ohuen, läpäisemättömän puolipallonmuotoisen energiakuoren suuren puolustettavan alueen päälle. Kolmiulotteinen kuori luodaan interferoimalla kaksi Fourier-ulottuvuuden mukaista kolmiulotteista skalaarista puolipallonmuotoista kuviota avaruudessa siten, että ne parittuvat ja muodostavat kupolimaisen kuoren, joka koostuu voimakkaasta, tavallisesta sähkömagneettisesta energiasta. Kuoren sisällä olevat ilmamolekyylit ja -atomit ovat täysin ionisoituneita ja siten voimakkaasti kiihdytettyjä, ja ne säteilevät voimakasta, hehkuvaa valoa. Mikä tahansa fyysinen asia, joka osuu kuoreen, saa valtavan sähköenergian purkauksen ja höyrystyy välittömästi &#8211; se haihtuu kuin ötökkä, joka osuu johonkin nykyään niin muodissa olevaan sähköiseen ötökkätappajaan.</p>
+<p>Jos useat näistä puolipallonmuotoisista kuorista on pinottu keskitetysti, edes korkealla pinon yläpuolella tapahtuvasta ydinräjähdyksestä peräisin oleva gammasäteily ja sähkömagneettinen pulssi eivät pääse läpäisemään kaikkia kuoria toistuvan absorption ja uudelleen säteilyn sekä kerrostuneissa plasmoissa tapahtuvan sironnan vuoksi.</p>
+<p>Jatkuvassa suojamoodissa Tesla-interferometriä syötetään Morayn vapaan energian generaattoreista koostuvalla pankilla, joten suojassa on käytettävissä valtavasti energiaa. Sary Shagan -tyyppisen Tesla-haupitsin kaavio on esitetty kuvassa 7. Hal Crawfordin hieno piirros Tesla-haupitsin interferometripäästä on esitetty kuvassa 6. Halin poikkeuksellinen kuvaus haupitsin tuottamasta Tesla-kilvestä on esitetty kuvassa 8.</p>
+<div id="cc-m-7325917384" class="j-module n j-text ">
+<p>&nbsp;</p>
+</div>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325914684" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/if2f9fbc16b162a12/version/1363653075/image.gif" sizes="(min-width: 640px) 640px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=gif/path/s40c423127565d23a/image/if2f9fbc16b162a12/version/1363653075/image.gif 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/if2f9fbc16b162a12/version/1363653075/image.gif 640w" alt="Figure 8. The Tesla Shield " data-src-width="640" data-src-height="448" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/if2f9fbc16b162a12/version/1363653075/image.gif" data-image-id="5127803784"></p>
+<p><em>kuva 8. Tesla-kilpi</em></p>
+<div class="cc-clear"></div>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325917884" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ie76e5d0e8fc01a07/version/1363653139/image.gif" sizes="(min-width: 640px) 640px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=gif/path/s40c423127565d23a/image/ie76e5d0e8fc01a07/version/1363653139/image.gif 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ie76e5d0e8fc01a07/version/1363653139/image.gif 640w" alt="Figure 9. Tesla Terminal Area Defense System" data-src-width="640" data-src-height="343" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ie76e5d0e8fc01a07/version/1363653139/image.gif" data-image-id="5127808884"></p>
+<p><em>kuva 9. Teslan puolustusjärjestelmä</em></p>
+<div class="cc-clear"></div>
+<p>Pulssitilassa laukaistaan yksi voimakas kolmiulotteinen skalaarinen phi-kentän pulssimuoto, jossa käytetään kahta katkaistua Fourier-muunnosta, joista kumpikin sisältää useita taajuuksia, oikean kolmiulotteisen muodon aikaansaamiseksi (kuva 10). Tämän vuoksi tarvitaan kaksi skalaariantennia, jotka on erotettu toisistaan lähtötasolla. Tietylle kohteelle lasketun viiveen jälkeen interferometrin antenneista laukaistaan toinen ja nopeampi samanmuotoinen pulssi. Toinen pulssi ohittaa ensimmäisen pulssin, tarttuu siihen kohdealueen yläpuolella ja muodostaa sen kanssa pariliitoksen muodostaen välittömästi tavallisen vektorimuotoisen  sähkömagneettisen energian voimakkaan EMP:n. Tämä pulssi ei ole enää niin voimakas kuin ensimmäinen pulssi. Haupitsin ja purskeen välillä ei siis ole vektorisiirtohäviötä. Lisäksi kytkeytymisaika on erittäin lyhyt, ja energia ilmenee jyrkästi &#8221;sähkömagneettisena pulssina (EMP)&#8221;, joka muistuttaa hämmästyttävän paljon ydinaseen 2-pulssista EMP:tä.</p>
+<p>Tämäntyyppinen ase aiheutti itse asiassa salaperäiset välähdykset Afrikan lounaisrannikolla, jotka Vela-satelliitit havaitsivat vuosina 1979 ja 1980. Esimerkiksi toinen välähdys oli vain infrapuna-alueella, eikä siinä ollut näkyvää spektriä. Ydinsalamat eivät tee tällaista, kuten eivät myöskään supersalamat, meteoriitin iskut, meteorit jne. Lisäksi yksi Arecibon ionosfääriobservatorion tutkijoista havaitsi gravitaatioaaltohäiriön &#8212; leikatun Fourier-kuvion ja Tesla-potentiaaliaallon aikapuristusvaikutuksen tunnusmerkki &#8212; joka kulki kohti räjähdyksen läheisyyttä.</p>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325914384" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i0996801ad0f106bf/version/1363653188/image.jpg" sizes="(min-width: 600px) 600px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=jpg/path/s40c423127565d23a/image/i0996801ad0f106bf/version/1363653188/image.jpg 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i0996801ad0f106bf/version/1363653188/image.jpg 600w" alt="Figure 10. &quot;Nuclear&quot; Flashes off the Coast of Africa" data-src-width="600" data-src-height="316" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i0996801ad0f106bf/version/1363653188/image.jpg" data-image-id="5127803484"></p>
+<p><em>kuva 10. &#8221;Ydinvoiman&#8221; välähdyksiä Afrikan rannikolla</em></p>
+<div class="cc-clear"></div>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325918784" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i0d86d22e245586e4/version/1363653321/image.gif" sizes="(min-width: 639px) 639px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=gif/path/s40c423127565d23a/image/i0d86d22e245586e4/version/1363653321/image.gif 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i0d86d22e245586e4/version/1363653321/image.gif 639w" alt="Figure 11. Continuous Tesla Fireball - Lithuania - 10 Sep 1976 - British European Airways Flight #831 between Moscow and London CIA Report Released under FOIA" data-src-width="639" data-src-height="486" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i0d86d22e245586e4/version/1363653321/image.gif" data-image-id="5127810184"></p>
+<p><em>kuva 11. Jatkuva Tesla-tulipallo, Liettua, 10.9.1976 &#8212;  British European Airwaysin lento #831 Moskovasta Lontooseen ja Lontoon CIA:n raportti julkaistu FOIA:n alaisuudessa</em></p>
+<div class="cc-clear"></div>
+<div id="cc-m-7325919284" class="j-module n j-text ">
+<p>Pulssitilaa voidaan syöttää joko Moray-generaattoreista tai &#8211; jos Moray-generaattorit ovat kärsineet poikkeavasta &#8221;kaikki eivät toimi&#8221; -häiriöstä &#8211; tavallisista räjähdysgeneraattoreista. Tesla-haupitsi voi siis aina toimia pulssitilassa, mutta sen teho on rajallinen, jos Moray-generaattorit eivät toimi.</p>
+</div>
+<p>Jatkuvassa tilassa kaksi jatkuvaa skalaariaaltoa emittoituu &#8212; toinen nopeammin kuin toinen &#8212; ja ne pariliittyvät vektorienergiaksi alueella, jossa ne lähestyvät vaiheista tilaa. Tässä tilassa energia kaukana olevalla &#8221;pallolla&#8221; tai geometrisella alueella näkyisi jatkuvasti ja pysyisi yllä &#8212; ja tämä on Teslan salaisuus energian langattomaan siirtämiseen etäisyydelle ilman häviöitä. Se on myös &#8221;jatkuvan tulipallon&#8221; salaisuus, jolla voidaan tuhota satoja lentokoneita tai ohjuksia kaukaa. Kuvassa 11 on esimerkki neuvostoliittolaisesta testistä, jossa tätä toimintatapaa testattiin.</p>
+<p>Teslan tulipallon tilavuutta voidaan laajentaa huomattavasti, jotta saadaan aikaan maapallo, joka ei höyrystä fyysisiä ajoneuvoja, mutta tuottaa niihin EMP:n niiden elektroniikan lamauttamiseksi. Kuvassa 12 esitetään tämän tilan testi. (Ks. myös Gwynne Roberts, &#8221;Witness to a Super Weapon?&#8221;, London Sunday Times, 17. elokuuta 1980, jossa kerrotaan useista muista tämän moodin testeistä Saryshaganissa, jotka brittiläinen TV-kuvaaja ja entinen sotatoimittaja Nick Downie näki Afganistanista käsin).</p>
+<p>Jos Moray-generaattorit vikaantuvat poikkeavasti, teholtaan ja kantomatkaltaan rajoitettua jatkuvaa tilaa voitaisiin mahdollisesti ylläpitää syöttämällä interferometrille virtaa tavanomaisemmista virtalähteistä, kuten kehittyneistä magnetohydrodynaamisista generaattoreista.</p>
+<p>&nbsp;</p>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325913684" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ic8bd95524a056608/version/1363653461/image.jpg" sizes="(min-width: 583px) 583px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=jpg/path/s40c423127565d23a/image/ic8bd95524a056608/version/1363653461/image.jpg 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ic8bd95524a056608/version/1363653461/image.jpg 583w" alt="Figure 13. Tesla ABM Defenses" data-src-width="583" data-src-height="676" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/ic8bd95524a056608/version/1363653461/image.jpg" data-image-id="5127802984"></p>
+<p>kuva 13.  ABM-puolustus</p>
+<div class="cc-clear"></div>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325920284" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i1b53e0938974fe02/version/1363653837/image.gif" sizes="(min-width: 640px) 640px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=gif/path/s40c423127565d23a/image/i1b53e0938974fe02/version/1363653837/image.gif 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i1b53e0938974fe02/version/1363653837/image.gif 640w" alt="Figure 14. Moray/Tesla Technology: Star Wars Now" data-src-width="640" data-src-height="406" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i1b53e0938974fe02/version/1363653837/image.gif" data-image-id="5127811284"></p>
+<p><em>kuva 14. Moray/Tesla-teknologia</em></p>
+<div class="cc-clear"></div>
+<p>Tesla-aseiden tyypilliset strategiset ABM-käyttömuodot on esitetty kuvassa 13. Lisäksi pienemmät Tesla-haupitsijärjestelmät, jotka on tarkoitettu taktisten joukkojen ja laitosten ballististen ohjusten torjuntaan, voisivat tietenkin koostua tavanomaisemmista kenttäohjusjärjestelmistä, joissa käytetään pari- tai kolmoistutkia, jotka ovat ulkoisesti tavanomaisia, skalaari-interferometritilassa.</p>
+<p>Kun voimanlähteinä käytetään <a href="https://moray-generator-energy.blogspot.com/p/radiant-energy-moray-generator.html">Moray-generaattoreita</a> ja moninkertaisesti sijoitettuja, skalaariantenneilla ja -lähettimillä varustettuja <a href="https://en.wikipedia.org/wiki/Multiple_independently_targetable_reentry_vehicle">MIRV-raketteja</a>, MIRVeistä voi nyt tulla pitkän kantaman &#8221;räjäyttäjiä&#8221; kohdealueille tuhansien kilometrien etäisyydeltä (kuva 14). Teslan teknologia vapauttaa kirjaimellisesti &#8221;Tähtien sodan&#8221;. Ja ilmahyökkäyksissä häirintää suorittavista ja ECM-lentokoneista tulee nyt &#8221;Teslan räjäyttäjiä&#8221;. Tesla-teknologian myötä emittereistä tulee ensisijaisia taistelukomponentteja, joilla on huikea voima.</p>
+<p>Tesla-aaltojen mahdolliset rauhanomaiset vaikutukset ovat myös valtavat. Hyödyntämällä &#8221;aikapuristus&#8221;-ilmiötä voidaan saada aikaan painovoiman torjuntaa, materialisoitumista ja dematerialisoitumista, transmutaatiota ja mielettömiä lääketieteellisiä hyötyjä. Voidaan myös saada subluminaalista ja superluminaalista viestintää, nähdä maan ja meren läpi jne. Uusi näkemys phi-kentästä tarjoaa myös yhtenäisen kenttäteorian, korkeampia todellisuusluokkia ja uuden supersuhteellisuuden, mutta näiden mahdollisuuksien yksityiskohtainen kuvaaminen saa odottaa toista kirjaa.</p>
+<p>Koska ihmisellä on kaksi aivopuoliskoa, hänen korviensa välissä on myös Teslan skalaarinen interferometri. Ja koska aivot ja hermosto käsittelevät lumivyörypurkauksia, ne voivat tuottaa (ja havaita) skalaarisia Tesla-aaltoja ainakin rajoitetusti. Näin ollen ihminen voi joskus tuottaa anomaalisia spatiotemporaalisia vaikutuksia etäisyydeltä ja ajan kautta. Tämä tarjoaa tarkan mekanismin psykokinesialle, leijumiselle, psyykkiselle parantamiselle, telepatialle, ennakkotietämykselle, jälkitietämykselle, kaukokatselulle jne. Se tarjoaa myös syyn siihen, miksi yksilö voi havaita &#8221;tikun&#8221; radioniikka- tai Hieronymuslaitteella (joka käsittelee skalaariaaltoja), kun tavalliset ilmaisimet eivät havaitse mitään. Valitettavasti tässä ei ole tilaa kehittää yksityiskohtaisesti tämän ihmisen Tesla-interferometrian seurauksia, sillä sen on odotettava vielä toista kirjaa, joka on tällä hetkellä alkuvaiheessa ja jota minä ja Hal Crawford kirjoitamme.</p>
+<p>taulukko 5. Todellisuuden tasot</p>
+<ul>
+<li>FOTONIT OVAT
+<ul>
+<li>PARIKYTKENTÄISIÄ SKALAAREJA</li>
+<li>NOPEUS RAJOITETTU VALON NOPEUTEEN</li>
+<li>KULJETTAVAT MAGNEETTIVUOTA</li>
+</ul>
+</li>
+<li>FOTONIEN INTERAKTIO
+<ul>
+<li>ON KAIKKIALLA LÄSNÄ</li>
+<li>TUOTTAA VALON NOPEUDEN</li>
+<li>TUOTTAA ENSIMMÄISEN TASON TODELLISUUDEN</li>
+</ul>
+</li>
+<li>SKALAARIAALLOT
+<ul>
+<li>NIIDEN NOPEUTTA EI RAJOITA MIKÄÄN</li>
+<li>TUOTTAVAT KORKEAMMAN TASON TODELLISUUKSIA</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p><img decoding="async" id="cc-m-imagesubtitle-image-7325916084" class="" src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i565b15265e2dfca2/version/1363653852/image.jpg" sizes="(min-width: 398px) 398px, 100vw" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=jpg/path/s40c423127565d23a/image/i565b15265e2dfca2/version/1363653852/image.jpg 320w, https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i565b15265e2dfca2/version/1363653852/image.jpg 398w" alt="Figure 15. Implications of Tesla Potential" data-src-width="398" data-src-height="315" data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s40c423127565d23a/image/i565b15265e2dfca2/version/1363653852/image.jpg" data-image-id="5127806784"></p>
+<p><em>kuva 15. Tesla-potentiaalin implikaatiot</em></p>
+<div class="cc-clear"></div>
+<p>Heinäkuussa 1981 Yhdysvaltain psykotroniikkayhdistyksen vuosikokouksessa Daytonissa, Ohiossa, esittelin ensimmäisen karkean artikkelin Teslan salaisuudesta ja skalaari-interferometriasta. Esityksestä tehtiin videonauha, joka on pian saatavilla. Minun on myös tarkoitus pitää erityinen esitelmä Alternate Energy Conference -konferenssissa Torontossa Kanadassa lokakuun lopussa 1981. Tästä aiheesta on myös valmisteilla ammattimainen kaksituntinen videoitu esitys. Materiaalia on jo levitetty laajalti kansainvälisen maanalaisen fysiikan ja teknologian verkoston kautta. Tällä kertaa, jos Jumala suo, Teslan salaisuutta ei tukahduteta vielä 80 vuoteen!</p>
+<p>Ja ehkä ei ole vielä liian myöhäistä. Materiaali on maksanut minulle (nyt) noin 16 vuoden tuskallisen työn ja lähes 100 000 dollaria omia varoja. Yksikään ortodoksinen yliopisto, tieteellinen ryhmä, säätiö tai valtion virasto ei tukisi tällaista ponnistelua, ei taloudellisesti eikä muutoinkaan. Itse asiassa useimmat tavalliset lehdet eivät edes hyväksy aineistoa tällaisista asioista. Siitä huolimatta alue on äärimmäisen tärkeä, ja uskon todella, että Teslan kadonnut salaisuus vaikuttaa pian jokaisen ihmisen elämään maapallolla.</p>
+<p>Ehkä Teslan salaisuuden vapaa ja avoin julkistaminen saa tieteelliset ja valtiolliset byrokratiat heräämään horroksestaan, ja voimme kehittää puolustuskeinoja ennen kuin maailmanloppu tapahtuu. Ehkäpä toivoa sittenkin on &#8211; sillä jopa Brežnev näytti heinäkuussa 1975 <a href="https://www.britannica.com/event/Strategic-Arms-Limitation-Talks">SALT-neuvotteluihin</a> tekemässään oudossa ehdotuksessa paljastavan käsityksen siitä, että sodan ja aseistuksen käännekohta on ehkä saavutettu ja että ihmisen mielikuvitus ei kykene käsittelemään kykyä muokata todellisuutta itseään täydellisesti. Aseiden testaamisen jälkeen neuvostoliittolaisten on oltava tietoisia siitä, että aikavirran huonosti aikaansaatu värähtely vaikuttaa kaikkien maan päällä olevien elämänmuotojen mieliin ja ajatuksiin &#8211; ja itse elämänvirtoihin ja jopa lajin kollektiiviseen alitajuntaan. Heidän on tiedettävä, että nämä aseet ovat kaksiteräisiä miekkoja ja että niiden käytöstä aiheutuva vastareaktio voi olla käyttäjälle paljon kauheampi kuin alkuperäinen vaikutus uhrille.</p>
+<p>Jos pystymme välttämään maailmanlopun, Nikola Teslan fantastista salaisuutta voidaan käyttää parantamaan ja kohottamaan ihmistä, ei tappamaan häntä. Teslan löytö voi lopulta poistaa kaikki mahdolliset ihmisen ulkoiset rajoitukset. Jos me ihmiset itse pystymme kohottamaan tietoisuuttamme käyttämään Teslan sähkömagneettisia ominaisuuksia oikein, niin Nikola Tesla &#8211; joka antoi meille sähköisen 1900-luvun alun perin &#8211; voi vielä antaa meille fantastisen uuden tulevaisuuden, joka on loistavampi ja kunniakkaampi kuin kaikki suuret tiedemiehet ja tietäjät ovat kuvitelleet.</p>
+<h2 id="cc-m-header-7422506684" class="">Muita linkkejä</h2>
+<div id="cc-m-7422507084" class="j-module n j-text ">
+<ul>
+<li><a href="http://www.bibliotecapleyades.net/ciencia/antigravityworldgrid/ciencia_antigravityworldgrid09.htm" target="_blank" rel="noopener">http://www.bibliotecapleyades.net/ciencia/antigravityworldgrid/ciencia_antigravityworldgrid09.htm</a></li>
+<li><a href="http://www.tldm.org/news4/deathraygun.htm" target="_blank" rel="noopener">http://www.tldm.org/news4/deathraygun.htm</a></li>
+<li><a href="http://www.cheniere.org/books/part1/teslaweapons.htm">http://www.cheniere.org/books/part1/teslaweapons.htm</a></li>
+<li><a href="http://www.nzdl.org/gsdlmod?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-0l--11-en-50---20-help---00-0-1-00-0-0-11-1-0utfZz-8-00&amp;a=d&amp;c=hdl&amp;cl=CL3.41&amp;d=HASHad5d9027d93da18e8b476b.15">http://www.nzdl.org/gsdlmod?e=d-00000-00&#8212;off-0hdl&#8211;00-0&#8212;-0-10-0&#8212;0&#8212;0direct-10&#8212;4&#8212;&#8212;-0-0l&#8211;11-en-50&#8212;20-help&#8212;00-0-1-00-0-0-11-1-0utfZz-8-00&amp;a=d&amp;c=hdl&amp;cl=CL3.41&amp;d=HASHad5d9027d93da18e8b476b.15</a></li>
+</ul>
+</div>
+<h2>Lähdeviitteet</h2>
+<p><b>1.</b> Whittaker, E. T., Proc. Lond. Math. Soc. 1, 367 (1903).</p>
+<p><b>2.</b> Debye, P., Ann. Phvs. (Leipz.) 30, 57 (1909).</p>
+<p><b>3.</b> Bromwich, T. J. I&#8217;A. Phil. Trans. A, 220, 175 (1920);  Phil. Mag., 38, 143 (1919).</p>
+<p><b>4.</b> Laporte, O. &amp; Uhlenbeck, G. E., Phys. Rev. 37, 1380 (1931).</p>
+<p><b>5.</b> Nisbet, A., Proc. R. Soc. London A 231, 250 (1955).</p>
+<p><b>6.</b> Essex, E. A., Am. Jour. Phys. 45, 1099 (1977).</p>
+<p><b>7.</b> Braunlich, P., Ed., Thermally Stimulated Relaxation in Solids, Springer-Verlag, New York, 1979.</p>
+<p><b>8.</b> Ratzlaff, John. T., Dr. Nikola Tesla: Selected Patent Wrappers, Volumes I, II, III, &amp; IV, Tesla Book Company, 1580 Magnolia Avenue, Millbrae, CA 94030, 1980.</p>
+<p><b>9.</b> Ratzlaff, John T. &amp; Anderson, Leland I., Dr. Nikola Tesla Bibliography, Ragusan Press, 936 Industrial Ave., Palo Alto, CA 94303, 1979.</p>
+<p><b>10.</b> &#8221;Tesla- 85th Birthday,&#8221; N. Y. Sun, July 11, 1941. (Tesla sanoo voivansa rakentaa kolmessa kuukaudessa kahden miljoonan dollarin hintaan laitoksen, joka sulattaisi lähestyvän lentokoneen moottorit tuhansien kilometrien etäisyydeltä.)</p>
+<p><b>11.</b> &#8221;Tesla Promises to Light Dark Spot on Moon. It&#8217;s Part of a Scheme of His for Interplanetary Radio; Distance Means Nothing. Has 4 New Inventions. Tells of Them on 81st Birthday; 2 Nations Honor Him,&#8221; N. Y. Herald Tribune, July 11, 1937.</p>
+<p><b>12.</b> O&#8217;Neill, John J., &#8221;In the Realm of Science: Tesla, who predicted radio, now looks forward to sending waves to the Moon,&#8221; N. Y. Herald Tribune, Aug. 22, 1937. (Keksijä toivoo voivansa käyttää energiaa siirtävää laitetta, joka saa pisteen loistamaan Kuun pinnalla. Teoria perustuu vuoden 1897 kokeisiin. Hänen mekanisminsa on käyttää valtavia luonnonvoimia, mahdollisesti kosmisia säteitä.)</p>
+<p><b>13.</b> &#8221;Tesla, 80, Reveals New Power Device,&#8221; N. Y. Times, July 11, 1936, p. 13, col. 2. (Sanoo, että hänen langaton sähkönsiirtojärjestelmänsä toimittaa maapallolle energiaa teollisuutta varten.)</p>
+<p><b>14.</b> Sparling, Earl. &#8221;Nikola Tesla, at 79, Uses Earth to Transmit Signals; Expects to have $100,000,000 Within Two Years,&#8221; N. Y. World-Telegram, July 11, 1935. (Keksijä kertoo laboratoriossaan tapahtuneesta &#8221;järistyksestä&#8221;, joka toi poliisit ja ambulanssit paikalle mekaanisen oskillaattorin kokeilujen aikana.)</p>
+<p><b>15.</b> &#8221;<a href="https://teslaresearch.jimdofree.com/articles-interviews/tesla-s-controlled-earthquake-new-york-american-july-11-1935/">Tesla&#8217;s Controlled Earth Quakes Power Through the Earth, A Startling Discovery,</a>&#8221; N. Y. American, July 11, 1935, Section 2. (Ilmoittaa, että induktiovirta, jossa on vaihteleva vuo, kulkee onnistuneesti virtapiirin läpi ilman kommutaattoria. Kosmisten säteiden tutkimukset osoittavat, että monet suhteellisuusteorian periaatteet ovat virheellisiä. Mekaaniset vaikutukset on mahdollista siirtää mille tahansa etäisyydelle.)</p>
+<p><b>16.</b> &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/tesla-79-promises-transmit-force">Tesla, 79, Promises to Transmit Force &#8212; Transmission of Energy Over World,</a>&#8221; N. Y. Times, July 11, 1935, p. 23, col. 8. (Teslalla on suunnitelmia lähettää energiaa koko maailmaan. Kosmisten säteiden mittaus, jonka sanotaan olevan 50 kertaa valonnopeutta nopeampaa, mikä romuttaa suhteellisuusteorian.)</p>
+<p><b>17.</b> Tesla, Nikola, &#8221;<a href="https://en.wikisource.org/wiki/The_New_York_Herald_Tribune/1935/08/18/Expanding_Sun_Will_Explode_Some_Day_Tesla_Predicts">Expanding Sun Will Explode Some Day, Tesla Predicts,</a>&#8221; N. Y. Herald-Tribune, Aug. 18, 1935. (Nykyinen kosmisia säteitä koskeva kirjallisuus on virheellistä. Jotkut kosmiset säteet saavuttavat 50 kertaa valon nopeuden. Auringon massa ja energia kasvavat ja lopulta räjähtävät. Teslan näkemyksen mukaan alkuaineen tiivistyminen jatkuu jatkuvasti. Löytää kosmisten säteiden salaisuuden auringon positiivisesta sähkövarauksesta. Käsittelee radioaktiivisia emansioita.)</p>
+<p><b>18.</b> &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/3-tesla-inventions">3 Tesla Inventions &#8212; Famous Scientist Will Tell Them. Tomorrow</a>,&#8221; N. Y. Sun, July 9, 1935. (Yksi löydöistä on uusi tapa siirtää energiaa, täysin uusi periaate, joka ei muistuta langatonta yhteyttä. Myös menetelmä kosmisten säteiden valjastamiseksi.)</p>
+<p><b>19.</b> Welshimer, Helen, &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/dr-tesla-visions-end-aircraft-war">Dr. Tesla Visions the End of Aircraft in War,</a>&#8221; Every Week Magazine, Oct. 21, 1934, p. 3. (Väittää luoneensa uuden aineen, joka tappaa jälkiä jättämättä ja lävistää silti paksuimmankin panssarin. Voi tuhota armeijoita tai lentokoneita.)</p>
+<p><b>20.</b> Tesla, Nikola. &#8221;<a href="https://teslaresearch.jimdofree.com/articles-interviews/tesla-on-power-development-and-future-marvels-by-nikola-tesla-new-york-world-telegram-july-24-1934/">Tesla on Power Development and Future Marvels,</a>&#8221; N. Y. World Telegram, July 24, 1934. (Lähteenä on J. J. O&#8217;Neillin kirjoittama teos &#8221;<a href="https://archive.org/details/prodigalgeniusli0000onei">Prodigal Genius</a>&#8221;, s. 241. Vastaus 29. kesäkuuta, 12. heinäkuuta ja 13. heinäkuuta 1934 julkaistuihin artikkeleihin. Kehuu Westinghousea ja Insulia, patistaa luomaan voimajärjestelmän, jota hän oli juuri ja juuri ehdottanut vuonna 1893. Kuolonsäteilyvaikutuksen osalta Tesla käyttää ainetta, jonka voimakkuus ei vähene etäisyyden neliön myötä.)</p>
+<p><b>21.</b> Dunlap, Orrin E., Jr., &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/tesla-sees-evidence-radio-and-light-are-sound">Tesla Sees Evidence That Radio and Light Are Sound</a>, &#8221; N. Y. Times, Apr. 8, 1934, X, p. 9, Col. 1. (Tesla viittaa menneisyyden virheisiin ja selittää radioaallot sellaisena kuin hän asian 77-vuotiaana näkee. Hän odottaa televisiota.) (Huomautus: Ääni on pitkittäisaalto &#8212; kuten Teslan aalto. Hertzin aallot ovat poikittaisaaltoja, eivät pitkittäisaaltoja.)</p>
+<p><b>22.</b> Bird, Carol, &#8221;<a href="https://www.rastko.rs/projekti/tesla/delo/10878">Tremendous New Power Soon to be Unleashed,</a>&#8221; Philadelphia Public Ledger, Sep. 10, 1933, Magazine Section, p. 6. (Teslan vallankumouksellinen energiahanke, joka myös viimeistelee prosessia ajatuksen valokuvausta varten.) (Huomautus: Tässä meillä on mahdollinen vihje siitä, että samaa periaatetta voidaan käyttää sekä Teslan energialaitteessa että Teslan lähestymistavassa ajatuskuvaukseen.)</p>
+<p><b>23.</b> &#8221;<a href="https://teslaresearch.jimdofree.com/articles-interviews/tesla-harnesses-cosmic-energy-philadelphia-public-ledger-november-2-1933/">Tesla &#8217;Harnesses&#8217; Cosmic Energy</a>,&#8221; Phila. Public Ledger, Nov. 2, 1933. (On löydetty periaate, jonka avulla voidaan johtaa kosminen energia, joka pyörittää maailmankaikkeutta. Voimaa on &#8221;kaikkialla ja rajattomasti&#8221;. Poistaa hiilen, öljyn, kaasun tai minkään muun tavallisen polttoaineen tarpeen) (Huomautus: Viittasiko Tesla siihen, mitä nykyään kutsumme &#8221;tyhjiön nollapiste-energiaksi&#8221;? Hänen periaatteensa hyödyntää sitä.)</p>
+<p><b>24.</b> Blakeslee, Howard W., &#8221;Discovery of Force to Surround Nations &amp; Smash Attacker Claims of Aged Inventor &#8211; Nikola Tesla Makes Announcement on 75th Birthday &#8212; Will Turn Plans Over to Geneva,&#8221; Minneapolis Tribune, July 11, 1934. (Huomautus: Tässä keksijä viittaa &#8221;Tesla-kilpeen&#8221;.)</p>
+<p><b>25.</b> &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/tesla-78-bares-new-death-beam">Tesla, at 78, Bares New &#8217;Death Beam</a>&#8221;&#8217;, N. Y. Times; July 11, 1934, p. 18, col. 1. (Keksintö, joka on tarpeeksi voimakas tuhoamaan 10 000 lentokonetta 250 mailin etäisyydeltä. Vain puolustusase.)</p>
+<p><b>26.</b> Alsop, Joseph W., Jr., &#8221;<a href="https://en.wikisource.org/wiki/The_New_York_Herald_Tribune/1934/07/11/Beam_to_Kill_Army_at_200_Miles,_Tesla%27s_Claim_on_78th_Birthday">Beam to Kill Army at 200 Miles Tesla&#8217;s Claim on 78th Birthday</a>,&#8221; N. Y. Herald Tribune. July 11, 1934, pp. 1, 15. (Kuolonsädettä muistuttava voimasäde, johon kuuluu neljä sähkölaitetta. Voidaan käyttää myös rauhan aikana voiman siirtämiseen etäisyyksillä, joita rajoittaa vain maan kaarevuus.). (Huomautus: Tässä viitteessä todetaan, että Teslan kuolemansäde ja Teslan langattomat lähetyslaitteet käyttävät ilmeisesti samaa vaikutusta tai perusperiaatetta. Toimivaan järjestelmään näyttää sisältyvän neljä laitetta.)</p>
+<p><b>27.</b> &#8221;<a href="https://aetherwizard.com/tesla/Articles/Feb_25_1923.htm">A Giant Eye to See &#8217;Round the World&#8217;</a> &#8221;, Albany Telegram, Feb. 25, 1933. (Perustuu ihmissilmän mekanismiin. Teslan keksinnön kaksi ensimmäistä osaa on saatu valmiiksi. Sen avulla ihminen voi nähdä minkä tahansa osan Maapallosta.). (Huomautus: Binokulaarisen näkemisen ja interferometrian samankaltaisuus.)</p>
+<p><b>28.</b> Tesla, Nikola. &#8221;<a href="http://www.tfcbooks.com/tesla/1932-09-11.htm">Pioneer Radio Engineer Gives Views on Power,</a>&#8221; N. Y. Herald Tribune, Sept. 11, 1932. (Teslan mukaan langattomat aallot eivät ole sähkömagneettisia, vaan luonteeltaan ääniaaltoja. Väittää, että avaruus ei ole kaareva.) (Huomaa jälleen, että ääniaallot ovat pitkittäisaaltoja, kuten Teslan aallotkin. Sähkömagneettiset aallot ovat poikittaisia.)</p>
+<p><b>29.</b> &#8221;<a href="https://www.rastko.rs/projekti/tesla/delo/10869">No High-Speed Limit, Says Tesla,</a> &#8221; Literary Digest, Nov. 7, 1931, p. 28. (Einsteinin teoriassa mahdottomana pidetyt valoa suuremmat nopeudet on saavutettu. Jo vuonna 1900 Tesla osoitti, että hänen lähettimensä virta kulki maan yli nopeudella 292 830 mailia sekunnissa). (Huomautus: Kuten hyvin tiedetään, nopeus edustaa esineen kiertymistä pois normaalista 3-ulotteisesta avaruudesta kohti 4. ulottuvuuden suuntaa. Valon nopeus c edustaa täyttä ortogonaalista kiertoa. Tavallinen sähkömagneettinen aalto, joka on poikittainen värähtelevä, rajoittuu a priori yhteen ortogonaaliseen käännökseen, sillä muuta se ei omista. Se liikkuu siis nopeudella c. Pitkittäisen skalaariaallon ei sen sijaan tarvitse olla lainkaan näin rajoitettu.)</p>
+<p><b>30.</b> O&#8217; Neill , J. J. &#8221;Sun Emits Super Ray, Nikola Tesla Asserts, &#8221; Brooklyn Eagle, Feb. 8, 1932, p. 4, col. 1. (Huomautus: Loogisesti ajateltuna auringon pitäisi lähettää myös skalaariaaltoja sekä poikittaisia vektoriaaltoja.)</p>
+<p><b>31.</b> O&#8217;Neill, J. J., &#8221;<a href="https://teslaresearch.jimdofree.com/articles-interviews/tesla-cosmic-ray-motor-may-transmit-power-round-earth-brooklyn-eagle-july-10-1932/">Tesla Cosmic Ray Motor May Transmit Power &#8217;Round Earth&#8221;</a>&#8217;, Brooklyn Eagle, July 10, 1932, A, 1:4, pp. 1, 17. (Tesla aloitti 25 vuotta sitten ponnistelut kosmisten säteiden valjastamiseksi, ja nyt hän ilmoittaa onnistuneensa käyttämään moottorilaitetta näiden säteiden avulla. Toivoo voivansa rakentaa moottorin suuressa mittakaavassa. ) (Huomautus: viittaa mahdollisesti siihen, että kaikki nämä Teslan laitteet ovat viimeisten 25 vuoden aikana käsitelleet samaa perusperiaatetta.)</p>
+<p><b>32.</b> &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/tesla-76-reports-his-talents-peak">Tesla, 76, Reports His Talents at Peak,</a>&#8221; N. Y. Times, July 10, 1932, p. 19, col. 1. (Uusi keksintö valtavan ja käyttämättömän energialähteen hyödyntämiseksi. Yksi keksintö, joka mahdollistaa kaikenlaisten, lähes rajattoman voimakkaiden säteiden tuottamisen.). (Huomautus: Skaalainterferometrian avulla voidaan koota minkä tahansa taajuuden &#8211; ja siten minkä tahansa &#8221;tyypin&#8221; &#8211; sähkömagneettisia aaltoja kytkemällä sopivat skalaarit yhteen. Hertzin aalto on vain kaksi kytkettyä Teslan skalaariaaltoa.)</p>
+<p><b>33.</b> Tesla, Nikola, &#8221;<a href="https://teslaresearch.jimdofree.com/articles-interviews/man-s-greatest-achievement-by-nikola-tesla-new-york-american-july-6-1930/">Man&#8217;s Greatest Achievement,</a>&#8221; N. Y. American, July 6, 1930, p. 10. (Editorial Section). (&#8221;Aineellisen substanssin luominen ja tuhoaminen, sen kokoaminen haluamiinsa muotoihin&#8230; asettaisi hänet Luojansa viereen ja täyttäisi hänen perimmäisen kohtalonsa.&#8221;)) (Huomautus: Tässä Tesla näyttää viittaavan aineen hallittuun materialisoitumiseen ja dematerialisoitumiseen.)</p>
+<p><b>34.</b> Tesla, Nikola. &#8221;<a href="https://www.academia.edu/9106840/World_System_of_Wireless_Energy">World System of Wireless Transmission of Energy,</a>&#8221; Telegraph &amp; Telephone Age &#8212; N. Y., Oct. 16, 1927, pp. 457-460. (Voimansiirto ilman johtoja ei ole teoria, vaan &#8221;Teslan osoittama tosiasia&#8221;. Lähettimestä lähtevien virtojen etenemisnopeus on keskimäärin 57 % suurempi kuin Hertz-aaltojen). (Huom. kyseessä on valoa nopeampi, ei-Hertzin aaltotyyppi. Tesla-aalto ei ole normaali Hertzin aalto.)</p>
+<p><b>35.</b> Secor, H. Winfield, &#8221;<a href="https://worldradiohistory.com/hd2/IDX-Site-Early-Radio/Archive-Electrical-Experimenter-IDX/IDX/10s/EE-1919-03-OCR-Page-0081.pdf">The Rogers Underground Wireless, Electrical Experimenter</a>, Mar., 1919, pp. 787-789, 832-835, 839. (Rogersin järjestelmässä ei tarvita antennijohtoja.)</p>
+<p><b>36.</b> Gernsback, Hugo, <a href="https://worldradiohistory.com/Archive-Electrical-Experimenter/EE-1919-03.pdf">&#8221;Underground Wireless,</a>&#8221; Electrical Experimenter, Mar. 1919, p. 762. (James H. Rogersin kehittelyä. Vastaanottaa viestejä Euroopasta ukkosmyrskyn aikana. Tesla myöntää, että viestit eivät ole Hertzin aaltoja.)</p>
+<p><b>37.</b> Tesla, Nikola, &#8221;<a href="https://worldradiohistory.com/Archive-Electrical-Experimenter/EE-1919-05.pdf">The True Wireless</a>,&#8221; Electrical Experimenter, May 1919, pp. 28-30, 61-63, 87. (Teslan mukaan Hertzin aaltoteoria on harhaa. Signaalien on oltava peräisin maavirroista. Huomaa jälleen, että Tesla ei pidä Hertzin aalloista, mutta hänellä itsellään on jotain perustavampaa.)</p>
+<p><b>38.</b> Tesla, Nikola. &#8221;<a href="https://worldradiohistory.com/Archive-Electrical-Experimenter/EE-1919-01.pdf">The Effects of Statics on Electrical Transmission,</a>&#8221; Electrical Experimenter, Jan., 1919, pp. 627, 658. (Kertoo Hertz-aaltojen vioista. Teslan kehittämä järjestelmä vapauttaa energiaa äärettömällä nopeudella). (Huomautus: sähköstaattisen potentiaalin tiedetään jo pystyvän liikkumaan äärettömällä nopeudella. Katso Jackson, Classical Electrodynamics, 2. painos, 1975, s. 223. Tämä on vahva todiste siitä, että Tesla käytti skalaaripotentiaaliaaltoja tai Ø-kenttiä.)</p>
+<p><b>39.</b> Bot tone, A., &#8221;<a href="https://teslauniverse.com/nikola-tesla/articles/nikola-teslas-new-wireless">Nikola Tesla&#8217;s New Wireless,</a>&#8221; Electrical Engineer, London, Dec. 24, 1909, p. 893. (Long Islandilla tehdyt kokeet ovat johtaneet siirtoperiaatteisiin, jotka ovat suoraan vastakohta Hertzin aaltojen siirtymiselle.). (Huom.: Toisin sanoen, käytetäänkö kytkemättömiä skalaariaaltoja &#8211; Tesla-aaltoja parikytkettyjen skalaariaaltojen &#8211; Hertzin aaltojen &#8211; sijasta?)</p>
+<p><b>40.</b> Tesla, Nikola. &#8221;<a href="https://www.teslacollection.com/tesla_articles/1908/st_louis_republic/nikola_tesla/electrical_control_of_the_weather_will_soon_be_an_accomplished_fact">Electrical Control of the Weather Will Soon Be an Accomplished Fact,</a>&#8221; St. Louis Republic, Nov. 15, 1908, V, p. 3. (Tesla on samaa mieltä sään sähköisen hallinnan käsitteestä.)</p>
+<p><b>41.</b> Swezy, Kenneth M. , &#8221;<a href="https://www.science.org/doi/10.1126/science.127.3307.1147">Nikola Tesla,</a> &#8221; Science, May 16, 1958 , pp. 1147-1158. (Electricity today is generated, transmitted, and converted to mechanical power by means of his inventions.)</p>
+<p><b>42.</b> Ramsay, Jack, &#8221;Cableless Power, &#8221; Electronics ( Digest) , July 22, 1960, pp. 6, 8. (Neuvostoliiton yritys kehittää langatonta sähkönsiirtoa, mutta epäonnistui ruotsalaisten tarkkailijoiden mukaan, ja ideasta oli puhuttu Yhdysvalloissa Teslasta lähtien.) (Huomautus: osoittaa, että neuvostoliittolaiset ainakin yrittivät työskennellä Teslan tekniikoiden kanssa.)</p>
+<p><b>43.</b> Anderson, Leland I., &#8221;Correspondence: Sub-Surface Communications Systems,&#8221; Proceedings of the I.R.E., Mar., 1961, p. 645. (Viittaus maanalaisiin tai &#8221;maavirtakäyttöisiin&#8221; viestintäjärjestelmiin. Nikola Teslan ja James H. Rogersin uraauurtava työ.)</p>
+<p><b>44.</b> Rebert, Edwina, &#8221;Fireballs For Defense?&#8221;, Christian Science Monitor, Feb. 7, 1962, p. 9c. (Pääkirjoitus mahdollisuudesta käyttää pallosalamaa puolustusaseena &#8211; saattaa olla peräisin Teslan varhaisista kokeiluista Colorado Springsissä.)</p>
+<p><b>45.</b> Matsch, Lee and Rice, Warren, &#8221;<a href="https://asmedigitalcollection.asme.org/appliedmechanics/article-abstract/34/1/239/387120/Potential-Flow-Between-Two-Parallel-Circular-Disks?redirectedFrom=fulltext">Potential Flow Between Two Parallel Circular Disks with Partial Transmission,</a>&#8221; Journal of Applied Mechanics, Trans. ASME, Mar., 1967, Vol. 34, Series E., No.1, pp. 239-240.</p>
+<p><b>46.</b> Lagus, George W., &#8221;<a href="https://worldradiohistory.com/hd2/IDX-Consumer/Archive-Radio-TV-Experimenter-IDX/IDX/Radio-TV-Experimenter-1969-06-07-OCR-Page-0068.pdf">The Use of Ground in High-Frequency Circuits,</a>&#8221; Radio-TV Experimenter and Science and Electronics, June-July, 1969, PP. 71, 72. (Tesla gave several demonstrations of feasibility of electrifying large areas of land by ground propagation of high frequency currents.)</p>
+<p><b>47.</b> Jamison, S. L. , &#8221;Life Energy, &#8221; Probe. The Unknown, June , 1973, pp. 3,4. (Kirje päätoimittajalle &#8211; raportti, jonka mukaan vitamiineja ja kivennäisaineita voitaisiin painaa kehoon Tesla-käämin avulla.)</p>
+<p><b>48.</b> Jueneman, F. B. J. , &#8221;The First Law of Thermodynamics, &#8221; Industrial Research, Feb., 1974, pp. 17-18. (Nikola Tesla havaitsi Colorado Springsissä vuonna 1899, että maa oli suuri elektroninielu ja että sähkömyrskyt synnyttivät seisovia aaltopotentiaaleja.)</p>
+<p><b>49.</b> Puharich, Andrija, &#8221;The Work of Nikola Tesla Ca. 1900 and its Relationship to Physics, Bioenergy and Healing,&#8221; esitelmä kansainvälisessä tieteidenvälisessä konferenssissa, joka käsitteli tietoisuutta ja parantumista, 13. lokakuuta 1976 Toronton yliopistossa..) ,</p>
+<p><b>50.</b> Golka, Robert K. and Bass, Robert W., &#8221;Tesla&#8217;s Ball Lightning Theory, a BKG-Wave, The Ransworth Effect, and the &#8217;Hydrotron&#8217; Electrostatic-Inertial Self-Confined Plasmoid Concept.&#8221; (Esitelmä vuotuisessa Controlled Fusion Theory -konferenssissa, San Diego, Kalifornia, 4.-6. toukokuuta 1977.)</p>
+<p><b>51.</b> Popovic, Prof. Vojin, &#8221;Research of Nikola Tesla in the Light of His Diary From Colorado Springs,&#8221; 10 pp. (Päiväkirja sisältää yksityiskohtaisia tietoja tutkimuksista, joiden tarkoituksena on määrittää maan solmupisteet aaltojen johtajana. Kommentteja &#8221;tulipalloista&#8221;.)</p>
+<p><b>52.</b> Curtis, George D., PhD, &#8221;An Electromagnetic Radiation Pattern Over the Ocean,&#8221; Undersea Technology, Vol. 5, no.8, August 1964. Curtis raportoi aiemmin tuntemattoman heikon sähkömagneettisen säteilykuvion esiintymisestä valtameren yllä. Kun kaikki tunnetut vaikutukset otetaan huomioon, poikkeava kuvio säilyy edelleen.</p>
+<p><b>53.</b> Santilli, R. M., &#8221;<a href="https://www.sciencedirect.com/science/article/abs/pii/0003491674903807">Partons and Gravitation: Some Puzzling Questions,</a>&#8221; Annals of Physics, Vol. 83, No.1, March 1974, pp. 108-157. Tässä artikkelissa Santilli osoitti, että yksi fysiikan kulmakivioletuksista &#8212; että sähkökenttä ja gravitaatio ovat erillisiä asioita &#8212; on väärä. Jäljelle jää siis vain kaksi vaihtoehtoa: joko ne ovat täysin sama asia tai ne ovat osittain sama asia. (Kommentti: Huomaa, että ~4 Teslan potentiaali tarjoaa yhdistävän yhteyden.)</p>
+<p><b>54.</b> Science News, Vol. 113, No.1, January 7, 1978, p. 3. T. Kuribayashin valokuva Matsushiron maanjäristysparven (1965-1967) maanjäristysvaloista. Tämä on ainoa tunnettu kuva maanjäristysvaloista.</p>
+<p><b>55.</b> Wiedemann, C. Louis, &#8221;Results of the N.J. &#8217;Spook Light&#8217; Study,&#8221; Vestigia Newsletter, Vestigia, RD 2, Brookwood Rd., Stanhope, NJ 07874, May 1977, pp. 1-3. Tässä artikkelissa kuvataan meneillään olevaa Vestigia-kokeilua, jossa yöllistä valoa tai &#8221;mysteerivaloa&#8221; valokuvattiin tieteellisesti yhdessä visuaalisten havaintojen ja mittalaitetietojen tallentamisen kanssa. Vestigia Newsletterin useissa myöhemmissä numeroissa on muita päivitettyjä artikkeleita ilmiöstä.</p>
+<p><b>56.</b> Moray, T. Henry, <a href="https://www.naturalphilosophy.org/pdf/ebooks/Moray-TheSeaofEnergy.pdf">The Sea of Energy</a>, fifth edition, History and Biography by John E. Moray, Foreword by Tom Bearden; Cosray Research Institute, 2505 South 4th East, Salt Lake City, Utah 84115, 1978. Vapaan energian laitteen lisäksi Moray rakensi myös erityisen radion, jolla hän kuunteli selvästi amiraali Byrdiä etelänavalla. Morayn radiossa ei esiintynyt staattista häiriötä, mikä osoittaa, ettei hän käyttänyt tavallista sähkömagneettista tekniikkaa. Lisäksi hän rakensi laitteen, jonka hän pystyi virittämään kuuntelemaan useita kilometrejä kaukana olevia henkilöitä niin, että heidän äänensä kuulosti siltä kuin he olisivat olleet aivan lähellä. Molemmat laitteet esiteltiin vierailevalle venäläiselle everstille ja tohtorille.</p>
+<p><b>57.</b> I. Procaccia, J. Ross, Science, 198, 716 (18 Nov 1977). Kuvailee Prigoginen Nobel-palkittua työtä termodynaamisesta tasapainosta kaukana olevien epälineaaristen järjestelmien termodynamiikasta. Prigoginen työ osoittaa, että tällainen järjestelmä voi todellakin osoittaa negentropiaa. Hillitsemättömästä epäjärjestyksestä voi syntyä ja syntyykin järjestys, mikä on vastoin vanhaa termodynamiikkaa.</p>
+<p><b>58.</b> &#8221;Persinger&#8217;s &#8217;Earthquake Lights&#8217; &#8230;Ho-Hum,&#8221; Frontiers of Science, Vol. III, No.3, March-April 1981, p. 15-16. Esittää vakuuttavia ja &#8221;kohtalokkaita&#8221; vastaväitteitä Persingerin &#8221;maanjäristysvalo&#8221;-järjestelmälle ufojen selittämiseksi. Mainitsee tohtori Brian Bradyn kokeet, joissa hän sai aikaan nopeita, lyhyitä sähköisiä valoja tai kipinöitä kvartsia sisältävien graniittilieriöiden murskaamisesta. (Kommentti: Bradyn kokeet ovat varmasti toistettavissa, joten on totta, että &#8221;maanpuristusvaloja&#8221; voidaan tuottaa kaukaa, vaikka pietsosähköinen vaikutus ei yksinään millään tavalla selitä ilmiöiden syntymistä pietsosähköisen kiteen ulkopuolella. Se, että lähellä vikavyöhykettä esiintyvät ufot eivät välttämättä ole toistettavissa, tarkoittaa yksinkertaisesti sitä, että ufojen syntyyn täytyy liittyä ainakin jokin muu merkittävä tekijä kuin maanpainevalojen syntyyn. Ufoihin voi joskus liittyä vikavyöhykkeeltä tulevaa skalaarista interferometriaa, mutta myös muiden aiheuttavien tekijöiden on oltava mukana. Maapainovalaisimissa ei sen sijaan tarvitse olla muita aiheuttavia tekijöitä kuin se, mikä on maan sisällä).</p>
+<p><b>59.</b> Jackson, John David, Classical Electrodynamics, Second Edition, John Wiley &amp; Sons, New York, 1975, p. 223.</p>
+<p><b>60.</b> Roberts, Gwynne, &#8221;Witness to a Super Weapon ?&#8221;, The Sunday Times, London, 17 August, 1980. Artikkeli käsittelee outoa puoliympyrän muotoista ilmiötä, jonka Nick Downie, entinen SAS:n jäsen, joka on saavuttanut huomattavan maineen sotakameramiehenä, näki Neuvostoliiton sisällä Afganistanista syyskuussa 1979. Downie näki ilmiön kahdesti ja tapasi myöhemmin afgaanin, joka oli nähnyt sen useita kuukausia aiemmin. Mahdollisesti samankaltaisesta ilmiöstä kerrotaan artikkelissa Brackenbridge, M., &#8221;Unidentified Phenomenon&#8221;, Marine Observer, 48: 21-22, 1978. Huomattakoon, että Vela-satelliitti havaitsi ensimmäisen &#8221;ydinsalaman&#8221; 22. syyskuuta 1979 &#8211; lähellä Downien havaintoja.</p>
+<p><b>61.</b> Bearden, Tom and Crawford, Hal, &#8221;Possible Soviet Test of a Tesla Weapon,&#8221; Specula, Journal of the A.A.M.S., Vol. 3, No.2, April-June 1980, p. 29.Ks. myös Beardenin ja Crawfordin Specula 3, 2, 30-32. Nämä raportit ovat CIA:n raportteja, jotka on julkaistu tiedonvapauslain nojalla.</p>
+<p><b>62.</b> Bearden, Thomas E., <a href="https://www.amazon.com/Excalibur-Briefing-Explaining-Paranormal-Phenomena/dp/0894070606?crid=12YOUS6CEE7AM&amp;keywords=The+Excalibur+Briefing&amp;qid=1683900361&amp;s=books&amp;sprefix=the+excalibur+briefing%2Cstripbooks-intl-ship%2C318&amp;sr=1-1&amp;linkCode=ll1&amp;tag=suomi42007-20&amp;linkId=7d8c3876683132b60154955677458f49&amp;language=en_US&amp;ref_=as_li_ss_tl">The Excalibur Briefing</a>, Strawberry Hill Press, San Francisco, 1980.</p>
+<p><b>63.</b> Muldrew, D. B., &#8221;<a href="https://www.researchgate.net/publication/252698710_Generation_of_long-delay_echoes">Generation of Long-Delay Echoes,</a>&#8221; Journal of Geophysical Research, 84: 5199-5215, 1979. Sähkömagneettisten signaalien poikkeavan pitkien viiveiden selittämiseksi ilmakehässä Muldrew uskoo, että erillisten lähettimien signaalien välillä on melko monimutkainen vuorovaikutus, joka (ainakin teoriassa) voi luoda pitkäikäisen sähköstaattisen aallon, joka kulkee ionosfäärissä &#8211; eräänlaisen luonnollisen muistilaitteen. Koodatut signaalit voitaisiin sitten lukea paljon myöhemmin, kun sopivat luonnonolosuhteet ovat kehittyneet. Jopa 40 sekunnin viiveet voisivat olla mahdollisia tämän &#8221;ionosfäärimuistin&#8221; avulla.</p>
+<p><b>64.</b> Zhugzhda, Yu. D., Institute of Terrestrial Magnetism, Ionosphere and Radio Wave Propagation, &#8221;<a href="https://adsabs.harvard.edu/full/1979SvA....23...42Z">Magnetogravitational Waves in a Conducting Isothermic Atmosphere,</a>&#8221; Moscow ASTRONOMICHESKIY ZHUGZHDA, Vol. 56, No.1, 1979, pp. 74-83. Artikkelissa osoitetaan muun muassa mahdollisuus muuttaa pitkittäisaallot poikittaisaalloiksi voimakkaan magneettikentän alueella.</p>
+<p><b>65.</b> Ranada, Antonio and Vazquez, Luis, &#8221;<a href="https://eprints.ucm.es/id/eprint/25356/1/Ra%C3%B1ada%2CAF43libre.pdf">Kinks and the Heisenberg Uncertainty Principle,</a>&#8221; Physical Review D, Vol. 19, No.2, 15 January 1979, pp. 493-495. Osoittaa, että solmun, solitonin tai yksinäisen aallon keskipisteen nopeus ja sijainti voidaan tuntea mielivaltaisella tarkkuudella Heisenbergin epävarmuusperiaatteen vastaisesti. (Kommentti: Fourier-muunnettu skalaarinen Tesla-aaltokuvio on joko solitoni tai siihen läheisesti liittyvä).</p>
+<p><b>66.</b> Don Moser, Photographs by Blair Pittman, &#8221;Big Thicket of Texas, National Geographic, Vol. 146, No.4, October 1974, pp. 504-529. Kirjoittaja kuvasi &#8221;aavevalon&#8221; tai yöllisen spookliten &#8211; eli maanpeitteen valon. Kuva on esitetty artikkelissa.</p>
+<p><b>67.</b> Gehring, Gillian, &#8221;<a href="https://www.nature.com/articles/279016a0.pdf">Actinide magnetism: an extraordinary tale,</a>&#8221; Nature, Vol. 279, 3 May 1979, pp. 16-18. Uraania sisältävillä aktinidien intermetalleilla on poikkeavia magneettisia ominaisuuksia &#8211; mukaan lukien spin-orbitaatiokytkentä suurena vaikutuksena. Nykyinen teoria ei pysty selittämään näitä vaikutuksia.</p>
+<p><b>68.</b> Gintsburg, M. A., Institute of Terrestrial Magnetism, the Ionosphere, and Radio-Wave Propagation, Academy of Sciences of the USSR, Astron. Zh. 51: 218-221, Jan-Feb 1974, English translation in Sov. Astron., Vol. 18, No.1, July-August 1974, pp. 128-130. Artikkelissa huomautetaan muun muassa, että tähän mennessä ei ole tehty Fourier-analyysiä massaelektrodynamiikassa. Yksi massasähködynamiikalle ominainen ominaisuus on pitkittäisten sähkömagneettisten aaltojen eli pitkittäisten fotonien olemassaolo tyhjiössä. Niitä ei ole vielä löydetty, mutta teoreettisesti ne ovat täysin mahdollisia.</p>
+<p><b>69.</b> Burman, R., &#8221;<a href="https://www.researchgate.net/publication/231118382_A_photon_rest_mass_and_the_propagation_of_longitudinal_electric_waves_in_interstellar_and_intergalactic_space">A Photon rest mass and the propagation of longitudinal electric waves in interstellar and intergalactic space,</a>&#8221; J. Phvs. A: Math. Nucl. Gen., Vol. 6, March 1973, pp. 434-444. Tämä plasman pitkittäisiä sähköaaltoja käsittelevä artikkeli voi olla hyvin tärkeä. Weber saattaa havaita pitkittäissähköaaltoja. Proca-aallot voivat kulkea nopeammin tai hitaammin kuin c.</p>
+<p><b>70.</b> Klass, Philip J., &#8221;Anti-Satellite Laser Use Suspected,&#8221; Aviation Week &amp; Space Technology, December 8, 1975, pp. 12-13. Joitakin yksityiskohtia neuvostoliittolaisten suorittamasta Yhdysvaltain satelliittien &#8221;lasersokeutuksesta&#8221;. Eräässä tapauksessa satelliitti sokeutettiin 4 tunniksi. (Kommentti: vaikea selittää nykyisellä lasertekniikalla, mutta helppo selittää Teslan skalaari-interferometrialla.)</p>
+<p><b>71.</b> &#8221;<a href="https://archive.aviationweek.com/issue/19800728">Soviets Build Directed-Energy Weapon,</a>&#8221; Aviation Week &amp; Space Technology, July 28, 1980, pp. 57-50. Esitetään taustayhteenveto Neuvostoliiton hiukkassädeaseista ja erityisesti Sary Shaganissa rakenteilla olevasta laitteesta.</p>
+<p><b>72.</b> &#8221;<a href="https://www.science.org/doi/10.1126/science.207.4430.504">Scientists Fail to Solve Vela Mystery</a>,&#8221; Science, Vol. 207, 1 February 1980, pp. 504-506. kts. myös Science, 30 November, 1979.</p>
+<p><b>73.</b> &#8221;Satellite Evidence Shows &#8217;Possibility&#8217; of Nuclear Test, DOD Says,&#8221; Aerospace Daily, October 29, 1979, p. 286.</p>
+<p><b>74.</b> &#8221;A Flash of Light,&#8221; Newsweek, November 5, 1979, pp. 64-65.</p>
+<p><b>75.</b> &#8221;Was It a Nuclear Device?&#8221;, Newsweek, July 21, 1980, p. 19.</p>
+<p><b>76.</b> &#8221;A Nuclear Blast &#8212; or &#8217;Zoo Animals&#8217;?&#8221;, Newsweek, April 7, 1980, p. 21.</p>
+<p><b>77.</b> &#8221;Diverging Views,&#8221; Washington Roundup, Aviation Week &amp; Space Technology, July 21, 1980, p. 15.</p>
+<p><b>78.</b> Klass, Philip J. , &#8221;Clandestine Nuclear Test Doubted,&#8221; Aviation Week &amp; Space Technology, August 11, 1980, pp. 67, 69, 71-72.</p>
+<p><b>79.</b> &#8221;<a href="https://www.science.org/doi/10.1126/science.209.4456.572">Debate Continues on the Bomb That Wasn&#8217;t,</a>&#8221; Science, Vol. 209, 1 August 1980, pp. 572-573.</p>
+<p><b>80.</b> &#8221;<a href="https://www.science.org/doi/10.1126/science.209.4460.996">Navy Lab Concludes the Vela Saw a Bomb,</a>&#8221; Science, Vol. 209, 29 August, 1980, pp. 996-997.</p>
+<p><b>81.</b> Bloch, Ingram and Crater, Horace; &#8221;<a href="https://watermark.silverchair.com/67_1_online.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAABOswggTnBgkqhkiG9w0BBwagggTYMIIE1AIBADCCBM0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMwgFrGr1uNGUEymFjAgEQgIIEnrMLOzvWChDRgKKDo6WOsp3oemul9Qzh7ccjAlnnopeZgP1eU-FZP4ATd0GHO3uHGXjdHcTDmCUxf0fWGfPDbY51SSd56Hgk6OUQSdiGNwXANLMwOVvh5pmNK30WHd8BbxHnjPS_Hu3rc4pIe3NQYek-IZGJI148t2sQzWmyrhjW-P6IRrEh2LzX7-mfVyAW_02IpdNXV_uAud1f2RQ2aWQyG3qUB0JTz3i5iRP2yvDochFoQ9Vt1q3ipe980wLWfHELwni0iSpCU8hH7jMbxSyxpTWjFpbNMhp7y3BhAekz5cOFl2Ht6GqbQ-W4rqjpErI8G_B4YOqwLLJ-qkvrNvT2y6k0sy8ipIkRKQ858nCYvFq6g1oSIIepASaPHSkZx3XWex2jdv1u6oALZLcQN4MqzVEVMHyy1qJWwE4l5n-DZPajxAT9KJcmT27PP4xhaMUOa4LCyzju0dVI9FEgvHMF1dpXU4GuNhvey2S5KOIQnuWyayjYA-mtdxL4EVN_Ykjzw4YlS0eW8sCvmcf_cmEjmyJcA8R2banxZfCM-lHHjoqTx5OqFxJ5RInfKiI3IJCrM8KxfTTCHgwFGjE-701UALx_hcI0ttWEI8GR0K3eEo7Td66I7bFHPF7Qsyx5IXKqI6D6Iy8DHMP5I9bVr2Bi7unOBq4HDYDbpX2-mmH4IXShHEuGR0Bx3-fznZqXnJTYHTanRHQWtLSMGYPbZk1ctMYrGyKi4shGbaacXJn9Llh2xQ07Pozo4jIa6m1kMoflzV0vCdhwOMCS9_zLY5jwhVEDqYjYQU1n0Giuj2NIpw8VCnk8y3udEIqfvC8rRXaT9RXBOcsKOx--C-apnSgAreWqUDCPfYciVS-yyRsHRacPC6EP9sw_2mixtZHnbgnb3mXx5Fp8LPSS-itepLpFWMKjiU-b49DSdlX4e2_oy_-iPY1y7qztHo055JILfjafyJhgmeApXucv5oibslwlkhI7x4UrrcEnijmzI6PGgQgN2mEgM5MY72nSuZDrlo2OSDkHsLqrTORnjtNAmD_RMumzeILf5foshQ-HfM1jWUPWyJt1vzgZHGU-rKsdHGPA5HbFxT3aNLRoFJpRmQRo1S6Q0Gt5qeiHr2yNllHbRpz1rOZkL03i7qvlLy-wOqVzfnVgOnei1gJvQuZ6ueM3Ys2dayh-u3VFYd-avPNYCw8nZbh3uty6lj7s2yGMR6buzVXWW_Rgk5WdM3yMrHUHlHHLgR0-nmjHxGUk4P4usNJR8Id8isSbuFdezN3JOJbso_D1BhlJheZzdYxQsNtD5RYqao-FSsA_ncQYUS_-SChyzBB_ENh_-m_I9rbTPYErEI7A08_uuIfKdT0YpZ_3lXmphbBd46AYgoS0dr3TZn9bCMR9wvZlkFXNrbOFHvVaVF0uNI2F7aUPnK3AbCcFfB6JYr51r9AivHDnt5GPyvUg-whAuw9s6RnAZ6-DriWep_IRoUtChXV8UlnfCmoF62fZIBxceXLWS9XGU5Gth7FhHWgbRRahCBUyY2lYJEI9BtDdgwbPaTlQCro8HabxVfq0-xDQzkeN0Mi2Sw">Lorentz-invariant potentials and the nonrelativistic limit,</a>&#8221; Am. J. Phys. 49(1), Jan. 1981, pp. 67-75. Tässä mielenkiintoisessa artikkelissa tuodaan muun muassa esiin joitakin selvästi epätavallisia ja tuntemattomia vaikutuksia, joita skalaaripotentiaalin koolla on siihen, mitä pidetään ei-relativistisena käyttäytymisenä. Jos skalaaripotentiaalienergia on huomattavan suuri suhteessa hiukkasen lepoenergiaan, tavallinen newtonilainen mekaniikka ja Schrödingerin yhtälö voivat olla riittämättömiä, vaikka v/c olisi pieni. Tämä viittaus itsessään riittää osoittamaan, että Ø-kenttä yksinään voi muuttaa ajan virtausnopeutta.</p>
+<p><b>82.</b> Semon, Mark D. and Schmieg, Glenn M., &#8221;<a href="https://www.researchgate.net/publication/235948132_Note_on_the_analogy_between_inertial_and_electromagnetic_forces">Note on the analogy between inertial and electromagnetic forces,</a>&#8221; Am. J. Phys. 49(7), July 1981, pp. 689-690. Vertaillaan fysikaalisia voimia pyörivässä kehyksessä ja sähkömagneettisia voimia newtonilaisessa kehyksessä. Poikittainen mekaaninen voima pyörivässä kehyksessä liittyy indusoituneeseen sähkömagneettiseen voimaan newtonilaisessa kehyksessä.</p>
+<p><b>83.</b> Harlacher, Von Wolfgang M., &#8221;Bomben aus dem Hyperraun,&#8221; Esotera, 4 April 1979, pp. 359-365.</p>
+<p>&nbsp;</p>
+<p>Artikkelin julkaissut <a href="https://www.bibliotecapleyades.net/scalar_tech/esp_scalarweapon_b.htm">Biblioteca Pleyades</a> / <a href="https://teslaresearch.jimdofree.com/death-ray/a-briefing-on-soviet-scalar-electromagnetic-weapons-according-to-tom-bearden/">Inventions &amp; Experiments of Nikola Tesla</a></p>
+	</div>
+<!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="/tag/skalaariaseet/" rel="tag">skalaariaseet</a><a href="/tag/skalaariteknologia/" rel="tag">skalaariteknologia</a><a href="/tag/tiede-2/" rel="tag">tiede</a></span></footer></article><!-- #post-## -->
+	<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Artikkelien selaus</h1>
+		<div class="nav-links">
+			<a href="/ufot/kolme-ufo-tormaysnoutoa-selityksineen/" rel="prev"><span class="meta-nav">Edellinen artikkeli</span>Kolme UFO-törmäysnoutoa selityksineen</a><a href="/uncategorized/skientologien-vaitetty-avaruusolentojen-katedraali-loytynyt-new-mexicosta/" rel="next"><span class="meta-nav">Seuraava artikkeli</span>Skientologien väitetty &#8217;avaruusolentojen katedraali&#8217; löytynyt New Mexicosta</a>		</div>
+<!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+<div id="comments" class="comments-area">
+
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Vastaa <small><a rel="nofollow" id="cancel-comment-reply-link" href="/tiede/skalaaripotentiaali-interferometri/#respond" style="display:none;">Peruuta vastaus</a></small>
+</h3>
+<form action="/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Sähköpostiosoitettasi ei julkaista.</span> <span class="required-field-message">Pakolliset kentät on merkitty <span class="required">*</span></span></p>
+<p class="comment-form-comment"><label for="comment">Kommentti <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p>
+<p class="comment-form-author"><label for="author">Nimi <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required></p>
+<p class="comment-form-email"><label for="email">Sähköpostiosoite <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required></p>
+<p class="comment-form-url"><label for="url">Kotisivu</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Tallenna nimeni, sähköpostiosoitteeni ja kotisivuni tähän selaimeen seuraavaa kommentointikertaa varten.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Lähetä kommentti"> <input type="hidden" name="comment_post_ID" value="14877" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+<!-- #comments -->
+		</div>
+<!-- #content -->
+	</div>
+<!-- #primary -->
+
+<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="xyz_insert_html_widget-11" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Tykkää tästä!</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/Eksopolitiikka" data-width="300" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Eksopolitiikka"><a href="https://www.facebook.com/Eksopolitiikka">Se Uusi Eksopolitiikka</a></blockquote></div></div></aside><aside id="social-widget-3" class="widget Social_Widget"><h1 class="widget-title">Seuraa meitä!</h1>
+<div class="socialmedia-buttons smw_left">
+<div class="socialmedia-text">Olemme myös muualla verkossa.</div>
+<a href="https://www.facebook.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="Facebook: Eksopolitiikka.github.io" title="Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://twitter.com/Eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Twitter: Eksopolitiikka" title="Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://eksopolitiikka.tumblr.com/" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/tumblr.png" alt="Tumblr: Eksopolitiikka" title="Tumblr" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="/feed" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="RSS-syöte" title="RSS-syöte" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="http://www.stumbleupon.com/stumbler/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/stumble.png" alt="Seuraa meitä StumbleUpon" title="Seuraa meitä StumbleUpon" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a><a href="https://delicious.com/eksopolitiikka" rel="nofollow" target="_blank"><img width="32" height="32" src="/wp-content/plugins/social-media-widget/images/default/32/delicious.png" alt="Seuraa meitä Delicious" title="Seuraa meitä Delicious" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"></a>
+</div></aside><aside id="categories-4" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="text-2" class="widget widget_text"><h1 class="widget-title">Ystäväsivut</h1>			<div class="textwidget">
+<a href="http://fufora.fi/">FUFORA - Suomen Ufotutkijat</a><br><br>
+<a href="https://www.mysteerienmaailma.com/">Mysteerien maailma</a><br><br>
+<a href="https://www.suomengalaktinenliitto.net/">Suomen Galaktinen Liitto</a><br><br>
+<a href="http://www.paranormaaliblogi.net/">Paranormaaliblogi</a><br><br>
+<a href="http://www.uusielamaohjelma.fi/">Uusi Elämä</a><br><br>
+<a href="http://www.tuulamaria.fi/Versio_olevasta/Versio_Olevasta.html">Versio Olevasta</a>
+<br><br>
+<a href="http://www.avartuvaihmiskuva.fi/">Avartuva Ihmiskuva ry</a>
+<br><br>
+<a href="http://www.rajatieto.tv/">Rajatieto.tv</a>
+<br><br>
+</div>
+		</aside>
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/8-tyokalua-totuuden-erotteluun-infosodan-keskella/">8 työkalua totuuden erotteluun infosodan keskellä</a>
+									</li>
+											<li>
+					<a href="/ufot/asiantuntijat-tarkastelevat-houstonin-ufo-havaintoa/">Asiantuntijat tarkastelevat Houstonin UFO-havaintoa</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/saammeko-pian-tietaa-avaruusolentojen-elavan-keskuudessamme/">Saammeko pian tietää avaruusolentojen elävän keskuudessamme?</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-kolumbiasta-3/">UFO-havainto Kolumbiasta</a>
+									</li>
+											<li>
+					<a href="/tietoisuus/tata-heranneiden-on-tarkoitus-tehda/">Tätä heränneiden on tarkoitus tehdä</a>
+									</li>
+											<li>
+					<a href="/ufologia/bob-lazarin-tarina-loytyy-nyt-myos-virtuaalisena/">Bob Lazarin tarina löytyy nyt myös virtuaalisena</a>
+									</li>
+											<li>
+					<a href="/ufot/mika-on-tama-floridan-sqr-lentokentalla-lentava-pallo/">Mikä on tämä Floridan SQR-lentokentällä lentävä pallo?</a>
+									</li>
+											<li>
+					<a href="/uutiset/laivasto-julkaisee-ufo-briiffausdokumentteja/">Laivasto julkaisee UFO-briiffausdokumentteja</a>
+									</li>
+											<li>
+					<a href="/uutiset/uusi-ufo-kuuleminen-kongressissa-keskiviikkona-13-11-2024/">Uusi UFO-kuuleminen kongressissa keskiviikkona 13.11.2024</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-havainto-minnesotasta/">UFO-havainto Minnesotasta</a>
+									</li>
+											<li>
+					<a href="/ufot/valoja-new-yorkin-lowvillessa/">Valoja New Yorkin Lowvillessa</a>
+									</li>
+											<li>
+					<a href="/ufot/hehkuva-ufo-arizonassa/">Hehkuva UFO Arizonassa</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-pallo-seurailee-avaruussukkula-discoverya/">UFO-pallo seurailee avaruussukkula Discoverya</a>
+									</li>
+											<li>
+					<a href="/ufot/ufo-kiitaa-lentokoneen-ikkunan-ohi/">UFO kiitää lentokoneen ikkunan ohi</a>
+									</li>
+											<li>
+					<a href="/ufot/oljynporauslautalla-kuvattiin-lautasen-muotoinen-ufo/">Öljynporauslautalla kuvattiin lautasen muotoinen UFO</a>
+									</li>
+											<li>
+					<a href="/eksopolitiikka/reagointi-avaruusolentojen-soluttautumiseen-salaisiin-jarjestoihin/">Reagointi avaruusolentojen soluttautumiseen salaisiin järjestöihin</a>
+									</li>
+											<li>
+					<a href="/ufologia/mies-vaittaa-etta-avaruusolennot-veivat-hanen-spermaansa-ja-risteyttivat-hybridilapsia/">Mies väittää, että avaruusolennot veivät hänen spermaansa ja risteyttivät hybridilapsia</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-4" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h1 class="widget-title">Avainsanoja</h1>
+<div class="tagcloud">
+<a href="/tag/abduktio/" class="tag-cloud-link tag-link-48 tag-link-position-1" style="font-size: 9.1797752808989pt;" aria-label="abduktio (51 kohdetta)">abduktio</a>
+<a href="/tag/antarktis/" class="tag-cloud-link tag-link-259 tag-link-position-2" style="font-size: 9.1011235955056pt;" aria-label="antarktis (50 kohdetta)">antarktis</a>
+<a href="/tag/arcturus/" class="tag-cloud-link tag-link-316 tag-link-position-3" style="font-size: 12.797752808989pt;" aria-label="Arcturus (149 kohdetta)">Arcturus</a>
+<a href="/tag/area-51/" class="tag-cloud-link tag-link-83 tag-link-position-4" style="font-size: 8.7865168539326pt;" aria-label="area 51 (46 kohdetta)">area 51</a>
+<a href="/tag/arizona/" class="tag-cloud-link tag-link-167 tag-link-position-5" style="font-size: 9.1797752808989pt;" aria-label="Arizona (52 kohdetta)">Arizona</a>
+<a href="/tag/arkeologia/" class="tag-cloud-link tag-link-20 tag-link-position-6" style="font-size: 11.067415730337pt;" aria-label="arkeologia (91 kohdetta)">arkeologia</a>
+<a href="/tag/astronomia/" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 12.325842696629pt;" aria-label="astronomia (130 kohdetta)">astronomia</a>
+<a href="/tag/aurinko/" class="tag-cloud-link tag-link-195 tag-link-position-8" style="font-size: 10.202247191011pt;" aria-label="aurinko (70 kohdetta)">aurinko</a>
+<a href="/tag/australia/" class="tag-cloud-link tag-link-123 tag-link-position-9" style="font-size: 8pt;" aria-label="Australia (36 kohdetta)">Australia</a>
+<a href="/tag/avaruusolennot/" class="tag-cloud-link tag-link-401 tag-link-position-10" style="font-size: 10.831460674157pt;" aria-label="avaruusolennot (84 kohdetta)">avaruusolennot</a>
+<a href="/tag/brasilia/" class="tag-cloud-link tag-link-151 tag-link-position-11" style="font-size: 8.1573033707865pt;" aria-label="Brasilia (38 kohdetta)">Brasilia</a>
+<a href="/tag/britannia/" class="tag-cloud-link tag-link-314 tag-link-position-12" style="font-size: 8.7865168539326pt;" aria-label="Britannia (46 kohdetta)">Britannia</a>
+<a href="/tag/cia/" class="tag-cloud-link tag-link-388 tag-link-position-13" style="font-size: 9.8876404494382pt;" aria-label="CIA (64 kohdetta)">CIA</a>
+<a href="/tag/eksopolitiikka-2/" class="tag-cloud-link tag-link-17 tag-link-position-14" style="font-size: 17.831460674157pt;" aria-label="eksopolitiikka (665 kohdetta)">eksopolitiikka</a>
+<a href="/tag/elokuu2014/" class="tag-cloud-link tag-link-61 tag-link-position-15" style="font-size: 8pt;" aria-label="elokuu2014 (36 kohdetta)">elokuu2014</a>
+<a href="/tag/florida/" class="tag-cloud-link tag-link-156 tag-link-position-16" style="font-size: 9.4943820224719pt;" aria-label="Florida (57 kohdetta)">Florida</a>
+<a href="/tag/historia/" class="tag-cloud-link tag-link-45 tag-link-position-17" style="font-size: 9.1011235955056pt;" aria-label="historia (50 kohdetta)">historia</a>
+<a href="/tag/iss/" class="tag-cloud-link tag-link-89 tag-link-position-18" style="font-size: 12.011235955056pt;" aria-label="ISS (118 kohdetta)">ISS</a>
+<a href="/tag/kalifornia/" class="tag-cloud-link tag-link-120 tag-link-position-19" style="font-size: 11.460674157303pt;" aria-label="Kalifornia (101 kohdetta)">Kalifornia</a>
+<a href="/tag/kanada/" class="tag-cloud-link tag-link-132 tag-link-position-20" style="font-size: 9.1797752808989pt;" aria-label="Kanada (52 kohdetta)">Kanada</a>
+<a href="/tag/kanavointi/" class="tag-cloud-link tag-link-85 tag-link-position-21" style="font-size: 16.022471910112pt;" aria-label="kanavointi (387 kohdetta)">kanavointi</a>
+<a href="/tag/keith-basterfield/" class="tag-cloud-link tag-link-806 tag-link-position-22" style="font-size: 8.4719101123596pt;" aria-label="Keith Basterfield (42 kohdetta)">Keith Basterfield</a>
+<a href="/tag/kesakuu2014/" class="tag-cloud-link tag-link-9 tag-link-position-23" style="font-size: 10.044943820225pt;" aria-label="kesäkuu2014 (67 kohdetta)">kesäkuu2014</a>
+<a href="/tag/kevin-randle/" class="tag-cloud-link tag-link-1554 tag-link-position-24" style="font-size: 8.0786516853933pt;" aria-label="Kevin Randle (37 kohdetta)">Kevin Randle</a>
+<a href="/tag/kuu/" class="tag-cloud-link tag-link-54 tag-link-position-25" style="font-size: 12.404494382022pt;" aria-label="kuu (133 kohdetta)">kuu</a>
+<a href="/tag/lokakuu2014/" class="tag-cloud-link tag-link-100 tag-link-position-26" style="font-size: 10.044943820225pt;" aria-label="lokakuu2014 (66 kohdetta)">lokakuu2014</a>
+<a href="/tag/marraskuu2014/" class="tag-cloud-link tag-link-126 tag-link-position-27" style="font-size: 9.1797752808989pt;" aria-label="marraskuu2014 (51 kohdetta)">marraskuu2014</a>
+<a href="/tag/mars/" class="tag-cloud-link tag-link-104 tag-link-position-28" style="font-size: 10.359550561798pt;" aria-label="mars (73 kohdetta)">mars</a>
+<a href="/tag/meksiko/" class="tag-cloud-link tag-link-118 tag-link-position-29" style="font-size: 11.224719101124pt;" aria-label="Meksiko (94 kohdetta)">Meksiko</a>
+<a href="/tag/nasa/" class="tag-cloud-link tag-link-46 tag-link-position-30" style="font-size: 12.089887640449pt;" aria-label="NASA (121 kohdetta)">NASA</a>
+<a href="/tag/paranormaali-2/" class="tag-cloud-link tag-link-40 tag-link-position-31" style="font-size: 13.662921348315pt;" aria-label="paranormaali (194 kohdetta)">paranormaali</a>
+<a href="/tag/syyskuu2014/" class="tag-cloud-link tag-link-75 tag-link-position-32" style="font-size: 10.044943820225pt;" aria-label="syyskuu2014 (67 kohdetta)">syyskuu2014</a>
+<a href="/tag/teksas/" class="tag-cloud-link tag-link-147 tag-link-position-33" style="font-size: 8.7078651685393pt;" aria-label="Teksas (45 kohdetta)">Teksas</a>
+<a href="/tag/tiede-2/" class="tag-cloud-link tag-link-19 tag-link-position-34" style="font-size: 16.337078651685pt;" aria-label="tiede (428 kohdetta)">tiede</a>
+<a href="/tag/tietoisuus-2/" class="tag-cloud-link tag-link-32 tag-link-position-35" style="font-size: 16.730337078652pt;" aria-label="tietoisuus (479 kohdetta)">tietoisuus</a>
+<a href="/tag/ufo/" class="tag-cloud-link tag-link-2 tag-link-position-36" style="font-size: 22pt;" aria-label="UFO (2&nbsp;230 kohdetta)">UFO</a>
+<a href="/tag/ufo-kontakti/" class="tag-cloud-link tag-link-416 tag-link-position-37" style="font-size: 8.1573033707865pt;" aria-label="UFO-kontakti (38 kohdetta)">UFO-kontakti</a>
+<a href="/tag/ufo-paljastus/" class="tag-cloud-link tag-link-409 tag-link-position-38" style="font-size: 13.741573033708pt;" aria-label="UFO-paljastus (200 kohdetta)">UFO-paljastus</a>
+<a href="/tag/ufo-tutkimus/" class="tag-cloud-link tag-link-774 tag-link-position-39" style="font-size: 10.752808988764pt;" aria-label="UFO-tutkimus (82 kohdetta)">UFO-tutkimus</a>
+<a href="/tag/ufologia/" class="tag-cloud-link tag-link-108 tag-link-position-40" style="font-size: 12.797752808989pt;" aria-label="ufologia (151 kohdetta)">ufologia</a>
+<a href="/tag/ufot/" class="tag-cloud-link tag-link-212 tag-link-position-41" style="font-size: 22pt;" aria-label="UFOt (2&nbsp;238 kohdetta)">UFOt</a>
+<a href="/tag/usa/" class="tag-cloud-link tag-link-23 tag-link-position-42" style="font-size: 9.1011235955056pt;" aria-label="USA (50 kohdetta)">USA</a>
+<a href="/tag/venaja/" class="tag-cloud-link tag-link-18 tag-link-position-43" style="font-size: 9.8089887640449pt;" aria-label="venäjä (62 kohdetta)">venäjä</a>
+<a href="/tag/video/" class="tag-cloud-link tag-link-11 tag-link-position-44" style="font-size: 10.123595505618pt;" aria-label="video (68 kohdetta)">video</a>
+</div>
+</aside><aside id="xyz_insert_html_widget-7" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">A word from our sponsors</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- uusilaatikko -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="5020475662" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="block-4" class="widget widget_block"><div class="alignleft">
+     <script type="text/javascript">amzn_assoc_ad_type = "banner";
+	amzn_assoc_marketplace = "amazon";
+	amzn_assoc_region = "US";
+	amzn_assoc_placement = "assoc_banner_placement_default";
+	amzn_assoc_campaigns = "primemain";
+	amzn_assoc_banner_type = "category";
+	amzn_assoc_p = "12";
+	amzn_assoc_isresponsive = "false";
+	amzn_assoc_banner_id = "1A1582R37K6AZB4ZETG2";
+	amzn_assoc_width = "300";
+	amzn_assoc_height = "250";
+	amzn_assoc_tracking_id = "suomi075-20";
+	amzn_assoc_linkid = "33f2dafb38c0a20c0202e008f3b590d6";</script>
+     <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;Operation=GetScript&amp;ID=OneJS&amp;WS=1"></script>
+    </div></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h1 class="widget-title">Tsekkaa myös</h1>
+<div class="textwidget custom-html-widget">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pysty -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="6573230488" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Aihealueet</h1>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="/category/eksopolitiikka/">Eksopolitiikka</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="/category/eksopolitiikka-fi/">Eksopolitiikka.github.io</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="/category/uncategorized/">Muut</a>
+</li>
+	<li class="cat-item cat-item-6">
+<a href="/category/paranormaali/">Paranormaali</a>
+</li>
+	<li class="cat-item cat-item-7">
+<a href="/category/tiede/">Tiede</a>
+</li>
+	<li class="cat-item cat-item-5">
+<a href="/category/tietoisuus/">Tietoisuus</a>
+</li>
+	<li class="cat-item cat-item-1779">
+<a href="/category/ufologia/">ufologia</a>
+</li>
+	<li class="cat-item cat-item-12">
+<a href="/category/ufot/">UFOt</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="/category/uutiset/">Uutiset</a>
+</li>
+			</ul>
+
+			</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Haku:</span>
+					<input type="search" class="search-field" placeholder="Haku &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Hae">
+			</form></aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Viimeisimmät kommentit</h1>
+<ul id="recentcomments-2">
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tietoisuus/ovatko-elamamme-ennaltamaarattyja/#comment-170629">Ovatko elämämme ennaltamäärättyjä?</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/tiede/neurosodankaynti-muuttaa-todellisuuden-sodaksi/#comment-170480">Neurosodankäynti muuttaa todellisuuden sodaksi</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170282">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Kari Kotka</span>: <a href="/ufot/tunnistamaton-alus-kansainvalisella-avaruusasemalla/#comment-170114">Tunnistamaton alus kansainvälisellä avaruusasemalla</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">kapu</span>: <a href="/ufot/ufo-laivue-poistuu-meksikon-tulivuoresta/#comment-170016">UFO-laivue poistuu Meksikon tulivuoresta</a>
+</li>
+</ul></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h1 class="widget-title">Viimeisimmät artikkelit</h1>
+		<ul>
+											<li>
+					<a href="/ufot/ufo-disinfoa-osa-3-bennewitz-huijaus/">UFO-disinfoa osa 3: Bennewitz-huijaus</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-johtaja-tri-jon-kosloskin-median-pyorean-poydan-keskustelu-konsolidoidusta-vuosikertomuksesta-varainhoitovuodelta-24/">AAROn johtaja tri Jon Kosloskin median pyöreän pöydän keskustelu konsolidoidusta vuosikertomuksesta varainhoitovuodelta &#8217;24</a>
+									</li>
+											<li>
+					<a href="/uutiset/aaron-vuoden-2024-ufo-uap-raportti-toinen-nide/">Verovuoden 2024 konsolidoitu vuosikertomus tunnistamattomista poikkeavista ilmiöistä</a>
+									</li>
+											<li>
+					<a href="/ufot/amiraali-paljastaa-vedenalaiset-ufot/">Amiraali paljastaa vedenalaiset UFOt</a>
+									</li>
+											<li>
+					<a href="/uutiset/kevin-randle-uusimmasta-valvontavaliokunnan-ufo-kuulemisesta/">Kevin Randle uusimmasta valvontavaliokunnan UFO-kuulemisesta</a>
+									</li>
+					</ul>
+
+		</aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Arkistot</h1>
+			<ul>
+					<li><a href="/2024/11/">marraskuu 2024</a></li>
+	<li><a href="/2024/10/">lokakuu 2024</a></li>
+	<li><a href="/2024/09/">syyskuu 2024</a></li>
+	<li><a href="/2024/08/">elokuu 2024</a></li>
+	<li><a href="/2024/07/">heinäkuu 2024</a></li>
+	<li><a href="/2024/06/">kesäkuu 2024</a></li>
+	<li><a href="/2024/05/">toukokuu 2024</a></li>
+	<li><a href="/2024/04/">huhtikuu 2024</a></li>
+	<li><a href="/2024/03/">maaliskuu 2024</a></li>
+	<li><a href="/2024/02/">helmikuu 2024</a></li>
+	<li><a href="/2024/01/">tammikuu 2024</a></li>
+	<li><a href="/2023/12/">joulukuu 2023</a></li>
+	<li><a href="/2023/11/">marraskuu 2023</a></li>
+	<li><a href="/2023/10/">lokakuu 2023</a></li>
+	<li><a href="/2023/09/">syyskuu 2023</a></li>
+	<li><a href="/2023/08/">elokuu 2023</a></li>
+	<li><a href="/2023/07/">heinäkuu 2023</a></li>
+	<li><a href="/2023/06/">kesäkuu 2023</a></li>
+	<li><a href="/2023/05/">toukokuu 2023</a></li>
+	<li><a href="/2023/04/">huhtikuu 2023</a></li>
+	<li><a href="/2023/03/">maaliskuu 2023</a></li>
+	<li><a href="/2023/02/">helmikuu 2023</a></li>
+	<li><a href="/2023/01/">tammikuu 2023</a></li>
+	<li><a href="/2022/12/">joulukuu 2022</a></li>
+	<li><a href="/2022/11/">marraskuu 2022</a></li>
+	<li><a href="/2022/10/">lokakuu 2022</a></li>
+	<li><a href="/2022/09/">syyskuu 2022</a></li>
+	<li><a href="/2022/08/">elokuu 2022</a></li>
+	<li><a href="/2022/07/">heinäkuu 2022</a></li>
+	<li><a href="/2022/06/">kesäkuu 2022</a></li>
+	<li><a href="/2022/05/">toukokuu 2022</a></li>
+	<li><a href="/2022/04/">huhtikuu 2022</a></li>
+	<li><a href="/2022/03/">maaliskuu 2022</a></li>
+	<li><a href="/2022/02/">helmikuu 2022</a></li>
+	<li><a href="/2022/01/">tammikuu 2022</a></li>
+	<li><a href="/2021/12/">joulukuu 2021</a></li>
+	<li><a href="/2021/11/">marraskuu 2021</a></li>
+	<li><a href="/2021/10/">lokakuu 2021</a></li>
+	<li><a href="/2021/09/">syyskuu 2021</a></li>
+	<li><a href="/2021/08/">elokuu 2021</a></li>
+	<li><a href="/2021/07/">heinäkuu 2021</a></li>
+	<li><a href="/2021/06/">kesäkuu 2021</a></li>
+	<li><a href="/2021/05/">toukokuu 2021</a></li>
+	<li><a href="/2021/04/">huhtikuu 2021</a></li>
+	<li><a href="/2021/03/">maaliskuu 2021</a></li>
+	<li><a href="/2021/02/">helmikuu 2021</a></li>
+	<li><a href="/2021/01/">tammikuu 2021</a></li>
+	<li><a href="/2020/12/">joulukuu 2020</a></li>
+	<li><a href="/2020/11/">marraskuu 2020</a></li>
+	<li><a href="/2020/10/">lokakuu 2020</a></li>
+	<li><a href="/2020/09/">syyskuu 2020</a></li>
+	<li><a href="/2020/08/">elokuu 2020</a></li>
+	<li><a href="/2020/07/">heinäkuu 2020</a></li>
+	<li><a href="/2020/06/">kesäkuu 2020</a></li>
+	<li><a href="/2020/05/">toukokuu 2020</a></li>
+	<li><a href="/2020/04/">huhtikuu 2020</a></li>
+	<li><a href="/2020/03/">maaliskuu 2020</a></li>
+	<li><a href="/2020/02/">helmikuu 2020</a></li>
+	<li><a href="/2020/01/">tammikuu 2020</a></li>
+	<li><a href="/2019/12/">joulukuu 2019</a></li>
+	<li><a href="/2019/11/">marraskuu 2019</a></li>
+	<li><a href="/2019/10/">lokakuu 2019</a></li>
+	<li><a href="/2019/09/">syyskuu 2019</a></li>
+	<li><a href="/2019/08/">elokuu 2019</a></li>
+	<li><a href="/2019/07/">heinäkuu 2019</a></li>
+	<li><a href="/2019/06/">kesäkuu 2019</a></li>
+	<li><a href="/2019/05/">toukokuu 2019</a></li>
+	<li><a href="/2019/04/">huhtikuu 2019</a></li>
+	<li><a href="/2019/03/">maaliskuu 2019</a></li>
+	<li><a href="/2019/02/">helmikuu 2019</a></li>
+	<li><a href="/2019/01/">tammikuu 2019</a></li>
+	<li><a href="/2018/12/">joulukuu 2018</a></li>
+	<li><a href="/2018/11/">marraskuu 2018</a></li>
+	<li><a href="/2018/10/">lokakuu 2018</a></li>
+	<li><a href="/2018/09/">syyskuu 2018</a></li>
+	<li><a href="/2018/08/">elokuu 2018</a></li>
+	<li><a href="/2018/07/">heinäkuu 2018</a></li>
+	<li><a href="/2018/06/">kesäkuu 2018</a></li>
+	<li><a href="/2018/05/">toukokuu 2018</a></li>
+	<li><a href="/2018/04/">huhtikuu 2018</a></li>
+	<li><a href="/2018/03/">maaliskuu 2018</a></li>
+	<li><a href="/2018/02/">helmikuu 2018</a></li>
+	<li><a href="/2018/01/">tammikuu 2018</a></li>
+	<li><a href="/2017/12/">joulukuu 2017</a></li>
+	<li><a href="/2017/11/">marraskuu 2017</a></li>
+	<li><a href="/2017/10/">lokakuu 2017</a></li>
+	<li><a href="/2017/09/">syyskuu 2017</a></li>
+	<li><a href="/2017/08/">elokuu 2017</a></li>
+	<li><a href="/2017/07/">heinäkuu 2017</a></li>
+	<li><a href="/2017/06/">kesäkuu 2017</a></li>
+	<li><a href="/2017/05/">toukokuu 2017</a></li>
+	<li><a href="/2017/04/">huhtikuu 2017</a></li>
+	<li><a href="/2017/03/">maaliskuu 2017</a></li>
+	<li><a href="/2017/02/">helmikuu 2017</a></li>
+	<li><a href="/2017/01/">tammikuu 2017</a></li>
+	<li><a href="/2016/12/">joulukuu 2016</a></li>
+	<li><a href="/2016/11/">marraskuu 2016</a></li>
+	<li><a href="/2016/10/">lokakuu 2016</a></li>
+	<li><a href="/2016/09/">syyskuu 2016</a></li>
+	<li><a href="/2016/08/">elokuu 2016</a></li>
+	<li><a href="/2016/07/">heinäkuu 2016</a></li>
+	<li><a href="/2016/06/">kesäkuu 2016</a></li>
+	<li><a href="/2016/05/">toukokuu 2016</a></li>
+	<li><a href="/2016/04/">huhtikuu 2016</a></li>
+	<li><a href="/2016/03/">maaliskuu 2016</a></li>
+	<li><a href="/2016/02/">helmikuu 2016</a></li>
+	<li><a href="/2016/01/">tammikuu 2016</a></li>
+	<li><a href="/2015/12/">joulukuu 2015</a></li>
+	<li><a href="/2015/11/">marraskuu 2015</a></li>
+	<li><a href="/2015/10/">lokakuu 2015</a></li>
+	<li><a href="/2015/09/">syyskuu 2015</a></li>
+	<li><a href="/2015/08/">elokuu 2015</a></li>
+	<li><a href="/2015/07/">heinäkuu 2015</a></li>
+	<li><a href="/2015/06/">kesäkuu 2015</a></li>
+	<li><a href="/2015/05/">toukokuu 2015</a></li>
+	<li><a href="/2015/04/">huhtikuu 2015</a></li>
+	<li><a href="/2015/03/">maaliskuu 2015</a></li>
+	<li><a href="/2015/02/">helmikuu 2015</a></li>
+	<li><a href="/2015/01/">tammikuu 2015</a></li>
+	<li><a href="/2014/12/">joulukuu 2014</a></li>
+	<li><a href="/2014/11/">marraskuu 2014</a></li>
+	<li><a href="/2014/10/">lokakuu 2014</a></li>
+	<li><a href="/2014/09/">syyskuu 2014</a></li>
+	<li><a href="/2014/08/">elokuu 2014</a></li>
+	<li><a href="/2014/07/">heinäkuu 2014</a></li>
+	<li><a href="/2014/06/">kesäkuu 2014</a></li>
+			</ul>
+
+			</aside>
+</div>
+<!-- #content-sidebar -->
+<div id="secondary">
+		<h2 class="site-description">Eksopolitiikka, UFOt, Paranormaalit ilmiöt, Tietoisuus</h2>
+	
+	
+	</div>
+<!-- #secondary -->
+
+		</div>
+<!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="xyz_insert_html_widget-5" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">Pls halp</h1>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- banner -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9834086743067807" data-ad-slot="3129837163" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></aside><aside id="xyz_insert_html_widget-9" class="widget widget_xyz_insert_html_widget"><h1 class="widget-title">träkker</h1>
+<!-- Begin TradeTracker SuperTag Code -->
+<script type="text/javascript">var _TradeTrackerTagOptions = {
+		t: 'a',
+		s: '224240',
+		chk: 'be0fd726c66aedbfc732d9bb3543e638',
+		overrideOptions: {}
+	};
+
+	(function() {var tt = document.createElement('script'), s = document.getElementsByTagName('script')[0]; tt.setAttribute('type', 'text/javascript'); tt.setAttribute('src', (document.location.protocol == 'https:' ? 'https' : 'http') + '://tm.tradetracker.net/tag?t=' + _TradeTrackerTagOptions.t + '&s=' + _TradeTrackerTagOptions.s + '&chk=' + _TradeTrackerTagOptions.chk); s.parentNode.insertBefore(tt, s);})();</script>
+<!-- End TradeTracker SuperTag Code --></aside><aside id="text-5" class="widget widget_text"><h1 class="widget-title">Visits</h1>			<div class="textwidget">
+<p>[pvcp_1]</p>
+</div>
+		</aside>	</div>
+<!-- #footer-sidebar -->
+</div>
+<!-- #supplementary -->
+
+			<div class="site-info">
+								<a href="http://wordpress.org/">Voimanlähteenä WordPress</a>
+			</div>
+<!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div>
+<!-- #page -->
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">window._qevents = window._qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+window._qevents.push({
+qacct:"p-YswNbbATdMBA9",
+uid:"__INSERT_EMAIL_HERE__"
+});</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-YswNbbATdMBA9.gif" border="0" height="1" width="1" alt="Quantcast">
+</div>
+</noscript>
+<!-- End Quantcast tag --><div style="width:100%;text-align:center; font-size:11px; clear:both">
+<a target="_blank" title="Insert HTML Snippet Wordpress Plugin" href="http://xyzscripts.com/wordpress-plugins/insert-html-snippet/">HTML Snippets</a> Powered By : <a target="_blank" title="PHP Scripts & Wordpress Plugins" href="http://www.xyzscripts.com/">XYZScripts.com</a>
+</div>
+<script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=6.7" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+<script type="text/javascript" src="/wp-content/themes/twenty14-child/js/functions.js?ver=20140319" id="twentyfourteen-script-js"></script>
+</body>
+</html>
